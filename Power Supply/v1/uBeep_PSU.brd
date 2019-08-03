@@ -165,11 +165,46 @@
 <wire x1="-26.25" y1="-13.7" x2="-26.25" y2="13.7" width="0.127" layer="21"/>
 <text x="-26.289" y="13.97" size="1.27" layer="25">&gt;NAME</text>
 </package>
+<package name="703W-00/52" urn="urn:adsk.eagle:footprint:12502136/8" library_version="112">
+<wire x1="15.165" y1="-19.25" x2="-15.135" y2="-19.25" width="0.05" layer="39"/>
+<wire x1="-15.135" y1="-19.25" x2="-15.135" y2="-16.3" width="0.05" layer="39"/>
+<wire x1="-15.135" y1="-16.3" x2="-25.235" y2="-16.3" width="0.05" layer="39"/>
+<wire x1="-25.235" y1="-16.3" x2="-25.235" y2="3.25" width="0.05" layer="39"/>
+<wire x1="-25.235" y1="3.25" x2="25.265" y2="3.25" width="0.05" layer="39"/>
+<wire x1="25.265" y1="3.25" x2="25.265" y2="-16.25" width="0.05" layer="39"/>
+<wire x1="25.265" y1="-16.25" x2="15.165" y2="-16.25" width="0.05" layer="39"/>
+<wire x1="15.165" y1="-16.25" x2="15.165" y2="-19.25" width="0.05" layer="39"/>
+<wire x1="25.015" y1="-16" x2="14.915" y2="-16" width="0.127" layer="21"/>
+<wire x1="14.915" y1="-16" x2="-14.885" y2="-16" width="0.127" layer="21"/>
+<wire x1="-14.885" y1="-16" x2="-25.015" y2="-16" width="0.127" layer="21"/>
+<wire x1="14.915" y1="-19" x2="-14.885" y2="-19" width="0.127" layer="21"/>
+<wire x1="14.915" y1="-19" x2="14.915" y2="-16" width="0.127" layer="21"/>
+<wire x1="-14.885" y1="-19" x2="-14.885" y2="-16" width="0.127" layer="21"/>
+<wire x1="25.015" y1="-16" x2="25.015" y2="-2.579" width="0.127" layer="21"/>
+<wire x1="-25.015" y1="-16" x2="-25.015" y2="-2.579" width="0.127" layer="21"/>
+<wire x1="13.65" y1="3" x2="-13.65" y2="3" width="0.127" layer="21"/>
+<wire x1="-13.65" y1="3" x2="-22.523" y2="-0.766" width="0.127" layer="21"/>
+<wire x1="-25.015" y1="-2.579" x2="-22.523" y2="-0.766" width="0.127" layer="21" curve="-24.875"/>
+<wire x1="13.65" y1="3" x2="22.523" y2="-0.766" width="0.127" layer="21"/>
+<wire x1="25.015" y1="-2.579" x2="22.523" y2="-0.766" width="0.127" layer="21" curve="24.875"/>
+<text x="-16.985" y="4.2" size="1.2725" layer="25">&gt;NAME</text>
+<circle x="-7.185" y="3.7" radius="0.15" width="0.2" layer="21"/>
+<pad name="N" x="7.015" y="0" drill="1.8" rot="R180"/>
+<pad name="E" x="0.015" y="0" drill="1.8" rot="R180"/>
+<pad name="L" x="-6.985" y="0" drill="1.8" shape="square" rot="R180"/>
+<hole x="19.765" y="-7.3" drill="3.5"/>
+<hole x="-19.735" y="-7.3" drill="3.5"/>
+</package>
 </packages>
 <packages3d>
 <package3d name="RAC10-K/277" urn="urn:adsk.eagle:package:12501210/3" type="model" library_version="103">
 <packageinstances>
 <packageinstance name="RAC10-DK/277"/>
+</packageinstances>
+</package3d>
+<package3d name="703W-00/52" urn="urn:adsk.eagle:package:12502137/10" type="model" library_version="112">
+<packageinstances>
+<packageinstance name="703W-00/52"/>
 </packageinstances>
 </package3d>
 </packages3d>
@@ -370,6 +405,9 @@ design rules under a new name.</description>
 <element name="U1" library="roomready" library_urn="urn:adsk.eagle:library:9911636" package="RAC10-DK/277" package3d_urn="urn:adsk.eagle:package:12501210/3" value="RAC10-12DK/277" x="-39.37" y="13.97" smashed="yes">
 <attribute name="NAME" x="-65.659" y="27.94" size="1.27" layer="25"/>
 </element>
+<element name="J1" library="roomready" library_urn="urn:adsk.eagle:library:9911636" package="703W-00/52" package3d_urn="urn:adsk.eagle:package:12502137/10" value="703W-00/52" x="-40.64" y="-6.35" smashed="yes">
+<attribute name="NAME" x="-57.625" y="-2.15" size="1.2725" layer="25"/>
+</element>
 </elements>
 <signals>
 <signal name="+12V">
@@ -386,6 +424,11 @@ design rules under a new name.</description>
 </signal>
 <signal name="AC_N">
 <contactref element="U1" pad="P$1"/>
+<contactref element="J1" pad="N"/>
+<wire x1="-33.625" y1="-6.35" x2="-62.23" y2="24.13" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="AC_E">
+<contactref element="J1" pad="E"/>
 </signal>
 </signals>
 <mfgpreviewcolors>
