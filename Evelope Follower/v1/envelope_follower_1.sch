@@ -351,6 +351,18 @@
 <text x="-1.2192" y="1.778" size="1.27" layer="25">&gt;NAME</text>
 <circle x="0" y="0" radius="1.5875" width="0.127" layer="21"/>
 </package>
+<package name="OSTVN02A150" urn="urn:adsk.eagle:footprint:12594928/1" library_version="197">
+<pad name="P$1" x="-1.27" y="0" drill="1.3" shape="square"/>
+<pad name="P$2" x="1.27" y="0" drill="1.3"/>
+<wire x1="-2.74" y1="3.25" x2="2.74" y2="3.25" width="0.127" layer="21"/>
+<wire x1="2.74" y1="3.25" x2="2.74" y2="1.98" width="0.127" layer="21"/>
+<wire x1="2.74" y1="1.98" x2="2.74" y2="-3.25" width="0.127" layer="21"/>
+<wire x1="2.74" y1="-3.25" x2="-2.74" y2="-3.25" width="0.127" layer="21"/>
+<wire x1="-2.74" y1="-3.25" x2="-2.74" y2="1.98" width="0.127" layer="21"/>
+<wire x1="-2.74" y1="1.98" x2="-2.74" y2="3.25" width="0.127" layer="21"/>
+<wire x1="-2.74" y1="1.98" x2="2.74" y2="1.98" width="0.127" layer="21"/>
+<text x="0" y="3.5209" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+</package>
 </packages>
 <packages3d>
 <package3d name="SOD3615X105" urn="urn:adsk.eagle:package:12205004/3" type="model" library_version="196">
@@ -436,6 +448,11 @@
 <package3d name="TP_THM_1.6_S" urn="urn:adsk.eagle:package:10068194/3" type="model" library_version="197">
 <packageinstances>
 <packageinstance name="TP_THM_1.6_S"/>
+</packageinstances>
+</package3d>
+<package3d name="OSTVN02A150" urn="urn:adsk.eagle:package:12594929/2" type="model" library_version="197">
+<packageinstances>
+<packageinstance name="OSTVN02A150"/>
 </packageinstances>
 </package3d>
 </packages3d>
@@ -580,6 +597,14 @@
 <text x="-1.27" y="1.27" size="1.778" layer="95">&gt;NAME</text>
 <text x="1.27" y="-1.27" size="1.778" layer="97">&gt;VALUE</text>
 <pin name="TP" x="0" y="-2.54" visible="off" length="short" direction="in" rot="R90"/>
+</symbol>
+<symbol name="F-2" urn="urn:adsk.eagle:symbol:12594917/1" library_version="197">
+<text x="-3.429" y="2.032" size="1.778" layer="95">&gt;NAME</text>
+<text x="-3.429" y="-5.588" size="1.778" layer="95">&gt;VALUE</text>
+<pin name="2" x="5.08" y="-2.54" visible="pin" length="middle" direction="pas" rot="R180"/>
+<pin name="1" x="5.08" y="0" visible="pin" length="middle" direction="pas" rot="R180"/>
+<wire x1="-0.508" y1="0.508" x2="-0.508" y2="-0.508" width="0.254" layer="94" curve="-180"/>
+<wire x1="-0.508" y1="-2.032" x2="-0.508" y2="-3.048" width="0.254" layer="94" curve="-180"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -802,6 +827,25 @@
 </device>
 </devices>
 </deviceset>
+<deviceset name="OSTVN02A150" urn="urn:adsk.eagle:component:12594946/2" prefix="J" library_version="197">
+<gates>
+<gate name="G$1" symbol="F-2" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="OSTVN02A150">
+<connects>
+<connect gate="G$1" pin="1" pad="P$1"/>
+<connect gate="G$1" pin="2" pad="P$2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:12594929/2"/>
+</package3dinstances>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
 </devicesets>
 </library>
 <library name="supply2" urn="urn:adsk.eagle:library:372">
@@ -926,7 +970,6 @@ In this library the device names are the same as the pin names of the symbols, t
 <part name="GND7" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="R4" library="roomready" library_urn="urn:adsk.eagle:library:9911636" deviceset="RES-SMD" device="0603" package3d_urn="urn:adsk.eagle:package:7587835/3" value="1k"/>
 <part name="R5" library="roomready" library_urn="urn:adsk.eagle:library:9911636" deviceset="RES-SMD" device="0603" package3d_urn="urn:adsk.eagle:package:7587835/3" value="3.3k"/>
-<part name="R6" library="roomready" library_urn="urn:adsk.eagle:library:9911636" deviceset="RES-SMD" device="0603" package3d_urn="urn:adsk.eagle:package:7587835/3" value="3.3k"/>
 <part name="C4" library="roomready" library_urn="urn:adsk.eagle:library:9911636" deviceset="CAP-CER-SMD" device="0603" package3d_urn="urn:adsk.eagle:package:7587834/2" value="1u"/>
 <part name="GND8" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="R7" library="roomready" library_urn="urn:adsk.eagle:library:9911636" deviceset="RES-SMD" device="0603" package3d_urn="urn:adsk.eagle:package:7587835/3" value="2.2k"/>
@@ -941,11 +984,13 @@ In this library the device names are the same as the pin names of the symbols, t
 <part name="TP7" library="roomready" library_urn="urn:adsk.eagle:library:9911636" deviceset="TP_THM_1.6_S" device="" package3d_urn="urn:adsk.eagle:package:10068194/3"/>
 <part name="TP8" library="roomready" library_urn="urn:adsk.eagle:library:9911636" deviceset="TP_THM_1.6_S" device="" package3d_urn="urn:adsk.eagle:package:10068194/3"/>
 <part name="GND10" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
+<part name="J4" library="roomready" library_urn="urn:adsk.eagle:library:9911636" deviceset="OSTVN02A150" device="" package3d_urn="urn:adsk.eagle:package:12594929/2"/>
+<part name="R6" library="roomready" library_urn="urn:adsk.eagle:library:9911636" deviceset="RES-SMD" device="0603" package3d_urn="urn:adsk.eagle:package:7587835/3" value="DNP"/>
 </parts>
 <sheets>
 <sheet>
 <plain>
-<text x="88.9" y="2.54" size="1.778" layer="91">MAKE A POT</text>
+<text x="68.58" y="-5.08" size="1.778" layer="97">3.3k Pot</text>
 </plain>
 <instances>
 <instance part="D1" gate="G$1" x="86.36" y="33.02" smashed="yes" rot="R270">
@@ -1033,13 +1078,9 @@ In this library the device names are the same as the pin names of the symbols, t
 <attribute name="VALUE" x="115.57" y="32.258" size="1.778" layer="96"/>
 <attribute name="NAME" x="115.57" y="37.338" size="1.778" layer="96"/>
 </instance>
-<instance part="R5" gate="G$1" x="83.82" y="7.62" smashed="yes" rot="R90">
-<attribute name="VALUE" x="87.122" y="3.81" size="1.778" layer="96" rot="R90"/>
-<attribute name="NAME" x="82.042" y="3.81" size="1.778" layer="96" rot="R90"/>
-</instance>
-<instance part="R6" gate="G$1" x="91.44" y="0" smashed="yes" rot="R180">
-<attribute name="VALUE" x="95.25" y="3.302" size="1.778" layer="96" rot="R180"/>
-<attribute name="NAME" x="95.25" y="-1.778" size="1.778" layer="96" rot="R180"/>
+<instance part="R5" gate="G$1" x="93.98" y="0" smashed="yes">
+<attribute name="VALUE" x="90.17" y="-3.302" size="1.778" layer="96"/>
+<attribute name="NAME" x="90.17" y="1.778" size="1.778" layer="96"/>
 </instance>
 <instance part="C4" gate="G$1" x="101.6" y="-5.08" smashed="yes" rot="MR0">
 <attribute name="VALUE" x="100.076" y="-9.779" size="1.778" layer="96" rot="MR0"/>
@@ -1093,6 +1134,14 @@ In this library the device names are the same as the pin names of the symbols, t
 </instance>
 <instance part="GND10" gate="1" x="86.36" y="-20.32" smashed="yes">
 <attribute name="VALUE" x="83.82" y="-22.86" size="1.778" layer="96"/>
+</instance>
+<instance part="J4" gate="G$1" x="81.28" y="-2.54" smashed="yes">
+<attribute name="NAME" x="77.851" y="-0.508" size="1.778" layer="95"/>
+<attribute name="VALUE" x="77.851" y="-8.128" size="1.778" layer="95"/>
+</instance>
+<instance part="R6" gate="G$1" x="88.9" y="7.62" smashed="yes" rot="R270">
+<attribute name="VALUE" x="85.598" y="11.43" size="1.778" layer="96" rot="R270"/>
+<attribute name="NAME" x="90.678" y="11.43" size="1.778" layer="96" rot="R270"/>
 </instance>
 </instances>
 <busses>
@@ -1304,35 +1353,29 @@ In this library the device names are the same as the pin names of the symbols, t
 </segment>
 <segment>
 <pinref part="OP1" gate="G$1" pin="OUT_C"/>
-<wire x1="71.12" y1="15.24" x2="83.82" y2="15.24" width="0.1524" layer="91"/>
+<wire x1="71.12" y1="15.24" x2="86.36" y2="15.24" width="0.1524" layer="91"/>
 <label x="73.66" y="15.24" size="1.778" layer="95"/>
-<pinref part="R5" gate="G$1" pin="2"/>
-<wire x1="83.82" y1="15.24" x2="83.82" y2="12.7" width="0.1524" layer="91"/>
-<wire x1="83.82" y1="15.24" x2="86.36" y2="15.24" width="0.1524" layer="91"/>
-<junction x="83.82" y="15.24"/>
 <pinref part="TP6" gate="G$1" pin="TP"/>
 <wire x1="86.36" y1="15.24" x2="86.36" y2="17.78" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$2" class="0">
-<segment>
-<pinref part="R5" gate="G$1" pin="1"/>
-<wire x1="83.82" y1="2.54" x2="83.82" y2="0" width="0.1524" layer="91"/>
-<wire x1="83.82" y1="0" x2="86.36" y2="0" width="0.1524" layer="91"/>
-<pinref part="R6" gate="G$1" pin="2"/>
+<pinref part="R6" gate="G$1" pin="1"/>
+<wire x1="88.9" y1="12.7" x2="88.9" y2="15.24" width="0.1524" layer="91"/>
+<wire x1="88.9" y1="15.24" x2="86.36" y2="15.24" width="0.1524" layer="91"/>
+<junction x="86.36" y="15.24"/>
+<pinref part="J4" gate="G$1" pin="1"/>
+<wire x1="86.36" y1="-2.54" x2="86.36" y2="15.24" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="LP_FILT" class="0">
 <segment>
 <pinref part="C4" gate="G$1" pin="1"/>
 <wire x1="101.6" y1="-2.54" x2="101.6" y2="0" width="0.1524" layer="91"/>
-<pinref part="R6" gate="G$1" pin="1"/>
-<wire x1="101.6" y1="0" x2="96.52" y2="0" width="0.1524" layer="91"/>
 <wire x1="101.6" y1="0" x2="111.76" y2="0" width="0.1524" layer="91"/>
-<junction x="101.6" y="0"/>
 <label x="109.22" y="0" size="1.778" layer="95" rot="MR0"/>
 <pinref part="TP7" gate="G$1" pin="TP"/>
 <wire x1="111.76" y1="0" x2="111.76" y2="2.54" width="0.1524" layer="91"/>
+<pinref part="R5" gate="G$1" pin="2"/>
+<wire x1="99.06" y1="0" x2="101.6" y2="0" width="0.1524" layer="91"/>
+<junction x="101.6" y="0"/>
 </segment>
 <segment>
 <pinref part="OP1" gate="G$1" pin="+IN_D"/>
@@ -1343,8 +1386,8 @@ In this library the device names are the same as the pin names of the symbols, t
 <net name="ENV" class="0">
 <segment>
 <pinref part="OP1" gate="G$1" pin="OUT_D"/>
-<wire x1="71.12" y1="2.54" x2="78.74" y2="2.54" width="0.1524" layer="91"/>
 <label x="73.66" y="2.54" size="1.778" layer="95"/>
+<wire x1="78.74" y1="2.54" x2="71.12" y2="2.54" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="R8" gate="G$1" pin="1"/>
@@ -1368,6 +1411,17 @@ In this library the device names are the same as the pin names of the symbols, t
 <pinref part="OP1" gate="G$1" pin="-IN_D"/>
 <wire x1="50.8" y1="0" x2="45.72" y2="0" width="0.1524" layer="91"/>
 <junction x="45.72" y="0"/>
+</segment>
+</net>
+<net name="N$2" class="0">
+<segment>
+<pinref part="J4" gate="G$1" pin="2"/>
+<wire x1="86.36" y1="-5.08" x2="88.9" y2="-5.08" width="0.1524" layer="91"/>
+<pinref part="R5" gate="G$1" pin="1"/>
+<wire x1="88.9" y1="-5.08" x2="88.9" y2="0" width="0.1524" layer="91"/>
+<pinref part="R6" gate="G$1" pin="2"/>
+<wire x1="88.9" y1="2.54" x2="88.9" y2="0" width="0.1524" layer="91"/>
+<junction x="88.9" y="0"/>
 </segment>
 </net>
 </nets>
