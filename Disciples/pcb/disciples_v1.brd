@@ -2636,6 +2636,18 @@ Source: http://focus.ti.com/lit/ds/slcs146e/slcs146e.pdf</description>
 <attribute name="NAME" x="3.175" y="-475.234" size="1.27" layer="25" ratio="10"/>
 <attribute name="VALUE" x="3.175" y="-477.266" size="1.27" layer="27" ratio="10"/>
 </element>
+<element name="IC7" library="texas" package="DBZ_R-PDSO-G3" value="LM4040B50" x="1.5875" y="-481.6475" smashed="yes">
+<attribute name="NAME" x="-0.3175" y="-479.7425" size="1.27" layer="25"/>
+<attribute name="VALUE" x="-0.3175" y="-484.8225" size="1.27" layer="27"/>
+</element>
+<element name="R20" library="rcl" package="R0603" value="3.3k" x="6.0325" y="-487.9975" smashed="yes">
+<attribute name="NAME" x="5.3975" y="-487.3625" size="1.27" layer="25"/>
+<attribute name="VALUE" x="5.3975" y="-489.9025" size="1.27" layer="27"/>
+</element>
+<element name="C22" library="rcl" package="C0603" value="100n" x="0.635" y="-487.9975" smashed="yes">
+<attribute name="NAME" x="0" y="-487.3625" size="1.27" layer="25"/>
+<attribute name="VALUE" x="0" y="-489.9025" size="1.27" layer="27"/>
+</element>
 </elements>
 <signals>
 <signal name="GND">
@@ -2703,6 +2715,10 @@ Source: http://focus.ti.com/lit/ds/slcs146e/slcs146e.pdf</description>
 <contactref element="R9" pad="2"/>
 <contactref element="R17" pad="2"/>
 <contactref element="R10" pad="1"/>
+<contactref element="IC7" pad="2"/>
+<contactref element="C22" pad="2"/>
+<wire x1="2.5375" y1="-482.7475" x2="1.485" y2="-487.9975" width="0" layer="19" extent="1-1"/>
+<wire x1="1.285" y1="-470.8525" x2="2.5375" y2="-482.7475" width="0" layer="19" extent="1-1"/>
 <wire x1="-0.015" y1="-461.3275" x2="1.285" y2="-470.8525" width="0" layer="19" extent="1-1"/>
 <wire x1="1.285" y1="-442.2775" x2="-0.015" y2="-461.3275" width="0" layer="19" extent="1-1"/>
 <wire x1="1.285" y1="-421.9575" x2="1.285" y2="-442.2775" width="0" layer="19" extent="1-1"/>
@@ -2792,14 +2808,16 @@ Source: http://focus.ti.com/lit/ds/slcs146e/slcs146e.pdf</description>
 <contactref element="C9" pad="1"/>
 <contactref element="IC5" pad="4"/>
 <contactref element="C19" pad="1"/>
+<contactref element="R20" pad="1"/>
+<wire x1="-0.015" y1="-406.7175" x2="5.1825" y2="-487.9975" width="0" layer="19" extent="1-1"/>
+<wire x1="3.4925" y1="-403.4028" x2="-0.015" y2="-406.7175" width="0" layer="19" extent="1-1"/>
+<wire x1="-0.015" y1="-297.4975" x2="3.4925" y2="-403.4028" width="0" layer="19" extent="1-1"/>
+<wire x1="0.505" y1="-280.3525" x2="-0.015" y2="-297.4975" width="0" layer="19" extent="1-1"/>
+<wire x1="5.5" y1="-199.39" x2="0.505" y2="-280.3525" width="0" layer="19" extent="1-1"/>
 <wire x1="11.215" y1="-182.245" x2="5.5" y2="-199.39" width="0" layer="19" extent="1-1"/>
 <wire x1="7.5175" y1="-172.085" x2="11.215" y2="-182.245" width="0" layer="19" extent="1-1"/>
 <wire x1="13.7975" y1="-159.385" x2="7.5175" y2="-172.085" width="0" layer="19" extent="1-1"/>
 <wire x1="1.905" y1="-157.42" x2="13.7975" y2="-159.385" width="0" layer="19" extent="1-1"/>
-<wire x1="0.505" y1="-280.3525" x2="5.5" y2="-199.39" width="0" layer="19" extent="1-1"/>
-<wire x1="-0.015" y1="-297.4975" x2="0.505" y2="-280.3525" width="0" layer="19" extent="1-1"/>
-<wire x1="3.4925" y1="-403.4028" x2="-0.015" y2="-297.4975" width="0" layer="19" extent="1-1"/>
-<wire x1="-0.015" y1="-406.7175" x2="3.4925" y2="-403.4028" width="0" layer="19" extent="1-1"/>
 <wire x1="6.8072" y1="12.065" x2="1.905" y2="-157.42" width="0" layer="19" extent="1-1"/>
 <wire x1="5.3975" y1="13.32" x2="6.8072" y2="12.065" width="0" layer="19" extent="1-1"/>
 <wire x1="8.3947" y1="34.925" x2="5.3975" y2="13.32" width="0" layer="19" extent="1-1"/>
@@ -3240,6 +3258,13 @@ Source: http://focus.ti.com/lit/ds/slcs146e/slcs146e.pdf</description>
 </signal>
 <signal name="N$38">
 <contactref element="LED5" pad="A"/>
+</signal>
+<signal name="AREF_+5">
+<contactref element="IC7" pad="1"/>
+<contactref element="R20" pad="2"/>
+<contactref element="C22" pad="1"/>
+<wire x1="0.6375" y1="-482.7475" x2="-0.215" y2="-487.9975" width="0" layer="19" extent="1-1"/>
+<wire x1="6.8825" y1="-487.9975" x2="-0.215" y2="-487.9975" width="0" layer="19" extent="1-1"/>
 </signal>
 </signals>
 <mfgpreviewcolors>

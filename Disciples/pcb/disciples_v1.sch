@@ -18136,6 +18136,11 @@ Source: http://focus.ti.com/lit/ds/slcs146e/slcs146e.pdf</description>
 <part name="R10" library="rcl" deviceset="R-US_" device="R0402" value="10k"/>
 <part name="R17" library="rcl" deviceset="R-US_" device="R0402" value="10k"/>
 <part name="LED5" library="led" deviceset="LED" device="3MM" value="WP710A10GD"/>
+<part name="IC7" library="texas" deviceset="LM4041" device="DBZ" technology="B12" value="LM4040B50"/>
+<part name="R20" library="rcl" deviceset="R-US_" device="R0603" value="3.3k"/>
+<part name="C22" library="rcl" deviceset="C-US" device="C0603" value="100n"/>
+<part name="GND31" library="SparkFun" deviceset="GND" device=""/>
+<part name="P+10" library="SparkFun" deviceset="VCC" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -19274,6 +19279,7 @@ https://everycircuit.com/circuit/5797591789600768</text>
 <text x="162.56" y="10.16" size="2.54" layer="94">ellagjameson@gmail.com</text>
 <text x="119.38" y="78.74" size="1.778" layer="91">FIND VAL</text>
 <text x="106.68" y="33.02" size="1.778" layer="97">Lowpass/Envelope Level</text>
+<text x="129.54" y="109.22" size="1.778" layer="97">Cutoff Frequency</text>
 </plain>
 <instances>
 <instance part="FRAME1" gate="G$1" x="0" y="0" smashed="yes">
@@ -19468,6 +19474,7 @@ https://everycircuit.com/circuit/5797591789600768</text>
 <text x="162.56" y="15.24" size="2.54" layer="94">Ella Jameson</text>
 <text x="162.56" y="10.16" size="2.54" layer="94">ellagjameson@gmail.com</text>
 <text x="109.22" y="111.76" size="1.778" layer="91">bipolar op-amp, 0-5v output</text>
+<text x="121.92" y="30.48" size="1.778" layer="97">Comparator Level</text>
 </plain>
 <instances>
 <instance part="FRAME4" gate="G$1" x="0" y="0" smashed="yes">
@@ -19791,6 +19798,24 @@ https://everycircuit.com/circuit/5797591789600768</text>
 <attribute name="NAME" x="227.076" y="102.235" size="1.778" layer="95"/>
 <attribute name="VALUE" x="227.076" y="97.409" size="1.778" layer="96"/>
 </instance>
+<instance part="IC7" gate="G$1" x="58.42" y="40.64" smashed="yes">
+<attribute name="NAME" x="61.214" y="42.545" size="1.778" layer="95"/>
+<attribute name="VALUE" x="61.214" y="39.751" size="1.778" layer="96"/>
+</instance>
+<instance part="R20" gate="G$1" x="58.42" y="55.88" smashed="yes" rot="R270">
+<attribute name="NAME" x="59.9186" y="59.69" size="1.778" layer="95" rot="R270"/>
+<attribute name="VALUE" x="55.118" y="59.69" size="1.778" layer="96" rot="R270"/>
+</instance>
+<instance part="C22" gate="G$1" x="48.26" y="43.18" smashed="yes">
+<attribute name="NAME" x="49.276" y="43.815" size="1.778" layer="95"/>
+<attribute name="VALUE" x="49.276" y="38.989" size="1.778" layer="96"/>
+</instance>
+<instance part="GND31" gate="1" x="58.42" y="30.48" smashed="yes">
+<attribute name="VALUE" x="55.88" y="27.94" size="1.778" layer="96"/>
+</instance>
+<instance part="P+10" gate="1" x="58.42" y="63.5" smashed="yes">
+<attribute name="VALUE" x="57.404" y="67.056" size="1.778" layer="96"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -19886,6 +19911,16 @@ https://everycircuit.com/circuit/5797591789600768</text>
 <pinref part="GND11" gate="1" pin="GND"/>
 <pinref part="C19" gate="G$1" pin="2"/>
 <pinref part="C20" gate="G$1" pin="1"/>
+</segment>
+<segment>
+<pinref part="GND31" gate="1" pin="GND"/>
+<pinref part="IC7" gate="G$1" pin="A"/>
+<wire x1="58.42" y1="33.02" x2="58.42" y2="35.56" width="0.1524" layer="91"/>
+<pinref part="C22" gate="G$1" pin="2"/>
+<wire x1="58.42" y1="35.56" x2="58.42" y2="38.1" width="0.1524" layer="91"/>
+<wire x1="48.26" y1="38.1" x2="48.26" y2="35.56" width="0.1524" layer="91"/>
+<wire x1="48.26" y1="35.56" x2="58.42" y2="35.56" width="0.1524" layer="91"/>
+<junction x="58.42" y="35.56"/>
 </segment>
 </net>
 <net name="VEE" class="0">
@@ -20014,6 +20049,11 @@ https://everycircuit.com/circuit/5797591789600768</text>
 <pinref part="P+9" gate="1" pin="VCC"/>
 <pinref part="C19" gate="G$1" pin="1"/>
 </segment>
+<segment>
+<pinref part="R20" gate="G$1" pin="1"/>
+<pinref part="P+10" gate="1" pin="VCC"/>
+<wire x1="58.42" y1="60.96" x2="58.42" y2="63.5" width="0.1524" layer="91"/>
+</segment>
 </net>
 <net name="N$6" class="0">
 <segment>
@@ -20056,11 +20096,27 @@ https://everycircuit.com/circuit/5797591789600768</text>
 <junction x="88.9" y="48.26"/>
 <pinref part="R3" gate="G$1" pin="2"/>
 <pinref part="IC6" gate="G$1" pin="C"/>
-<wire x1="91.44" y1="48.26" x2="88.9" y2="48.26" width="0.1524" layer="91"/>
-<label x="91.44" y="48.26" size="1.778" layer="95" xref="yes"/>
+<label x="96.52" y="50.8" size="1.778" layer="95" rot="R90" xref="yes"/>
 <pinref part="C14" gate="G$1" pin="1"/>
 <wire x1="78.74" y1="45.72" x2="78.74" y2="48.26" width="0.1524" layer="91"/>
 <wire x1="78.74" y1="48.26" x2="88.9" y2="48.26" width="0.1524" layer="91"/>
+<wire x1="88.9" y1="48.26" x2="96.52" y2="48.26" width="0.1524" layer="91"/>
+<wire x1="96.52" y1="48.26" x2="96.52" y2="50.8" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="AREF_+5" class="0">
+<segment>
+<pinref part="IC7" gate="G$1" pin="C"/>
+<pinref part="R20" gate="G$1" pin="2"/>
+<wire x1="58.42" y1="43.18" x2="58.42" y2="48.26" width="0.1524" layer="91"/>
+<pinref part="C22" gate="G$1" pin="1"/>
+<wire x1="58.42" y1="48.26" x2="58.42" y2="50.8" width="0.1524" layer="91"/>
+<wire x1="48.26" y1="45.72" x2="48.26" y2="48.26" width="0.1524" layer="91"/>
+<wire x1="48.26" y1="48.26" x2="58.42" y2="48.26" width="0.1524" layer="91"/>
+<junction x="58.42" y="48.26"/>
+<wire x1="58.42" y1="48.26" x2="66.04" y2="48.26" width="0.1524" layer="91"/>
+<wire x1="66.04" y1="48.26" x2="66.04" y2="50.8" width="0.1524" layer="91"/>
+<label x="66.04" y="50.8" size="1.778" layer="95" rot="R90" xref="yes"/>
 </segment>
 </net>
 </nets>
