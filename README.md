@@ -1,2 +1,2 @@
-# uBeep-synth
-My own simple and cheap modular synth modules.
+# ChaosControl© Eurorack Modules
+My open-source Eurorack module designs.
