@@ -2539,10 +2539,6 @@ Source: http://focus.ti.com/lit/ds/slcs146e/slcs146e.pdf</description>
 <attribute name="NAME" x="3.175" y="-246.3165" size="1.27" layer="25" ratio="10"/>
 <attribute name="VALUE" x="3.175" y="-248.3485" size="1.27" layer="27" ratio="10"/>
 </element>
-<element name="IC9" library="og-ics" package="TSSOP14" value="LM324PW" x="3.4925" y="-254" smashed="yes">
-<attribute name="NAME" x="0.5969" y="-256.0828" size="1.016" layer="25" ratio="10" rot="R90"/>
-<attribute name="VALUE" x="7.3787" y="-256.0828" size="1.016" layer="27" ratio="10" rot="R90"/>
-</element>
 <element name="LED3" library="led" package="LED3MM" value="WP710A10SEC/J4" x="1.27" y="-274.955" smashed="yes">
 <attribute name="NAME" x="3.175" y="-274.574" size="1.27" layer="25" ratio="10"/>
 <attribute name="VALUE" x="3.175" y="-276.606" size="1.27" layer="27" ratio="10"/>
@@ -2616,6 +2612,22 @@ Source: http://focus.ti.com/lit/ds/slcs146e/slcs146e.pdf</description>
 <attribute name="NAME" x="0" y="-416.2425" size="1.27" layer="25"/>
 <attribute name="VALUE" x="0" y="-418.7825" size="1.27" layer="27"/>
 </element>
+<element name="C21" library="rcl" package="C0402" value="TBD" x="0.635" y="-421.9575" smashed="yes">
+<attribute name="NAME" x="0" y="-421.3225" size="1.27" layer="25"/>
+<attribute name="VALUE" x="0" y="-423.8625" size="1.27" layer="27"/>
+</element>
+<element name="R14" library="rcl" package="R0402" value="1k" x="0.635" y="-427.0375" smashed="yes">
+<attribute name="NAME" x="0" y="-426.4025" size="1.27" layer="25"/>
+<attribute name="VALUE" x="0" y="-428.9425" size="1.27" layer="27"/>
+</element>
+<element name="R15" library="rcl" package="R0402" value="1k" x="0.635" y="-432.1175" smashed="yes">
+<attribute name="NAME" x="0" y="-431.4825" size="1.27" layer="25"/>
+<attribute name="VALUE" x="0" y="-434.0225" size="1.27" layer="27"/>
+</element>
+<element name="R16" library="rcl" package="R0402" value="1k" x="0.635" y="-437.1975" smashed="yes">
+<attribute name="NAME" x="0" y="-436.5625" size="1.27" layer="25"/>
+<attribute name="VALUE" x="0" y="-439.1025" size="1.27" layer="27"/>
+</element>
 </elements>
 <signals>
 <signal name="GND">
@@ -2681,6 +2693,7 @@ Source: http://focus.ti.com/lit/ds/slcs146e/slcs146e.pdf</description>
 <contactref element="J11" pad="P1"/>
 <contactref element="C19" pad="2"/>
 <contactref element="C20" pad="1"/>
+<contactref element="C21" pad="2"/>
 <wire x1="4.7475" y1="-270.1925" x2="1.285" y2="-241.935" width="0" layer="19" extent="1-1"/>
 <wire x1="3.305" y1="-280.3525" x2="4.7475" y2="-270.1925" width="0" layer="19" extent="1-1"/>
 <wire x1="0.505" y1="-286.7025" x2="3.305" y2="-280.3525" width="0" layer="19" extent="1-1"/>
@@ -2691,6 +2704,7 @@ Source: http://focus.ti.com/lit/ds/slcs146e/slcs146e.pdf</description>
 <wire x1="3.81" y1="-375.6025" x2="3.81" y2="-357.505" width="0" layer="19" extent="1-1"/>
 <wire x1="1.285" y1="-406.7175" x2="3.81" y2="-375.6025" width="0" layer="19" extent="1-1"/>
 <wire x1="-0.015" y1="-411.7975" x2="1.285" y2="-406.7175" width="0" layer="19" extent="1-1"/>
+<wire x1="1.285" y1="-421.9575" x2="-0.015" y2="-411.7975" width="0" layer="19" extent="1-1"/>
 <wire x1="1.8025" y1="-199.39" x2="1.285" y2="-241.935" width="0" layer="19" extent="1-1"/>
 <wire x1="2.855" y1="-194.14" x2="1.8025" y2="-199.39" width="0" layer="19" extent="1-1"/>
 <wire x1="7.5175" y1="-182.245" x2="2.855" y2="-194.14" width="0" layer="19" extent="1-1"/>
@@ -2882,12 +2896,6 @@ Source: http://focus.ti.com/lit/ds/slcs146e/slcs146e.pdf</description>
 <wire x1="14.9225" y1="71.97" x2="17.4775" y2="86.995" width="0" layer="19" extent="1-1"/>
 <wire x1="15.69" y1="67.31" x2="14.9225" y2="71.97" width="0" layer="19" extent="1-1"/>
 </signal>
-<signal name="V+">
-<contactref element="IC9" pad="4"/>
-</signal>
-<signal name="V-">
-<contactref element="IC9" pad="11"/>
-</signal>
 <signal name="N$7">
 <contactref element="R36" pad="2"/>
 <contactref element="J5" pad="P3"/>
@@ -2940,17 +2948,17 @@ Source: http://focus.ti.com/lit/ds/slcs146e/slcs146e.pdf</description>
 <wire x1="3.81" y1="-76.2" x2="1.6025" y2="-90.17" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="SLEW">
-<contactref element="IC3" pad="12"/>
 <contactref element="C11" pad="2"/>
 <contactref element="R28" pad="2"/>
 <contactref element="R2" pad="1"/>
 <contactref element="IC3" pad="8"/>
 <contactref element="J8" pad="P2"/>
+<contactref element="IC5" pad="3"/>
 <wire x1="1.6025" y1="-223.2025" x2="6.365" y2="-228.2825" width="0" layer="19" extent="1-1"/>
 <wire x1="3.81" y1="-341.9475" x2="6.365" y2="-228.2825" width="0" layer="19" extent="1-1"/>
+<wire x1="2.8575" y1="-403.4028" x2="3.81" y2="-341.9475" width="0" layer="19" extent="1-1"/>
 <wire x1="0.3025" y1="-90.17" x2="1.6025" y2="-223.2025" width="0" layer="19" extent="1-1"/>
 <wire x1="12.2428" y1="10.16" x2="0.3025" y2="-90.17" width="0" layer="19" extent="1-1"/>
-<wire x1="12.2428" y1="12.7" x2="12.2428" y2="10.16" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="THRESH">
 <contactref element="J10" pad="P2"/>
@@ -2962,8 +2970,8 @@ Source: http://focus.ti.com/lit/ds/slcs146e/slcs146e.pdf</description>
 </signal>
 <signal name="COMP">
 <contactref element="R33" pad="1"/>
-<contactref element="IC9" pad="12"/>
-<wire x1="9.8275" y1="-108.2675" x2="2.8575" y2="-251.2822" width="0" layer="19" extent="1-1"/>
+<contactref element="IC5" pad="12"/>
+<wire x1="9.8275" y1="-108.2675" x2="2.8575" y2="-397.9672" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$28">
 <contactref element="D4" pad="C"/>
@@ -3068,27 +3076,27 @@ Source: http://focus.ti.com/lit/ds/slcs146e/slcs146e.pdf</description>
 </signal>
 <signal name="N$30">
 <contactref element="LED2" pad="A"/>
-<contactref element="IC3" pad="14"/>
-<wire x1="12.2428" y1="13.97" x2="0" y2="-246.6975" width="0" layer="19" extent="1-1"/>
+<contactref element="IC5" pad="1"/>
+<wire x1="1.5875" y1="-403.4028" x2="0" y2="-246.6975" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$17">
 <contactref element="R9" pad="1"/>
 <contactref element="LED2" pad="K"/>
-<contactref element="IC3" pad="13"/>
+<contactref element="IC5" pad="2"/>
 <wire x1="-0.015" y1="-241.935" x2="2.54" y2="-246.6975" width="0" layer="19" extent="1-1"/>
-<wire x1="12.2428" y1="13.335" x2="-0.015" y2="-241.935" width="0" layer="19" extent="1-1"/>
+<wire x1="2.2225" y1="-403.4028" x2="2.54" y2="-246.6975" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$37">
 <contactref element="LED3" pad="K"/>
-<contactref element="IC9" pad="13"/>
 <contactref element="R10" pad="2"/>
-<wire x1="6.0475" y1="-270.1925" x2="2.2225" y2="-251.2822" width="0" layer="19" extent="1-1"/>
-<wire x1="2.54" y1="-274.955" x2="6.0475" y2="-270.1925" width="0" layer="19" extent="1-1"/>
+<contactref element="IC5" pad="13"/>
+<wire x1="2.54" y1="-274.955" x2="2.2225" y2="-397.9672" width="0" layer="19" extent="1-1"/>
+<wire x1="6.0475" y1="-270.1925" x2="2.54" y2="-274.955" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$38">
 <contactref element="LED3" pad="A"/>
-<contactref element="IC9" pad="14"/>
-<wire x1="0" y1="-274.955" x2="1.5875" y2="-251.2822" width="0" layer="19" extent="1-1"/>
+<contactref element="IC5" pad="14"/>
+<wire x1="0" y1="-274.955" x2="1.5875" y2="-397.9672" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$27">
 <contactref element="C17" pad="1"/>
@@ -3152,23 +3160,31 @@ Source: http://focus.ti.com/lit/ds/slcs146e/slcs146e.pdf</description>
 <contactref element="R23" pad="2"/>
 <wire x1="3.81" y1="-347.345" x2="1.285" y2="-361.315" width="0" layer="19" extent="1-1"/>
 </signal>
-<signal name="LP_DC">
+<signal name="LOWPASS">
 <contactref element="R23" pad="1"/>
 <contactref element="J11" pad="P2"/>
+<contactref element="IC5" pad="9"/>
+<contactref element="IC5" pad="8"/>
+<wire x1="5.3975" y1="-397.9672" x2="4.7625" y2="-397.9672" width="0" layer="19" extent="1-1"/>
+<wire x1="3.81" y1="-373.0625" x2="4.7625" y2="-397.9672" width="0" layer="19" extent="1-1"/>
 <wire x1="-0.015" y1="-361.315" x2="3.81" y2="-373.0625" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$41">
 <contactref element="J11" pad="P3"/>
+<contactref element="R15" pad="1"/>
+<wire x1="3.81" y1="-365.4425" x2="-0.015" y2="-432.1175" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$42">
 <contactref element="J10" pad="P3"/>
+<contactref element="R16" pad="1"/>
+<wire x1="3.81" y1="-120.3325" x2="-0.015" y2="-437.1975" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$8">
-<contactref element="IC5" pad="2"/>
-<contactref element="IC5" pad="1"/>
 <contactref element="R25" pad="1"/>
-<wire x1="2.2225" y1="-403.4028" x2="11.0975" y2="-223.2025" width="0" layer="19" extent="1-1"/>
-<wire x1="1.5875" y1="-403.4028" x2="2.2225" y2="-403.4028" width="0" layer="19" extent="1-1"/>
+<contactref element="IC3" pad="14"/>
+<contactref element="IC3" pad="13"/>
+<wire x1="12.2428" y1="13.335" x2="11.0975" y2="-223.2025" width="0" layer="19" extent="1-1"/>
+<wire x1="12.2428" y1="13.97" x2="12.2428" y2="13.335" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$1">
 <contactref element="J7" pad="P3"/>
@@ -3177,8 +3193,35 @@ Source: http://focus.ti.com/lit/ds/slcs146e/slcs146e.pdf</description>
 </signal>
 <signal name="N$29">
 <contactref element="R13" pad="2"/>
-<contactref element="IC5" pad="3"/>
-<wire x1="2.8575" y1="-403.4028" x2="1.285" y2="-416.8775" width="0" layer="19" extent="1-1"/>
+<contactref element="IC3" pad="12"/>
+<wire x1="12.2428" y1="12.7" x2="1.285" y2="-416.8775" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$35">
+<contactref element="C21" pad="1"/>
+<contactref element="R12" pad="P$3"/>
+<contactref element="IC5" pad="10"/>
+<wire x1="4.1275" y1="-397.9672" x2="-0.015" y2="-421.9575" width="0" layer="19" extent="1-1"/>
+<wire x1="7.8975" y1="-382.89" x2="4.1275" y2="-397.9672" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$36">
+<contactref element="IC5" pad="5"/>
+<contactref element="R14" pad="2"/>
+<wire x1="4.1275" y1="-403.4028" x2="1.285" y2="-427.0375" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$39">
+<contactref element="R14" pad="1"/>
+<contactref element="J8" pad="P3"/>
+<wire x1="3.81" y1="-334.3275" x2="-0.015" y2="-427.0375" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$43">
+<contactref element="IC5" pad="6"/>
+<contactref element="IC5" pad="7"/>
+<contactref element="R12" pad="P$2"/>
+<wire x1="5.3975" y1="-403.4028" x2="4.7625" y2="-403.4028" width="0" layer="19" extent="1-1"/>
+<wire x1="5.3975" y1="-382.89" x2="4.7625" y2="-403.4028" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$45">
+<contactref element="R16" pad="2"/>
 </signal>
 </signals>
 <mfgpreviewcolors>
