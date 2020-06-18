@@ -18121,6 +18121,14 @@ Source: http://focus.ti.com/lit/ds/slcs146e/slcs146e.pdf</description>
 <part name="SUPPLY2" library="supply2" deviceset="VEE" device=""/>
 <part name="P+2" library="SparkFun" deviceset="VCC" device=""/>
 <part name="C10" library="rcl" deviceset="C-US" device="C0402" value="68p"/>
+<part name="R12" library="og-pots" deviceset="POT_US" device="VERTICAL_PS" value="50k"/>
+<part name="IC5" library="og-ics" deviceset="LM324" device="PW"/>
+<part name="GND11" library="SparkFun" deviceset="GND" device=""/>
+<part name="P+9" library="SparkFun" deviceset="VCC" device=""/>
+<part name="SUPPLY6" library="supply2" deviceset="VEE" device=""/>
+<part name="C19" library="rcl" deviceset="C-US" device="C0402" value="100n"/>
+<part name="C20" library="rcl" deviceset="C-US" device="C0402" value="100n"/>
+<part name="R13" library="rcl" deviceset="R-US_" device="R0402" value="1k"/>
 </parts>
 <sheets>
 <sheet>
@@ -18939,11 +18947,11 @@ https://everycircuit.com/circuit/5797591789600768</text>
 <attribute name="LAST_DATE_TIME" x="217.17" y="10.16" size="2.286" layer="94" font="vector"/>
 <attribute name="SHEET" x="230.505" y="5.08" size="2.54" layer="94" font="vector"/>
 </instance>
-<instance part="GND22" gate="1" x="45.72" y="86.36" smashed="yes">
-<attribute name="VALUE" x="43.18" y="83.82" size="1.778" layer="96"/>
+<instance part="GND22" gate="1" x="20.32" y="86.36" smashed="yes">
+<attribute name="VALUE" x="17.78" y="83.82" size="1.778" layer="96"/>
 </instance>
-<instance part="J7" gate="G$1" x="38.1" y="93.98" smashed="yes" rot="MR0">
-<attribute name="NAME" x="40.64" y="98.044" size="1.778" layer="95" rot="MR0"/>
+<instance part="J7" gate="G$1" x="12.7" y="93.98" smashed="yes" rot="MR0">
+<attribute name="NAME" x="15.24" y="98.044" size="1.778" layer="95" rot="MR0"/>
 </instance>
 <instance part="GND15" gate="1" x="215.9" y="86.36" smashed="yes" rot="MR0">
 <attribute name="VALUE" x="218.44" y="83.82" size="1.778" layer="96" rot="MR0"/>
@@ -19027,6 +19035,14 @@ https://everycircuit.com/circuit/5797591789600768</text>
 <instance part="GND28" gate="1" x="177.8" y="88.9" smashed="yes">
 <attribute name="VALUE" x="175.26" y="86.36" size="1.778" layer="96"/>
 </instance>
+<instance part="IC5" gate="A" x="66.04" y="96.52" smashed="yes">
+<attribute name="NAME" x="68.58" y="99.695" size="1.778" layer="95"/>
+<attribute name="VALUE" x="68.58" y="91.44" size="1.778" layer="96"/>
+</instance>
+<instance part="R13" gate="G$1" x="43.18" y="99.06" smashed="yes">
+<attribute name="NAME" x="39.37" y="100.5586" size="1.778" layer="95"/>
+<attribute name="VALUE" x="39.37" y="95.758" size="1.778" layer="96"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -19034,9 +19050,9 @@ https://everycircuit.com/circuit/5797591789600768</text>
 <net name="GND" class="0">
 <segment>
 <pinref part="GND22" gate="1" pin="GND"/>
-<wire x1="45.72" y1="88.9" x2="45.72" y2="91.44" width="0.1524" layer="91"/>
+<wire x1="20.32" y1="88.9" x2="20.32" y2="91.44" width="0.1524" layer="91"/>
 <pinref part="J7" gate="G$1" pin="1"/>
-<wire x1="45.72" y1="91.44" x2="43.18" y2="91.44" width="0.1524" layer="91"/>
+<wire x1="20.32" y1="91.44" x2="17.78" y2="91.44" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <wire x1="218.44" y1="91.44" x2="215.9" y2="91.44" width="0.1524" layer="91"/>
@@ -19072,15 +19088,8 @@ https://everycircuit.com/circuit/5797591789600768</text>
 <net name="FULL_WAVE_RECT" class="0">
 <segment>
 <pinref part="J7" gate="G$1" pin="2"/>
-<wire x1="43.18" y1="93.98" x2="45.72" y2="93.98" width="0.1524" layer="91"/>
-<label x="45.72" y="93.98" size="1.778" layer="95" xref="yes"/>
-</segment>
-</net>
-<net name="N$29" class="0">
-<segment>
-<pinref part="J7" gate="G$1" pin="3"/>
-<wire x1="43.18" y1="96.52" x2="78.74" y2="96.52" width="0.1524" layer="91"/>
-<pinref part="R25" gate="G$1" pin="1"/>
+<wire x1="17.78" y1="93.98" x2="20.32" y2="93.98" width="0.1524" layer="91"/>
+<label x="20.32" y="93.98" size="1.778" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="N$16" class="0">
@@ -19212,13 +19221,43 @@ https://everycircuit.com/circuit/5797591789600768</text>
 <junction x="177.8" y="99.06"/>
 </segment>
 </net>
+<net name="N$8" class="0">
+<segment>
+<pinref part="IC5" gate="A" pin="-IN"/>
+<wire x1="58.42" y1="93.98" x2="55.88" y2="93.98" width="0.1524" layer="91"/>
+<wire x1="55.88" y1="93.98" x2="55.88" y2="88.9" width="0.1524" layer="91"/>
+<wire x1="55.88" y1="88.9" x2="76.2" y2="88.9" width="0.1524" layer="91"/>
+<wire x1="76.2" y1="88.9" x2="76.2" y2="96.52" width="0.1524" layer="91"/>
+<pinref part="IC5" gate="A" pin="OUT"/>
+<wire x1="76.2" y1="96.52" x2="73.66" y2="96.52" width="0.1524" layer="91"/>
+<pinref part="R25" gate="G$1" pin="1"/>
+<wire x1="78.74" y1="96.52" x2="76.2" y2="96.52" width="0.1524" layer="91"/>
+<junction x="76.2" y="96.52"/>
+</segment>
+</net>
+<net name="N$1" class="0">
+<segment>
+<pinref part="J7" gate="G$1" pin="3"/>
+<wire x1="17.78" y1="96.52" x2="35.56" y2="96.52" width="0.1524" layer="91"/>
+<wire x1="35.56" y1="96.52" x2="35.56" y2="99.06" width="0.1524" layer="91"/>
+<pinref part="R13" gate="G$1" pin="1"/>
+<wire x1="35.56" y1="99.06" x2="38.1" y2="99.06" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$29" class="0">
+<segment>
+<pinref part="R13" gate="G$1" pin="2"/>
+<pinref part="IC5" gate="A" pin="+IN"/>
+<wire x1="48.26" y1="99.06" x2="58.42" y2="99.06" width="0.1524" layer="91"/>
+</segment>
+</net>
 </nets>
 </sheet>
 <sheet>
-<description>DC Matching LP Filter</description>
+<description>Lowpass Filter</description>
 <plain>
 <text x="162.56" y="20.32" size="2.54" layer="94">cc-by-sa</text>
-<text x="215.9" y="20.32" size="2.54" layer="94">DC Matching LP Filter</text>
+<text x="215.9" y="20.32" size="2.54" layer="94">Lowpass Filter</text>
 <text x="162.56" y="15.24" size="2.54" layer="94">Ella Jameson</text>
 <text x="162.56" y="10.16" size="2.54" layer="94">ellagjameson@gmail.com</text>
 <text x="91.44" y="88.9" size="1.778" layer="91">bipolar op-amps only</text>
@@ -19244,6 +19283,22 @@ https://everycircuit.com/circuit/5797591789600768</text>
 <instance part="R23" gate="G$1" x="215.9" y="93.98" smashed="yes">
 <attribute name="NAME" x="212.09" y="95.4786" size="1.778" layer="95"/>
 <attribute name="VALUE" x="212.09" y="90.678" size="1.778" layer="96"/>
+</instance>
+<instance part="R12" gate="G$1" x="93.98" y="106.68" smashed="yes" rot="R270">
+<attribute name="NAME" x="91.44" y="111.76" size="1.778" layer="95"/>
+<attribute name="VALUE" x="91.44" y="109.22" size="1.778" layer="96"/>
+</instance>
+<instance part="IC5" gate="D" x="114.3" y="162.56" smashed="yes" rot="MR180">
+<attribute name="NAME" x="116.84" y="159.385" size="1.778" layer="95" rot="MR180"/>
+<attribute name="VALUE" x="116.84" y="167.64" size="1.778" layer="96" rot="MR180"/>
+</instance>
+<instance part="IC5" gate="C" x="142.24" y="162.56" smashed="yes">
+<attribute name="NAME" x="144.78" y="165.735" size="1.778" layer="95"/>
+<attribute name="VALUE" x="144.78" y="157.48" size="1.778" layer="96"/>
+</instance>
+<instance part="IC5" gate="B" x="170.18" y="160.02" smashed="yes">
+<attribute name="NAME" x="172.72" y="163.195" size="1.778" layer="95"/>
+<attribute name="VALUE" x="172.72" y="154.94" size="1.778" layer="96"/>
 </instance>
 </instances>
 <busses>
@@ -19590,6 +19645,24 @@ https://everycircuit.com/circuit/5797591789600768</text>
 <instance part="SUPPLY5" gate="G$1" x="185.42" y="88.9" smashed="yes" rot="R180">
 <attribute name="VALUE" x="187.325" y="85.725" size="1.778" layer="96" rot="R180"/>
 </instance>
+<instance part="IC5" gate="P" x="236.22" y="106.68" smashed="yes"/>
+<instance part="GND11" gate="1" x="218.44" y="101.6" smashed="yes">
+<attribute name="VALUE" x="215.9" y="99.06" size="1.778" layer="96"/>
+</instance>
+<instance part="P+9" gate="1" x="236.22" y="121.92" smashed="yes">
+<attribute name="VALUE" x="235.204" y="125.476" size="1.778" layer="96"/>
+</instance>
+<instance part="SUPPLY6" gate="G$1" x="236.22" y="88.9" smashed="yes" rot="R180">
+<attribute name="VALUE" x="238.125" y="85.725" size="1.778" layer="96" rot="R180"/>
+</instance>
+<instance part="C19" gate="G$1" x="226.06" y="114.3" smashed="yes">
+<attribute name="NAME" x="227.076" y="114.935" size="1.778" layer="95"/>
+<attribute name="VALUE" x="227.076" y="110.109" size="1.778" layer="96"/>
+</instance>
+<instance part="C20" gate="G$1" x="226.06" y="101.6" smashed="yes">
+<attribute name="NAME" x="227.076" y="102.235" size="1.778" layer="95"/>
+<attribute name="VALUE" x="227.076" y="97.409" size="1.778" layer="96"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -19676,6 +19749,16 @@ https://everycircuit.com/circuit/5797591789600768</text>
 <wire x1="175.26" y1="104.14" x2="175.26" y2="106.68" width="0.1524" layer="91"/>
 <junction x="175.26" y="106.68"/>
 </segment>
+<segment>
+<wire x1="218.44" y1="106.68" x2="218.44" y2="104.14" width="0.1524" layer="91"/>
+<wire x1="226.06" y1="109.22" x2="226.06" y2="106.68" width="0.1524" layer="91"/>
+<wire x1="226.06" y1="104.14" x2="226.06" y2="106.68" width="0.1524" layer="91"/>
+<junction x="226.06" y="106.68"/>
+<wire x1="226.06" y1="106.68" x2="218.44" y2="106.68" width="0.1524" layer="91"/>
+<pinref part="GND11" gate="1" pin="GND"/>
+<pinref part="C19" gate="G$1" pin="2"/>
+<pinref part="C20" gate="G$1" pin="1"/>
+</segment>
 </net>
 <net name="VEE" class="0">
 <segment>
@@ -19720,6 +19803,17 @@ https://everycircuit.com/circuit/5797591789600768</text>
 <wire x1="175.26" y1="96.52" x2="175.26" y2="93.98" width="0.1524" layer="91"/>
 <wire x1="175.26" y1="93.98" x2="185.42" y2="93.98" width="0.1524" layer="91"/>
 <junction x="185.42" y="93.98"/>
+</segment>
+<segment>
+<wire x1="236.22" y1="99.06" x2="236.22" y2="93.98" width="0.1524" layer="91"/>
+<wire x1="236.22" y1="91.44" x2="236.22" y2="93.98" width="0.1524" layer="91"/>
+<wire x1="226.06" y1="96.52" x2="226.06" y2="93.98" width="0.1524" layer="91"/>
+<junction x="236.22" y="93.98"/>
+<wire x1="226.06" y1="93.98" x2="236.22" y2="93.98" width="0.1524" layer="91"/>
+<junction x="236.22" y="93.98"/>
+<pinref part="IC5" gate="P" pin="V-"/>
+<pinref part="SUPPLY6" gate="G$1" pin="VEE"/>
+<pinref part="C20" gate="G$1" pin="2"/>
 </segment>
 </net>
 <net name="VCC" class="0">
@@ -19780,6 +19874,17 @@ https://everycircuit.com/circuit/5797591789600768</text>
 <wire x1="175.26" y1="116.84" x2="175.26" y2="119.38" width="0.1524" layer="91"/>
 <wire x1="175.26" y1="119.38" x2="185.42" y2="119.38" width="0.1524" layer="91"/>
 <junction x="185.42" y="119.38"/>
+</segment>
+<segment>
+<wire x1="236.22" y1="114.3" x2="236.22" y2="119.38" width="0.1524" layer="91"/>
+<wire x1="236.22" y1="121.92" x2="236.22" y2="119.38" width="0.1524" layer="91"/>
+<wire x1="226.06" y1="119.38" x2="236.22" y2="119.38" width="0.1524" layer="91"/>
+<wire x1="226.06" y1="116.84" x2="226.06" y2="119.38" width="0.1524" layer="91"/>
+<junction x="236.22" y="119.38"/>
+<junction x="236.22" y="119.38"/>
+<pinref part="IC5" gate="P" pin="V+"/>
+<pinref part="P+9" gate="1" pin="VCC"/>
+<pinref part="C19" gate="G$1" pin="1"/>
 </segment>
 </net>
 <net name="N$6" class="0">
