@@ -2699,6 +2699,10 @@ Source: http://focus.ti.com/lit/ds/slcs146e/slcs146e.pdf</description>
 <attribute name="NAME" x="0" y="-581.9775" size="1.27" layer="25"/>
 <attribute name="VALUE" x="0" y="-584.5175" size="1.27" layer="27"/>
 </element>
+<element name="R35" library="rcl" package="R0402" value="470" x="0.635" y="-587.6925" smashed="yes">
+<attribute name="NAME" x="0" y="-587.0575" size="1.27" layer="25"/>
+<attribute name="VALUE" x="0" y="-589.5975" size="1.27" layer="27"/>
+</element>
 </elements>
 <signals>
 <signal name="GND">
@@ -3055,19 +3059,17 @@ Source: http://focus.ti.com/lit/ds/slcs146e/slcs146e.pdf</description>
 <wire x1="3.81" y1="-76.2" x2="1.6025" y2="-90.17" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="SLEW">
-<contactref element="R28" pad="2"/>
-<contactref element="R2" pad="1"/>
-<contactref element="IC3" pad="8"/>
 <contactref element="J8" pad="P2"/>
 <contactref element="IC5" pad="3"/>
 <contactref element="C11" pad="2"/>
 <contactref element="C10" pad="2"/>
-<wire x1="6.365" y1="-228.2825" x2="1.6025" y2="-223.2025" width="0" layer="19" extent="1-1"/>
+<contactref element="R35" pad="2"/>
+<contactref element="R2" pad="1"/>
 <wire x1="3.81" y1="-341.9475" x2="6.365" y2="-228.2825" width="0" layer="19" extent="1-1"/>
 <wire x1="2.8575" y1="-403.4028" x2="3.81" y2="-341.9475" width="0" layer="19" extent="1-1"/>
 <wire x1="1.285" y1="-532.13" x2="2.8575" y2="-403.4028" width="0" layer="19" extent="1-1"/>
-<wire x1="0.3025" y1="-90.17" x2="1.6025" y2="-223.2025" width="0" layer="19" extent="1-1"/>
-<wire x1="12.2428" y1="10.16" x2="0.3025" y2="-90.17" width="0" layer="19" extent="1-1"/>
+<wire x1="1.285" y1="-587.6925" x2="1.285" y2="-532.13" width="0" layer="19" extent="1-1"/>
+<wire x1="0.3025" y1="-90.17" x2="6.365" y2="-228.2825" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="THRESH">
 <contactref element="J10" pad="P2"/>
@@ -3409,6 +3411,13 @@ Source: http://focus.ti.com/lit/ds/slcs146e/slcs146e.pdf</description>
 <contactref element="J12" pad="P3"/>
 <contactref element="R27" pad="2"/>
 <wire x1="3.81" y1="-558.4825" x2="1.285" y2="-572.4525" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$55">
+<contactref element="R28" pad="2"/>
+<contactref element="IC3" pad="8"/>
+<contactref element="R35" pad="1"/>
+<wire x1="12.2428" y1="10.16" x2="1.6025" y2="-223.2025" width="0" layer="19" extent="1-1"/>
+<wire x1="-0.015" y1="-587.6925" x2="1.6025" y2="-223.2025" width="0" layer="19" extent="1-1"/>
 </signal>
 </signals>
 <mfgpreviewcolors>

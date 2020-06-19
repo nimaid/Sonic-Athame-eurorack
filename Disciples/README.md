@@ -27,6 +27,7 @@ The `ChaosControl© Disciples` semi-modular Eurorack module is so much more than
     * This is set as low as possible for envelope following
   * Fall Time Knob
     * This is set around 5% - 15% for envelope following
+  * TODO: Shape controls
   * Slew Level Indicator
   * Aux Output Jack
 * Lowpass Filter (LPF)
