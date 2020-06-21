@@ -19600,6 +19600,11 @@ https://everycircuit.com/circuit/5797591789600768</text>
 <pinref part="J12" gate="G$1" pin="1"/>
 <wire x1="139.7" y1="78.74" x2="142.24" y2="78.74" width="0.1524" layer="91"/>
 </segment>
+<segment>
+<pinref part="GND34" gate="1" pin="GND"/>
+<pinref part="R24" gate="G$1" pin="E"/>
+<wire x1="101.6" y1="76.2" x2="101.6" y2="78.74" width="0.1524" layer="91"/>
+</segment>
 </net>
 <net name="N$53" class="0">
 <segment>

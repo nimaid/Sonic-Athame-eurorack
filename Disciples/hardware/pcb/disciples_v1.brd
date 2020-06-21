@@ -2778,6 +2778,7 @@ Source: http://focus.ti.com/lit/ds/slcs146e/slcs146e.pdf</description>
 <contactref element="J12" pad="P1"/>
 <contactref element="C26" pad="1"/>
 <contactref element="C25" pad="2"/>
+<contactref element="R24" pad="P$1"/>
 <wire x1="-0.015" y1="-511.81" x2="1.285" y2="-506.73" width="0" layer="19" extent="1-1"/>
 <wire x1="4.1275" y1="-492.8997" x2="1.285" y2="-506.73" width="0" layer="19" extent="1-1"/>
 <wire x1="1.485" y1="-487.9975" x2="4.1275" y2="-492.8997" width="0" layer="19" extent="1-1"/>
@@ -2791,13 +2792,14 @@ Source: http://focus.ti.com/lit/ds/slcs146e/slcs146e.pdf</description>
 <wire x1="3.81" y1="-375.6025" x2="1.285" y2="-406.7175" width="0" layer="19" extent="1-1"/>
 <wire x1="3.81" y1="-357.505" x2="3.81" y2="-375.6025" width="0" layer="19" extent="1-1"/>
 <wire x1="3.81" y1="-344.4875" x2="3.81" y2="-357.505" width="0" layer="19" extent="1-1"/>
+<wire x1="2.8975" y1="-544.18" x2="-0.015" y2="-511.81" width="0" layer="19" extent="1-1"/>
+<wire x1="3.81" y1="-568.6425" x2="2.8975" y2="-544.18" width="0" layer="19" extent="1-1"/>
+<wire x1="1.285" y1="-577.5325" x2="3.81" y2="-568.6425" width="0" layer="19" extent="1-1"/>
+<wire x1="-0.015" y1="-582.6125" x2="1.285" y2="-577.5325" width="0" layer="19" extent="1-1"/>
 <wire x1="-0.015" y1="-302.5775" x2="3.81" y2="-344.4875" width="0" layer="19" extent="1-1"/>
 <wire x1="1.285" y1="-297.4975" x2="-0.015" y2="-302.5775" width="0" layer="19" extent="1-1"/>
 <wire x1="0.505" y1="-286.7025" x2="1.285" y2="-297.4975" width="0" layer="19" extent="1-1"/>
 <wire x1="3.305" y1="-280.3525" x2="0.505" y2="-286.7025" width="0" layer="19" extent="1-1"/>
-<wire x1="3.81" y1="-568.6425" x2="-0.015" y2="-511.81" width="0" layer="19" extent="1-1"/>
-<wire x1="1.285" y1="-577.5325" x2="3.81" y2="-568.6425" width="0" layer="19" extent="1-1"/>
-<wire x1="-0.015" y1="-582.6125" x2="1.285" y2="-577.5325" width="0" layer="19" extent="1-1"/>
 <wire x1="1.8025" y1="-199.39" x2="3.305" y2="-280.3525" width="0" layer="19" extent="1-1"/>
 <wire x1="2.855" y1="-194.14" x2="1.8025" y2="-199.39" width="0" layer="19" extent="1-1"/>
 <wire x1="7.5175" y1="-182.245" x2="2.855" y2="-194.14" width="0" layer="19" extent="1-1"/>
