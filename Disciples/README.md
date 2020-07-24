@@ -1,9 +1,9 @@
-# ChaosControl© Disciples
+# Sonic Athame™ Disciples
 ## Assemble a following!
 
-The `ChaosControl© Disciples` semi-modular Eurorack module is so much more than an envelope follower. There are 5 seperate effects circuits which are normally configured to act as a versitile envelope follower with seperate attack/decay knobs and ripple removal. However, each submodule can be bypassed in order to use it elsewhere in your patch!
+The `Sonic Athame™ Disciples` semi-modular Eurorack module is so much more than an envelope follower. There are 5 seperate effects circuits which are normally configured to act as a versitile envelope follower with seperate attack/decay knobs and ripple removal. However, each submodule can be bypassed in order to use it elsewhere in your patch!
 
-`ChaosControl© Disciples` provides the following submodules:
+`Sonic Athame™ Disciples` provides the following submodules:
 * Input Amplifier
   * Input Jack
     * HPF 0.02Hz
