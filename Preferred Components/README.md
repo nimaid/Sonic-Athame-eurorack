@@ -1,10 +1,10 @@
 # Sonic Athame™ Preferred Components Library
 <details><summary>Potentiometers</summary>
 <p>
-  | Description | Manufacturer | Mfg. Part # | Panel Height | Lip Height | Link(s) | 1x Price | Notes |
-  | :---------: | :----------: | :---------: | :----------: | :--------: | :-----: | :------: | :---: |
-  | Alpha 9mm Linear Flatted | Alpha (Taiwan)  | `RD901F-40-15F-BΩ` | 10mm | 5mm | [Mouser](https://mou.sr/3grnudD)<br>[Thonk](https://www.thonk.co.uk/shop/alpha-9mm-pots-dshaft/) | $4.41<br>$1.85 | Anti-rotation tab (removed on Thonk version)<br>Values for Ω: 10K, 100K |
-  | "Alpha" Style 9mm Linear Flatted | TT Electronics/BI | `P0915N-FC15BRΩ` | 10mm | 5mm | [DigiKey](https://www.digikey.com/short/zbdp2f)<br>[Mouser](https://mou.sr/3jWTyrG) | $1.36<br>$1.20 | Anti-rotation tab<br>Replaces Alpha `RD901F-40-15F-BΩ`<br>Values for Ω: 10K, 100K |
+| Description | Manufacturer | Mfg. Part # | Panel Height | Lip Height | Link(s) | 1x Price | Notes |
+| :---------: | :----------: | :---------: | :----------: | :--------: | :-----: | :------: | :---: |
+| Alpha 9mm Linear Flatted | Alpha (Taiwan)  | `RD901F-40-15F-BΩ` | 10mm | 5mm | [Mouser](https://mou.sr/3grnudD)<br>[Thonk](https://www.thonk.co.uk/shop/alpha-9mm-pots-dshaft/) | $4.41<br>$1.85 | Anti-rotation tab (removed on Thonk version)<br>Values for Ω: 10K, 100K |
+| "Alpha" Style 9mm Linear Flatted | TT Electronics/BI | `P0915N-FC15BRΩ` | 10mm | 5mm | [DigiKey](https://www.digikey.com/short/zbdp2f)<br>[Mouser](https://mou.sr/3jWTyrG) | $1.36<br>$1.20 | Anti-rotation tab<br>Replaces Alpha `RD901F-40-15F-BΩ`<br>Values for Ω: 10K, 100K |
 </p>
 </details>
 
