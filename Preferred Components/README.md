@@ -3,6 +3,6 @@
 
 ### [Preferred Components Library (Tables)](https://github.com/nimaid/Sonic-Athame-eurorack/blob/master/Preferred%20Components/PCL.md)
 
-### [EAGLE Library (Symbols + Footprints)](https://github.com/nimaid/Sonic-Athame-eurorack/blob/master/Preferred%20Components/ECAD/README.md)
+### [EAGLE Library (Symbols + Footprints)](https://github.com/nimaid/Sonic-Athame-eurorack/blob/master/Preferred%20Components/ECAD/)
 
-### [3D MCAD Models](https://github.com/nimaid/Sonic-Athame-eurorack/blob/master/Preferred%20Components/MCAD/README.md)
+### [3D MCAD Models](https://github.com/nimaid/Sonic-Athame-eurorack/blob/master/Preferred%20Components/MCAD/)
