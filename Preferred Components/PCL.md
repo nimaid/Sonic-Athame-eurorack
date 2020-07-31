@@ -45,6 +45,7 @@ Parts are breadboard compatible unless otherwise noted.
 | Audio | Texas Instruments | `OPA164x` | 1mV | 2pA | 20V/μs | `(V–)+0.2`, `(V+)–0.2` @ `Rₗ=10KΩ` | `4.5V ~ 36V`, `±2.25V ~ 18V` | [DigiKey](https://www.digikey.com/short/z5z3v7)<br>[Mouser](https://www.mouser.com/ProductDetail/Texas-Instruments/OPA1642AIDR?qs=%2Fqzd9s%252BcLd5XsvkIemKm8g%3D%3D#.XyRBTnZBpqk.link) | $2.09<br>$2.09 | SMD only<br>Various packages<br>Values for `x`: `1`, `2`, `4` |
 | Audio | Texas Instruments | `LM4562` | 100µV | 10nA | 20V/μs | Swing `±14.1` @ `Rₗ=10KΩ` & `VCC=±15V` | `±2.5V ~ 17V` | [DigiKey](https://www.digikey.com/short/z5zqbf)<br>[Mouser](https://www.mouser.com/ProductDetail/Texas-Instruments/LM4562NA-NOPB?qs=QbsRYf82W3Gc2w4DLq%252BZjw%3D%3D#.XyREeDlMmRA.link) | $1.64<br>$1.65 | Various packages<br>Dual op-amp |
 | Audio | Analog Devices Inc. | [`OP275`](https://www.analog.com/media/en/technical-documentation/data-sheets/OP275.pdf) | 1mV | 100nA | 22V/μs | Swing `±13.9V` @ `Rₗ=2KΩ` & `VCC=±15V` | `±4.5V ~ 22V` | [DigiKey](https://www.digikey.com/short/z5zjqh)<br>[Mouser](https://www.mouser.com/ProductDetail/Analog-Devices/OP275GPZ?qs=WIvQP4zGanhBjWhdN34Npg%3D%3D#.XyRP5GNHYBk.link) | $4.58<br>$4.58 | Various packages<br>Dual op-amp |
+| Audio | Analog Devices Inc. | [`OP285`](https://www.analog.com/media/en/technical-documentation/data-sheets/OP285.pdf) | mV | nA | V/μs |  |  | [DigiKey](https://www.digikey.com/short/z5zj9z)<br>[Mouser]() | $6.71<br>$ | SMD only |
 
 ## Logic ICs
 | Description | Manufacturer | Mfg. Part # | Link(s) | 1x Price | Notes |
