@@ -13,6 +13,7 @@ Parts are breadboard compatible unless otherwise noted.
 | "Alpha" Style 9mm Linear Flatted | TT Electronics/BI | `P0915N-FC15BRΩ` | 10mm | 5mm | [DigiKey](https://www.digikey.com/short/zbdp2f)<br>[Mouser](https://mou.sr/3jWTyrG) | $1.36<br>$1.20 | Anti-rotation tab<br>Replaces Alpha `RD901F-40-15F-BΩ`<br>Values for`Ω`: `10K`, `100K` |
 
 ## Eurorack Panel Switches
+### On-On Eurorack Panel Switches
 | Description | Manufacturer | Mfg. Part # | Panel Height | Lip Height | Link(s) | 1x Price | Notes |
 | :---------: | :----------: | :---------: | :----------: | :--------: | :-----: | :------: | :---: |
 | SPDT Toggle 0.1" | NKK Switches | `B12AP` | 9.6mm | 3.5mm | [DigiKey](https://www.digikey.com/short/z58hc0)<br>[Mouser](https://www.mouser.com/ProductDetail/NKK-Switches/B12AP?qs=ANFmI0Q3%2FCGXvpxz3x%2FfEw%3D%3D#.XyL2ISB3T3k.link) | $3.55<br>$3.35 | Anti-rotation tab<br>Only for prototyping |
