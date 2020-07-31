@@ -35,12 +35,12 @@ Parts are breadboard compatible unless otherwise noted.
 | Signal Diode | Misc. | `1N4148` | [DigiKey](https://www.digikey.com/short/zbdp78)<br>[Mouser](https://www.mouser.com/ProductDetail/ON-Semiconductor-Fairchild/1N4148TR?qs=i4Fj9T%2FoRm%252BOzV8sfXrhvQ%3D%3D#.XyL3Vj1SOb8.link) | $0.10<br>$0.10 | Various packages |
 
 ## Op-Amps
-| Description | Manufacturer | Mfg. Part # | Input Offset Voltage | Input Bias Current | Slew Rate | Link(s) | 1x Price | Notes |
-| :---------: | :----------: | :---------: | :------------------: | :----------------: | :-------: | :-----: | :------: | :---: |
-| General Purpose | Texas Instruments | `TL07xC` | 3mV | 65pA | 13V/μs | [DigiKey](https://www.digikey.com/short/z5pjq5)<br>[Mouser](https://www.mouser.com/ProductDetail/Texas-Instruments/TL074CN?qs=AMJt07B76uv7dLYnj7iLiQ%3D%3D#.XyN2trNhhdo.link) | $0.65<br>$0.65 | Various packages<br>Values for `x`: `1`, `2`, `4` |
-| General Purpose | Texas Instruments | `TL08xC` | 3mV | 30pA | 13V/μs | [DigiKey](https://www.digikey.com/short/z5pjq9)<br>[Mouser](https://www.mouser.com/ProductDetail/Texas-Instruments/TL084CN?qs=q2XTDbzbm6ANF36GVAxPiQ%3D%3D#.XyN3JOw5b1I.link) | $0.55<br>$0.55 | Various packages<br>Values for `x`: `1`, `2`, `4` |
-| General Purpose | Texas Instruments | `NE5532` | 500µV | 200nA | 9V/μs | [DigiKey](https://www.digikey.com/short/z5pjzv)<br>[Mouser](https://www.mouser.com/ProductDetail/Texas-Instruments/NE5532P?qs=3pnr37ZAbK%252Bre0OAHDmGsw%3D%3D#.XyN3bNGNpRw.link) | $0.56<br>$0.57 | Various packages<br>Dual Op-Amp |
-| Audio | Texas Instruments | `OPA2134` | 500µV | 6pA | 20V/μs | [DigiKey](https://www.digikey.com/short/z5pj59)<br>[Mouser](https://www.mouser.com/ProductDetail/Texas-Instruments/OPA2134PA?qs=7nS3%252BbEUL6uyT34OzaiM4g%3D%3D#.XyN3ssGQOMY.link) | $4.79<br>$4.80 | Various packages<br>Dual Op-Amp |
+| Description | Manufacturer | Mfg. Part # | Input Offset Voltage | Input Bias Current | Slew Rate | Operating Voltage | Link(s) | 1x Price | Notes |
+| :---------: | :----------: | :---------: | :------------------: | :----------------: | :-------: | :---------------: | :-----: | :------: | :---: |
+| General Purpose | Texas Instruments | `TL07xC` | 3mV | 65pA | 13V/μs | `±5V ~ 15V` | [DigiKey](https://www.digikey.com/short/z5pjq5)<br>[Mouser](https://www.mouser.com/ProductDetail/Texas-Instruments/TL074CN?qs=AMJt07B76uv7dLYnj7iLiQ%3D%3D#.XyN2trNhhdo.link) | $0.65<br>$0.65 | Various packages<br>Values for `x`: `1`, `2`, `4` |
+| General Purpose | Texas Instruments | `TL08xC` | 3mV | 30pA | 13V/μs | `7V ~ 36V`, `±3.5V ~ 18V` | [DigiKey](https://www.digikey.com/short/z5pjq9)<br>[Mouser](https://www.mouser.com/ProductDetail/Texas-Instruments/TL084CN?qs=q2XTDbzbm6ANF36GVAxPiQ%3D%3D#.XyN3JOw5b1I.link) | $0.55<br>$0.55 | Various packages<br>Values for `x`: `1`, `2`, `4` |
+| General Purpose | Texas Instruments | `NE5532` | 500µV | 200nA | 9V/μs | `±5V ~ 15V` | [DigiKey](https://www.digikey.com/short/z5pjzv)<br>[Mouser](https://www.mouser.com/ProductDetail/Texas-Instruments/NE5532P?qs=3pnr37ZAbK%252Bre0OAHDmGsw%3D%3D#.XyN3bNGNpRw.link) | $0.56<br>$0.57 | Various packages<br>Dual Op-Amp |
+| Audio | Texas Instruments | `OPA2134` | 500µV | 6pA | 20V/μs | `5V ~ 36V`, `±2.5V ~ 18V` | [DigiKey](https://www.digikey.com/short/z5pj59)<br>[Mouser](https://www.mouser.com/ProductDetail/Texas-Instruments/OPA2134PA?qs=7nS3%252BbEUL6uyT34OzaiM4g%3D%3D#.XyN3ssGQOMY.link) | $4.79<br>$4.80 | Various packages<br>Dual Op-Amp |
 
 
 ## Logic ICs
