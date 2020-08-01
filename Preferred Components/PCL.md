@@ -89,6 +89,7 @@ Parts are breadboard compatible unless otherwise noted.
 
 | Use Case | Value | Link(s) | 100x Price | Notes |
 | :------: | :---: | :-----: | :--------: | :---: |
+| Input | `100KΩ` | [DigiKey](https://www.digikey.com/short/z5zvnw)<br>[Mouser](https://www.mouser.com/ProductDetail/Yageo/MFR-25FBF52-100K?qs=oAGoVhmvjhxAqZbyE%2Fs9bg%3D%3D#.XyTTxv2kfpY.link) | $2.65<br>$2.00 |  |
 | Output | `1KΩ` | [DigiKey](https://www.digikey.com/short/z5zv5m)<br>[Mouser](https://www.mouser.com/ProductDetail/KOA-Speer/MF1-4DCT26A1001F?qs=wVGympPcmnD9Oav1Pii0SQ%3D%3D#.XyTQpF_FNL0.link) | $2.65<br>$1.00 |  |
 
 </p>
