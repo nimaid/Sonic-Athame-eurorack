@@ -1,4 +1,4 @@
-# *Sonic Athame™* Preferred Components Library
+# *Sonic Athame™* Full Components Library
 Parts are breadboard compatible unless otherwise noted.
 
 
