@@ -77,14 +77,22 @@ Parts are breadboard compatible unless otherwise noted.
 <details><summary>Diodes</summary>
 <p>
 
-| Use Case | Manufacturer | Mfg. Part # | Link(s) | 1x Price | Notes |
-| :----: | :----------: | :---------: | :-----: | :------: | :---: |
-| Signal | Misc. | `1N4148` | [DigiKey](https://www.digikey.com/short/zbdp78)<br>[Mouser](https://www.mouser.com/ProductDetail/ON-Semiconductor-Fairchild/1N4148TR?qs=i4Fj9T%2FoRm%252BOzV8sfXrhvQ%3D%3D#.XyL3Vj1SOb8.link) | $0.10<br>$0.10 | Various packages |
+| Use Case | Part # | Link(s) | 100x Price | Notes |
+| :------: | :----: | :-----: | :--------: | :---: |
+| Signal | `1N4148` | [DigiKey](https://www.digikey.com/short/zbdp78)<br>[Mouser](https://www.mouser.com/ProductDetail/ON-Semiconductor-Fairchild/1N4148TR?qs=i4Fj9T%2FoRm%252BOzV8sfXrhvQ%3D%3D#.XyL3Vj1SOb8.link) | $2.37<br>$1.80 | Various packages |
 
 </p>
 </details>
 
+<details><summary>Resistors</summary>
+<p>
 
+| Use Case | Value | Link(s) | 100x Price | Notes |
+| :------: | :---: | :-----: | :--------: | :---: |
+| Output | `1KΩ` | [DigiKey](https://www.digikey.com/short/z5zv5m)<br>[Mouser](https://www.mouser.com/ProductDetail/KOA-Speer/MF1-4DCT26A1001F?qs=wVGympPcmnD9Oav1Pii0SQ%3D%3D#.XyTQpF_FNL0.link) | $2.65<br>$1.00 |  |
+
+</p>
+</details>
 
 ## Op-Amps
 <details><summary>General Purpose</summary>
