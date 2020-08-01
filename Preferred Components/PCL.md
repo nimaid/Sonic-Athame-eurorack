@@ -1,10 +1,15 @@
 # *Sonic Athame™* Preferred Components Library
 Parts are breadboard compatible unless otherwise noted.
 
+
 ## Eurorack Panel Connectors
+<details><summary>Eurorack Panel Connectors</summary>
+<p>
 | Description | Manufacturer | Mfg. Part # | Panel Height | Lip Height | Link(s) | 1x Price | Notes |
 | :---------: | :----------: | :---------: | :----------: | :--------: | :-----: | :------: | :---: |
 | "Thonkiconn" Style 3.5mm Vertical Mono | QingPu | `WQP-PJ398SM` | 10mm | 4.5mm | [QuingPu](http://www.qingpu-electronics.com/en/products/WQP-PJ398SM-362.html)<br>[Thonk](https://www.thonk.co.uk/shop/3-5mm-jacks/) | $0.15<br>$0.52 | Other part numbers: `WQP-WQP518MA`, `PJ398SM`<br>No MOQ for QingPu |
+</p>
+</details>
 
 ## Eurorack Panel Potentiometers
 | Description | Manufacturer | Mfg. Part # | Panel Height | Lip Height | Link(s) | 1x Price | Notes |
