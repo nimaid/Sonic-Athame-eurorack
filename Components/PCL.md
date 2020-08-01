@@ -125,3 +125,28 @@ Parts are breadboard compatible unless otherwise noted.
 
 </p>
 </details>
+
+
+
+## Misc. IC's
+<details><summary>Logic</summary>
+<p>
+
+| Description | Manufacturer | Mfg. Part # | Link(s) | 1x Price | Notes |
+| :---------: | :----------: | :---------: | :-----: | :------: | :---: |
+| Quad Comparator | Texas Instruments | `LM339`‎ | [DigiKey](https://www.digikey.com/short/z5p8jm)<br>[Mouser](https://www.mouser.com/ProductDetail/Texas-Instruments/LM339N-NOPB?qs=X1J7HmVL2ZF1segfOShF0A%3D%3D#.XyN4bjoPaP4.link) | $0.46<br>$0.97 | Various packages |
+
+</p>
+</details>
+
+
+
+<details><summary>Switches</summary>
+<p>
+
+| Description | Manufacturer | Mfg. Part # | Link(s) | 1x Price | Notes |
+| :---------: | :----------: | :---------: | :-----: | :------: | :---: |
+| Quad Analog Audio Switch | Misc. | `4066` | [DigiKey](https://www.digikey.com/short/zbdp39)<br>[Mouser](https://www.mouser.com/ProductDetail/Texas-Instruments/SN74HC4066N?qs=YhsVCygOPE1gsJI4%2FXFoTg%3D%3D#.XyL3nkkfVVc.link) | $0.50<br>$0.51 | Various packages |
+
+</p>
+</details>
