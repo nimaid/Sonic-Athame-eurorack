@@ -73,7 +73,19 @@ Parts are breadboard compatible unless otherwise noted.
 
 
 
-## Basic Components
+## General Components
+<details><summary>Connectors</summary>
+<p>
+
+| Description | Manufacturer | Mfg. Part # | Link(s) | 1x Price | Notes |
+| :---------: | :----------: | :---------: | :-----: | :------: | :---: |
+| Screw Terminal 0.1" (2) | On Shore Technology Inc. | OSTVN02A150 | [DigitKey](https://www.digikey.com/short/z508t2) | $0.91 |  |
+| Screw Terminal 0.1" (3) | On Shore Technology Inc. | OSTVN03A150 | [DigitKey](https://www.digikey.com/short/z50837) | $1.03 |  |
+| Screw Terminal 0.1" (4) | On Shore Technology Inc. | OSTVN04A150 | [DigitKey](https://www.digikey.com/short/z5087v) | $1.38 |  |
+
+</p>
+</details>
+
 <details><summary>Diodes</summary>
 <p>
 
