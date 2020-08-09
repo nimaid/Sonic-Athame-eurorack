@@ -205,6 +205,30 @@
 <pad name="4" x="-1.27" y="1.27" drill="0.9" diameter="1.6764"/>
 <text x="0" y="3.175" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
 </package>
+<package name="HDRV10W64P254_2X5_1270X508X834B" urn="urn:adsk.eagle:footprint:22547276/3" library_version="12">
+<description>Double-row, 10-pin Pin Header (Male) Straight, 2.54 mm (0.10 in) row pitch, 2.54 mm (0.10 in) col pitch, 5.80 mm mating length, 12.70 X 5.08 X 8.34 mm body
+&lt;p&gt;Double-row (2X5), 10-pin Pin Header (Male) Straight package with 2.54 mm (0.10 in) row pitch, 2.54 mm (0.10 in) col pitch, 0.64 mm lead width, 3.10 mm tail length and 5.80 mm mating length with overall size 12.70 X 5.08 X 8.34 mm, pin pattern - clockwise from top left&lt;/p&gt;</description>
+<circle x="0" y="1.774" radius="0.25" width="0" layer="21"/>
+<wire x1="11.43" y1="-3.81" x2="-1.27" y2="-3.81" width="0.12" layer="21"/>
+<wire x1="-1.27" y1="-3.81" x2="-1.27" y2="1.27" width="0.12" layer="21"/>
+<wire x1="-1.27" y1="1.27" x2="11.43" y2="1.27" width="0.12" layer="21"/>
+<wire x1="11.43" y1="1.27" x2="11.43" y2="-3.81" width="0.12" layer="21"/>
+<wire x1="11.43" y1="-3.81" x2="-1.27" y2="-3.81" width="0.12" layer="51"/>
+<wire x1="-1.27" y1="-3.81" x2="-1.27" y2="1.27" width="0.12" layer="51"/>
+<wire x1="-1.27" y1="1.27" x2="11.43" y2="1.27" width="0.12" layer="51"/>
+<wire x1="11.43" y1="1.27" x2="11.43" y2="-3.81" width="0.12" layer="51"/>
+<pad name="1" x="0" y="0" drill="1.1051" diameter="1.7051" shape="square"/>
+<pad name="2" x="2.54" y="0" drill="1.1051" diameter="1.7051"/>
+<pad name="3" x="5.08" y="0" drill="1.1051" diameter="1.7051"/>
+<pad name="4" x="7.62" y="0" drill="1.1051" diameter="1.7051"/>
+<pad name="5" x="10.16" y="0" drill="1.1051" diameter="1.7051"/>
+<pad name="6" x="10.16" y="-2.54" drill="1.1051" diameter="1.7051"/>
+<pad name="7" x="7.62" y="-2.54" drill="1.1051" diameter="1.7051"/>
+<pad name="8" x="5.08" y="-2.54" drill="1.1051" diameter="1.7051"/>
+<pad name="9" x="2.54" y="-2.54" drill="1.1051" diameter="1.7051"/>
+<pad name="10" x="0" y="-2.54" drill="1.1051" diameter="1.7051"/>
+<text x="5.08" y="2.659" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+</package>
 </packages>
 <packages3d>
 <package3d name="OSTVN02A150" urn="urn:adsk.eagle:package:12594929/4" type="model" library_version="8">
@@ -224,6 +248,13 @@
 &lt;p&gt;Double-row (2X2), 4-pin Receptacle Header (Female) Straight package with 2.54 mm (0.10 in) pitch, 0.75 mm lead width, 3.20 mm tail length and 8.50 mm insulator length with overall size 5.58 X 5.08 X 8.50 mm, pin pattern - counter-clockwise from bottom left&lt;/p&gt;</description>
 <packageinstances>
 <packageinstance name="HDRVR4W75P254_2X2_558X508X850B"/>
+</packageinstances>
+</package3d>
+<package3d name="HDRV10W64P254_2X5_1270X508X834B" urn="urn:adsk.eagle:package:22547274/3" type="model" library_version="12">
+<description>Double-row, 10-pin Pin Header (Male) Straight, 2.54 mm (0.10 in) row pitch, 2.54 mm (0.10 in) col pitch, 5.80 mm mating length, 12.70 X 5.08 X 8.34 mm body
+&lt;p&gt;Double-row (2X5), 10-pin Pin Header (Male) Straight package with 2.54 mm (0.10 in) row pitch, 2.54 mm (0.10 in) col pitch, 0.64 mm lead width, 3.10 mm tail length and 5.80 mm mating length with overall size 12.70 X 5.08 X 8.34 mm, pin pattern - clockwise from top left&lt;/p&gt;</description>
+<packageinstances>
+<packageinstance name="HDRV10W64P254_2X5_1270X508X834B"/>
 </packageinstances>
 </package3d>
 </packages3d>
@@ -299,6 +330,30 @@
 <wire x1="-0.508" y1="0.508" x2="-0.508" y2="-0.508" width="0.254" layer="94" curve="-180"/>
 <wire x1="-0.508" y1="-2.032" x2="-0.508" y2="-3.048" width="0.254" layer="94" curve="-180"/>
 <wire x1="-0.508" y1="-4.572" x2="-0.508" y2="-5.588" width="0.254" layer="94" curve="-180"/>
+</symbol>
+<symbol name="M-10" urn="urn:adsk.eagle:symbol:22547278/1" library_version="11">
+<text x="-3.429" y="12.192" size="1.778" layer="95">&gt;NAME</text>
+<text x="-3.429" y="-15.748" size="1.778" layer="95">&gt;VALUE</text>
+<pin name="3" x="5.08" y="5.08" visible="pin" length="middle" direction="pas" rot="R180"/>
+<pin name="2" x="5.08" y="7.62" visible="pin" length="middle" direction="pas" rot="R180"/>
+<pin name="1" x="5.08" y="10.16" visible="pin" length="middle" direction="pas" rot="R180"/>
+<pin name="4" x="5.08" y="2.54" visible="pin" length="middle" direction="pas" rot="R180"/>
+<pin name="5" x="5.08" y="0" visible="pin" length="middle" direction="pas" rot="R180"/>
+<pin name="6" x="5.08" y="-2.54" visible="pin" length="middle" direction="pas" rot="R180"/>
+<pin name="7" x="5.08" y="-5.08" visible="pin" length="middle" direction="pas" rot="R180"/>
+<pin name="8" x="5.08" y="-7.62" visible="pin" length="middle" direction="pas" rot="R180"/>
+<pin name="9" x="5.08" y="-10.16" visible="pin" length="middle" direction="pas" rot="R180"/>
+<pin name="10" x="5.08" y="-12.7" visible="pin" length="middle" direction="pas" rot="R180"/>
+<wire x1="0" y1="10.16" x2="-1.27" y2="10.16" width="0.508" layer="94"/>
+<wire x1="0" y1="7.62" x2="-1.27" y2="7.62" width="0.508" layer="94"/>
+<wire x1="0" y1="5.08" x2="-1.27" y2="5.08" width="0.508" layer="94"/>
+<wire x1="0" y1="2.54" x2="-1.27" y2="2.54" width="0.508" layer="94"/>
+<wire x1="0" y1="0" x2="-1.27" y2="0" width="0.508" layer="94"/>
+<wire x1="0" y1="-2.54" x2="-1.27" y2="-2.54" width="0.508" layer="94"/>
+<wire x1="0" y1="-5.08" x2="-1.27" y2="-5.08" width="0.508" layer="94"/>
+<wire x1="0" y1="-7.62" x2="-1.27" y2="-7.62" width="0.508" layer="94"/>
+<wire x1="0" y1="-10.16" x2="-1.27" y2="-10.16" width="0.508" layer="94"/>
+<wire x1="0" y1="-12.7" x2="-1.27" y2="-12.7" width="0.508" layer="94"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -379,6 +434,34 @@
 </device>
 </devices>
 </deviceset>
+<deviceset name="M20-9760546" urn="urn:adsk.eagle:component:22547279/3" prefix="J" library_version="12">
+<description>Tin</description>
+<gates>
+<gate name="G$1" symbol="M-10" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="HDRV10W64P254_2X5_1270X508X834B">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="10" pad="10"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
+<connect gate="G$1" pin="4" pad="4"/>
+<connect gate="G$1" pin="5" pad="5"/>
+<connect gate="G$1" pin="6" pad="6"/>
+<connect gate="G$1" pin="7" pad="7"/>
+<connect gate="G$1" pin="8" pad="8"/>
+<connect gate="G$1" pin="9" pad="9"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:22547274/3"/>
+</package3dinstances>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
 </devicesets>
 </library>
 </libraries>
@@ -401,6 +484,8 @@
 <part name="J4" library="SonicAthame" library_urn="urn:adsk.eagle:library:22327399" deviceset="M20-9760246" device="" package3d_urn="urn:adsk.eagle:package:22546886/2"/>
 <part name="J5" library="SonicAthame" library_urn="urn:adsk.eagle:library:22327399" deviceset="HEADER-2X2-F-8.5" device="" package3d_urn="urn:adsk.eagle:package:10700690/6"/>
 <part name="J6" library="SonicAthame" library_urn="urn:adsk.eagle:library:22327399" deviceset="HEADER-2X2-F-8.5" device="" package3d_urn="urn:adsk.eagle:package:10700690/6"/>
+<part name="J7" library="SonicAthame" library_urn="urn:adsk.eagle:library:22327399" deviceset="M20-9760546" device="" package3d_urn="urn:adsk.eagle:package:22547274/3"/>
+<part name="J8" library="SonicAthame" library_urn="urn:adsk.eagle:library:22327399" deviceset="M20-9760546" device="" package3d_urn="urn:adsk.eagle:package:22547274/3"/>
 </parts>
 <sheets>
 <sheet>
@@ -438,6 +523,14 @@
 <instance part="J6" gate="G$1" x="200.66" y="137.16" smashed="yes" rot="MR270">
 <attribute name="NAME" x="196.088" y="140.589" size="1.778" layer="95" rot="MR270"/>
 <attribute name="VALUE" x="207.391" y="140.208" size="1.778" layer="95" rot="MR180"/>
+</instance>
+<instance part="J7" gate="G$1" x="246.38" y="144.78" smashed="yes">
+<attribute name="NAME" x="242.951" y="156.972" size="1.778" layer="95"/>
+<attribute name="VALUE" x="242.951" y="129.032" size="1.778" layer="95"/>
+</instance>
+<instance part="J8" gate="G$1" x="264.16" y="144.78" smashed="yes">
+<attribute name="NAME" x="260.731" y="156.972" size="1.778" layer="95"/>
+<attribute name="VALUE" x="260.731" y="129.032" size="1.778" layer="95"/>
 </instance>
 </instances>
 <busses>

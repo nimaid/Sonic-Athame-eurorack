@@ -156,6 +156,7 @@
 <layer number="255" name="routoute" color="7" fill="1" visible="yes" active="yes"/>
 </layers>
 <board>
+<fusionsync huburn="a.cGVyc29uYWw6dWUyZGY0M2Ex" projecturn="a.cGVyc29uYWw6dWUyZGY0M2ExIzIwMjAwODA5MzIyMjM2MzA2" f3durn="urn:adsk.wipprod:dm.lineage:8bV4JsZyTt2S_TpEzaT6BQ" pcbguid="4c22cf43-8bb7-44e0-a502-46a03c390e82" lastpulledtime="" lastsyncedchangeguid="9053d6ea-8d79-496a-2f8d-0371e0f7fa5f"/>
 <plain>
 <circle x="60.96" y="85.09" radius="0.381" width="0.635" layer="49"/>
 <circle x="58.42" y="85.09" radius="0.381" width="0.635" layer="49"/>
@@ -177,16 +178,16 @@
 <circle x="40.64" y="82.55" radius="0.381" width="0.635" layer="49"/>
 <circle x="38.1" y="82.55" radius="0.381" width="0.635" layer="49"/>
 <circle x="66.04" y="82.55" radius="0.381" width="0.635" layer="49"/>
-<circle x="60.96" y="80.01" radius="0.381" width="0.635" layer="25"/>
-<circle x="58.42" y="80.01" radius="0.381" width="0.635" layer="25"/>
-<circle x="55.88" y="80.01" radius="0.381" width="0.635" layer="25"/>
-<circle x="63.5" y="80.01" radius="0.381" width="0.635" layer="25"/>
-<circle x="48.26" y="80.01" radius="0.381" width="0.635" layer="25"/>
-<circle x="45.72" y="80.01" radius="0.381" width="0.635" layer="25"/>
-<circle x="43.18" y="80.01" radius="0.381" width="0.635" layer="25"/>
-<circle x="40.64" y="80.01" radius="0.381" width="0.635" layer="25"/>
-<circle x="38.1" y="80.01" radius="0.381" width="0.635" layer="25"/>
-<circle x="66.04" y="80.01" radius="0.381" width="0.635" layer="25"/>
+<circle x="60.96" y="80.01" radius="0.381" width="0.635" layer="49"/>
+<circle x="58.42" y="80.01" radius="0.381" width="0.635" layer="49"/>
+<circle x="55.88" y="80.01" radius="0.381" width="0.635" layer="49"/>
+<circle x="63.5" y="80.01" radius="0.381" width="0.635" layer="49"/>
+<circle x="48.26" y="80.01" radius="0.381" width="0.635" layer="49"/>
+<circle x="45.72" y="80.01" radius="0.381" width="0.635" layer="49"/>
+<circle x="43.18" y="80.01" radius="0.381" width="0.635" layer="49"/>
+<circle x="40.64" y="80.01" radius="0.381" width="0.635" layer="49"/>
+<circle x="38.1" y="80.01" radius="0.381" width="0.635" layer="49"/>
+<circle x="66.04" y="80.01" radius="0.381" width="0.635" layer="49"/>
 <circle x="60.96" y="77.47" radius="0.381" width="0.635" layer="49"/>
 <circle x="58.42" y="77.47" radius="0.381" width="0.635" layer="49"/>
 <circle x="55.88" y="77.47" radius="0.381" width="0.635" layer="49"/>
@@ -568,13 +569,11 @@
 <wire x1="69.596" y1="89.281" x2="69.596" y2="7.239" width="0.1524" layer="49" style="shortdash"/>
 <wire x1="34.544" y1="89.281" x2="34.544" y2="7.239" width="0.1524" layer="49" style="shortdash"/>
 <text x="71.628" y="88.392" size="3.81" layer="25" align="center">+</text>
-<text x="76.708" y="88.392" size="5.08" layer="25" align="center">﹣</text>
 <text x="71.628" y="9.652" size="3.81" layer="49" align="center">+</text>
 <text x="76.708" y="9.652" size="5.08" layer="49" align="center">﹣</text>
 <text x="27.686" y="9.652" size="3.81" layer="49" align="center">+</text>
 <text x="32.766" y="9.652" size="5.08" layer="49" align="center">﹣</text>
 <text x="27.686" y="88.392" size="3.81" layer="25" align="center">+</text>
-<text x="32.766" y="88.392" size="5.08" layer="25" align="center">﹣</text>
 <text x="67.31" y="48.26" size="1.27" layer="49" ratio="7" distance="100" align="center-left">1
 2
 3
@@ -635,16 +634,16 @@
 28
 29
 30</text>
-<text x="38.1" y="87.63" size="1.27" layer="25" ratio="7" distance="100" align="center">a</text>
-<text x="40.64" y="87.63" size="1.27" layer="25" ratio="7" distance="100" align="center">b</text>
-<text x="43.18" y="87.63" size="1.27" layer="25" ratio="7" distance="100" align="center">c</text>
-<text x="45.72" y="87.63" size="1.27" layer="25" ratio="7" distance="100" align="center">d</text>
-<text x="48.26" y="87.63" size="1.27" layer="25" ratio="7" distance="100" align="center">e</text>
-<text x="55.88" y="87.63" size="1.27" layer="25" ratio="7" distance="100" align="center">f</text>
-<text x="58.42" y="87.63" size="1.27" layer="25" ratio="7" distance="100" align="center">g</text>
-<text x="60.96" y="87.63" size="1.27" layer="25" ratio="7" distance="100" align="center">h</text>
-<text x="63.5" y="87.63" size="1.27" layer="25" ratio="7" distance="100" align="center">i</text>
-<text x="66.04" y="87.63" size="1.27" layer="25" ratio="7" distance="100" align="center">j</text>
+<text x="38.1" y="87.63" size="1.27" layer="49" ratio="7" distance="100" align="center">a</text>
+<text x="40.64" y="87.63" size="1.27" layer="49" ratio="7" distance="100" align="center">b</text>
+<text x="43.18" y="87.63" size="1.27" layer="49" ratio="7" distance="100" align="center">c</text>
+<text x="45.72" y="87.63" size="1.27" layer="49" ratio="7" distance="100" align="center">d</text>
+<text x="48.26" y="87.63" size="1.27" layer="49" ratio="7" distance="100" align="center">e</text>
+<text x="55.88" y="87.63" size="1.27" layer="49" ratio="7" distance="100" align="center">f</text>
+<text x="58.42" y="87.63" size="1.27" layer="49" ratio="7" distance="100" align="center">g</text>
+<text x="60.96" y="87.63" size="1.27" layer="49" ratio="7" distance="100" align="center">h</text>
+<text x="63.5" y="87.63" size="1.27" layer="49" ratio="7" distance="100" align="center">i</text>
+<text x="66.04" y="87.63" size="1.27" layer="49" ratio="7" distance="100" align="center">j</text>
 <text x="38.1" y="8.89" size="1.27" layer="49" ratio="7" distance="100" align="center">a</text>
 <text x="40.64" y="8.89" size="1.27" layer="49" ratio="7" distance="100" align="center">b</text>
 <text x="43.18" y="8.89" size="1.27" layer="49" ratio="7" distance="100" align="center">c</text>
@@ -721,12 +720,8 @@
 <wire x1="75.438" y1="83.82" x2="75.438" y2="12.7" width="0.1524" layer="49"/>
 <text x="40.64" y="91.44" size="2.54" layer="25" align="center">+</text>
 <text x="48.26" y="91.44" size="2.54" layer="25" align="center">+</text>
-<text x="48.26" y="93.98" size="3.81" layer="25" align="center">﹣</text>
 <text x="63.5" y="91.44" size="2.54" layer="25" align="center">+</text>
 <text x="55.88" y="91.44" size="2.54" layer="25" align="center">+</text>
-<text x="40.64" y="93.98" size="3.81" layer="25" align="center">﹣</text>
-<text x="55.88" y="93.98" size="3.81" layer="25" align="center">﹣</text>
-<text x="63.5" y="93.98" size="3.81" layer="25" align="center">﹣</text>
 <wire x1="26.67" y1="78.74" x2="25.4" y2="80.01" width="0.127" layer="20"/>
 <wire x1="25.4" y1="80.01" x2="25.4" y2="95.25" width="0.127" layer="20"/>
 <wire x1="78.74" y1="95.25" x2="78.74" y2="80.01" width="0.127" layer="20"/>
@@ -740,18 +735,18 @@
 <wire x1="26.67" y1="96.52" x2="77.47" y2="96.52" width="0.127" layer="20"/>
 <wire x1="77.47" y1="96.52" x2="78.74" y2="95.25" width="0.127" layer="20"/>
 <wire x1="33.02" y1="83.82" x2="34.29" y2="83.82" width="0.127" layer="25"/>
-<wire x1="34.29" y1="83.82" x2="36.83" y2="86.36" width="0.127" layer="25"/>
-<wire x1="36.83" y1="86.36" x2="36.83" y2="91.44" width="0.127" layer="25"/>
-<wire x1="36.83" y1="91.44" x2="38.1" y2="92.71" width="0.127" layer="25"/>
+<wire x1="34.29" y1="83.82" x2="35.56" y2="85.09" width="0.127" layer="25"/>
+<wire x1="35.56" y1="85.09" x2="35.56" y2="90.17" width="0.127" layer="25"/>
+<wire x1="35.56" y1="90.17" x2="38.1" y2="92.71" width="0.127" layer="25"/>
 <wire x1="38.1" y1="92.71" x2="40.64" y2="92.71" width="0.1524" layer="25"/>
 <wire x1="38.1" y1="92.71" x2="36.83" y2="93.98" width="0.1524" layer="25"/>
 <wire x1="36.83" y1="93.98" x2="34.29" y2="93.98" width="0.1524" layer="25"/>
 <wire x1="63.5" y1="92.71" x2="66.04" y2="92.71" width="0.1524" layer="25"/>
 <wire x1="66.04" y1="92.71" x2="67.31" y2="93.98" width="0.1524" layer="25"/>
 <wire x1="67.31" y1="93.98" x2="69.85" y2="93.98" width="0.1524" layer="25"/>
-<wire x1="66.04" y1="92.71" x2="67.31" y2="91.44" width="0.1524" layer="25"/>
-<wire x1="67.31" y1="91.44" x2="67.31" y2="86.36" width="0.1524" layer="25"/>
-<wire x1="67.31" y1="86.36" x2="69.85" y2="83.82" width="0.1524" layer="25"/>
+<wire x1="66.04" y1="92.71" x2="68.58" y2="90.17" width="0.1524" layer="25"/>
+<wire x1="68.58" y1="90.17" x2="68.58" y2="85.09" width="0.1524" layer="25"/>
+<wire x1="68.58" y1="85.09" x2="69.85" y2="83.82" width="0.1524" layer="25"/>
 <wire x1="69.85" y1="83.82" x2="71.12" y2="83.82" width="0.1524" layer="25"/>
 <wire x1="49.53" y1="93.98" x2="54.61" y2="93.98" width="0.1524" layer="25"/>
 <wire x1="54.61" y1="93.98" x2="54.102" y2="94.488" width="0.1524" layer="25"/>
@@ -764,6 +759,14 @@
 <wire x1="49.53" y1="91.44" x2="50.038" y2="91.948" width="0.1524" layer="25"/>
 <wire x1="49.53" y1="91.44" x2="50.038" y2="90.932" width="0.1524" layer="25"/>
 <text x="52.07" y="92.71" size="1.016" layer="25" ratio="7" distance="100" align="center">Jumpers</text>
+<text x="52.07" y="89.916" size="1.016" layer="25" ratio="7" distance="100" align="top-center">Sonic Athame™
+Wizard-Architect's Mana Dock</text>
+<text x="76.708" y="88.392" size="3.81" layer="25" align="center">-</text>
+<text x="32.766" y="88.392" size="3.81" layer="25" align="center">-</text>
+<text x="40.64" y="93.98" size="2.54" layer="25" align="center">-</text>
+<text x="48.26" y="93.98" size="2.54" layer="25" align="center">-</text>
+<text x="63.5" y="93.98" size="2.54" layer="25" align="center">-</text>
+<text x="55.88" y="93.98" size="2.54" layer="25" align="center">-</text>
 </plain>
 <libraries>
 <library name="SonicAthame" urn="urn:adsk.eagle:library:22327399">
@@ -814,6 +817,30 @@
 <pad name="4" x="-1.27" y="1.27" drill="0.9" diameter="1.6764"/>
 <text x="0" y="3.175" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
 </package>
+<package name="HDRV10W64P254_2X5_1270X508X834B" urn="urn:adsk.eagle:footprint:22547276/3" library_version="12">
+<description>Double-row, 10-pin Pin Header (Male) Straight, 2.54 mm (0.10 in) row pitch, 2.54 mm (0.10 in) col pitch, 5.80 mm mating length, 12.70 X 5.08 X 8.34 mm body
+&lt;p&gt;Double-row (2X5), 10-pin Pin Header (Male) Straight package with 2.54 mm (0.10 in) row pitch, 2.54 mm (0.10 in) col pitch, 0.64 mm lead width, 3.10 mm tail length and 5.80 mm mating length with overall size 12.70 X 5.08 X 8.34 mm, pin pattern - clockwise from top left&lt;/p&gt;</description>
+<circle x="0" y="1.774" radius="0.25" width="0" layer="21"/>
+<wire x1="11.43" y1="-3.81" x2="-1.27" y2="-3.81" width="0.12" layer="21"/>
+<wire x1="-1.27" y1="-3.81" x2="-1.27" y2="1.27" width="0.12" layer="21"/>
+<wire x1="-1.27" y1="1.27" x2="11.43" y2="1.27" width="0.12" layer="21"/>
+<wire x1="11.43" y1="1.27" x2="11.43" y2="-3.81" width="0.12" layer="21"/>
+<wire x1="11.43" y1="-3.81" x2="-1.27" y2="-3.81" width="0.12" layer="51"/>
+<wire x1="-1.27" y1="-3.81" x2="-1.27" y2="1.27" width="0.12" layer="51"/>
+<wire x1="-1.27" y1="1.27" x2="11.43" y2="1.27" width="0.12" layer="51"/>
+<wire x1="11.43" y1="1.27" x2="11.43" y2="-3.81" width="0.12" layer="51"/>
+<pad name="1" x="0" y="0" drill="1.1051" diameter="1.7051" shape="square"/>
+<pad name="2" x="2.54" y="0" drill="1.1051" diameter="1.7051"/>
+<pad name="3" x="5.08" y="0" drill="1.1051" diameter="1.7051"/>
+<pad name="4" x="7.62" y="0" drill="1.1051" diameter="1.7051"/>
+<pad name="5" x="10.16" y="0" drill="1.1051" diameter="1.7051"/>
+<pad name="6" x="10.16" y="-2.54" drill="1.1051" diameter="1.7051"/>
+<pad name="7" x="7.62" y="-2.54" drill="1.1051" diameter="1.7051"/>
+<pad name="8" x="5.08" y="-2.54" drill="1.1051" diameter="1.7051"/>
+<pad name="9" x="2.54" y="-2.54" drill="1.1051" diameter="1.7051"/>
+<pad name="10" x="0" y="-2.54" drill="1.1051" diameter="1.7051"/>
+<text x="5.08" y="2.659" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+</package>
 </packages>
 <packages3d>
 <package3d name="OSTVN02A150" urn="urn:adsk.eagle:package:12594929/4" type="model" library_version="8">
@@ -833,6 +860,13 @@
 &lt;p&gt;Double-row (2X2), 4-pin Receptacle Header (Female) Straight package with 2.54 mm (0.10 in) pitch, 0.75 mm lead width, 3.20 mm tail length and 8.50 mm insulator length with overall size 5.58 X 5.08 X 8.50 mm, pin pattern - counter-clockwise from bottom left&lt;/p&gt;</description>
 <packageinstances>
 <packageinstance name="HDRVR4W75P254_2X2_558X508X850B"/>
+</packageinstances>
+</package3d>
+<package3d name="HDRV10W64P254_2X5_1270X508X834B" urn="urn:adsk.eagle:package:22547274/3" type="model" library_version="12">
+<description>Double-row, 10-pin Pin Header (Male) Straight, 2.54 mm (0.10 in) row pitch, 2.54 mm (0.10 in) col pitch, 5.80 mm mating length, 12.70 X 5.08 X 8.34 mm body
+&lt;p&gt;Double-row (2X5), 10-pin Pin Header (Male) Straight package with 2.54 mm (0.10 in) row pitch, 2.54 mm (0.10 in) col pitch, 0.64 mm lead width, 3.10 mm tail length and 5.80 mm mating length with overall size 12.70 X 5.08 X 8.34 mm, pin pattern - clockwise from top left&lt;/p&gt;</description>
+<packageinstances>
+<packageinstance name="HDRV10W64P254_2X5_1270X508X834B"/>
 </packageinstances>
 </package3d>
 </packages3d>
@@ -1043,10 +1077,16 @@ design rules under a new name.</description>
 <attribute name="NAME" x="30.48" y="86.749" size="1.27" layer="26" rot="MR180" align="bottom-center"/>
 </element>
 <element name="J5" library="SonicAthame" library_urn="urn:adsk.eagle:library:22327399" package="HDRVR4W75P254_2X2_558X508X850B" package3d_urn="urn:adsk.eagle:package:10700690/6" value="HEADER-2X2-F-8.5" x="59.69" y="92.71" smashed="yes" rot="R180">
-<attribute name="NAME" x="59.69" y="89.535" size="1.27" layer="25" rot="R180" align="bottom-center"/>
+<attribute name="NAME" x="63.5" y="89.535" size="1.27" layer="25" rot="R180" align="bottom-center"/>
 </element>
 <element name="J6" library="SonicAthame" library_urn="urn:adsk.eagle:library:22327399" package="HDRVR4W75P254_2X2_558X508X850B" package3d_urn="urn:adsk.eagle:package:10700690/6" value="HEADER-2X2-F-8.5" x="44.45" y="92.71" smashed="yes" rot="R180">
-<attribute name="NAME" x="44.45" y="89.535" size="1.27" layer="25" rot="R180" align="bottom-center"/>
+<attribute name="NAME" x="40.64" y="89.535" size="1.27" layer="25" rot="R180" align="bottom-center"/>
+</element>
+<element name="J7" library="SonicAthame" library_urn="urn:adsk.eagle:library:22327399" package="HDRV10W64P254_2X5_1270X508X834B" package3d_urn="urn:adsk.eagle:package:22547274/3" value="M20-9760546" x="66.04" y="85.09" smashed="yes" rot="MR0">
+<attribute name="NAME" x="67.429" y="82.55" size="1.27" layer="26" rot="MR90" align="bottom-center"/>
+</element>
+<element name="J8" library="SonicAthame" library_urn="urn:adsk.eagle:library:22327399" package="HDRV10W64P254_2X5_1270X508X834B" package3d_urn="urn:adsk.eagle:package:22547274/3" value="M20-9760546" x="48.26" y="85.09" smashed="yes" rot="MR0">
+<attribute name="NAME" x="36.711" y="82.55" size="1.27" layer="26" rot="MR270" align="bottom-center"/>
 </element>
 </elements>
 <signals>
@@ -1129,6 +1169,11 @@ which will not be processed correctly with this version.
 Since Version 8.2, EAGLE supports online libraries. The ids
 of those online libraries will not be understood (or retained)
 with this version.
+</note>
+<note version="8.3" severity="warning">
+Since Version 8.3, EAGLE supports Fusion synchronisation.
+This feature will not be available in this version and saving
+the document will break the link to the Fusion PCB feature.
 </note>
 <note version="8.3" severity="warning">
 Since Version 8.3, EAGLE supports URNs for individual library
