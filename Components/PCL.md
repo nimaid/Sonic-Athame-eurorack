@@ -8,7 +8,7 @@ Parts are breadboard compatible unless otherwise noted.
 
 | Description | Manufacturer | Mfg. Part # | Panel Height | Lip Height | Link(s) | 1x Price | Notes |
 | :---------: | :----------: | :---------: | :----------: | :--------: | :-----: | :------: | :---: |
-| "Thonkiconn" Style 3.5mm Vertical Mono | QingPu | `WQP-PJ398SM` | 10mm | 4.5mm | [QuingPu](http://www.qingpu-electronics.com/en/products/WQP-PJ398SM-362.html)<br>[Thonk](https://www.thonk.co.uk/shop/3-5mm-jacks/) | $0.15<br>$0.52 | Other part numbers: `WQP-WQP518MA`, `PJ398SM`<br>No MOQ for QingPu |
+| ["Thonkiconn" Style 3.5mm Vertical Mono](https://www.thonk.co.uk/wp-content/uploads/2018/07/Thonkiconn_Jack_Datasheet-new.jpg) | QingPu | `WQP-PJ398SM` | 10mm | 4.5mm | [QuingPu](http://www.qingpu-electronics.com/en/products/WQP-PJ398SM-362.html)<br>[Thonk](https://www.thonk.co.uk/shop/3-5mm-jacks/) | $0.15<br>$0.52 | Other part numbers: `WQP-WQP518MA`, `PJ398SM`<br>No MOQ for QingPu |
 
 </p>
 </details>
@@ -20,7 +20,7 @@ Parts are breadboard compatible unless otherwise noted.
 
 | Description | Manufacturer | Mfg. Part # | Panel Height | Lip Height | Link(s) | 1x Price | Notes |
 | :---------: | :----------: | :---------: | :----------: | :--------: | :-----: | :------: | :---: |
-| Alpha 9mm Linear Flatted | Alpha (Taiwan)  | `RD901F-40-15F-BΩ` | 10mm | 5mm | [Mouser](https://mou.sr/3grnudD)<br>[Thonk](https://www.thonk.co.uk/shop/alpha-9mm-pots-dshaft/) | $4.41<br>$1.85 | Anti-rotation tab (removed on Thonk version)<br>Values for `Ω`: `10K`, `100K` |
+| [Alpha 9mm Linear Flatted](https://www.mouser.com/datasheet/2/13/D901F-1522333.pdf) | Alpha (Taiwan)  | `RD901F-40-15F-BΩ` | 10mm | 5mm | [Mouser](https://mou.sr/3grnudD)<br>[Thonk](https://www.thonk.co.uk/shop/alpha-9mm-pots-dshaft/) | $4.41<br>$1.85 | Anti-rotation tab (removed on Thonk version)<br>Values for `Ω`: `10K`, `100K` |
 | "Alpha" Style 9mm Linear Flatted | TT Electronics/BI | `P0915N-FC15BRΩ` | 10mm | 5mm | [DigiKey](https://www.digikey.com/short/zbdp2f)<br>[Mouser](https://mou.sr/3jWTyrG) | $1.36<br>$1.20 | Anti-rotation tab<br>Replaces Alpha `RD901F-40-15F-BΩ`<br>Values for`Ω`: `10K`, `100K` |
 
 </p>
