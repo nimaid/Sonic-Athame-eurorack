@@ -207,19 +207,19 @@ NS Package M08A</description>
 <rectangle x1="-0.88" y1="2" x2="-0.39" y2="3.1" layer="51"/>
 <rectangle x1="-2.15" y1="2" x2="-1.66" y2="3.1" layer="51"/>
 </package>
-<package name="EURO_POWER" urn="urn:adsk.eagle:footprint:26183620/1" library_version="20">
+<package name="EURO_POWER" urn="urn:adsk.eagle:footprint:26183620/2" library_version="27">
 <description>Double-row, 10-pin Pin Header (Male) Straight, 2.54 mm (0.10 in) row pitch, 2.54 mm (0.10 in) col pitch, 5.80 mm mating length, 12.70 X 5.08 X 8.34 mm body
 &lt;p&gt;Double-row (2X5), 10-pin Pin Header (Male) Straight package with 2.54 mm (0.10 in) row pitch, 2.54 mm (0.10 in) col pitch, 0.64 mm lead width, 3.10 mm tail length and 5.80 mm mating length with overall size 12.70 X 5.08 X 8.34 mm, pin pattern - clockwise from top left&lt;/p&gt;</description>
-<circle x="-5.08" y="3.044" radius="0.25" width="0" layer="21"/>
+<circle x="-5.08" y="3.044" radius="0.25" width="0" layer="27"/>
 <wire x1="6.35" y1="-2.54" x2="-6.35" y2="-2.54" width="0.12" layer="21"/>
-<wire x1="-6.35" y1="-2.54" x2="-6.35" y2="2.54" width="0.12" layer="21"/>
-<wire x1="-6.35" y1="2.54" x2="6.35" y2="2.54" width="0.12" layer="21"/>
+<wire x1="-6.35" y1="-2.54" x2="-6.35" y2="2.54" width="0.12" layer="27"/>
+<wire x1="-6.35" y1="2.54" x2="6.35" y2="2.54" width="0.12" layer="27"/>
 <wire x1="6.35" y1="2.54" x2="6.35" y2="-2.54" width="0.12" layer="21"/>
-<wire x1="6.35" y1="-2.54" x2="-6.35" y2="-2.54" width="0.12" layer="51"/>
-<wire x1="-6.35" y1="-2.54" x2="-6.35" y2="2.54" width="0.12" layer="51"/>
-<wire x1="-6.35" y1="2.54" x2="6.35" y2="2.54" width="0.12" layer="51"/>
+<wire x1="6.35" y1="-2.54" x2="-6.35" y2="-2.54" width="0.12" layer="27"/>
+<wire x1="-6.35" y1="-2.54" x2="-6.35" y2="2.54" width="0.12" layer="27"/>
+<wire x1="-6.35" y1="2.54" x2="6.35" y2="2.54" width="0.12" layer="27"/>
 <wire x1="6.35" y1="2.54" x2="6.35" y2="-2.54" width="0.12" layer="51"/>
-<wire x1="-6.731" y1="2.54" x2="-6.731" y2="-2.54" width="0.254" layer="21"/>
+<wire x1="-6.731" y1="2.54" x2="-6.731" y2="-2.54" width="0.254" layer="27"/>
 <pad name="1" x="-5.08" y="1.27" drill="1.1051" diameter="1.7051" shape="square"/>
 <pad name="2" x="-2.54" y="1.27" drill="1.1051" diameter="1.7051"/>
 <pad name="3" x="0" y="1.27" drill="1.1051" diameter="1.7051"/>
@@ -230,13 +230,13 @@ NS Package M08A</description>
 <pad name="8" x="0" y="-1.27" drill="1.1051" diameter="1.7051"/>
 <pad name="9" x="-2.54" y="-1.27" drill="1.1051" diameter="1.7051"/>
 <pad name="10" x="-5.08" y="-1.27" drill="1.1051" diameter="1.7051"/>
-<text x="0" y="2.659" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
-<text x="-6.985" y="0" size="1.016" layer="21" rot="R90" align="bottom-center">STRIPE</text>
-<text x="-5.08" y="-2.667" size="0.6096" layer="21" align="top-center">-12v</text>
-<text x="0" y="-2.667" size="0.6096" layer="21" align="top-center">GND</text>
-<text x="5.08" y="-2.667" size="0.6096" layer="21" align="top-center">+12v</text>
-<text x="2.54" y="-2.667" size="0.6096" layer="21" align="top-center">GND</text>
-<text x="-2.54" y="-2.667" size="0.6096" layer="21" align="top-center">GND</text>
+<text x="0" y="2.659" size="1.27" layer="27" align="bottom-center">&gt;NAME</text>
+<text x="-6.985" y="0" size="1.016" layer="27" rot="R90" align="bottom-center">STRIPE</text>
+<text x="-5.08" y="-2.667" size="0.6096" layer="27" align="top-center">-12v</text>
+<text x="0" y="-2.667" size="0.6096" layer="27" align="top-center">GND</text>
+<text x="5.08" y="-2.667" size="0.6096" layer="27" align="top-center">+12v</text>
+<text x="2.54" y="-2.667" size="0.6096" layer="27" align="top-center">GND</text>
+<text x="-2.54" y="-2.667" size="0.6096" layer="27" align="top-center">GND</text>
 </package>
 <package name="ALPHA_POT_VERTICAL" urn="urn:adsk.eagle:footprint:22328180/1" library_version="23">
 <circle x="0" y="0" radius="2.54" width="0.2032" layer="21"/>
@@ -282,7 +282,7 @@ type 0207, grid 10 mm</description>
 <rectangle x1="3.175" y1="-0.3048" x2="4.0386" y2="0.3048" layer="21"/>
 <rectangle x1="-4.0386" y1="-0.3048" x2="-3.175" y2="0.3048" layer="21"/>
 </package>
-<package name="WQP_PJ_301M6" urn="urn:adsk.eagle:footprint:22328181/1" library_version="23">
+<package name="WQP_PJ_301M6" urn="urn:adsk.eagle:footprint:22328181/2" library_version="28">
 <circle x="0.01" y="-0.01" radius="2.9916" width="0.1016" layer="51"/>
 <circle x="0" y="0" radius="2.7906" width="0.1016" layer="51"/>
 <circle x="0" y="0" radius="2.0602" width="0.1016" layer="51"/>
@@ -311,9 +311,9 @@ type 0207, grid 10 mm</description>
 <wire x1="1" y1="4.5" x2="-1" y2="4.5" width="0.1016" layer="51"/>
 <wire x1="-1" y1="4.5" x2="-1" y2="6" width="0.1016" layer="51"/>
 <pad name="P1" x="0" y="-5.715" drill="1.016" diameter="1.778" shape="octagon"/>
-<pad name="P2" x="0" y="-3.175" drill="1.016" diameter="1.778" shape="octagon"/>
-<pad name="P3" x="0" y="4.445" drill="1.016" diameter="1.778" shape="octagon"/>
-<text x="4.5" y="-5" size="1.27" layer="25" rot="R180">&gt;NAME</text>
+<pad name="P2" x="0" y="-3.38" drill="1.016" diameter="1.778" shape="octagon"/>
+<pad name="P3" x="0" y="4.92" drill="1.016" diameter="1.778" shape="octagon"/>
+<text x="-4.5" y="6.27" size="1.27" layer="25">&gt;NAME</text>
 <hole x="0" y="0" drill="2.2"/>
 </package>
 <package name="C025-024X044" urn="urn:adsk.eagle:footprint:26183819/1" library_version="24">
@@ -422,7 +422,34 @@ body 7.6 x 5 mm, rectangle, grid 5.08 mm</description>
 <text x="4.191" y="-1.651" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
 <rectangle x1="0.254" y1="-1.27" x2="0.762" y2="1.27" layer="21"/>
 </package>
-<package name="TT2D5" urn="urn:adsk.eagle:footprint:26183887/1" library_version="26">
+<package name="TT2D5L_FLIP" urn="urn:adsk.eagle:footprint:26215120/1" library_version="30">
+<description>&lt;b&gt;ELECTROLYTIC CAPACITOR&lt;/b&gt;&lt;p&gt;
+diameter 5 mm, grid 2.54 mm</description>
+<wire x1="-2.54" y1="8.89" x2="2.54" y2="8.89" width="0.1524" layer="21" curve="-180"/>
+<wire x1="2.54" y1="8.89" x2="2.54" y2="1.651" width="0.1524" layer="21"/>
+<wire x1="-2.54" y1="8.89" x2="-2.54" y2="1.651" width="0.1524" layer="21"/>
+<wire x1="-1.905" y1="1.016" x2="1.905" y2="1.016" width="0.1524" layer="21"/>
+<wire x1="-2.54" y1="1.651" x2="-1.905" y2="1.016" width="0.1524" layer="21" curve="90"/>
+<wire x1="1.905" y1="1.016" x2="2.54" y2="1.651" width="0.1524" layer="21" curve="90"/>
+<wire x1="1.27" y1="2.54" x2="0.635" y2="2.54" width="0.1524" layer="21"/>
+<wire x1="0.635" y1="2.54" x2="0.635" y2="3.429" width="0.1524" layer="21"/>
+<wire x1="0.635" y1="3.429" x2="0.3048" y2="3.429" width="0.1524" layer="21"/>
+<wire x1="0.3048" y1="3.429" x2="0.3048" y2="1.651" width="0.1524" layer="21"/>
+<wire x1="0.3048" y1="1.651" x2="0.635" y2="1.651" width="0.1524" layer="21"/>
+<wire x1="0.635" y1="1.651" x2="0.635" y2="2.54" width="0.1524" layer="21"/>
+<wire x1="-0.381" y1="2.54" x2="-0.889" y2="2.54" width="0.1524" layer="21"/>
+<wire x1="1.905" y1="1.651" x2="1.143" y2="1.651" width="0.1524" layer="21"/>
+<wire x1="1.524" y1="1.27" x2="1.524" y2="2.032" width="0.1524" layer="21"/>
+<pad name="+" x="1.27" y="0" drill="0.8128" diameter="1.6002" shape="octagon"/>
+<pad name="-" x="-1.27" y="0" drill="0.8128" diameter="1.6002"/>
+<text x="-2.032" y="4.318" size="1.27" layer="25" ratio="10" rot="R90" align="top-left">&gt;NAME</text>
+<rectangle x1="-1.651" y1="0.635" x2="-0.889" y2="1.016" layer="51"/>
+<rectangle x1="0.889" y1="0.635" x2="1.651" y2="1.016" layer="51"/>
+<rectangle x1="0.889" y1="-0.127" x2="1.651" y2="0.635" layer="51"/>
+<rectangle x1="-1.651" y1="-0.127" x2="-0.889" y2="0.635" layer="51"/>
+<rectangle x1="-0.4318" y1="1.6002" x2="0" y2="3.4798" layer="21" rot="R180"/>
+</package>
+<package name="TT2D5" urn="urn:adsk.eagle:footprint:26183887/2" library_version="30">
 <description>&lt;b&gt;ELECTROLYTIC CAPACITOR&lt;/b&gt;&lt;p&gt;
 diameter 5 mm, grid 2.54 mm</description>
 <wire x1="-1.016" y1="0" x2="-0.508" y2="0" width="0.1524" layer="51"/>
@@ -438,10 +465,9 @@ diameter 5 mm, grid 2.54 mm</description>
 <pad name="-" x="1.27" y="0" drill="0.8128" shape="octagon"/>
 <pad name="+" x="-1.27" y="0" drill="0.8128"/>
 <text x="2.794" y="0" size="1.27" layer="25" ratio="10" align="center-left">&gt;NAME</text>
-<text x="-0.762" y="-2.159" size="0.9906" layer="21" ratio="12">TT</text>
 <rectangle x1="0.127" y1="-0.9398" x2="0.5588" y2="0.9398" layer="51"/>
 </package>
-<package name="TT2D5L" urn="urn:adsk.eagle:footprint:26183888/1" library_version="26">
+<package name="TT2D5L" urn="urn:adsk.eagle:footprint:26183888/2" library_version="30">
 <description>&lt;b&gt;ELECTROLYTIC CAPACITOR&lt;/b&gt;&lt;p&gt;
 diameter 5 mm, grid 2.54 mm</description>
 <wire x1="-2.54" y1="8.89" x2="2.54" y2="8.89" width="0.1524" layer="21" curve="-180"/>
@@ -462,8 +488,6 @@ diameter 5 mm, grid 2.54 mm</description>
 <pad name="-" x="1.27" y="0" drill="0.8128" diameter="1.6002" shape="octagon"/>
 <pad name="+" x="-1.27" y="0" drill="0.8128" diameter="1.6002"/>
 <text x="-2.032" y="4.318" size="1.27" layer="25" ratio="10" rot="R90" align="top-left">&gt;NAME</text>
-<text x="1.778" y="4.318" size="1.27" layer="27" ratio="10" rot="R90">&gt;VALUE</text>
-<text x="2.286" y="1.651" size="0.9906" layer="21" ratio="12" rot="R90">TT</text>
 <rectangle x1="-1.651" y1="0.635" x2="-0.889" y2="1.016" layer="51"/>
 <rectangle x1="0.889" y1="0.635" x2="1.651" y2="1.016" layer="51"/>
 <rectangle x1="0.889" y1="-0.127" x2="1.651" y2="0.635" layer="51"/>
@@ -485,14 +509,14 @@ NS Package M08A</description>
 <packageinstance name="SO08"/>
 </packageinstances>
 </package3d>
-<package3d name="EURO_POWER" urn="urn:adsk.eagle:package:26183621/2" type="model" library_version="20">
+<package3d name="EURO_POWER" urn="urn:adsk.eagle:package:26183621/3" type="model" library_version="27">
 <description>Double-row, 10-pin Pin Header (Male) Straight, 2.54 mm (0.10 in) row pitch, 2.54 mm (0.10 in) col pitch, 5.80 mm mating length, 12.70 X 5.08 X 8.34 mm body
 &lt;p&gt;Double-row (2X5), 10-pin Pin Header (Male) Straight package with 2.54 mm (0.10 in) row pitch, 2.54 mm (0.10 in) col pitch, 0.64 mm lead width, 3.10 mm tail length and 5.80 mm mating length with overall size 12.70 X 5.08 X 8.34 mm, pin pattern - clockwise from top left&lt;/p&gt;</description>
 <packageinstances>
 <packageinstance name="EURO_POWER"/>
 </packageinstances>
 </package3d>
-<package3d name="ALPHA_POT_VERTICAL" urn="urn:adsk.eagle:package:22328184/1" type="box" library_version="23">
+<package3d name="ALPHA_POT_VERTICAL" urn="urn:adsk.eagle:package:22328184/2" type="model" library_version="28">
 <packageinstances>
 <packageinstance name="ALPHA_POT_VERTICAL"/>
 </packageinstances>
@@ -504,23 +528,16 @@ type 0207, grid 10 mm</description>
 <packageinstance name="0207/10"/>
 </packageinstances>
 </package3d>
-<package3d name="WQP_PJ_301M6" urn="urn:adsk.eagle:package:22328185/1" type="box" library_version="23">
+<package3d name="WQP_PJ_301M6" urn="urn:adsk.eagle:package:22328185/3" type="model" library_version="28">
 <packageinstances>
 <packageinstance name="WQP_PJ_301M6"/>
 </packageinstances>
 </package3d>
-<package3d name="C025-024X044" urn="urn:adsk.eagle:package:26183826/1" type="box" library_version="24">
+<package3d name="C025-024X044" urn="urn:adsk.eagle:package:26183826/2" type="empty" library_version="30">
 <description>&lt;b&gt;CAPACITOR&lt;/b&gt;&lt;p&gt;
 grid 2.5 mm, outline 2.4 x 4.4 mm</description>
 <packageinstances>
 <packageinstance name="C025-024X044"/>
-</packageinstances>
-</package3d>
-<package3d name="C050-024X044" urn="urn:adsk.eagle:package:26183827/1" type="box" library_version="24">
-<description>&lt;b&gt;CAPACITOR&lt;/b&gt;&lt;p&gt;
-grid 5 mm, outline 2.4 x 4.4 mm</description>
-<packageinstances>
-<packageinstance name="C050-024X044"/>
 </packageinstances>
 </package3d>
 <package3d name="0207/2V" urn="urn:adsk.eagle:package:26183824/1" type="box" library_version="24">
@@ -544,14 +561,28 @@ body 7.6 x 5 mm, rectangle, grid 5.08 mm</description>
 <packageinstance name="B45181B"/>
 </packageinstances>
 </package3d>
-<package3d name="TT2D5" urn="urn:adsk.eagle:package:26183889/1" type="box" library_version="26">
+<package3d name="TT2D5L_FLIP" urn="urn:adsk.eagle:package:26215121/2" type="model" library_version="30">
+<description>&lt;b&gt;ELECTROLYTIC CAPACITOR&lt;/b&gt;&lt;p&gt;
+diameter 5 mm, grid 2.54 mm</description>
+<packageinstances>
+<packageinstance name="TT2D5L_FLIP"/>
+</packageinstances>
+</package3d>
+<package3d name="C050-024X044" urn="urn:adsk.eagle:package:26183827/3" type="empty" library_version="30">
+<description>&lt;b&gt;CAPACITOR&lt;/b&gt;&lt;p&gt;
+grid 5 mm, outline 2.4 x 4.4 mm</description>
+<packageinstances>
+<packageinstance name="C050-024X044"/>
+</packageinstances>
+</package3d>
+<package3d name="TT2D5" urn="urn:adsk.eagle:package:26183889/3" type="model" library_version="30">
 <description>&lt;b&gt;ELECTROLYTIC CAPACITOR&lt;/b&gt;&lt;p&gt;
 diameter 5 mm, grid 2.54 mm</description>
 <packageinstances>
 <packageinstance name="TT2D5"/>
 </packageinstances>
 </package3d>
-<package3d name="TT2D5L" urn="urn:adsk.eagle:package:26183890/1" type="box" library_version="26">
+<package3d name="TT2D5L" urn="urn:adsk.eagle:package:26183890/3" type="model" library_version="30">
 <description>&lt;b&gt;ELECTROLYTIC CAPACITOR&lt;/b&gt;&lt;p&gt;
 diameter 5 mm, grid 2.54 mm</description>
 <packageinstances>
@@ -793,7 +824,7 @@ diameter 5 mm, grid 2.54 mm</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="EURO_POWER" urn="urn:adsk.eagle:component:26183622/3" prefix="J" library_version="20">
+<deviceset name="EURO_POWER" urn="urn:adsk.eagle:component:26183622/4" prefix="J" library_version="27">
 <gates>
 <gate name="G$1" symbol="EURO_POWER" x="0" y="0"/>
 </gates>
@@ -805,7 +836,7 @@ diameter 5 mm, grid 2.54 mm</description>
 <connect gate="G$1" pin="GND" pad="2 3 4 7 8 9" route="any"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:26183621/2"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:26183621/3"/>
 </package3dinstances>
 <technologies>
 <technology name=""/>
@@ -852,7 +883,7 @@ diameter 5 mm, grid 2.54 mm</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="ALPHA_POT_VERTICAL" urn="urn:adsk.eagle:component:22328187/1" prefix="R" uservalue="yes" library_version="23">
+<deviceset name="ALPHA_POT_VERTICAL" urn="urn:adsk.eagle:component:22328187/2" prefix="R" uservalue="yes" library_version="28">
 <gates>
 <gate name="G$1" symbol="POT_US" x="0" y="0"/>
 </gates>
@@ -864,7 +895,7 @@ diameter 5 mm, grid 2.54 mm</description>
 <connect gate="G$1" pin="S" pad="P$2"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:22328184/1"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:22328184/2"/>
 </package3dinstances>
 <technologies>
 <technology name=""/>
@@ -913,7 +944,7 @@ diameter 5 mm, grid 2.54 mm</description>
 </pinmapping>
 </spice>
 </deviceset>
-<deviceset name="WQP-PJ398SM" urn="urn:adsk.eagle:component:22328186/1" prefix="J" library_version="23">
+<deviceset name="WQP-PJ398SM" urn="urn:adsk.eagle:component:22328186/2" prefix="J" library_version="28">
 <gates>
 <gate name="G$1" symbol="JACK-SWITCH-3" x="0" y="0"/>
 </gates>
@@ -925,7 +956,7 @@ diameter 5 mm, grid 2.54 mm</description>
 <connect gate="G$1" pin="3" pad="P3"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:22328185/1"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:22328185/3"/>
 </package3dinstances>
 <technologies>
 <technology name=""/>
@@ -933,7 +964,7 @@ diameter 5 mm, grid 2.54 mm</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="CAP_NONPOL" urn="urn:adsk.eagle:component:26183833/1" prefix="C" uservalue="yes" library_version="24">
+<deviceset name="CAP_NONPOL" urn="urn:adsk.eagle:component:26183833/2" prefix="C" uservalue="yes" library_version="30">
 <description>&lt;B&gt;CAPACITOR&lt;/B&gt;, European symbol</description>
 <gates>
 <gate name="G$1" symbol="CAP_NONPOL" x="0" y="0"/>
@@ -945,7 +976,7 @@ diameter 5 mm, grid 2.54 mm</description>
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:26183826/1"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:26183826/2"/>
 </package3dinstances>
 <technologies>
 <technology name="">
@@ -960,7 +991,7 @@ diameter 5 mm, grid 2.54 mm</description>
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:26183827/1"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:26183827/3"/>
 </package3dinstances>
 <technologies>
 <technology name="">
@@ -977,7 +1008,7 @@ diameter 5 mm, grid 2.54 mm</description>
 </pinmapping>
 </spice>
 </deviceset>
-<deviceset name="CAP_POL" urn="urn:adsk.eagle:component:26183832/3" prefix="C" uservalue="yes" library_version="26">
+<deviceset name="CAP_POL" urn="urn:adsk.eagle:component:26183832/5" prefix="C" uservalue="yes" library_version="30">
 <description>&lt;B&gt;POLARIZED CAPACITOR&lt;/B&gt;, American symbol</description>
 <gates>
 <gate name="G$1" symbol="CAP_POL" x="0" y="0"/>
@@ -1019,19 +1050,31 @@ diameter 5 mm, grid 2.54 mm</description>
 <connect gate="G$1" pin="-" pad="-"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:26183889/1"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:26183889/3"/>
 </package3dinstances>
 <technologies>
 <technology name=""/>
 </technologies>
 </device>
-<device name="LYTIC_H" package="TT2D5L">
+<device name="LYTIC_H_R" package="TT2D5L">
 <connects>
 <connect gate="G$1" pin="+" pad="+"/>
 <connect gate="G$1" pin="-" pad="-"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:26183890/1"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:26183890/3"/>
+</package3dinstances>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="LYTIC_H_L" package="TT2D5L_FLIP">
+<connects>
+<connect gate="G$1" pin="+" pad="+"/>
+<connect gate="G$1" pin="-" pad="-"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:26215121/2"/>
 </package3dinstances>
 <technologies>
 <technology name=""/>
@@ -1049,6 +1092,7 @@ diameter 5 mm, grid 2.54 mm</description>
 </library>
 </libraries>
 <attributes>
+<attribute name="TITLE" value="Elemental Growth"/>
 </attributes>
 <variantdefs>
 </variantdefs>
@@ -1058,37 +1102,40 @@ diameter 5 mm, grid 2.54 mm</description>
 </classes>
 <parts>
 <part name="U1" library="SonicAthame" library_urn="urn:adsk.eagle:library:22327399" deviceset="TL072" device="P" package3d_urn="urn:adsk.eagle:package:16409/2"/>
-<part name="FRAME1" library="SonicAthame" library_urn="urn:adsk.eagle:library:22327399" deviceset="FRAME_TABL_L" device=""/>
-<part name="J1" library="SonicAthame" library_urn="urn:adsk.eagle:library:22327399" deviceset="EURO_POWER" device="" package3d_urn="urn:adsk.eagle:package:26183621/2"/>
+<part name="FRAME1" library="SonicAthame" library_urn="urn:adsk.eagle:library:22327399" deviceset="FRAME_TABL_L" device="">
+<attribute name="DOCNUM" value=""/>
+<attribute name="TITLE" value=""/>
+</part>
+<part name="J1" library="SonicAthame" library_urn="urn:adsk.eagle:library:22327399" deviceset="EURO_POWER" device="" package3d_urn="urn:adsk.eagle:package:26183621/3"/>
 <part name="SUPPLY1" library="SonicAthame" library_urn="urn:adsk.eagle:library:22327399" deviceset="+12V" device=""/>
 <part name="SUPPLY2" library="SonicAthame" library_urn="urn:adsk.eagle:library:22327399" deviceset="-12V" device=""/>
 <part name="SUPPLY3" library="SonicAthame" library_urn="urn:adsk.eagle:library:22327399" deviceset="GND" device=""/>
 <part name="SUPPLY4" library="SonicAthame" library_urn="urn:adsk.eagle:library:22327399" deviceset="+12V" device=""/>
 <part name="SUPPLY5" library="SonicAthame" library_urn="urn:adsk.eagle:library:22327399" deviceset="-12V" device=""/>
-<part name="R1" library="SonicAthame" library_urn="urn:adsk.eagle:library:22327399" deviceset="ALPHA_POT_VERTICAL" device="VERTICAL" package3d_urn="urn:adsk.eagle:package:22328184/1" value="100k"/>
-<part name="R2" library="SonicAthame" library_urn="urn:adsk.eagle:library:22327399" deviceset="RESISTOR" device="" package3d_urn="urn:adsk.eagle:package:26183828/1" value="1k"/>
-<part name="R3" library="SonicAthame" library_urn="urn:adsk.eagle:library:22327399" deviceset="RESISTOR" device="" package3d_urn="urn:adsk.eagle:package:26183828/1" value="10k"/>
-<part name="R4" library="SonicAthame" library_urn="urn:adsk.eagle:library:22327399" deviceset="RESISTOR" device="" package3d_urn="urn:adsk.eagle:package:26183828/1" value="510"/>
+<part name="R1" library="SonicAthame" library_urn="urn:adsk.eagle:library:22327399" deviceset="ALPHA_POT_VERTICAL" device="VERTICAL" package3d_urn="urn:adsk.eagle:package:22328184/2" value="100k"/>
+<part name="R2" library="SonicAthame" library_urn="urn:adsk.eagle:library:22327399" deviceset="RESISTOR" device="0207/2V" package3d_urn="urn:adsk.eagle:package:26183824/1" value="1k"/>
+<part name="R3" library="SonicAthame" library_urn="urn:adsk.eagle:library:22327399" deviceset="RESISTOR" device="0207/2V" package3d_urn="urn:adsk.eagle:package:26183824/1" value="10k"/>
+<part name="R4" library="SonicAthame" library_urn="urn:adsk.eagle:library:22327399" deviceset="RESISTOR" device="0207/2V" package3d_urn="urn:adsk.eagle:package:26183824/1" value="510"/>
 <part name="SUPPLY6" library="SonicAthame" library_urn="urn:adsk.eagle:library:22327399" deviceset="GND" device=""/>
-<part name="J2" library="SonicAthame" library_urn="urn:adsk.eagle:library:22327399" deviceset="WQP-PJ398SM" device="6" package3d_urn="urn:adsk.eagle:package:22328185/1"/>
+<part name="J2" library="SonicAthame" library_urn="urn:adsk.eagle:library:22327399" deviceset="WQP-PJ398SM" device="6" package3d_urn="urn:adsk.eagle:package:22328185/3"/>
 <part name="SUPPLY7" library="SonicAthame" library_urn="urn:adsk.eagle:library:22327399" deviceset="GND" device=""/>
-<part name="J3" library="SonicAthame" library_urn="urn:adsk.eagle:library:22327399" deviceset="WQP-PJ398SM" device="6" package3d_urn="urn:adsk.eagle:package:22328185/1"/>
+<part name="J3" library="SonicAthame" library_urn="urn:adsk.eagle:library:22327399" deviceset="WQP-PJ398SM" device="6" package3d_urn="urn:adsk.eagle:package:22328185/3"/>
 <part name="SUPPLY8" library="SonicAthame" library_urn="urn:adsk.eagle:library:22327399" deviceset="GND" device=""/>
-<part name="R5" library="SonicAthame" library_urn="urn:adsk.eagle:library:22327399" deviceset="ALPHA_POT_VERTICAL" device="VERTICAL" package3d_urn="urn:adsk.eagle:package:22328184/1" value="10k"/>
-<part name="R6" library="SonicAthame" library_urn="urn:adsk.eagle:library:22327399" deviceset="RESISTOR" device="" package3d_urn="urn:adsk.eagle:package:26183828/1" value="1.1k"/>
-<part name="R7" library="SonicAthame" library_urn="urn:adsk.eagle:library:22327399" deviceset="RESISTOR" device="" package3d_urn="urn:adsk.eagle:package:26183828/1" value="10k"/>
-<part name="R8" library="SonicAthame" library_urn="urn:adsk.eagle:library:22327399" deviceset="RESISTOR" device="" package3d_urn="urn:adsk.eagle:package:26183828/1" value="510"/>
+<part name="R5" library="SonicAthame" library_urn="urn:adsk.eagle:library:22327399" deviceset="ALPHA_POT_VERTICAL" device="VERTICAL" package3d_urn="urn:adsk.eagle:package:22328184/2" value="10k"/>
+<part name="R6" library="SonicAthame" library_urn="urn:adsk.eagle:library:22327399" deviceset="RESISTOR" device="0207/2V" package3d_urn="urn:adsk.eagle:package:26183824/1" value="1.1k"/>
+<part name="R7" library="SonicAthame" library_urn="urn:adsk.eagle:library:22327399" deviceset="RESISTOR" device="0207/2V" package3d_urn="urn:adsk.eagle:package:26183824/1" value="10k"/>
+<part name="R8" library="SonicAthame" library_urn="urn:adsk.eagle:library:22327399" deviceset="RESISTOR" device="0207/2V" package3d_urn="urn:adsk.eagle:package:26183824/1" value="510"/>
 <part name="SUPPLY9" library="SonicAthame" library_urn="urn:adsk.eagle:library:22327399" deviceset="GND" device=""/>
-<part name="J4" library="SonicAthame" library_urn="urn:adsk.eagle:library:22327399" deviceset="WQP-PJ398SM" device="6" package3d_urn="urn:adsk.eagle:package:22328185/1"/>
+<part name="J4" library="SonicAthame" library_urn="urn:adsk.eagle:library:22327399" deviceset="WQP-PJ398SM" device="6" package3d_urn="urn:adsk.eagle:package:22328185/3"/>
 <part name="SUPPLY10" library="SonicAthame" library_urn="urn:adsk.eagle:library:22327399" deviceset="GND" device=""/>
-<part name="J5" library="SonicAthame" library_urn="urn:adsk.eagle:library:22327399" deviceset="WQP-PJ398SM" device="6" package3d_urn="urn:adsk.eagle:package:22328185/1"/>
+<part name="J5" library="SonicAthame" library_urn="urn:adsk.eagle:library:22327399" deviceset="WQP-PJ398SM" device="6" package3d_urn="urn:adsk.eagle:package:22328185/3"/>
 <part name="SUPPLY11" library="SonicAthame" library_urn="urn:adsk.eagle:library:22327399" deviceset="GND" device=""/>
-<part name="C3" library="SonicAthame" library_urn="urn:adsk.eagle:library:22327399" deviceset="CAP_NONPOL" device="025-024X044" package3d_urn="urn:adsk.eagle:package:26183826/1" value="100n"/>
-<part name="C4" library="SonicAthame" library_urn="urn:adsk.eagle:library:22327399" deviceset="CAP_NONPOL" device="025-024X044" package3d_urn="urn:adsk.eagle:package:26183826/1" value="100n"/>
+<part name="C3" library="SonicAthame" library_urn="urn:adsk.eagle:library:22327399" deviceset="CAP_NONPOL" device="025-024X044" package3d_urn="urn:adsk.eagle:package:26183826/2" value="100n"/>
+<part name="C4" library="SonicAthame" library_urn="urn:adsk.eagle:library:22327399" deviceset="CAP_NONPOL" device="025-024X044" package3d_urn="urn:adsk.eagle:package:26183826/2" value="100n"/>
 <part name="SUPPLY12" library="SonicAthame" library_urn="urn:adsk.eagle:library:22327399" deviceset="GND" device=""/>
 <part name="SUPPLY13" library="SonicAthame" library_urn="urn:adsk.eagle:library:22327399" deviceset="GND" device=""/>
-<part name="C1" library="SonicAthame" library_urn="urn:adsk.eagle:library:22327399" deviceset="CAP_POL" device="LYTIC_H" package3d_urn="urn:adsk.eagle:package:26183890/1" value="10u"/>
-<part name="C2" library="SonicAthame" library_urn="urn:adsk.eagle:library:22327399" deviceset="CAP_POL" device="LYTIC_H" package3d_urn="urn:adsk.eagle:package:26183890/1" value="10u"/>
+<part name="C1" library="SonicAthame" library_urn="urn:adsk.eagle:library:22327399" deviceset="CAP_POL" device="LYTIC_H_R" package3d_urn="urn:adsk.eagle:package:26183890/3" value="10u"/>
+<part name="C2" library="SonicAthame" library_urn="urn:adsk.eagle:library:22327399" deviceset="CAP_POL" device="LYTIC_H_R" package3d_urn="urn:adsk.eagle:package:26183890/3" value="10u"/>
 </parts>
 <sheets>
 <sheet>
@@ -1122,6 +1169,7 @@ diameter 5 mm, grid 2.54 mm</description>
 <instance part="FRAME1" gate="G$2" x="299.72" y="0" smashed="yes">
 <attribute name="LAST_DATE_TIME" x="312.42" y="1.27" size="2.54" layer="94"/>
 <attribute name="SHEET" x="386.08" y="1.27" size="2.54" layer="94"/>
+<attribute name="TITLE" x="312.42" y="11.43" size="2.54" layer="94"/>
 </instance>
 <instance part="R1" gate="G$1" x="223.52" y="167.64" smashed="yes" rot="MR270">
 <attribute name="NAME" x="226.06" y="172.72" size="1.778" layer="95" rot="MR0"/>
