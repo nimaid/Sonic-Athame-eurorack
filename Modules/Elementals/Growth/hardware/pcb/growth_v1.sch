@@ -610,46 +610,6 @@ diameter 5 mm, grid 2.54 mm</description>
 <pin name="V+" x="0" y="7.62" visible="pad" length="middle" direction="pwr" rot="R270"/>
 <pin name="V-" x="0" y="-7.62" visible="pad" length="middle" direction="pwr" rot="R90"/>
 </symbol>
-<symbol name="FRAME_TABL_L" urn="urn:adsk.eagle:symbol:22546837/1" library_version="20">
-<wire x1="0" y1="0" x2="401.32" y2="0" width="0.4064" layer="94"/>
-<wire x1="401.32" y1="0" x2="401.32" y2="266.7" width="0.4064" layer="94"/>
-<wire x1="401.32" y1="266.7" x2="0" y2="266.7" width="0.4064" layer="94"/>
-<wire x1="0" y1="266.7" x2="0" y2="0" width="0.4064" layer="94"/>
-</symbol>
-<symbol name="FRAME_DOCFIELD" urn="urn:adsk.eagle:symbol:22546836/1" library_version="20">
-<wire x1="0" y1="0" x2="71.12" y2="0" width="0.1016" layer="94"/>
-<wire x1="101.6" y1="10.16" x2="77.47" y2="10.16" width="0.1016" layer="94"/>
-<wire x1="0" y1="0" x2="0" y2="5.08" width="0.1016" layer="94"/>
-<wire x1="0" y1="5.08" x2="71.12" y2="5.08" width="0.1016" layer="94"/>
-<wire x1="0" y1="5.08" x2="0" y2="10.16" width="0.1016" layer="94"/>
-<wire x1="101.6" y1="10.16" x2="101.6" y2="5.08" width="0.1016" layer="94"/>
-<wire x1="71.12" y1="5.08" x2="71.12" y2="0" width="0.1016" layer="94"/>
-<wire x1="71.12" y1="5.08" x2="77.47" y2="5.08" width="0.1016" layer="94"/>
-<wire x1="71.12" y1="0" x2="101.6" y2="0" width="0.1016" layer="94"/>
-<wire x1="77.47" y1="10.16" x2="77.47" y2="5.08" width="0.1016" layer="94"/>
-<wire x1="77.47" y1="10.16" x2="0" y2="10.16" width="0.1016" layer="94"/>
-<wire x1="77.47" y1="5.08" x2="101.6" y2="5.08" width="0.1016" layer="94"/>
-<wire x1="101.6" y1="5.08" x2="101.6" y2="0" width="0.1016" layer="94"/>
-<wire x1="0" y1="10.16" x2="0" y2="15.24" width="0.1016" layer="94"/>
-<wire x1="101.6" y1="30.48" x2="0" y2="30.48" width="0.1016" layer="94"/>
-<wire x1="101.6" y1="30.48" x2="101.6" y2="15.24" width="0.1016" layer="94"/>
-<wire x1="0" y1="15.24" x2="101.6" y2="15.24" width="0.1016" layer="94"/>
-<wire x1="0" y1="15.24" x2="0" y2="30.48" width="0.1016" layer="94"/>
-<wire x1="101.6" y1="15.24" x2="101.6" y2="10.16" width="0.1016" layer="94"/>
-<text x="1.27" y="1.27" size="2.54" layer="94">Date:</text>
-<text x="12.7" y="1.27" size="2.54" layer="94">&gt;LAST_DATE_TIME</text>
-<text x="72.39" y="1.27" size="2.54" layer="94">Sheet:</text>
-<text x="86.36" y="1.27" size="2.54" layer="94">&gt;SHEET</text>
-<text x="78.74" y="6.35" size="2.54" layer="94">REV:</text>
-<text x="1.27" y="11.43" size="2.54" layer="94">Title:</text>
-<text x="1.27" y="6.35" size="2.54" layer="94">Document Number:</text>
-<text x="12.7" y="11.43" size="2.54" layer="94">&gt;TITLE</text>
-<text x="35.56" y="6.35" size="2.54" layer="94">&gt;DOCNUM</text>
-<text x="91.44" y="6.35" size="2.54" layer="94">&gt;REV</text>
-<text x="50.8" y="27.94" size="5.08" layer="94" align="top-center">Sonic Athame</text>
-<text x="50.8" y="17.78" size="2.54" layer="94" align="bottom-center">The Point Of Modular</text>
-<text x="73.66" y="25.4" size="1.778" layer="94" align="bottom-center">™</text>
-</symbol>
 <symbol name="EURO_POWER" urn="urn:adsk.eagle:symbol:26183619/1" library_version="20">
 <pin name="+12V" x="5.08" y="5.08" length="middle" rot="R180"/>
 <pin name="GND" x="5.08" y="0" length="middle" rot="R180"/>
@@ -757,6 +717,46 @@ diameter 5 mm, grid 2.54 mm</description>
 <pin name="+" x="0" y="2.54" visible="off" length="short" direction="pas" swaplevel="1" rot="R270"/>
 <pin name="-" x="0" y="-5.08" visible="off" length="short" direction="pas" swaplevel="1" rot="R90"/>
 </symbol>
+<symbol name="FRAME_TABL_L" urn="urn:adsk.eagle:symbol:22546837/1" library_version="30">
+<wire x1="0" y1="0" x2="401.32" y2="0" width="0.4064" layer="94"/>
+<wire x1="401.32" y1="0" x2="401.32" y2="266.7" width="0.4064" layer="94"/>
+<wire x1="401.32" y1="266.7" x2="0" y2="266.7" width="0.4064" layer="94"/>
+<wire x1="0" y1="266.7" x2="0" y2="0" width="0.4064" layer="94"/>
+</symbol>
+<symbol name="FRAME_DOCFIELD" urn="urn:adsk.eagle:symbol:22546836/1" library_version="30">
+<wire x1="0" y1="0" x2="71.12" y2="0" width="0.1016" layer="94"/>
+<wire x1="101.6" y1="10.16" x2="77.47" y2="10.16" width="0.1016" layer="94"/>
+<wire x1="0" y1="0" x2="0" y2="5.08" width="0.1016" layer="94"/>
+<wire x1="0" y1="5.08" x2="71.12" y2="5.08" width="0.1016" layer="94"/>
+<wire x1="0" y1="5.08" x2="0" y2="10.16" width="0.1016" layer="94"/>
+<wire x1="101.6" y1="10.16" x2="101.6" y2="5.08" width="0.1016" layer="94"/>
+<wire x1="71.12" y1="5.08" x2="71.12" y2="0" width="0.1016" layer="94"/>
+<wire x1="71.12" y1="5.08" x2="77.47" y2="5.08" width="0.1016" layer="94"/>
+<wire x1="71.12" y1="0" x2="101.6" y2="0" width="0.1016" layer="94"/>
+<wire x1="77.47" y1="10.16" x2="77.47" y2="5.08" width="0.1016" layer="94"/>
+<wire x1="77.47" y1="10.16" x2="0" y2="10.16" width="0.1016" layer="94"/>
+<wire x1="77.47" y1="5.08" x2="101.6" y2="5.08" width="0.1016" layer="94"/>
+<wire x1="101.6" y1="5.08" x2="101.6" y2="0" width="0.1016" layer="94"/>
+<wire x1="0" y1="10.16" x2="0" y2="15.24" width="0.1016" layer="94"/>
+<wire x1="101.6" y1="30.48" x2="0" y2="30.48" width="0.1016" layer="94"/>
+<wire x1="101.6" y1="30.48" x2="101.6" y2="15.24" width="0.1016" layer="94"/>
+<wire x1="0" y1="15.24" x2="101.6" y2="15.24" width="0.1016" layer="94"/>
+<wire x1="0" y1="15.24" x2="0" y2="30.48" width="0.1016" layer="94"/>
+<wire x1="101.6" y1="15.24" x2="101.6" y2="10.16" width="0.1016" layer="94"/>
+<text x="1.27" y="1.27" size="2.54" layer="94">Date:</text>
+<text x="12.7" y="1.27" size="2.54" layer="94">&gt;LAST_DATE_TIME</text>
+<text x="72.39" y="1.27" size="2.54" layer="94">Sheet:</text>
+<text x="86.36" y="1.27" size="2.54" layer="94">&gt;SHEET</text>
+<text x="78.74" y="6.35" size="2.54" layer="94">REV:</text>
+<text x="1.27" y="11.43" size="2.54" layer="94">Title:</text>
+<text x="1.27" y="6.35" size="2.54" layer="94">Document Number:</text>
+<text x="12.7" y="11.43" size="2.54" layer="94">&gt;TITLE</text>
+<text x="35.56" y="6.35" size="2.54" layer="94">&gt;DOCNUM</text>
+<text x="91.44" y="6.35" size="2.54" layer="94">&gt;REV</text>
+<text x="50.8" y="27.94" size="5.08" layer="94" align="top-center">Sonic Athame</text>
+<text x="50.8" y="17.78" size="2.54" layer="94" align="bottom-center">The Point Of Modular</text>
+<text x="73.66" y="25.4" size="1.778" layer="94" align="bottom-center">™</text>
+</symbol>
 </symbols>
 <devicesets>
 <deviceset name="TL072" urn="urn:adsk.eagle:component:26075593/4" prefix="U" library_version="20">
@@ -805,21 +805,6 @@ diameter 5 mm, grid 2.54 mm</description>
 <technology name="">
 <attribute name="POPULARITY" value="0" constant="no"/>
 </technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="FRAME_TABL_L" urn="urn:adsk.eagle:component:22546838/1" prefix="FRAME" uservalue="yes" library_version="20">
-<description>&lt;b&gt;FRAME&lt;/b&gt;&lt;p&gt;
-401 x 266 mm, landscape</description>
-<gates>
-<gate name="G$1" symbol="FRAME_TABL_L" x="0" y="0"/>
-<gate name="G$2" symbol="FRAME_DOCFIELD" x="299.72" y="0" addlevel="must"/>
-</gates>
-<devices>
-<device name="">
-<technologies>
-<technology name=""/>
 </technologies>
 </device>
 </devices>
@@ -1088,10 +1073,26 @@ diameter 5 mm, grid 2.54 mm</description>
 </pinmapping>
 </spice>
 </deviceset>
+<deviceset name="FRAME_TABL_L" urn="urn:adsk.eagle:component:22546838/1" prefix="FRAME" uservalue="yes" library_version="30">
+<description>&lt;b&gt;FRAME&lt;/b&gt;&lt;p&gt;
+401 x 266 mm, landscape</description>
+<gates>
+<gate name="G$1" symbol="FRAME_TABL_L" x="0" y="0"/>
+<gate name="G$2" symbol="FRAME_DOCFIELD" x="299.72" y="0" addlevel="must"/>
+</gates>
+<devices>
+<device name="">
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
 </devicesets>
 </library>
 </libraries>
 <attributes>
+<attribute name="REV" value="p1"/>
 <attribute name="TITLE" value="Elemental Growth"/>
 </attributes>
 <variantdefs>
@@ -1102,10 +1103,6 @@ diameter 5 mm, grid 2.54 mm</description>
 </classes>
 <parts>
 <part name="U1" library="SonicAthame" library_urn="urn:adsk.eagle:library:22327399" deviceset="TL072" device="P" package3d_urn="urn:adsk.eagle:package:16409/2"/>
-<part name="FRAME1" library="SonicAthame" library_urn="urn:adsk.eagle:library:22327399" deviceset="FRAME_TABL_L" device="">
-<attribute name="DOCNUM" value=""/>
-<attribute name="TITLE" value=""/>
-</part>
 <part name="J1" library="SonicAthame" library_urn="urn:adsk.eagle:library:22327399" deviceset="EURO_POWER" device="" package3d_urn="urn:adsk.eagle:package:26183621/3"/>
 <part name="SUPPLY1" library="SonicAthame" library_urn="urn:adsk.eagle:library:22327399" deviceset="+12V" device=""/>
 <part name="SUPPLY2" library="SonicAthame" library_urn="urn:adsk.eagle:library:22327399" deviceset="-12V" device=""/>
@@ -1136,6 +1133,7 @@ diameter 5 mm, grid 2.54 mm</description>
 <part name="SUPPLY13" library="SonicAthame" library_urn="urn:adsk.eagle:library:22327399" deviceset="GND" device=""/>
 <part name="C1" library="SonicAthame" library_urn="urn:adsk.eagle:library:22327399" deviceset="CAP_POL" device="LYTIC_H_L" package3d_urn="urn:adsk.eagle:package:26215121/2" value="10u"/>
 <part name="C2" library="SonicAthame" library_urn="urn:adsk.eagle:library:22327399" deviceset="CAP_POL" device="LYTIC_H_L" package3d_urn="urn:adsk.eagle:package:26215121/2" value="10u"/>
+<part name="FRAME1" library="SonicAthame" library_urn="urn:adsk.eagle:library:22327399" deviceset="FRAME_TABL_L" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -1164,12 +1162,6 @@ diameter 5 mm, grid 2.54 mm</description>
 <instance part="U1" gate="B" x="223.52" y="111.76" smashed="yes">
 <attribute name="NAME" x="226.06" y="114.935" size="1.778" layer="95"/>
 <attribute name="VALUE" x="226.06" y="106.68" size="1.778" layer="96"/>
-</instance>
-<instance part="FRAME1" gate="G$1" x="0" y="0" smashed="yes"/>
-<instance part="FRAME1" gate="G$2" x="299.72" y="0" smashed="yes">
-<attribute name="LAST_DATE_TIME" x="312.42" y="1.27" size="2.54" layer="94"/>
-<attribute name="SHEET" x="386.08" y="1.27" size="2.54" layer="94"/>
-<attribute name="TITLE" x="312.42" y="11.43" size="2.54" layer="94"/>
 </instance>
 <instance part="R1" gate="G$1" x="223.52" y="167.64" smashed="yes" rot="MR270">
 <attribute name="NAME" x="226.06" y="172.72" size="1.778" layer="95" rot="MR0"/>
@@ -1256,6 +1248,13 @@ diameter 5 mm, grid 2.54 mm</description>
 <instance part="C2" gate="G$1" x="149.86" y="134.62" smashed="yes">
 <attribute name="NAME" x="150.876" y="135.255" size="1.778" layer="95"/>
 <attribute name="VALUE" x="150.876" y="130.429" size="1.778" layer="96"/>
+</instance>
+<instance part="FRAME1" gate="G$1" x="0" y="0" smashed="yes"/>
+<instance part="FRAME1" gate="G$2" x="299.72" y="0" smashed="yes">
+<attribute name="LAST_DATE_TIME" x="312.42" y="1.27" size="2.54" layer="94"/>
+<attribute name="SHEET" x="386.08" y="1.27" size="2.54" layer="94"/>
+<attribute name="TITLE" x="312.42" y="11.43" size="2.54" layer="94"/>
+<attribute name="REV" x="391.16" y="6.35" size="2.54" layer="94"/>
 </instance>
 </instances>
 <busses>
