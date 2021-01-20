@@ -1134,8 +1134,8 @@ diameter 5 mm, grid 2.54 mm</description>
 <part name="C1" library="SonicAthame" library_urn="urn:adsk.eagle:library:22327399" deviceset="CAP_POL" device="LYTIC_H_L" package3d_urn="urn:adsk.eagle:package:26215121/2" value="10u"/>
 <part name="C2" library="SonicAthame" library_urn="urn:adsk.eagle:library:22327399" deviceset="CAP_POL" device="LYTIC_H_L" package3d_urn="urn:adsk.eagle:package:26215121/2" value="10u"/>
 <part name="FRAME1" library="SonicAthame" library_urn="urn:adsk.eagle:library:22327399" deviceset="FRAME_TABL_L" device=""/>
-<part name="C5" library="SonicAthame" library_urn="urn:adsk.eagle:library:22327399" deviceset="CAP_NONPOL" device="050-024X044" package3d_urn="urn:adsk.eagle:package:26183827/3" value="47p"/>
-<part name="C6" library="SonicAthame" library_urn="urn:adsk.eagle:library:22327399" deviceset="CAP_NONPOL" device="050-024X044" package3d_urn="urn:adsk.eagle:package:26183827/3" value="47p"/>
+<part name="C5" library="SonicAthame" library_urn="urn:adsk.eagle:library:22327399" deviceset="CAP_NONPOL" device="050-024X044" package3d_urn="urn:adsk.eagle:package:26183827/3" value="22p"/>
+<part name="C6" library="SonicAthame" library_urn="urn:adsk.eagle:library:22327399" deviceset="CAP_NONPOL" device="050-024X044" package3d_urn="urn:adsk.eagle:package:26183827/3" value="22p"/>
 </parts>
 <sheets>
 <sheet>
