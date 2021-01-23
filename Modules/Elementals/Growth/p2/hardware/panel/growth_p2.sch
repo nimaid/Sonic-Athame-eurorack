@@ -222,7 +222,7 @@
 </library>
 </libraries>
 <attributes>
-<attribute name="REV" value="p1"/>
+<attribute name="REV" value="p2"/>
 <attribute name="TITLE" value="Elemental Growth"/>
 </attributes>
 <variantdefs>
