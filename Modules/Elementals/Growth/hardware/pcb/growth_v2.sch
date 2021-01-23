@@ -207,19 +207,15 @@ NS Package M08A</description>
 <rectangle x1="-0.88" y1="2" x2="-0.39" y2="3.1" layer="51"/>
 <rectangle x1="-2.15" y1="2" x2="-1.66" y2="3.1" layer="51"/>
 </package>
-<package name="EURO_POWER" urn="urn:adsk.eagle:footprint:26183620/2" library_version="27">
+<package name="EURO_POWER" urn="urn:adsk.eagle:footprint:26183620/3" library_version="31">
 <description>Double-row, 10-pin Pin Header (Male) Straight, 2.54 mm (0.10 in) row pitch, 2.54 mm (0.10 in) col pitch, 5.80 mm mating length, 12.70 X 5.08 X 8.34 mm body
 &lt;p&gt;Double-row (2X5), 10-pin Pin Header (Male) Straight package with 2.54 mm (0.10 in) row pitch, 2.54 mm (0.10 in) col pitch, 0.64 mm lead width, 3.10 mm tail length and 5.80 mm mating length with overall size 12.70 X 5.08 X 8.34 mm, pin pattern - clockwise from top left&lt;/p&gt;</description>
-<circle x="-5.08" y="3.044" radius="0.25" width="0" layer="27"/>
+<circle x="-5.08" y="3.044" radius="0.25" width="0" layer="21"/>
 <wire x1="6.35" y1="-2.54" x2="-6.35" y2="-2.54" width="0.12" layer="21"/>
-<wire x1="-6.35" y1="-2.54" x2="-6.35" y2="2.54" width="0.12" layer="27"/>
-<wire x1="-6.35" y1="2.54" x2="6.35" y2="2.54" width="0.12" layer="27"/>
+<wire x1="-6.35" y1="-2.54" x2="-6.35" y2="2.54" width="0.12" layer="21"/>
+<wire x1="-6.35" y1="2.54" x2="6.35" y2="2.54" width="0.12" layer="21"/>
 <wire x1="6.35" y1="2.54" x2="6.35" y2="-2.54" width="0.12" layer="21"/>
-<wire x1="6.35" y1="-2.54" x2="-6.35" y2="-2.54" width="0.12" layer="27"/>
-<wire x1="-6.35" y1="-2.54" x2="-6.35" y2="2.54" width="0.12" layer="27"/>
-<wire x1="-6.35" y1="2.54" x2="6.35" y2="2.54" width="0.12" layer="27"/>
-<wire x1="6.35" y1="2.54" x2="6.35" y2="-2.54" width="0.12" layer="51"/>
-<wire x1="-6.731" y1="2.54" x2="-6.731" y2="-2.54" width="0.254" layer="27"/>
+<wire x1="-6.731" y1="2.54" x2="-6.731" y2="-2.54" width="0.254" layer="25"/>
 <pad name="1" x="-5.08" y="1.27" drill="1.1051" diameter="1.7051" shape="square"/>
 <pad name="2" x="-2.54" y="1.27" drill="1.1051" diameter="1.7051"/>
 <pad name="3" x="0" y="1.27" drill="1.1051" diameter="1.7051"/>
@@ -230,13 +226,13 @@ NS Package M08A</description>
 <pad name="8" x="0" y="-1.27" drill="1.1051" diameter="1.7051"/>
 <pad name="9" x="-2.54" y="-1.27" drill="1.1051" diameter="1.7051"/>
 <pad name="10" x="-5.08" y="-1.27" drill="1.1051" diameter="1.7051"/>
-<text x="0" y="2.659" size="1.27" layer="27" align="bottom-center">&gt;NAME</text>
-<text x="-6.985" y="0" size="1.016" layer="27" rot="R90" align="bottom-center">STRIPE</text>
-<text x="-5.08" y="-2.667" size="0.6096" layer="27" align="top-center">-12v</text>
-<text x="0" y="-2.667" size="0.6096" layer="27" align="top-center">GND</text>
-<text x="5.08" y="-2.667" size="0.6096" layer="27" align="top-center">+12v</text>
-<text x="2.54" y="-2.667" size="0.6096" layer="27" align="top-center">GND</text>
-<text x="-2.54" y="-2.667" size="0.6096" layer="27" align="top-center">GND</text>
+<text x="0" y="2.659" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="-6.985" y="0" size="1.016" layer="25" rot="R90" align="bottom-center">STRIPE</text>
+<text x="-5.08" y="-2.667" size="0.6096" layer="25" align="top-center">-12v</text>
+<text x="0" y="-2.667" size="0.6096" layer="25" align="top-center">GND</text>
+<text x="5.08" y="-2.667" size="0.6096" layer="25" align="top-center">+12v</text>
+<text x="2.54" y="-2.667" size="0.6096" layer="25" align="top-center">GND</text>
+<text x="-2.54" y="-2.667" size="0.6096" layer="25" align="top-center">GND</text>
 </package>
 <package name="ALPHA_POT_VERTICAL" urn="urn:adsk.eagle:footprint:22328180/1" library_version="23">
 <circle x="0" y="0" radius="2.54" width="0.2032" layer="21"/>
@@ -509,7 +505,7 @@ NS Package M08A</description>
 <packageinstance name="SO08"/>
 </packageinstances>
 </package3d>
-<package3d name="EURO_POWER" urn="urn:adsk.eagle:package:26183621/3" type="model" library_version="27">
+<package3d name="EURO_POWER" urn="urn:adsk.eagle:package:26183621/4" type="model" library_version="31">
 <description>Double-row, 10-pin Pin Header (Male) Straight, 2.54 mm (0.10 in) row pitch, 2.54 mm (0.10 in) col pitch, 5.80 mm mating length, 12.70 X 5.08 X 8.34 mm body
 &lt;p&gt;Double-row (2X5), 10-pin Pin Header (Male) Straight package with 2.54 mm (0.10 in) row pitch, 2.54 mm (0.10 in) col pitch, 0.64 mm lead width, 3.10 mm tail length and 5.80 mm mating length with overall size 12.70 X 5.08 X 8.34 mm, pin pattern - clockwise from top left&lt;/p&gt;</description>
 <packageinstances>
@@ -809,7 +805,7 @@ diameter 5 mm, grid 2.54 mm</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="EURO_POWER" urn="urn:adsk.eagle:component:26183622/4" prefix="J" library_version="27">
+<deviceset name="EURO_POWER" urn="urn:adsk.eagle:component:26183622/5" prefix="J" library_version="31">
 <gates>
 <gate name="G$1" symbol="EURO_POWER" x="0" y="0"/>
 </gates>
@@ -821,7 +817,7 @@ diameter 5 mm, grid 2.54 mm</description>
 <connect gate="G$1" pin="GND" pad="2 3 4 7 8 9" route="any"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:26183621/3"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:26183621/4"/>
 </package3dinstances>
 <technologies>
 <technology name=""/>
@@ -1103,7 +1099,7 @@ diameter 5 mm, grid 2.54 mm</description>
 </classes>
 <parts>
 <part name="U1" library="SonicAthame" library_urn="urn:adsk.eagle:library:22327399" deviceset="TL072" device="P" package3d_urn="urn:adsk.eagle:package:16409/2"/>
-<part name="J1" library="SonicAthame" library_urn="urn:adsk.eagle:library:22327399" deviceset="EURO_POWER" device="" package3d_urn="urn:adsk.eagle:package:26183621/3"/>
+<part name="J1" library="SonicAthame" library_urn="urn:adsk.eagle:library:22327399" deviceset="EURO_POWER" device="" package3d_urn="urn:adsk.eagle:package:26183621/4"/>
 <part name="SUPPLY1" library="SonicAthame" library_urn="urn:adsk.eagle:library:22327399" deviceset="+12V" device=""/>
 <part name="SUPPLY2" library="SonicAthame" library_urn="urn:adsk.eagle:library:22327399" deviceset="-12V" device=""/>
 <part name="SUPPLY3" library="SonicAthame" library_urn="urn:adsk.eagle:library:22327399" deviceset="GND" device=""/>
@@ -1131,11 +1127,11 @@ diameter 5 mm, grid 2.54 mm</description>
 <part name="C4" library="SonicAthame" library_urn="urn:adsk.eagle:library:22327399" deviceset="CAP_NONPOL" device="025-024X044" package3d_urn="urn:adsk.eagle:package:26183826/2" value="100n"/>
 <part name="SUPPLY12" library="SonicAthame" library_urn="urn:adsk.eagle:library:22327399" deviceset="GND" device=""/>
 <part name="SUPPLY13" library="SonicAthame" library_urn="urn:adsk.eagle:library:22327399" deviceset="GND" device=""/>
-<part name="C1" library="SonicAthame" library_urn="urn:adsk.eagle:library:22327399" deviceset="CAP_POL" device="LYTIC_H_L" package3d_urn="urn:adsk.eagle:package:26215121/2" value="10u"/>
-<part name="C2" library="SonicAthame" library_urn="urn:adsk.eagle:library:22327399" deviceset="CAP_POL" device="LYTIC_H_L" package3d_urn="urn:adsk.eagle:package:26215121/2" value="10u"/>
+<part name="C1" library="SonicAthame" library_urn="urn:adsk.eagle:library:22327399" deviceset="CAP_POL" device="LYTIC_V" package3d_urn="urn:adsk.eagle:package:26183889/3" value="10u"/>
+<part name="C2" library="SonicAthame" library_urn="urn:adsk.eagle:library:22327399" deviceset="CAP_POL" device="LYTIC_V" package3d_urn="urn:adsk.eagle:package:26183889/3" value="10u"/>
 <part name="FRAME1" library="SonicAthame" library_urn="urn:adsk.eagle:library:22327399" deviceset="FRAME_TABL_L" device=""/>
-<part name="C5" library="SonicAthame" library_urn="urn:adsk.eagle:library:22327399" deviceset="CAP_NONPOL" device="050-024X044" package3d_urn="urn:adsk.eagle:package:26183827/3" value="22p"/>
-<part name="C6" library="SonicAthame" library_urn="urn:adsk.eagle:library:22327399" deviceset="CAP_NONPOL" device="050-024X044" package3d_urn="urn:adsk.eagle:package:26183827/3" value="22p"/>
+<part name="C5" library="SonicAthame" library_urn="urn:adsk.eagle:library:22327399" deviceset="CAP_NONPOL" device="025-024X044" package3d_urn="urn:adsk.eagle:package:26183826/2" value="22p"/>
+<part name="C6" library="SonicAthame" library_urn="urn:adsk.eagle:library:22327399" deviceset="CAP_NONPOL" device="025-024X044" package3d_urn="urn:adsk.eagle:package:26183826/2" value="22p"/>
 </parts>
 <sheets>
 <sheet>
