@@ -101,11 +101,21 @@ Parts are breadboard compatible unless otherwise noted.
 
 | Use Case | Value | Link(s) | 100x Price | Notes |
 | :------: | :---: | :-----: | :--------: | :---: |
-| Input | `100KΩ` | [DigiKey](https://www.digikey.com/short/z5zvnw)<br>[Mouser](https://www.mouser.com/ProductDetail/Yageo/MFR-25FBF52-100K?qs=oAGoVhmvjhxAqZbyE%2Fs9bg%3D%3D#.XyTTxv2kfpY.link) | $2.65<br>$2.00 |  |
-| Output | `1KΩ` | [DigiKey](https://www.digikey.com/short/z5zv5m)<br>[Mouser](https://www.mouser.com/ProductDetail/KOA-Speer/MF1-4DCT26A1001F?qs=wVGympPcmnD9Oav1Pii0SQ%3D%3D#.XyTQpF_FNL0.link) | $2.65<br>$1.00 |  |
+| Input | `10KΩ` |  |  |  |
+| Output | `510Ω` |  |  |  |
+
+<details><summary>Capacitors</summary>
+<p>
+
+| Use Case | Value | Type | Link(s) | 100x Price | Notes |
+| :------: | :---: | :--: | :-----: | :--------: | :---: |
+| IC Decoupling | `100nF` | Ceramic |  |  | The standard "cargo cult" decoupling cap.<br>Put as close to the power pins of each IC as possible.<br>Use 2 for dual supply operation, between each rail and ground. |
+| Op-Amp Stability | `22pF` |  |  |  | This value was chosen because all of the op-amps I tried were able to pass most of a 100kHz square wave without any hint self-oscillation or overshoot.<br>[Here is a great explanation of how to choose a stabilization cap.](https://northcoastsynthesis.com/news/understanding-stabilization-capacitors/) |
 
 </p>
 </details>
+
+
 
 ## Op-Amps
 <details><summary>General Purpose</summary>
@@ -159,6 +169,18 @@ Parts are breadboard compatible unless otherwise noted.
 | Description | Manufacturer | Mfg. Part # | Link(s) | 1x Price | Notes |
 | :---------: | :----------: | :---------: | :-----: | :------: | :---: |
 | Quad Analog Audio Switch | Misc. | `4066` | [DigiKey](https://www.digikey.com/short/zbdp39)<br>[Mouser](https://www.mouser.com/ProductDetail/Texas-Instruments/SN74HC4066N?qs=YhsVCygOPE1gsJI4%2FXFoTg%3D%3D#.XyL3nkkfVVc.link) | $0.50<br>$0.51 | Various packages |
+
+</p>
+</details>
+
+
+
+<details><summary>Delays</summary>
+<p>
+
+| Description | Manufacturer | Mfg. Part # | Link(s) | 1x Price | Notes |
+| :---------: | :----------: | :---------: | :-----: | :------: | :---: |
+| Low-Fi Digital Delay | Princeton Technologies | `PT2399` |  |  |  |
 
 </p>
 </details>
