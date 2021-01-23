@@ -550,7 +550,7 @@ grid 5 mm, outline 2.4 x 4.4 mm</description>
 <part name="J1" library="SonicAthame" library_urn="urn:adsk.eagle:library:22327399" deviceset="WQP-PJ398SM" device="6" package3d_urn="urn:adsk.eagle:package:22328185/3"/>
 <part name="R1" library="SonicAthame" library_urn="urn:adsk.eagle:library:22327399" deviceset="RESISTOR" device="0207/2V" package3d_urn="urn:adsk.eagle:package:26183824/1" value="100k"/>
 <part name="J2" library="SonicAthame" library_urn="urn:adsk.eagle:library:22327399" deviceset="WQP-PJ398SM" device="6" package3d_urn="urn:adsk.eagle:package:22328185/3"/>
-<part name="C1" library="SonicAthame" library_urn="urn:adsk.eagle:library:22327399" deviceset="CAP_NONPOL" device="050-024X044" package3d_urn="urn:adsk.eagle:package:26183827/3" value="10u"/>
+<part name="C1" library="SonicAthame" library_urn="urn:adsk.eagle:library:22327399" deviceset="CAP_NONPOL" device="025-024X044" package3d_urn="urn:adsk.eagle:package:26183826/2" value="10u"/>
 <part name="FRAME1" library="SonicAthame" library_urn="urn:adsk.eagle:library:22327399" deviceset="FRAME_TABL_L" device=""/>
 <part name="SUPPLY1" library="SonicAthame" library_urn="urn:adsk.eagle:library:22327399" deviceset="GND" device=""/>
 <part name="SUPPLY2" library="SonicAthame" library_urn="urn:adsk.eagle:library:22327399" deviceset="GND" device=""/>
@@ -558,35 +558,35 @@ grid 5 mm, outline 2.4 x 4.4 mm</description>
 <part name="J3" library="SonicAthame" library_urn="urn:adsk.eagle:library:22327399" deviceset="WQP-PJ398SM" device="6" package3d_urn="urn:adsk.eagle:package:22328185/3"/>
 <part name="R2" library="SonicAthame" library_urn="urn:adsk.eagle:library:22327399" deviceset="RESISTOR" device="0207/2V" package3d_urn="urn:adsk.eagle:package:26183824/1" value="100k"/>
 <part name="J4" library="SonicAthame" library_urn="urn:adsk.eagle:library:22327399" deviceset="WQP-PJ398SM" device="6" package3d_urn="urn:adsk.eagle:package:22328185/3"/>
-<part name="C2" library="SonicAthame" library_urn="urn:adsk.eagle:library:22327399" deviceset="CAP_NONPOL" device="050-024X044" package3d_urn="urn:adsk.eagle:package:26183827/3" value="10u"/>
+<part name="C2" library="SonicAthame" library_urn="urn:adsk.eagle:library:22327399" deviceset="CAP_NONPOL" device="025-024X044" package3d_urn="urn:adsk.eagle:package:26183826/2" value="10u"/>
 <part name="SUPPLY4" library="SonicAthame" library_urn="urn:adsk.eagle:library:22327399" deviceset="GND" device=""/>
 <part name="SUPPLY5" library="SonicAthame" library_urn="urn:adsk.eagle:library:22327399" deviceset="GND" device=""/>
 <part name="SUPPLY6" library="SonicAthame" library_urn="urn:adsk.eagle:library:22327399" deviceset="GND" device=""/>
 <part name="J5" library="SonicAthame" library_urn="urn:adsk.eagle:library:22327399" deviceset="WQP-PJ398SM" device="6" package3d_urn="urn:adsk.eagle:package:22328185/3"/>
 <part name="R3" library="SonicAthame" library_urn="urn:adsk.eagle:library:22327399" deviceset="RESISTOR" device="0207/2V" package3d_urn="urn:adsk.eagle:package:26183824/1" value="100k"/>
 <part name="J6" library="SonicAthame" library_urn="urn:adsk.eagle:library:22327399" deviceset="WQP-PJ398SM" device="6" package3d_urn="urn:adsk.eagle:package:22328185/3"/>
-<part name="C3" library="SonicAthame" library_urn="urn:adsk.eagle:library:22327399" deviceset="CAP_NONPOL" device="050-024X044" package3d_urn="urn:adsk.eagle:package:26183827/3" value="10u"/>
+<part name="C3" library="SonicAthame" library_urn="urn:adsk.eagle:library:22327399" deviceset="CAP_NONPOL" device="025-024X044" package3d_urn="urn:adsk.eagle:package:26183826/2" value="10u"/>
 <part name="SUPPLY7" library="SonicAthame" library_urn="urn:adsk.eagle:library:22327399" deviceset="GND" device=""/>
 <part name="SUPPLY8" library="SonicAthame" library_urn="urn:adsk.eagle:library:22327399" deviceset="GND" device=""/>
 <part name="SUPPLY9" library="SonicAthame" library_urn="urn:adsk.eagle:library:22327399" deviceset="GND" device=""/>
 <part name="J7" library="SonicAthame" library_urn="urn:adsk.eagle:library:22327399" deviceset="WQP-PJ398SM" device="6" package3d_urn="urn:adsk.eagle:package:22328185/3"/>
 <part name="R4" library="SonicAthame" library_urn="urn:adsk.eagle:library:22327399" deviceset="RESISTOR" device="0207/2V" package3d_urn="urn:adsk.eagle:package:26183824/1" value="100k"/>
 <part name="J8" library="SonicAthame" library_urn="urn:adsk.eagle:library:22327399" deviceset="WQP-PJ398SM" device="6" package3d_urn="urn:adsk.eagle:package:22328185/3"/>
-<part name="C4" library="SonicAthame" library_urn="urn:adsk.eagle:library:22327399" deviceset="CAP_NONPOL" device="050-024X044" package3d_urn="urn:adsk.eagle:package:26183827/3" value="10u"/>
+<part name="C4" library="SonicAthame" library_urn="urn:adsk.eagle:library:22327399" deviceset="CAP_NONPOL" device="025-024X044" package3d_urn="urn:adsk.eagle:package:26183826/2" value="10u"/>
 <part name="SUPPLY10" library="SonicAthame" library_urn="urn:adsk.eagle:library:22327399" deviceset="GND" device=""/>
 <part name="SUPPLY11" library="SonicAthame" library_urn="urn:adsk.eagle:library:22327399" deviceset="GND" device=""/>
 <part name="SUPPLY12" library="SonicAthame" library_urn="urn:adsk.eagle:library:22327399" deviceset="GND" device=""/>
 <part name="J9" library="SonicAthame" library_urn="urn:adsk.eagle:library:22327399" deviceset="WQP-PJ398SM" device="6" package3d_urn="urn:adsk.eagle:package:22328185/3"/>
 <part name="R5" library="SonicAthame" library_urn="urn:adsk.eagle:library:22327399" deviceset="RESISTOR" device="0207/2V" package3d_urn="urn:adsk.eagle:package:26183824/1" value="100k"/>
 <part name="J10" library="SonicAthame" library_urn="urn:adsk.eagle:library:22327399" deviceset="WQP-PJ398SM" device="6" package3d_urn="urn:adsk.eagle:package:22328185/3"/>
-<part name="C5" library="SonicAthame" library_urn="urn:adsk.eagle:library:22327399" deviceset="CAP_NONPOL" device="050-024X044" package3d_urn="urn:adsk.eagle:package:26183827/3" value="10u"/>
+<part name="C5" library="SonicAthame" library_urn="urn:adsk.eagle:library:22327399" deviceset="CAP_NONPOL" device="025-024X044" package3d_urn="urn:adsk.eagle:package:26183826/2" value="10u"/>
 <part name="SUPPLY13" library="SonicAthame" library_urn="urn:adsk.eagle:library:22327399" deviceset="GND" device=""/>
 <part name="SUPPLY14" library="SonicAthame" library_urn="urn:adsk.eagle:library:22327399" deviceset="GND" device=""/>
 <part name="SUPPLY15" library="SonicAthame" library_urn="urn:adsk.eagle:library:22327399" deviceset="GND" device=""/>
 <part name="J11" library="SonicAthame" library_urn="urn:adsk.eagle:library:22327399" deviceset="WQP-PJ398SM" device="6" package3d_urn="urn:adsk.eagle:package:22328185/3"/>
 <part name="R6" library="SonicAthame" library_urn="urn:adsk.eagle:library:22327399" deviceset="RESISTOR" device="0207/2V" package3d_urn="urn:adsk.eagle:package:26183824/1" value="100k"/>
 <part name="J12" library="SonicAthame" library_urn="urn:adsk.eagle:library:22327399" deviceset="WQP-PJ398SM" device="6" package3d_urn="urn:adsk.eagle:package:22328185/3"/>
-<part name="C6" library="SonicAthame" library_urn="urn:adsk.eagle:library:22327399" deviceset="CAP_NONPOL" device="050-024X044" package3d_urn="urn:adsk.eagle:package:26183827/3" value="10u"/>
+<part name="C6" library="SonicAthame" library_urn="urn:adsk.eagle:library:22327399" deviceset="CAP_NONPOL" device="025-024X044" package3d_urn="urn:adsk.eagle:package:26183826/2" value="10u"/>
 <part name="SUPPLY16" library="SonicAthame" library_urn="urn:adsk.eagle:library:22327399" deviceset="GND" device=""/>
 <part name="SUPPLY17" library="SonicAthame" library_urn="urn:adsk.eagle:library:22327399" deviceset="GND" device=""/>
 <part name="SUPPLY18" library="SonicAthame" library_urn="urn:adsk.eagle:library:22327399" deviceset="GND" device=""/>
