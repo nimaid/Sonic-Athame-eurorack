@@ -104,6 +104,9 @@ Parts are breadboard compatible unless otherwise noted.
 | Input | `10KΩ` |  |  |  |
 | Output | `510Ω` |  |  |  |
 
+</p>
+</details>
+
 <details><summary>Capacitors</summary>
 <p>
 
