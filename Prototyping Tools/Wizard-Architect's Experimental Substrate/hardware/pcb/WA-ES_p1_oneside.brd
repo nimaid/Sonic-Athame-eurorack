@@ -1,0 +1,1869 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE eagle SYSTEM "eagle.dtd">
+<eagle version="9.5.0">
+<drawing>
+<settings>
+<setting alwaysvectorfont="no"/>
+<setting verticaltext="up"/>
+</settings>
+<grid distance="100" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="25" altunitdist="mil" altunit="mil"/>
+<layers>
+<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="2" name="Route2" color="16" fill="1" visible="no" active="no"/>
+<layer number="3" name="Route3" color="17" fill="1" visible="no" active="no"/>
+<layer number="4" name="Route4" color="18" fill="1" visible="no" active="no"/>
+<layer number="5" name="Route5" color="19" fill="1" visible="no" active="no"/>
+<layer number="6" name="Route6" color="25" fill="1" visible="no" active="no"/>
+<layer number="7" name="Route7" color="26" fill="1" visible="no" active="no"/>
+<layer number="8" name="Route8" color="27" fill="1" visible="no" active="no"/>
+<layer number="9" name="Route9" color="28" fill="1" visible="no" active="no"/>
+<layer number="10" name="Route10" color="29" fill="1" visible="no" active="no"/>
+<layer number="11" name="Route11" color="30" fill="1" visible="no" active="no"/>
+<layer number="12" name="Route12" color="20" fill="1" visible="no" active="no"/>
+<layer number="13" name="Route13" color="21" fill="1" visible="no" active="no"/>
+<layer number="14" name="Route14" color="22" fill="1" visible="no" active="no"/>
+<layer number="15" name="Route15" color="23" fill="1" visible="no" active="no"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
+<layer number="20" name="Dimension" color="24" fill="1" visible="yes" active="yes"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
+<layer number="30" name="bStop" color="7" fill="6" visible="yes" active="yes"/>
+<layer number="31" name="tCream" color="7" fill="4" visible="no" active="yes"/>
+<layer number="32" name="bCream" color="7" fill="5" visible="no" active="yes"/>
+<layer number="33" name="tFinish" color="6" fill="3" visible="no" active="yes"/>
+<layer number="34" name="bFinish" color="6" fill="6" visible="no" active="yes"/>
+<layer number="35" name="tGlue" color="7" fill="4" visible="no" active="yes"/>
+<layer number="36" name="bGlue" color="7" fill="5" visible="no" active="yes"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="no" active="yes"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="no" active="yes"/>
+<layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
+<layer number="40" name="bKeepout" color="1" fill="11" visible="yes" active="yes"/>
+<layer number="41" name="tRestrict" color="4" fill="10" visible="yes" active="yes"/>
+<layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
+<layer number="43" name="vRestrict" color="2" fill="10" visible="yes" active="yes"/>
+<layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
+<layer number="45" name="Holes" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="yes" active="yes"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
+<layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="53" name="tGND_GNDA" color="7" fill="1" visible="no" active="no"/>
+<layer number="54" name="bGND_GNDA" color="7" fill="1" visible="no" active="no"/>
+<layer number="56" name="wert" color="7" fill="1" visible="no" active="no"/>
+<layer number="57" name="tCAD" color="7" fill="1" visible="no" active="no"/>
+<layer number="59" name="tCarbon" color="7" fill="1" visible="no" active="no"/>
+<layer number="60" name="bCarbon" color="7" fill="1" visible="no" active="no"/>
+<layer number="88" name="SimResults" color="9" fill="1" visible="no" active="no"/>
+<layer number="89" name="SimProbes" color="9" fill="1" visible="no" active="no"/>
+<layer number="90" name="Modules" color="5" fill="1" visible="no" active="no"/>
+<layer number="91" name="Nets" color="2" fill="1" visible="no" active="no"/>
+<layer number="92" name="Busses" color="1" fill="1" visible="no" active="no"/>
+<layer number="93" name="Pins" color="2" fill="1" visible="no" active="no"/>
+<layer number="94" name="Symbols" color="4" fill="1" visible="no" active="no"/>
+<layer number="95" name="Names" color="7" fill="1" visible="no" active="no"/>
+<layer number="96" name="Values" color="7" fill="1" visible="no" active="no"/>
+<layer number="97" name="Info" color="7" fill="1" visible="no" active="no"/>
+<layer number="98" name="Guide" color="6" fill="1" visible="no" active="no"/>
+<layer number="99" name="SpiceOrder" color="5" fill="1" visible="no" active="no"/>
+<layer number="100" name="Muster" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="101" name="Patch_Top" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="102" name="Vscore" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="103" name="tMap" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="104" name="Name" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="105" name="tPlate" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="106" name="bPlate" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="107" name="Crop" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="108" name="fp8" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="109" name="fp9" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="110" name="fp0" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="111" name="LPC17xx" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="112" name="tSilk" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="113" name="ReferenceLS" color="7" fill="1" visible="no" active="no"/>
+<layer number="114" name="tPlaceRed" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="116" name="Patch_BOT" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="118" name="Rect_Pads" color="7" fill="1" visible="no" active="no"/>
+<layer number="121" name="_tsilk" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="122" name="_bsilk" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="123" name="tTestmark" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="124" name="bTestmark" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="125" name="_tNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="126" name="_bNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="127" name="_tValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="128" name="_bValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="129" name="Mask" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="131" name="tAdjust" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="132" name="bAdjust" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="144" name="Drill_legend" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="150" name="Notes" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="151" name="HeatSink" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="152" name="_bDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="153" name="FabDoc1" color="6" fill="1" visible="no" active="no"/>
+<layer number="154" name="FabDoc2" color="2" fill="1" visible="no" active="no"/>
+<layer number="155" name="FabDoc3" color="7" fill="15" visible="no" active="no"/>
+<layer number="199" name="Contour" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="200" name="200bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="201" name="201bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="202" name="202bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="203" name="203bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="204" name="204bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="205" name="205bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="206" name="206bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="207" name="207bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="208" name="208bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="209" name="209bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="210" name="210bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="211" name="211bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="212" name="212bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="213" name="213bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="214" name="214bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="215" name="215bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="216" name="216bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="217" name="217bmp" color="18" fill="1" visible="no" active="no"/>
+<layer number="218" name="218bmp" color="19" fill="1" visible="no" active="no"/>
+<layer number="219" name="219bmp" color="20" fill="1" visible="no" active="no"/>
+<layer number="220" name="220bmp" color="21" fill="1" visible="no" active="no"/>
+<layer number="221" name="221bmp" color="22" fill="1" visible="no" active="no"/>
+<layer number="222" name="222bmp" color="23" fill="1" visible="no" active="no"/>
+<layer number="223" name="223bmp" color="24" fill="1" visible="no" active="no"/>
+<layer number="224" name="224bmp" color="25" fill="1" visible="no" active="no"/>
+<layer number="225" name="225bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="226" name="226bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="227" name="227bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="228" name="228bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="229" name="229bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="230" name="230bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="231" name="Eagle3D_PG1" color="7" fill="1" visible="no" active="no"/>
+<layer number="232" name="Eagle3D_PG2" color="7" fill="1" visible="no" active="no"/>
+<layer number="233" name="Eagle3D_PG3" color="7" fill="1" visible="no" active="no"/>
+<layer number="248" name="Housing" color="7" fill="1" visible="no" active="yes"/>
+<layer number="249" name="Edge" color="7" fill="1" visible="no" active="yes"/>
+<layer number="250" name="Descript" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="251" name="SMDround" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="254" name="cooling" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="255" name="routoute" color="7" fill="1" visible="yes" active="yes"/>
+</layers>
+<board>
+<fusionsync huburn="a.cGVyc29uYWw6dWUyZGY0M2Ex" projecturn="a.cGVyc29uYWw6dWUyZGY0M2ExIzIwMjAwODA5MzIyMjM2MzA2" f3durn="urn:adsk.wipprod:dm.lineage:EREUGq-WTpWTmUO6nfMdyw" pcbguid="a02b7850-021b-42fe-a287-5036f0aad08c" lastpulledtime="" lastsyncedchangeguid="22892c1d-f721-b539-d153-f8b9382eebf3"/>
+<plain>
+<wire x1="0" y1="0" x2="19.05" y2="0" width="0" layer="20"/>
+<wire x1="19.05" y1="0" x2="19.05" y2="110.49" width="0" layer="20"/>
+<wire x1="19.05" y1="110.49" x2="0" y2="110.49" width="0" layer="20"/>
+<wire x1="0" y1="110.49" x2="0" y2="0" width="0" layer="20"/>
+<text x="1.905" y="96.52" size="0.6096" layer="25" align="top-center">+12V</text>
+<text x="4.445" y="96.52" size="0.6096" layer="25" align="top-center">+12V</text>
+<text x="14.605" y="96.52" size="0.6096" layer="25" align="top-center">-12V</text>
+<text x="17.145" y="96.52" size="0.6096" layer="25" align="top-center">-12V</text>
+<text x="9.525" y="96.52" size="0.6096" layer="25" align="top-center">GND</text>
+<text x="6.985" y="96.52" size="0.6096" layer="25" align="top-center">GND</text>
+<text x="12.065" y="96.52" size="0.6096" layer="25" align="top-center">GND</text>
+<wire x1="1.905" y1="97.79" x2="4.445" y2="97.79" width="0.8128" layer="26"/>
+<wire x1="6.985" y1="97.79" x2="12.065" y2="97.79" width="0.8128" layer="26"/>
+<wire x1="14.605" y1="97.79" x2="17.145" y2="97.79" width="0.8128" layer="26"/>
+<text x="1.905" y="96.52" size="0.6096" layer="26" rot="MR0" align="top-center">+12V</text>
+<text x="4.445" y="96.52" size="0.6096" layer="26" rot="MR0" align="top-center">+12V</text>
+<text x="14.605" y="96.52" size="0.6096" layer="26" rot="MR0" align="top-center">-12V</text>
+<text x="17.145" y="96.52" size="0.6096" layer="26" rot="MR0" align="top-center">-12V</text>
+<text x="9.525" y="96.52" size="0.6096" layer="26" rot="MR0" align="top-center">GND</text>
+<text x="6.985" y="96.52" size="0.6096" layer="26" rot="MR0" align="top-center">GND</text>
+<text x="12.065" y="96.52" size="0.6096" layer="26" rot="MR0" align="top-center">GND</text>
+<text x="1.905" y="101.6" size="0.6096" layer="25" align="top-center">10uF</text>
+<text x="17.145" y="101.6" size="0.6096" layer="25" align="top-center">10uF</text>
+<text x="9.525" y="102.997" size="0.8128" layer="26" rot="MR0" align="bottom-center">Sonic Athame™</text>
+<text x="9.525" y="99.822" size="0.6096" layer="26" rot="MR0" align="center">Wizard-Architect's
+Experimental Substrate</text>
+<text x="9.525" y="102.87" size="0.4064" layer="26" rot="MR0" align="top-center">The Point of Modular</text>
+<text x="9.525" y="101.473" size="0.4064" layer="26" rot="MR180" align="center">Prototype v1</text>
+<circle x="1.905" y="93.345" radius="0.635" width="0.635" layer="16"/>
+<hole x="1.905" y="93.345" drill="1.143"/>
+<circle x="4.445" y="93.345" radius="0.635" width="0.635" layer="16"/>
+<hole x="4.445" y="93.345" drill="1.143"/>
+<circle x="6.985" y="93.345" radius="0.635" width="0.635" layer="16"/>
+<hole x="6.985" y="93.345" drill="1.143"/>
+<circle x="9.525" y="93.345" radius="0.635" width="0.635" layer="16"/>
+<hole x="9.525" y="93.345" drill="1.143"/>
+<circle x="12.065" y="93.345" radius="0.635" width="0.635" layer="16"/>
+<hole x="12.065" y="93.345" drill="1.143"/>
+<circle x="14.605" y="93.345" radius="0.635" width="0.635" layer="16"/>
+<hole x="14.605" y="93.345" drill="1.143"/>
+<circle x="17.145" y="93.345" radius="0.635" width="0.635" layer="16"/>
+<hole x="17.145" y="93.345" drill="1.143"/>
+<circle x="1.905" y="90.805" radius="0.635" width="0.635" layer="16"/>
+<hole x="1.905" y="90.805" drill="1.143"/>
+<circle x="4.445" y="90.805" radius="0.635" width="0.635" layer="16"/>
+<hole x="4.445" y="90.805" drill="1.143"/>
+<circle x="6.985" y="90.805" radius="0.635" width="0.635" layer="16"/>
+<hole x="6.985" y="90.805" drill="1.143"/>
+<circle x="9.525" y="90.805" radius="0.635" width="0.635" layer="16"/>
+<hole x="9.525" y="90.805" drill="1.143"/>
+<circle x="12.065" y="90.805" radius="0.635" width="0.635" layer="16"/>
+<hole x="12.065" y="90.805" drill="1.143"/>
+<circle x="14.605" y="90.805" radius="0.635" width="0.635" layer="16"/>
+<hole x="14.605" y="90.805" drill="1.143"/>
+<circle x="17.145" y="90.805" radius="0.635" width="0.635" layer="16"/>
+<hole x="17.145" y="90.805" drill="1.143"/>
+<circle x="1.905" y="88.265" radius="0.635" width="0.635" layer="16"/>
+<hole x="1.905" y="88.265" drill="1.143"/>
+<circle x="4.445" y="88.265" radius="0.635" width="0.635" layer="16"/>
+<hole x="4.445" y="88.265" drill="1.143"/>
+<circle x="6.985" y="88.265" radius="0.635" width="0.635" layer="16"/>
+<hole x="6.985" y="88.265" drill="1.143"/>
+<circle x="9.525" y="88.265" radius="0.635" width="0.635" layer="16"/>
+<hole x="9.525" y="88.265" drill="1.143"/>
+<circle x="12.065" y="88.265" radius="0.635" width="0.635" layer="16"/>
+<hole x="12.065" y="88.265" drill="1.143"/>
+<circle x="14.605" y="88.265" radius="0.635" width="0.635" layer="16"/>
+<hole x="14.605" y="88.265" drill="1.143"/>
+<circle x="17.145" y="88.265" radius="0.635" width="0.635" layer="16"/>
+<hole x="17.145" y="88.265" drill="1.143"/>
+<circle x="1.905" y="85.725" radius="0.635" width="0.635" layer="16"/>
+<hole x="1.905" y="85.725" drill="1.143"/>
+<circle x="4.445" y="85.725" radius="0.635" width="0.635" layer="16"/>
+<hole x="4.445" y="85.725" drill="1.143"/>
+<circle x="6.985" y="85.725" radius="0.635" width="0.635" layer="16"/>
+<hole x="6.985" y="85.725" drill="1.143"/>
+<circle x="9.525" y="85.725" radius="0.635" width="0.635" layer="16"/>
+<hole x="9.525" y="85.725" drill="1.143"/>
+<circle x="12.065" y="85.725" radius="0.635" width="0.635" layer="16"/>
+<hole x="12.065" y="85.725" drill="1.143"/>
+<circle x="14.605" y="85.725" radius="0.635" width="0.635" layer="16"/>
+<hole x="14.605" y="85.725" drill="1.143"/>
+<circle x="17.145" y="85.725" radius="0.635" width="0.635" layer="16"/>
+<hole x="17.145" y="85.725" drill="1.143"/>
+<circle x="1.905" y="83.185" radius="0.635" width="0.635" layer="16"/>
+<hole x="1.905" y="83.185" drill="1.143"/>
+<circle x="4.445" y="83.185" radius="0.635" width="0.635" layer="16"/>
+<hole x="4.445" y="83.185" drill="1.143"/>
+<circle x="6.985" y="83.185" radius="0.635" width="0.635" layer="16"/>
+<hole x="6.985" y="83.185" drill="1.143"/>
+<circle x="9.525" y="83.185" radius="0.635" width="0.635" layer="16"/>
+<hole x="9.525" y="83.185" drill="1.143"/>
+<circle x="12.065" y="83.185" radius="0.635" width="0.635" layer="16"/>
+<hole x="12.065" y="83.185" drill="1.143"/>
+<circle x="14.605" y="83.185" radius="0.635" width="0.635" layer="16"/>
+<hole x="14.605" y="83.185" drill="1.143"/>
+<circle x="17.145" y="83.185" radius="0.635" width="0.635" layer="16"/>
+<hole x="17.145" y="83.185" drill="1.143"/>
+<circle x="1.905" y="80.645" radius="0.635" width="0.635" layer="16"/>
+<hole x="1.905" y="80.645" drill="1.143"/>
+<circle x="4.445" y="80.645" radius="0.635" width="0.635" layer="16"/>
+<hole x="4.445" y="80.645" drill="1.143"/>
+<circle x="6.985" y="80.645" radius="0.635" width="0.635" layer="16"/>
+<hole x="6.985" y="80.645" drill="1.143"/>
+<circle x="9.525" y="80.645" radius="0.635" width="0.635" layer="16"/>
+<hole x="9.525" y="80.645" drill="1.143"/>
+<circle x="12.065" y="80.645" radius="0.635" width="0.635" layer="16"/>
+<hole x="12.065" y="80.645" drill="1.143"/>
+<circle x="14.605" y="80.645" radius="0.635" width="0.635" layer="16"/>
+<hole x="14.605" y="80.645" drill="1.143"/>
+<circle x="17.145" y="80.645" radius="0.635" width="0.635" layer="16"/>
+<hole x="17.145" y="80.645" drill="1.143"/>
+<circle x="1.905" y="78.105" radius="0.635" width="0.635" layer="16"/>
+<hole x="1.905" y="78.105" drill="1.143"/>
+<circle x="4.445" y="78.105" radius="0.635" width="0.635" layer="16"/>
+<hole x="4.445" y="78.105" drill="1.143"/>
+<circle x="6.985" y="78.105" radius="0.635" width="0.635" layer="16"/>
+<hole x="6.985" y="78.105" drill="1.143"/>
+<circle x="9.525" y="78.105" radius="0.635" width="0.635" layer="16"/>
+<hole x="9.525" y="78.105" drill="1.143"/>
+<circle x="12.065" y="78.105" radius="0.635" width="0.635" layer="16"/>
+<hole x="12.065" y="78.105" drill="1.143"/>
+<circle x="14.605" y="78.105" radius="0.635" width="0.635" layer="16"/>
+<hole x="14.605" y="78.105" drill="1.143"/>
+<circle x="17.145" y="78.105" radius="0.635" width="0.635" layer="16"/>
+<hole x="17.145" y="78.105" drill="1.143"/>
+<circle x="1.905" y="75.565" radius="0.635" width="0.635" layer="16"/>
+<hole x="1.905" y="75.565" drill="1.143"/>
+<circle x="4.445" y="75.565" radius="0.635" width="0.635" layer="16"/>
+<hole x="4.445" y="75.565" drill="1.143"/>
+<circle x="6.985" y="75.565" radius="0.635" width="0.635" layer="16"/>
+<hole x="6.985" y="75.565" drill="1.143"/>
+<circle x="9.525" y="75.565" radius="0.635" width="0.635" layer="16"/>
+<hole x="9.525" y="75.565" drill="1.143"/>
+<circle x="12.065" y="75.565" radius="0.635" width="0.635" layer="16"/>
+<hole x="12.065" y="75.565" drill="1.143"/>
+<circle x="14.605" y="75.565" radius="0.635" width="0.635" layer="16"/>
+<hole x="14.605" y="75.565" drill="1.143"/>
+<circle x="17.145" y="75.565" radius="0.635" width="0.635" layer="16"/>
+<hole x="17.145" y="75.565" drill="1.143"/>
+<circle x="1.905" y="73.025" radius="0.635" width="0.635" layer="16"/>
+<hole x="1.905" y="73.025" drill="1.143"/>
+<circle x="4.445" y="73.025" radius="0.635" width="0.635" layer="16"/>
+<hole x="4.445" y="73.025" drill="1.143"/>
+<circle x="6.985" y="73.025" radius="0.635" width="0.635" layer="16"/>
+<hole x="6.985" y="73.025" drill="1.143"/>
+<circle x="9.525" y="73.025" radius="0.635" width="0.635" layer="16"/>
+<hole x="9.525" y="73.025" drill="1.143"/>
+<circle x="12.065" y="73.025" radius="0.635" width="0.635" layer="16"/>
+<hole x="12.065" y="73.025" drill="1.143"/>
+<circle x="14.605" y="73.025" radius="0.635" width="0.635" layer="16"/>
+<hole x="14.605" y="73.025" drill="1.143"/>
+<circle x="17.145" y="73.025" radius="0.635" width="0.635" layer="16"/>
+<hole x="17.145" y="73.025" drill="1.143"/>
+<circle x="1.905" y="70.485" radius="0.635" width="0.635" layer="16"/>
+<hole x="1.905" y="70.485" drill="1.143"/>
+<circle x="4.445" y="70.485" radius="0.635" width="0.635" layer="16"/>
+<hole x="4.445" y="70.485" drill="1.143"/>
+<circle x="6.985" y="70.485" radius="0.635" width="0.635" layer="16"/>
+<hole x="6.985" y="70.485" drill="1.143"/>
+<circle x="9.525" y="70.485" radius="0.635" width="0.635" layer="16"/>
+<hole x="9.525" y="70.485" drill="1.143"/>
+<circle x="12.065" y="70.485" radius="0.635" width="0.635" layer="16"/>
+<hole x="12.065" y="70.485" drill="1.143"/>
+<circle x="14.605" y="70.485" radius="0.635" width="0.635" layer="16"/>
+<hole x="14.605" y="70.485" drill="1.143"/>
+<circle x="17.145" y="70.485" radius="0.635" width="0.635" layer="16"/>
+<hole x="17.145" y="70.485" drill="1.143"/>
+<circle x="1.905" y="67.945" radius="0.635" width="0.635" layer="16"/>
+<hole x="1.905" y="67.945" drill="1.143"/>
+<circle x="4.445" y="67.945" radius="0.635" width="0.635" layer="16"/>
+<hole x="4.445" y="67.945" drill="1.143"/>
+<circle x="6.985" y="67.945" radius="0.635" width="0.635" layer="16"/>
+<hole x="6.985" y="67.945" drill="1.143"/>
+<circle x="9.525" y="67.945" radius="0.635" width="0.635" layer="16"/>
+<hole x="9.525" y="67.945" drill="1.143"/>
+<circle x="12.065" y="67.945" radius="0.635" width="0.635" layer="16"/>
+<hole x="12.065" y="67.945" drill="1.143"/>
+<circle x="14.605" y="67.945" radius="0.635" width="0.635" layer="16"/>
+<hole x="14.605" y="67.945" drill="1.143"/>
+<circle x="17.145" y="67.945" radius="0.635" width="0.635" layer="16"/>
+<hole x="17.145" y="67.945" drill="1.143"/>
+<circle x="1.905" y="65.405" radius="0.635" width="0.635" layer="16"/>
+<hole x="1.905" y="65.405" drill="1.143"/>
+<circle x="4.445" y="65.405" radius="0.635" width="0.635" layer="16"/>
+<hole x="4.445" y="65.405" drill="1.143"/>
+<circle x="6.985" y="65.405" radius="0.635" width="0.635" layer="16"/>
+<hole x="6.985" y="65.405" drill="1.143"/>
+<circle x="9.525" y="65.405" radius="0.635" width="0.635" layer="16"/>
+<hole x="9.525" y="65.405" drill="1.143"/>
+<circle x="12.065" y="65.405" radius="0.635" width="0.635" layer="16"/>
+<hole x="12.065" y="65.405" drill="1.143"/>
+<circle x="14.605" y="65.405" radius="0.635" width="0.635" layer="16"/>
+<hole x="14.605" y="65.405" drill="1.143"/>
+<circle x="17.145" y="65.405" radius="0.635" width="0.635" layer="16"/>
+<hole x="17.145" y="65.405" drill="1.143"/>
+<circle x="1.905" y="62.865" radius="0.635" width="0.635" layer="16"/>
+<hole x="1.905" y="62.865" drill="1.143"/>
+<circle x="4.445" y="62.865" radius="0.635" width="0.635" layer="16"/>
+<hole x="4.445" y="62.865" drill="1.143"/>
+<circle x="6.985" y="62.865" radius="0.635" width="0.635" layer="16"/>
+<hole x="6.985" y="62.865" drill="1.143"/>
+<circle x="9.525" y="62.865" radius="0.635" width="0.635" layer="16"/>
+<hole x="9.525" y="62.865" drill="1.143"/>
+<circle x="12.065" y="62.865" radius="0.635" width="0.635" layer="16"/>
+<hole x="12.065" y="62.865" drill="1.143"/>
+<circle x="14.605" y="62.865" radius="0.635" width="0.635" layer="16"/>
+<hole x="14.605" y="62.865" drill="1.143"/>
+<circle x="17.145" y="62.865" radius="0.635" width="0.635" layer="16"/>
+<hole x="17.145" y="62.865" drill="1.143"/>
+<circle x="1.905" y="60.325" radius="0.635" width="0.635" layer="16"/>
+<hole x="1.905" y="60.325" drill="1.143"/>
+<circle x="4.445" y="60.325" radius="0.635" width="0.635" layer="16"/>
+<hole x="4.445" y="60.325" drill="1.143"/>
+<circle x="6.985" y="60.325" radius="0.635" width="0.635" layer="16"/>
+<hole x="6.985" y="60.325" drill="1.143"/>
+<circle x="9.525" y="60.325" radius="0.635" width="0.635" layer="16"/>
+<hole x="9.525" y="60.325" drill="1.143"/>
+<circle x="12.065" y="60.325" radius="0.635" width="0.635" layer="16"/>
+<hole x="12.065" y="60.325" drill="1.143"/>
+<circle x="14.605" y="60.325" radius="0.635" width="0.635" layer="16"/>
+<hole x="14.605" y="60.325" drill="1.143"/>
+<circle x="17.145" y="60.325" radius="0.635" width="0.635" layer="16"/>
+<hole x="17.145" y="60.325" drill="1.143"/>
+<circle x="1.905" y="57.785" radius="0.635" width="0.635" layer="16"/>
+<hole x="1.905" y="57.785" drill="1.143"/>
+<circle x="4.445" y="57.785" radius="0.635" width="0.635" layer="16"/>
+<hole x="4.445" y="57.785" drill="1.143"/>
+<circle x="6.985" y="57.785" radius="0.635" width="0.635" layer="16"/>
+<hole x="6.985" y="57.785" drill="1.143"/>
+<circle x="9.525" y="57.785" radius="0.635" width="0.635" layer="16"/>
+<hole x="9.525" y="57.785" drill="1.143"/>
+<circle x="12.065" y="57.785" radius="0.635" width="0.635" layer="16"/>
+<hole x="12.065" y="57.785" drill="1.143"/>
+<circle x="14.605" y="57.785" radius="0.635" width="0.635" layer="16"/>
+<hole x="14.605" y="57.785" drill="1.143"/>
+<circle x="17.145" y="57.785" radius="0.635" width="0.635" layer="16"/>
+<hole x="17.145" y="57.785" drill="1.143"/>
+<circle x="1.905" y="55.245" radius="0.635" width="0.635" layer="16"/>
+<hole x="1.905" y="55.245" drill="1.143"/>
+<circle x="4.445" y="55.245" radius="0.635" width="0.635" layer="16"/>
+<hole x="4.445" y="55.245" drill="1.143"/>
+<circle x="6.985" y="55.245" radius="0.635" width="0.635" layer="16"/>
+<hole x="6.985" y="55.245" drill="1.143"/>
+<circle x="9.525" y="55.245" radius="0.635" width="0.635" layer="16"/>
+<hole x="9.525" y="55.245" drill="1.143"/>
+<circle x="12.065" y="55.245" radius="0.635" width="0.635" layer="16"/>
+<hole x="12.065" y="55.245" drill="1.143"/>
+<circle x="14.605" y="55.245" radius="0.635" width="0.635" layer="16"/>
+<hole x="14.605" y="55.245" drill="1.143"/>
+<circle x="17.145" y="55.245" radius="0.635" width="0.635" layer="16"/>
+<hole x="17.145" y="55.245" drill="1.143"/>
+<circle x="1.905" y="52.705" radius="0.635" width="0.635" layer="16"/>
+<hole x="1.905" y="52.705" drill="1.143"/>
+<circle x="4.445" y="52.705" radius="0.635" width="0.635" layer="16"/>
+<hole x="4.445" y="52.705" drill="1.143"/>
+<circle x="6.985" y="52.705" radius="0.635" width="0.635" layer="16"/>
+<hole x="6.985" y="52.705" drill="1.143"/>
+<circle x="9.525" y="52.705" radius="0.635" width="0.635" layer="16"/>
+<hole x="9.525" y="52.705" drill="1.143"/>
+<circle x="12.065" y="52.705" radius="0.635" width="0.635" layer="16"/>
+<hole x="12.065" y="52.705" drill="1.143"/>
+<circle x="14.605" y="52.705" radius="0.635" width="0.635" layer="16"/>
+<hole x="14.605" y="52.705" drill="1.143"/>
+<circle x="17.145" y="52.705" radius="0.635" width="0.635" layer="16"/>
+<hole x="17.145" y="52.705" drill="1.143"/>
+<circle x="1.905" y="50.165" radius="0.635" width="0.635" layer="16"/>
+<hole x="1.905" y="50.165" drill="1.143"/>
+<circle x="4.445" y="50.165" radius="0.635" width="0.635" layer="16"/>
+<hole x="4.445" y="50.165" drill="1.143"/>
+<circle x="6.985" y="50.165" radius="0.635" width="0.635" layer="16"/>
+<hole x="6.985" y="50.165" drill="1.143"/>
+<circle x="9.525" y="50.165" radius="0.635" width="0.635" layer="16"/>
+<hole x="9.525" y="50.165" drill="1.143"/>
+<circle x="12.065" y="50.165" radius="0.635" width="0.635" layer="16"/>
+<hole x="12.065" y="50.165" drill="1.143"/>
+<circle x="14.605" y="50.165" radius="0.635" width="0.635" layer="16"/>
+<hole x="14.605" y="50.165" drill="1.143"/>
+<circle x="17.145" y="50.165" radius="0.635" width="0.635" layer="16"/>
+<hole x="17.145" y="50.165" drill="1.143"/>
+<circle x="1.905" y="47.625" radius="0.635" width="0.635" layer="16"/>
+<hole x="1.905" y="47.625" drill="1.143"/>
+<circle x="4.445" y="47.625" radius="0.635" width="0.635" layer="16"/>
+<hole x="4.445" y="47.625" drill="1.143"/>
+<circle x="6.985" y="47.625" radius="0.635" width="0.635" layer="16"/>
+<hole x="6.985" y="47.625" drill="1.143"/>
+<circle x="9.525" y="47.625" radius="0.635" width="0.635" layer="16"/>
+<hole x="9.525" y="47.625" drill="1.143"/>
+<circle x="12.065" y="47.625" radius="0.635" width="0.635" layer="16"/>
+<hole x="12.065" y="47.625" drill="1.143"/>
+<circle x="14.605" y="47.625" radius="0.635" width="0.635" layer="16"/>
+<hole x="14.605" y="47.625" drill="1.143"/>
+<circle x="17.145" y="47.625" radius="0.635" width="0.635" layer="16"/>
+<hole x="17.145" y="47.625" drill="1.143"/>
+<circle x="1.905" y="45.085" radius="0.635" width="0.635" layer="16"/>
+<hole x="1.905" y="45.085" drill="1.143"/>
+<circle x="4.445" y="45.085" radius="0.635" width="0.635" layer="16"/>
+<hole x="4.445" y="45.085" drill="1.143"/>
+<circle x="6.985" y="45.085" radius="0.635" width="0.635" layer="16"/>
+<hole x="6.985" y="45.085" drill="1.143"/>
+<circle x="9.525" y="45.085" radius="0.635" width="0.635" layer="16"/>
+<hole x="9.525" y="45.085" drill="1.143"/>
+<circle x="12.065" y="45.085" radius="0.635" width="0.635" layer="16"/>
+<hole x="12.065" y="45.085" drill="1.143"/>
+<circle x="14.605" y="45.085" radius="0.635" width="0.635" layer="16"/>
+<hole x="14.605" y="45.085" drill="1.143"/>
+<circle x="17.145" y="45.085" radius="0.635" width="0.635" layer="16"/>
+<hole x="17.145" y="45.085" drill="1.143"/>
+<circle x="1.905" y="42.545" radius="0.635" width="0.635" layer="16"/>
+<hole x="1.905" y="42.545" drill="1.143"/>
+<circle x="4.445" y="42.545" radius="0.635" width="0.635" layer="16"/>
+<hole x="4.445" y="42.545" drill="1.143"/>
+<circle x="6.985" y="42.545" radius="0.635" width="0.635" layer="16"/>
+<hole x="6.985" y="42.545" drill="1.143"/>
+<circle x="9.525" y="42.545" radius="0.635" width="0.635" layer="16"/>
+<hole x="9.525" y="42.545" drill="1.143"/>
+<circle x="12.065" y="42.545" radius="0.635" width="0.635" layer="16"/>
+<hole x="12.065" y="42.545" drill="1.143"/>
+<circle x="14.605" y="42.545" radius="0.635" width="0.635" layer="16"/>
+<hole x="14.605" y="42.545" drill="1.143"/>
+<circle x="17.145" y="42.545" radius="0.635" width="0.635" layer="16"/>
+<hole x="17.145" y="42.545" drill="1.143"/>
+<circle x="1.905" y="40.005" radius="0.635" width="0.635" layer="16"/>
+<hole x="1.905" y="40.005" drill="1.143"/>
+<circle x="4.445" y="40.005" radius="0.635" width="0.635" layer="16"/>
+<hole x="4.445" y="40.005" drill="1.143"/>
+<circle x="6.985" y="40.005" radius="0.635" width="0.635" layer="16"/>
+<hole x="6.985" y="40.005" drill="1.143"/>
+<circle x="9.525" y="40.005" radius="0.635" width="0.635" layer="16"/>
+<hole x="9.525" y="40.005" drill="1.143"/>
+<circle x="12.065" y="40.005" radius="0.635" width="0.635" layer="16"/>
+<hole x="12.065" y="40.005" drill="1.143"/>
+<circle x="14.605" y="40.005" radius="0.635" width="0.635" layer="16"/>
+<hole x="14.605" y="40.005" drill="1.143"/>
+<circle x="17.145" y="40.005" radius="0.635" width="0.635" layer="16"/>
+<hole x="17.145" y="40.005" drill="1.143"/>
+<circle x="1.905" y="37.465" radius="0.635" width="0.635" layer="16"/>
+<hole x="1.905" y="37.465" drill="1.143"/>
+<circle x="4.445" y="37.465" radius="0.635" width="0.635" layer="16"/>
+<hole x="4.445" y="37.465" drill="1.143"/>
+<circle x="6.985" y="37.465" radius="0.635" width="0.635" layer="16"/>
+<hole x="6.985" y="37.465" drill="1.143"/>
+<circle x="9.525" y="37.465" radius="0.635" width="0.635" layer="16"/>
+<hole x="9.525" y="37.465" drill="1.143"/>
+<circle x="12.065" y="37.465" radius="0.635" width="0.635" layer="16"/>
+<hole x="12.065" y="37.465" drill="1.143"/>
+<circle x="14.605" y="37.465" radius="0.635" width="0.635" layer="16"/>
+<hole x="14.605" y="37.465" drill="1.143"/>
+<circle x="17.145" y="37.465" radius="0.635" width="0.635" layer="16"/>
+<hole x="17.145" y="37.465" drill="1.143"/>
+<circle x="1.905" y="34.925" radius="0.635" width="0.635" layer="16"/>
+<hole x="1.905" y="34.925" drill="1.143"/>
+<circle x="4.445" y="34.925" radius="0.635" width="0.635" layer="16"/>
+<hole x="4.445" y="34.925" drill="1.143"/>
+<circle x="6.985" y="34.925" radius="0.635" width="0.635" layer="16"/>
+<hole x="6.985" y="34.925" drill="1.143"/>
+<circle x="9.525" y="34.925" radius="0.635" width="0.635" layer="16"/>
+<hole x="9.525" y="34.925" drill="1.143"/>
+<circle x="12.065" y="34.925" radius="0.635" width="0.635" layer="16"/>
+<hole x="12.065" y="34.925" drill="1.143"/>
+<circle x="14.605" y="34.925" radius="0.635" width="0.635" layer="16"/>
+<hole x="14.605" y="34.925" drill="1.143"/>
+<circle x="17.145" y="34.925" radius="0.635" width="0.635" layer="16"/>
+<hole x="17.145" y="34.925" drill="1.143"/>
+<circle x="1.905" y="32.385" radius="0.635" width="0.635" layer="16"/>
+<hole x="1.905" y="32.385" drill="1.143"/>
+<circle x="4.445" y="32.385" radius="0.635" width="0.635" layer="16"/>
+<hole x="4.445" y="32.385" drill="1.143"/>
+<circle x="6.985" y="32.385" radius="0.635" width="0.635" layer="16"/>
+<hole x="6.985" y="32.385" drill="1.143"/>
+<circle x="9.525" y="32.385" radius="0.635" width="0.635" layer="16"/>
+<hole x="9.525" y="32.385" drill="1.143"/>
+<circle x="12.065" y="32.385" radius="0.635" width="0.635" layer="16"/>
+<hole x="12.065" y="32.385" drill="1.143"/>
+<circle x="14.605" y="32.385" radius="0.635" width="0.635" layer="16"/>
+<hole x="14.605" y="32.385" drill="1.143"/>
+<circle x="17.145" y="32.385" radius="0.635" width="0.635" layer="16"/>
+<hole x="17.145" y="32.385" drill="1.143"/>
+<circle x="1.905" y="29.845" radius="0.635" width="0.635" layer="16"/>
+<hole x="1.905" y="29.845" drill="1.143"/>
+<circle x="4.445" y="29.845" radius="0.635" width="0.635" layer="16"/>
+<hole x="4.445" y="29.845" drill="1.143"/>
+<circle x="6.985" y="29.845" radius="0.635" width="0.635" layer="16"/>
+<hole x="6.985" y="29.845" drill="1.143"/>
+<circle x="9.525" y="29.845" radius="0.635" width="0.635" layer="16"/>
+<hole x="9.525" y="29.845" drill="1.143"/>
+<circle x="12.065" y="29.845" radius="0.635" width="0.635" layer="16"/>
+<hole x="12.065" y="29.845" drill="1.143"/>
+<circle x="14.605" y="29.845" radius="0.635" width="0.635" layer="16"/>
+<hole x="14.605" y="29.845" drill="1.143"/>
+<circle x="17.145" y="29.845" radius="0.635" width="0.635" layer="16"/>
+<hole x="17.145" y="29.845" drill="1.143"/>
+<circle x="1.905" y="27.305" radius="0.635" width="0.635" layer="16"/>
+<hole x="1.905" y="27.305" drill="1.143"/>
+<circle x="4.445" y="27.305" radius="0.635" width="0.635" layer="16"/>
+<hole x="4.445" y="27.305" drill="1.143"/>
+<circle x="6.985" y="27.305" radius="0.635" width="0.635" layer="16"/>
+<hole x="6.985" y="27.305" drill="1.143"/>
+<circle x="9.525" y="27.305" radius="0.635" width="0.635" layer="16"/>
+<hole x="9.525" y="27.305" drill="1.143"/>
+<circle x="12.065" y="27.305" radius="0.635" width="0.635" layer="16"/>
+<hole x="12.065" y="27.305" drill="1.143"/>
+<circle x="14.605" y="27.305" radius="0.635" width="0.635" layer="16"/>
+<hole x="14.605" y="27.305" drill="1.143"/>
+<circle x="17.145" y="27.305" radius="0.635" width="0.635" layer="16"/>
+<hole x="17.145" y="27.305" drill="1.143"/>
+<circle x="1.905" y="24.765" radius="0.635" width="0.635" layer="16"/>
+<hole x="1.905" y="24.765" drill="1.143"/>
+<circle x="4.445" y="24.765" radius="0.635" width="0.635" layer="16"/>
+<hole x="4.445" y="24.765" drill="1.143"/>
+<circle x="6.985" y="24.765" radius="0.635" width="0.635" layer="16"/>
+<hole x="6.985" y="24.765" drill="1.143"/>
+<circle x="9.525" y="24.765" radius="0.635" width="0.635" layer="16"/>
+<hole x="9.525" y="24.765" drill="1.143"/>
+<circle x="12.065" y="24.765" radius="0.635" width="0.635" layer="16"/>
+<hole x="12.065" y="24.765" drill="1.143"/>
+<circle x="14.605" y="24.765" radius="0.635" width="0.635" layer="16"/>
+<hole x="14.605" y="24.765" drill="1.143"/>
+<circle x="17.145" y="24.765" radius="0.635" width="0.635" layer="16"/>
+<hole x="17.145" y="24.765" drill="1.143"/>
+<circle x="1.905" y="22.225" radius="0.635" width="0.635" layer="16"/>
+<hole x="1.905" y="22.225" drill="1.143"/>
+<circle x="4.445" y="22.225" radius="0.635" width="0.635" layer="16"/>
+<hole x="4.445" y="22.225" drill="1.143"/>
+<circle x="6.985" y="22.225" radius="0.635" width="0.635" layer="16"/>
+<hole x="6.985" y="22.225" drill="1.143"/>
+<circle x="9.525" y="22.225" radius="0.635" width="0.635" layer="16"/>
+<hole x="9.525" y="22.225" drill="1.143"/>
+<circle x="12.065" y="22.225" radius="0.635" width="0.635" layer="16"/>
+<hole x="12.065" y="22.225" drill="1.143"/>
+<circle x="14.605" y="22.225" radius="0.635" width="0.635" layer="16"/>
+<hole x="14.605" y="22.225" drill="1.143"/>
+<circle x="17.145" y="22.225" radius="0.635" width="0.635" layer="16"/>
+<hole x="17.145" y="22.225" drill="1.143"/>
+<circle x="1.905" y="19.685" radius="0.635" width="0.635" layer="16"/>
+<hole x="1.905" y="19.685" drill="1.143"/>
+<circle x="4.445" y="19.685" radius="0.635" width="0.635" layer="16"/>
+<hole x="4.445" y="19.685" drill="1.143"/>
+<circle x="6.985" y="19.685" radius="0.635" width="0.635" layer="16"/>
+<hole x="6.985" y="19.685" drill="1.143"/>
+<circle x="9.525" y="19.685" radius="0.635" width="0.635" layer="16"/>
+<hole x="9.525" y="19.685" drill="1.143"/>
+<circle x="12.065" y="19.685" radius="0.635" width="0.635" layer="16"/>
+<hole x="12.065" y="19.685" drill="1.143"/>
+<circle x="14.605" y="19.685" radius="0.635" width="0.635" layer="16"/>
+<hole x="14.605" y="19.685" drill="1.143"/>
+<circle x="17.145" y="19.685" radius="0.635" width="0.635" layer="16"/>
+<hole x="17.145" y="19.685" drill="1.143"/>
+<circle x="1.905" y="17.145" radius="0.635" width="0.635" layer="16"/>
+<hole x="1.905" y="17.145" drill="1.143"/>
+<circle x="4.445" y="17.145" radius="0.635" width="0.635" layer="16"/>
+<hole x="4.445" y="17.145" drill="1.143"/>
+<circle x="6.985" y="17.145" radius="0.635" width="0.635" layer="16"/>
+<hole x="6.985" y="17.145" drill="1.143"/>
+<circle x="9.525" y="17.145" radius="0.635" width="0.635" layer="16"/>
+<hole x="9.525" y="17.145" drill="1.143"/>
+<circle x="12.065" y="17.145" radius="0.635" width="0.635" layer="16"/>
+<hole x="12.065" y="17.145" drill="1.143"/>
+<circle x="14.605" y="17.145" radius="0.635" width="0.635" layer="16"/>
+<hole x="14.605" y="17.145" drill="1.143"/>
+<circle x="17.145" y="17.145" radius="0.635" width="0.635" layer="16"/>
+<hole x="17.145" y="17.145" drill="1.143"/>
+<circle x="1.905" y="14.605" radius="0.635" width="0.635" layer="16"/>
+<hole x="1.905" y="14.605" drill="1.143"/>
+<circle x="4.445" y="14.605" radius="0.635" width="0.635" layer="16"/>
+<hole x="4.445" y="14.605" drill="1.143"/>
+<circle x="6.985" y="14.605" radius="0.635" width="0.635" layer="16"/>
+<hole x="6.985" y="14.605" drill="1.143"/>
+<circle x="9.525" y="14.605" radius="0.635" width="0.635" layer="16"/>
+<hole x="9.525" y="14.605" drill="1.143"/>
+<circle x="12.065" y="14.605" radius="0.635" width="0.635" layer="16"/>
+<hole x="12.065" y="14.605" drill="1.143"/>
+<circle x="14.605" y="14.605" radius="0.635" width="0.635" layer="16"/>
+<hole x="14.605" y="14.605" drill="1.143"/>
+<circle x="17.145" y="14.605" radius="0.635" width="0.635" layer="16"/>
+<hole x="17.145" y="14.605" drill="1.143"/>
+<circle x="1.905" y="12.065" radius="0.635" width="0.635" layer="16"/>
+<hole x="1.905" y="12.065" drill="1.143"/>
+<circle x="4.445" y="12.065" radius="0.635" width="0.635" layer="16"/>
+<hole x="4.445" y="12.065" drill="1.143"/>
+<circle x="6.985" y="12.065" radius="0.635" width="0.635" layer="16"/>
+<hole x="6.985" y="12.065" drill="1.143"/>
+<circle x="9.525" y="12.065" radius="0.635" width="0.635" layer="16"/>
+<hole x="9.525" y="12.065" drill="1.143"/>
+<circle x="12.065" y="12.065" radius="0.635" width="0.635" layer="16"/>
+<hole x="12.065" y="12.065" drill="1.143"/>
+<circle x="14.605" y="12.065" radius="0.635" width="0.635" layer="16"/>
+<hole x="14.605" y="12.065" drill="1.143"/>
+<circle x="17.145" y="12.065" radius="0.635" width="0.635" layer="16"/>
+<hole x="17.145" y="12.065" drill="1.143"/>
+<circle x="1.905" y="9.525" radius="0.635" width="0.635" layer="16"/>
+<hole x="1.905" y="9.525" drill="1.143"/>
+<circle x="4.445" y="9.525" radius="0.635" width="0.635" layer="16"/>
+<hole x="4.445" y="9.525" drill="1.143"/>
+<circle x="6.985" y="9.525" radius="0.635" width="0.635" layer="16"/>
+<hole x="6.985" y="9.525" drill="1.143"/>
+<circle x="9.525" y="9.525" radius="0.635" width="0.635" layer="16"/>
+<hole x="9.525" y="9.525" drill="1.143"/>
+<circle x="12.065" y="9.525" radius="0.635" width="0.635" layer="16"/>
+<hole x="12.065" y="9.525" drill="1.143"/>
+<circle x="14.605" y="9.525" radius="0.635" width="0.635" layer="16"/>
+<hole x="14.605" y="9.525" drill="1.143"/>
+<circle x="17.145" y="9.525" radius="0.635" width="0.635" layer="16"/>
+<hole x="17.145" y="9.525" drill="1.143"/>
+<circle x="1.905" y="6.985" radius="0.635" width="0.635" layer="16"/>
+<hole x="1.905" y="6.985" drill="1.143"/>
+<circle x="4.445" y="6.985" radius="0.635" width="0.635" layer="16"/>
+<hole x="4.445" y="6.985" drill="1.143"/>
+<circle x="6.985" y="6.985" radius="0.635" width="0.635" layer="16"/>
+<hole x="6.985" y="6.985" drill="1.143"/>
+<circle x="9.525" y="6.985" radius="0.635" width="0.635" layer="16"/>
+<hole x="9.525" y="6.985" drill="1.143"/>
+<circle x="12.065" y="6.985" radius="0.635" width="0.635" layer="16"/>
+<hole x="12.065" y="6.985" drill="1.143"/>
+<circle x="14.605" y="6.985" radius="0.635" width="0.635" layer="16"/>
+<hole x="14.605" y="6.985" drill="1.143"/>
+<circle x="17.145" y="6.985" radius="0.635" width="0.635" layer="16"/>
+<hole x="17.145" y="6.985" drill="1.143"/>
+<circle x="1.905" y="4.445" radius="0.635" width="0.635" layer="16"/>
+<hole x="1.905" y="4.445" drill="1.143"/>
+<circle x="4.445" y="4.445" radius="0.635" width="0.635" layer="16"/>
+<hole x="4.445" y="4.445" drill="1.143"/>
+<circle x="6.985" y="4.445" radius="0.635" width="0.635" layer="16"/>
+<hole x="6.985" y="4.445" drill="1.143"/>
+<circle x="9.525" y="4.445" radius="0.635" width="0.635" layer="16"/>
+<hole x="9.525" y="4.445" drill="1.143"/>
+<circle x="12.065" y="4.445" radius="0.635" width="0.635" layer="16"/>
+<hole x="12.065" y="4.445" drill="1.143"/>
+<circle x="14.605" y="4.445" radius="0.635" width="0.635" layer="16"/>
+<hole x="14.605" y="4.445" drill="1.143"/>
+<circle x="17.145" y="4.445" radius="0.635" width="0.635" layer="16"/>
+<hole x="17.145" y="4.445" drill="1.143"/>
+<circle x="1.905" y="1.905" radius="0.635" width="0.635" layer="16"/>
+<hole x="1.905" y="1.905" drill="1.143"/>
+<circle x="4.445" y="1.905" radius="0.635" width="0.635" layer="16"/>
+<hole x="4.445" y="1.905" drill="1.143"/>
+<circle x="6.985" y="1.905" radius="0.635" width="0.635" layer="16"/>
+<hole x="6.985" y="1.905" drill="1.143"/>
+<circle x="9.525" y="1.905" radius="0.635" width="0.635" layer="16"/>
+<hole x="9.525" y="1.905" drill="1.143"/>
+<circle x="12.065" y="1.905" radius="0.635" width="0.635" layer="16"/>
+<hole x="12.065" y="1.905" drill="1.143"/>
+<circle x="14.605" y="1.905" radius="0.635" width="0.635" layer="16"/>
+<hole x="14.605" y="1.905" drill="1.143"/>
+<circle x="17.145" y="1.905" radius="0.635" width="0.635" layer="16"/>
+<hole x="17.145" y="1.905" drill="1.143"/>
+<circle x="17.145" y="93.345" radius="0.635" width="0.8382" layer="30"/>
+<circle x="17.145" y="90.805" radius="0.635" width="0.8382" layer="30"/>
+<circle x="17.145" y="88.265" radius="0.635" width="0.8382" layer="30"/>
+<circle x="17.145" y="85.725" radius="0.635" width="0.8382" layer="30"/>
+<circle x="17.145" y="83.185" radius="0.635" width="0.8382" layer="30"/>
+<circle x="17.145" y="80.645" radius="0.635" width="0.8382" layer="30"/>
+<circle x="17.145" y="78.105" radius="0.635" width="0.8382" layer="30"/>
+<circle x="17.145" y="75.565" radius="0.635" width="0.8382" layer="30"/>
+<circle x="17.145" y="73.025" radius="0.635" width="0.8382" layer="30"/>
+<circle x="17.145" y="70.485" radius="0.635" width="0.8382" layer="30"/>
+<circle x="17.145" y="67.945" radius="0.635" width="0.8382" layer="30"/>
+<circle x="17.145" y="65.405" radius="0.635" width="0.8382" layer="30"/>
+<circle x="17.145" y="62.865" radius="0.635" width="0.8382" layer="30"/>
+<circle x="17.145" y="60.325" radius="0.635" width="0.8382" layer="30"/>
+<circle x="17.145" y="57.785" radius="0.635" width="0.8382" layer="30"/>
+<circle x="17.145" y="55.245" radius="0.635" width="0.8382" layer="30"/>
+<circle x="17.145" y="52.705" radius="0.635" width="0.8382" layer="30"/>
+<circle x="17.145" y="50.165" radius="0.635" width="0.8382" layer="30"/>
+<circle x="17.145" y="47.625" radius="0.635" width="0.8382" layer="30"/>
+<circle x="17.145" y="45.085" radius="0.635" width="0.8382" layer="30"/>
+<circle x="17.145" y="42.545" radius="0.635" width="0.8382" layer="30"/>
+<circle x="17.145" y="40.005" radius="0.635" width="0.8382" layer="30"/>
+<circle x="17.145" y="37.465" radius="0.635" width="0.8382" layer="30"/>
+<circle x="17.145" y="34.925" radius="0.635" width="0.8382" layer="30"/>
+<circle x="17.145" y="32.385" radius="0.635" width="0.8382" layer="30"/>
+<circle x="17.145" y="29.845" radius="0.635" width="0.8382" layer="30"/>
+<circle x="17.145" y="27.305" radius="0.635" width="0.8382" layer="30"/>
+<circle x="17.145" y="24.765" radius="0.635" width="0.8382" layer="30"/>
+<circle x="17.145" y="22.225" radius="0.635" width="0.8382" layer="30"/>
+<circle x="17.145" y="19.685" radius="0.635" width="0.8382" layer="30"/>
+<circle x="17.145" y="17.145" radius="0.635" width="0.8382" layer="30"/>
+<circle x="17.145" y="14.605" radius="0.635" width="0.8382" layer="30"/>
+<circle x="17.145" y="12.065" radius="0.635" width="0.8382" layer="30"/>
+<circle x="17.145" y="9.525" radius="0.635" width="0.8382" layer="30"/>
+<circle x="17.145" y="6.985" radius="0.635" width="0.8382" layer="30"/>
+<circle x="17.145" y="4.445" radius="0.635" width="0.8382" layer="30"/>
+<circle x="17.145" y="1.905" radius="0.635" width="0.8382" layer="30"/>
+<circle x="14.605" y="93.345" radius="0.635" width="0.8382" layer="30"/>
+<circle x="14.605" y="90.805" radius="0.635" width="0.8382" layer="30"/>
+<circle x="14.605" y="88.265" radius="0.635" width="0.8382" layer="30"/>
+<circle x="14.605" y="85.725" radius="0.635" width="0.8382" layer="30"/>
+<circle x="14.605" y="83.185" radius="0.635" width="0.8382" layer="30"/>
+<circle x="14.605" y="80.645" radius="0.635" width="0.8382" layer="30"/>
+<circle x="14.605" y="78.105" radius="0.635" width="0.8382" layer="30"/>
+<circle x="14.605" y="75.565" radius="0.635" width="0.8382" layer="30"/>
+<circle x="14.605" y="73.025" radius="0.635" width="0.8382" layer="30"/>
+<circle x="14.605" y="70.485" radius="0.635" width="0.8382" layer="30"/>
+<circle x="14.605" y="67.945" radius="0.635" width="0.8382" layer="30"/>
+<circle x="14.605" y="65.405" radius="0.635" width="0.8382" layer="30"/>
+<circle x="14.605" y="62.865" radius="0.635" width="0.8382" layer="30"/>
+<circle x="14.605" y="60.325" radius="0.635" width="0.8382" layer="30"/>
+<circle x="14.605" y="57.785" radius="0.635" width="0.8382" layer="30"/>
+<circle x="14.605" y="55.245" radius="0.635" width="0.8382" layer="30"/>
+<circle x="14.605" y="52.705" radius="0.635" width="0.8382" layer="30"/>
+<circle x="14.605" y="50.165" radius="0.635" width="0.8382" layer="30"/>
+<circle x="14.605" y="47.625" radius="0.635" width="0.8382" layer="30"/>
+<circle x="14.605" y="45.085" radius="0.635" width="0.8382" layer="30"/>
+<circle x="14.605" y="42.545" radius="0.635" width="0.8382" layer="30"/>
+<circle x="14.605" y="40.005" radius="0.635" width="0.8382" layer="30"/>
+<circle x="14.605" y="37.465" radius="0.635" width="0.8382" layer="30"/>
+<circle x="14.605" y="34.925" radius="0.635" width="0.8382" layer="30"/>
+<circle x="14.605" y="32.385" radius="0.635" width="0.8382" layer="30"/>
+<circle x="14.605" y="29.845" radius="0.635" width="0.8382" layer="30"/>
+<circle x="14.605" y="27.305" radius="0.635" width="0.8382" layer="30"/>
+<circle x="14.605" y="24.765" radius="0.635" width="0.8382" layer="30"/>
+<circle x="14.605" y="22.225" radius="0.635" width="0.8382" layer="30"/>
+<circle x="14.605" y="19.685" radius="0.635" width="0.8382" layer="30"/>
+<circle x="14.605" y="17.145" radius="0.635" width="0.8382" layer="30"/>
+<circle x="14.605" y="14.605" radius="0.635" width="0.8382" layer="30"/>
+<circle x="14.605" y="12.065" radius="0.635" width="0.8382" layer="30"/>
+<circle x="14.605" y="9.525" radius="0.635" width="0.8382" layer="30"/>
+<circle x="14.605" y="6.985" radius="0.635" width="0.8382" layer="30"/>
+<circle x="14.605" y="4.445" radius="0.635" width="0.8382" layer="30"/>
+<circle x="14.605" y="1.905" radius="0.635" width="0.8382" layer="30"/>
+<circle x="12.065" y="93.345" radius="0.635" width="0.8382" layer="30"/>
+<circle x="12.065" y="90.805" radius="0.635" width="0.8382" layer="30"/>
+<circle x="12.065" y="88.265" radius="0.635" width="0.8382" layer="30"/>
+<circle x="12.065" y="85.725" radius="0.635" width="0.8382" layer="30"/>
+<circle x="12.065" y="83.185" radius="0.635" width="0.8382" layer="30"/>
+<circle x="12.065" y="80.645" radius="0.635" width="0.8382" layer="30"/>
+<circle x="12.065" y="78.105" radius="0.635" width="0.8382" layer="30"/>
+<circle x="12.065" y="75.565" radius="0.635" width="0.8382" layer="30"/>
+<circle x="12.065" y="73.025" radius="0.635" width="0.8382" layer="30"/>
+<circle x="12.065" y="70.485" radius="0.635" width="0.8382" layer="30"/>
+<circle x="12.065" y="67.945" radius="0.635" width="0.8382" layer="30"/>
+<circle x="12.065" y="65.405" radius="0.635" width="0.8382" layer="30"/>
+<circle x="12.065" y="62.865" radius="0.635" width="0.8382" layer="30"/>
+<circle x="12.065" y="60.325" radius="0.635" width="0.8382" layer="30"/>
+<circle x="12.065" y="57.785" radius="0.635" width="0.8382" layer="30"/>
+<circle x="12.065" y="55.245" radius="0.635" width="0.8382" layer="30"/>
+<circle x="12.065" y="52.705" radius="0.635" width="0.8382" layer="30"/>
+<circle x="12.065" y="50.165" radius="0.635" width="0.8382" layer="30"/>
+<circle x="12.065" y="47.625" radius="0.635" width="0.8382" layer="30"/>
+<circle x="12.065" y="45.085" radius="0.635" width="0.8382" layer="30"/>
+<circle x="12.065" y="42.545" radius="0.635" width="0.8382" layer="30"/>
+<circle x="12.065" y="40.005" radius="0.635" width="0.8382" layer="30"/>
+<circle x="12.065" y="37.465" radius="0.635" width="0.8382" layer="30"/>
+<circle x="12.065" y="34.925" radius="0.635" width="0.8382" layer="30"/>
+<circle x="12.065" y="32.385" radius="0.635" width="0.8382" layer="30"/>
+<circle x="12.065" y="29.845" radius="0.635" width="0.8382" layer="30"/>
+<circle x="12.065" y="27.305" radius="0.635" width="0.8382" layer="30"/>
+<circle x="12.065" y="24.765" radius="0.635" width="0.8382" layer="30"/>
+<circle x="12.065" y="22.225" radius="0.635" width="0.8382" layer="30"/>
+<circle x="12.065" y="19.685" radius="0.635" width="0.8382" layer="30"/>
+<circle x="12.065" y="17.145" radius="0.635" width="0.8382" layer="30"/>
+<circle x="12.065" y="14.605" radius="0.635" width="0.8382" layer="30"/>
+<circle x="12.065" y="12.065" radius="0.635" width="0.8382" layer="30"/>
+<circle x="12.065" y="9.525" radius="0.635" width="0.8382" layer="30"/>
+<circle x="12.065" y="6.985" radius="0.635" width="0.8382" layer="30"/>
+<circle x="12.065" y="4.445" radius="0.635" width="0.8382" layer="30"/>
+<circle x="12.065" y="1.905" radius="0.635" width="0.8382" layer="30"/>
+<circle x="9.525" y="93.345" radius="0.635" width="0.8382" layer="30"/>
+<circle x="9.525" y="90.805" radius="0.635" width="0.8382" layer="30"/>
+<circle x="9.525" y="88.265" radius="0.635" width="0.8382" layer="30"/>
+<circle x="9.525" y="85.725" radius="0.635" width="0.8382" layer="30"/>
+<circle x="9.525" y="83.185" radius="0.635" width="0.8382" layer="30"/>
+<circle x="9.525" y="80.645" radius="0.635" width="0.8382" layer="30"/>
+<circle x="9.525" y="78.105" radius="0.635" width="0.8382" layer="30"/>
+<circle x="9.525" y="75.565" radius="0.635" width="0.8382" layer="30"/>
+<circle x="9.525" y="73.025" radius="0.635" width="0.8382" layer="30"/>
+<circle x="9.525" y="70.485" radius="0.635" width="0.8382" layer="30"/>
+<circle x="9.525" y="67.945" radius="0.635" width="0.8382" layer="30"/>
+<circle x="9.525" y="65.405" radius="0.635" width="0.8382" layer="30"/>
+<circle x="9.525" y="62.865" radius="0.635" width="0.8382" layer="30"/>
+<circle x="9.525" y="60.325" radius="0.635" width="0.8382" layer="30"/>
+<circle x="9.525" y="57.785" radius="0.635" width="0.8382" layer="30"/>
+<circle x="9.525" y="55.245" radius="0.635" width="0.8382" layer="30"/>
+<circle x="9.525" y="52.705" radius="0.635" width="0.8382" layer="30"/>
+<circle x="9.525" y="50.165" radius="0.635" width="0.8382" layer="30"/>
+<circle x="9.525" y="47.625" radius="0.635" width="0.8382" layer="30"/>
+<circle x="9.525" y="45.085" radius="0.635" width="0.8382" layer="30"/>
+<circle x="9.525" y="42.545" radius="0.635" width="0.8382" layer="30"/>
+<circle x="9.525" y="40.005" radius="0.635" width="0.8382" layer="30"/>
+<circle x="9.525" y="37.465" radius="0.635" width="0.8382" layer="30"/>
+<circle x="9.525" y="34.925" radius="0.635" width="0.8382" layer="30"/>
+<circle x="9.525" y="32.385" radius="0.635" width="0.8382" layer="30"/>
+<circle x="9.525" y="29.845" radius="0.635" width="0.8382" layer="30"/>
+<circle x="9.525" y="27.305" radius="0.635" width="0.8382" layer="30"/>
+<circle x="9.525" y="24.765" radius="0.635" width="0.8382" layer="30"/>
+<circle x="9.525" y="22.225" radius="0.635" width="0.8382" layer="30"/>
+<circle x="9.525" y="19.685" radius="0.635" width="0.8382" layer="30"/>
+<circle x="9.525" y="17.145" radius="0.635" width="0.8382" layer="30"/>
+<circle x="9.525" y="14.605" radius="0.635" width="0.8382" layer="30"/>
+<circle x="9.525" y="12.065" radius="0.635" width="0.8382" layer="30"/>
+<circle x="9.525" y="9.525" radius="0.635" width="0.8382" layer="30"/>
+<circle x="9.525" y="6.985" radius="0.635" width="0.8382" layer="30"/>
+<circle x="9.525" y="4.445" radius="0.635" width="0.8382" layer="30"/>
+<circle x="9.525" y="1.905" radius="0.635" width="0.8382" layer="30"/>
+<circle x="6.985" y="93.345" radius="0.635" width="0.8382" layer="30"/>
+<circle x="6.985" y="90.805" radius="0.635" width="0.8382" layer="30"/>
+<circle x="6.985" y="88.265" radius="0.635" width="0.8382" layer="30"/>
+<circle x="6.985" y="85.725" radius="0.635" width="0.8382" layer="30"/>
+<circle x="6.985" y="83.185" radius="0.635" width="0.8382" layer="30"/>
+<circle x="6.985" y="80.645" radius="0.635" width="0.8382" layer="30"/>
+<circle x="6.985" y="78.105" radius="0.635" width="0.8382" layer="30"/>
+<circle x="6.985" y="75.565" radius="0.635" width="0.8382" layer="30"/>
+<circle x="6.985" y="73.025" radius="0.635" width="0.8382" layer="30"/>
+<circle x="6.985" y="70.485" radius="0.635" width="0.8382" layer="30"/>
+<circle x="6.985" y="67.945" radius="0.635" width="0.8382" layer="30"/>
+<circle x="6.985" y="65.405" radius="0.635" width="0.8382" layer="30"/>
+<circle x="6.985" y="62.865" radius="0.635" width="0.8382" layer="30"/>
+<circle x="6.985" y="60.325" radius="0.635" width="0.8382" layer="30"/>
+<circle x="6.985" y="57.785" radius="0.635" width="0.8382" layer="30"/>
+<circle x="6.985" y="55.245" radius="0.635" width="0.8382" layer="30"/>
+<circle x="6.985" y="52.705" radius="0.635" width="0.8382" layer="30"/>
+<circle x="6.985" y="50.165" radius="0.635" width="0.8382" layer="30"/>
+<circle x="6.985" y="47.625" radius="0.635" width="0.8382" layer="30"/>
+<circle x="6.985" y="45.085" radius="0.635" width="0.8382" layer="30"/>
+<circle x="6.985" y="42.545" radius="0.635" width="0.8382" layer="30"/>
+<circle x="6.985" y="40.005" radius="0.635" width="0.8382" layer="30"/>
+<circle x="6.985" y="37.465" radius="0.635" width="0.8382" layer="30"/>
+<circle x="6.985" y="34.925" radius="0.635" width="0.8382" layer="30"/>
+<circle x="6.985" y="32.385" radius="0.635" width="0.8382" layer="30"/>
+<circle x="6.985" y="29.845" radius="0.635" width="0.8382" layer="30"/>
+<circle x="6.985" y="27.305" radius="0.635" width="0.8382" layer="30"/>
+<circle x="6.985" y="24.765" radius="0.635" width="0.8382" layer="30"/>
+<circle x="6.985" y="22.225" radius="0.635" width="0.8382" layer="30"/>
+<circle x="6.985" y="19.685" radius="0.635" width="0.8382" layer="30"/>
+<circle x="6.985" y="17.145" radius="0.635" width="0.8382" layer="30"/>
+<circle x="6.985" y="14.605" radius="0.635" width="0.8382" layer="30"/>
+<circle x="6.985" y="12.065" radius="0.635" width="0.8382" layer="30"/>
+<circle x="6.985" y="9.525" radius="0.635" width="0.8382" layer="30"/>
+<circle x="6.985" y="6.985" radius="0.635" width="0.8382" layer="30"/>
+<circle x="6.985" y="4.445" radius="0.635" width="0.8382" layer="30"/>
+<circle x="6.985" y="1.905" radius="0.635" width="0.8382" layer="30"/>
+<circle x="4.445" y="93.345" radius="0.635" width="0.8382" layer="30"/>
+<circle x="4.445" y="90.805" radius="0.635" width="0.8382" layer="30"/>
+<circle x="4.445" y="88.265" radius="0.635" width="0.8382" layer="30"/>
+<circle x="4.445" y="85.725" radius="0.635" width="0.8382" layer="30"/>
+<circle x="4.445" y="83.185" radius="0.635" width="0.8382" layer="30"/>
+<circle x="4.445" y="80.645" radius="0.635" width="0.8382" layer="30"/>
+<circle x="4.445" y="78.105" radius="0.635" width="0.8382" layer="30"/>
+<circle x="4.445" y="75.565" radius="0.635" width="0.8382" layer="30"/>
+<circle x="4.445" y="73.025" radius="0.635" width="0.8382" layer="30"/>
+<circle x="4.445" y="70.485" radius="0.635" width="0.8382" layer="30"/>
+<circle x="4.445" y="67.945" radius="0.635" width="0.8382" layer="30"/>
+<circle x="4.445" y="65.405" radius="0.635" width="0.8382" layer="30"/>
+<circle x="4.445" y="62.865" radius="0.635" width="0.8382" layer="30"/>
+<circle x="4.445" y="60.325" radius="0.635" width="0.8382" layer="30"/>
+<circle x="4.445" y="57.785" radius="0.635" width="0.8382" layer="30"/>
+<circle x="4.445" y="55.245" radius="0.635" width="0.8382" layer="30"/>
+<circle x="4.445" y="52.705" radius="0.635" width="0.8382" layer="30"/>
+<circle x="4.445" y="50.165" radius="0.635" width="0.8382" layer="30"/>
+<circle x="4.445" y="47.625" radius="0.635" width="0.8382" layer="30"/>
+<circle x="4.445" y="45.085" radius="0.635" width="0.8382" layer="30"/>
+<circle x="4.445" y="42.545" radius="0.635" width="0.8382" layer="30"/>
+<circle x="4.445" y="40.005" radius="0.635" width="0.8382" layer="30"/>
+<circle x="4.445" y="37.465" radius="0.635" width="0.8382" layer="30"/>
+<circle x="4.445" y="34.925" radius="0.635" width="0.8382" layer="30"/>
+<circle x="4.445" y="32.385" radius="0.635" width="0.8382" layer="30"/>
+<circle x="4.445" y="29.845" radius="0.635" width="0.8382" layer="30"/>
+<circle x="4.445" y="27.305" radius="0.635" width="0.8382" layer="30"/>
+<circle x="4.445" y="24.765" radius="0.635" width="0.8382" layer="30"/>
+<circle x="4.445" y="22.225" radius="0.635" width="0.8382" layer="30"/>
+<circle x="4.445" y="19.685" radius="0.635" width="0.8382" layer="30"/>
+<circle x="4.445" y="17.145" radius="0.635" width="0.8382" layer="30"/>
+<circle x="4.445" y="14.605" radius="0.635" width="0.8382" layer="30"/>
+<circle x="4.445" y="12.065" radius="0.635" width="0.8382" layer="30"/>
+<circle x="4.445" y="9.525" radius="0.635" width="0.8382" layer="30"/>
+<circle x="4.445" y="6.985" radius="0.635" width="0.8382" layer="30"/>
+<circle x="4.445" y="4.445" radius="0.635" width="0.8382" layer="30"/>
+<circle x="4.445" y="1.905" radius="0.635" width="0.8382" layer="30"/>
+<circle x="1.905" y="93.345" radius="0.635" width="0.8382" layer="30"/>
+<circle x="1.905" y="90.805" radius="0.635" width="0.8382" layer="30"/>
+<circle x="1.905" y="88.265" radius="0.635" width="0.8382" layer="30"/>
+<circle x="1.905" y="85.725" radius="0.635" width="0.8382" layer="30"/>
+<circle x="1.905" y="83.185" radius="0.635" width="0.8382" layer="30"/>
+<circle x="1.905" y="80.645" radius="0.635" width="0.8382" layer="30"/>
+<circle x="1.905" y="78.105" radius="0.635" width="0.8382" layer="30"/>
+<circle x="1.905" y="75.565" radius="0.635" width="0.8382" layer="30"/>
+<circle x="1.905" y="73.025" radius="0.635" width="0.8382" layer="30"/>
+<circle x="1.905" y="70.485" radius="0.635" width="0.8382" layer="30"/>
+<circle x="1.905" y="67.945" radius="0.635" width="0.8382" layer="30"/>
+<circle x="1.905" y="65.405" radius="0.635" width="0.8382" layer="30"/>
+<circle x="1.905" y="62.865" radius="0.635" width="0.8382" layer="30"/>
+<circle x="1.905" y="60.325" radius="0.635" width="0.8382" layer="30"/>
+<circle x="1.905" y="57.785" radius="0.635" width="0.8382" layer="30"/>
+<circle x="1.905" y="55.245" radius="0.635" width="0.8382" layer="30"/>
+<circle x="1.905" y="52.705" radius="0.635" width="0.8382" layer="30"/>
+<circle x="1.905" y="50.165" radius="0.635" width="0.8382" layer="30"/>
+<circle x="1.905" y="47.625" radius="0.635" width="0.8382" layer="30"/>
+<circle x="1.905" y="45.085" radius="0.635" width="0.8382" layer="30"/>
+<circle x="1.905" y="42.545" radius="0.635" width="0.8382" layer="30"/>
+<circle x="1.905" y="40.005" radius="0.635" width="0.8382" layer="30"/>
+<circle x="1.905" y="37.465" radius="0.635" width="0.8382" layer="30"/>
+<circle x="1.905" y="34.925" radius="0.635" width="0.8382" layer="30"/>
+<circle x="1.905" y="32.385" radius="0.635" width="0.8382" layer="30"/>
+<circle x="1.905" y="29.845" radius="0.635" width="0.8382" layer="30"/>
+<circle x="1.905" y="27.305" radius="0.635" width="0.8382" layer="30"/>
+<circle x="1.905" y="24.765" radius="0.635" width="0.8382" layer="30"/>
+<circle x="1.905" y="22.225" radius="0.635" width="0.8382" layer="30"/>
+<circle x="1.905" y="19.685" radius="0.635" width="0.8382" layer="30"/>
+<circle x="1.905" y="17.145" radius="0.635" width="0.8382" layer="30"/>
+<circle x="1.905" y="14.605" radius="0.635" width="0.8382" layer="30"/>
+<circle x="1.905" y="12.065" radius="0.635" width="0.8382" layer="30"/>
+<circle x="1.905" y="9.525" radius="0.635" width="0.8382" layer="30"/>
+<circle x="1.905" y="6.985" radius="0.635" width="0.8382" layer="30"/>
+<circle x="1.905" y="4.445" radius="0.635" width="0.8382" layer="30"/>
+<circle x="1.905" y="1.905" radius="0.635" width="0.8382" layer="30"/>
+<hole x="0.5" y="95.25" drill="0.5"/>
+<hole x="2.5" y="95.25" drill="0.5"/>
+<hole x="4.5" y="95.25" drill="0.5"/>
+<hole x="6.5" y="95.25" drill="0.5"/>
+<hole x="8.5" y="95.25" drill="0.5"/>
+<hole x="10.5" y="95.25" drill="0.5"/>
+<hole x="12.5" y="95.25" drill="0.5"/>
+<hole x="14.5" y="95.25" drill="0.5"/>
+<hole x="16.5" y="95.25" drill="0.5"/>
+<hole x="18.5" y="95.25" drill="0.5"/>
+</plain>
+<libraries>
+<library name="SonicAthame" urn="urn:adsk.eagle:library:22327399">
+<packages>
+<package name="TT2D5" urn="urn:adsk.eagle:footprint:26183887/2" library_version="30">
+<description>&lt;b&gt;ELECTROLYTIC CAPACITOR&lt;/b&gt;&lt;p&gt;
+diameter 5 mm, grid 2.54 mm</description>
+<wire x1="-1.016" y1="0" x2="-0.508" y2="0" width="0.1524" layer="51"/>
+<wire x1="-0.508" y1="0" x2="-0.508" y2="-0.889" width="0.1524" layer="51"/>
+<wire x1="-0.508" y1="-0.889" x2="-0.1778" y2="-0.889" width="0.1524" layer="51"/>
+<wire x1="-0.1778" y1="-0.889" x2="-0.1778" y2="0.889" width="0.1524" layer="51"/>
+<wire x1="-0.1778" y1="0.889" x2="-0.508" y2="0.889" width="0.1524" layer="51"/>
+<wire x1="-0.508" y1="0.889" x2="-0.508" y2="0" width="0.1524" layer="51"/>
+<wire x1="0.508" y1="0" x2="1.016" y2="0" width="0.1524" layer="51"/>
+<wire x1="-1.27" y1="1.016" x2="-1.27" y2="1.778" width="0.1524" layer="21"/>
+<wire x1="-0.889" y1="1.397" x2="-1.651" y2="1.397" width="0.1524" layer="21"/>
+<circle x="0" y="0" radius="2.54" width="0.1524" layer="21"/>
+<pad name="-" x="1.27" y="0" drill="0.8128" shape="octagon"/>
+<pad name="+" x="-1.27" y="0" drill="0.8128"/>
+<text x="2.794" y="0" size="1.27" layer="25" ratio="10" align="center-left">&gt;NAME</text>
+<rectangle x1="0.127" y1="-0.9398" x2="0.5588" y2="0.9398" layer="51"/>
+</package>
+<package name="EURO_POWER" urn="urn:adsk.eagle:footprint:26183620/3" library_version="31">
+<description>Double-row, 10-pin Pin Header (Male) Straight, 2.54 mm (0.10 in) row pitch, 2.54 mm (0.10 in) col pitch, 5.80 mm mating length, 12.70 X 5.08 X 8.34 mm body
+&lt;p&gt;Double-row (2X5), 10-pin Pin Header (Male) Straight package with 2.54 mm (0.10 in) row pitch, 2.54 mm (0.10 in) col pitch, 0.64 mm lead width, 3.10 mm tail length and 5.80 mm mating length with overall size 12.70 X 5.08 X 8.34 mm, pin pattern - clockwise from top left&lt;/p&gt;</description>
+<circle x="-5.08" y="3.044" radius="0.25" width="0" layer="21"/>
+<wire x1="6.35" y1="-2.54" x2="-6.35" y2="-2.54" width="0.12" layer="21"/>
+<wire x1="-6.35" y1="-2.54" x2="-6.35" y2="2.54" width="0.12" layer="21"/>
+<wire x1="-6.35" y1="2.54" x2="6.35" y2="2.54" width="0.12" layer="21"/>
+<wire x1="6.35" y1="2.54" x2="6.35" y2="-2.54" width="0.12" layer="21"/>
+<wire x1="-6.731" y1="2.54" x2="-6.731" y2="-2.54" width="0.254" layer="25"/>
+<pad name="1" x="-5.08" y="1.27" drill="1.1051" diameter="1.7051" shape="square"/>
+<pad name="2" x="-2.54" y="1.27" drill="1.1051" diameter="1.7051"/>
+<pad name="3" x="0" y="1.27" drill="1.1051" diameter="1.7051"/>
+<pad name="4" x="2.54" y="1.27" drill="1.1051" diameter="1.7051"/>
+<pad name="5" x="5.08" y="1.27" drill="1.1051" diameter="1.7051"/>
+<pad name="6" x="5.08" y="-1.27" drill="1.1051" diameter="1.7051"/>
+<pad name="7" x="2.54" y="-1.27" drill="1.1051" diameter="1.7051"/>
+<pad name="8" x="0" y="-1.27" drill="1.1051" diameter="1.7051"/>
+<pad name="9" x="-2.54" y="-1.27" drill="1.1051" diameter="1.7051"/>
+<pad name="10" x="-5.08" y="-1.27" drill="1.1051" diameter="1.7051"/>
+<text x="0" y="2.659" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="-6.985" y="0" size="1.016" layer="25" rot="R90" align="bottom-center">STRIPE</text>
+<text x="-5.08" y="-2.667" size="0.6096" layer="25" align="top-center">-12v</text>
+<text x="0" y="-2.667" size="0.6096" layer="25" align="top-center">GND</text>
+<text x="5.08" y="-2.667" size="0.6096" layer="25" align="top-center">+12v</text>
+<text x="2.54" y="-2.667" size="0.6096" layer="25" align="top-center">GND</text>
+<text x="-2.54" y="-2.667" size="0.6096" layer="25" align="top-center">GND</text>
+</package>
+</packages>
+<packages3d>
+<package3d name="TT2D5" urn="urn:adsk.eagle:package:26183889/3" type="model" library_version="30">
+<description>&lt;b&gt;ELECTROLYTIC CAPACITOR&lt;/b&gt;&lt;p&gt;
+diameter 5 mm, grid 2.54 mm</description>
+<packageinstances>
+<packageinstance name="TT2D5"/>
+</packageinstances>
+</package3d>
+<package3d name="EURO_POWER" urn="urn:adsk.eagle:package:26183621/4" type="model" library_version="31">
+<description>Double-row, 10-pin Pin Header (Male) Straight, 2.54 mm (0.10 in) row pitch, 2.54 mm (0.10 in) col pitch, 5.80 mm mating length, 12.70 X 5.08 X 8.34 mm body
+&lt;p&gt;Double-row (2X5), 10-pin Pin Header (Male) Straight package with 2.54 mm (0.10 in) row pitch, 2.54 mm (0.10 in) col pitch, 0.64 mm lead width, 3.10 mm tail length and 5.80 mm mating length with overall size 12.70 X 5.08 X 8.34 mm, pin pattern - clockwise from top left&lt;/p&gt;</description>
+<packageinstances>
+<packageinstance name="EURO_POWER"/>
+</packageinstances>
+</package3d>
+</packages3d>
+</library>
+</libraries>
+<attributes>
+</attributes>
+<variantdefs>
+</variantdefs>
+<classes>
+<class number="0" name="default" width="0" drill="0">
+</class>
+</classes>
+<designrules name="default *">
+<description language="de">&lt;b&gt;EAGLE Design Rules&lt;/b&gt;
+&lt;p&gt;
+Die Standard-Design-Rules sind so gewählt, dass sie für 
+die meisten Anwendungen passen. Sollte ihre Platine 
+besondere Anforderungen haben, treffen Sie die erforderlichen
+Einstellungen hier und speichern die Design Rules unter 
+einem neuen Namen ab.</description>
+<description language="en">&lt;b&gt;EAGLE Design Rules&lt;/b&gt;
+&lt;p&gt;
+The default Design Rules have been set to cover
+a wide range of applications. Your particular design
+may have different requirements, so please make the
+necessary adjustments and save your customized
+design rules under a new name.</description>
+<param name="layerSetup" value="(1*16)"/>
+<param name="mtCopper" value="0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm"/>
+<param name="mtIsolate" value="1.5mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm"/>
+<param name="mdWireWire" value="6mil"/>
+<param name="mdWirePad" value="6mil"/>
+<param name="mdWireVia" value="6mil"/>
+<param name="mdPadPad" value="6mil"/>
+<param name="mdPadVia" value="6mil"/>
+<param name="mdViaVia" value="6mil"/>
+<param name="mdSmdPad" value="6mil"/>
+<param name="mdSmdVia" value="6mil"/>
+<param name="mdSmdSmd" value="6mil"/>
+<param name="mdViaViaSameLayer" value="6mil"/>
+<param name="mnLayersViaInSmd" value="2"/>
+<param name="mdCopperDimension" value="0.2mm"/>
+<param name="mdDrill" value="6mil"/>
+<param name="mdSmdStop" value="0mil"/>
+<param name="msWidth" value="6mil"/>
+<param name="msDrill" value="0.35mm"/>
+<param name="msMicroVia" value="9.99mm"/>
+<param name="msBlindViaRatio" value="0.5"/>
+<param name="rvPadTop" value="0.25"/>
+<param name="rvPadInner" value="0.25"/>
+<param name="rvPadBottom" value="0.25"/>
+<param name="rvViaOuter" value="0.25"/>
+<param name="rvViaInner" value="0.25"/>
+<param name="rvMicroViaOuter" value="0.25"/>
+<param name="rvMicroViaInner" value="0.25"/>
+<param name="rlMinPadTop" value="10mil"/>
+<param name="rlMaxPadTop" value="20mil"/>
+<param name="rlMinPadInner" value="10mil"/>
+<param name="rlMaxPadInner" value="20mil"/>
+<param name="rlMinPadBottom" value="10mil"/>
+<param name="rlMaxPadBottom" value="20mil"/>
+<param name="rlMinViaOuter" value="8mil"/>
+<param name="rlMaxViaOuter" value="20mil"/>
+<param name="rlMinViaInner" value="8mil"/>
+<param name="rlMaxViaInner" value="20mil"/>
+<param name="rlMinMicroViaOuter" value="4mil"/>
+<param name="rlMaxMicroViaOuter" value="20mil"/>
+<param name="rlMinMicroViaInner" value="4mil"/>
+<param name="rlMaxMicroViaInner" value="20mil"/>
+<param name="psTop" value="-1"/>
+<param name="psBottom" value="-1"/>
+<param name="psFirst" value="-1"/>
+<param name="psElongationLong" value="100"/>
+<param name="psElongationOffset" value="100"/>
+<param name="mvStopFrame" value="1"/>
+<param name="mvCreamFrame" value="0"/>
+<param name="mlMinStopFrame" value="4mil"/>
+<param name="mlMaxStopFrame" value="4mil"/>
+<param name="mlMinCreamFrame" value="0mil"/>
+<param name="mlMaxCreamFrame" value="0mil"/>
+<param name="mlViaStopLimit" value="0mil"/>
+<param name="srRoundness" value="0"/>
+<param name="srMinRoundness" value="0mil"/>
+<param name="srMaxRoundness" value="0mil"/>
+<param name="slThermalIsolate" value="10mil"/>
+<param name="slThermalsForVias" value="0"/>
+<param name="dpMaxLengthDifference" value="10mm"/>
+<param name="dpGapFactor" value="2.5"/>
+<param name="checkAngle" value="0"/>
+<param name="checkFont" value="1"/>
+<param name="checkRestrict" value="1"/>
+<param name="checkStop" value="0"/>
+<param name="checkValues" value="0"/>
+<param name="checkNames" value="1"/>
+<param name="checkWireStubs" value="1"/>
+<param name="checkPolygonWidth" value="0"/>
+<param name="useDiameter" value="13"/>
+<param name="maxErrors" value="50"/>
+</designrules>
+<autorouter>
+<pass name="Default">
+<param name="RoutingGrid" value="50mil"/>
+<param name="AutoGrid" value="1"/>
+<param name="Efforts" value="0"/>
+<param name="TopRouterVariant" value="1"/>
+<param name="tpViaShape" value="round"/>
+<param name="PrefDir.1" value="0"/>
+<param name="PrefDir.2" value="0"/>
+<param name="PrefDir.3" value="0"/>
+<param name="PrefDir.4" value="0"/>
+<param name="PrefDir.5" value="0"/>
+<param name="PrefDir.6" value="0"/>
+<param name="PrefDir.7" value="0"/>
+<param name="PrefDir.8" value="0"/>
+<param name="PrefDir.9" value="0"/>
+<param name="PrefDir.10" value="0"/>
+<param name="PrefDir.11" value="0"/>
+<param name="PrefDir.12" value="0"/>
+<param name="PrefDir.13" value="0"/>
+<param name="PrefDir.14" value="0"/>
+<param name="PrefDir.15" value="0"/>
+<param name="PrefDir.16" value="a"/>
+<param name="cfVia" value="8"/>
+<param name="cfNonPref" value="5"/>
+<param name="cfChangeDir" value="2"/>
+<param name="cfOrthStep" value="2"/>
+<param name="cfDiagStep" value="3"/>
+<param name="cfExtdStep" value="0"/>
+<param name="cfBonusStep" value="1"/>
+<param name="cfMalusStep" value="1"/>
+<param name="cfPadImpact" value="4"/>
+<param name="cfSmdImpact" value="4"/>
+<param name="cfBusImpact" value="0"/>
+<param name="cfHugging" value="3"/>
+<param name="cfAvoid" value="4"/>
+<param name="cfPolygon" value="10"/>
+<param name="cfBase.1" value="0"/>
+<param name="cfBase.2" value="1"/>
+<param name="cfBase.3" value="1"/>
+<param name="cfBase.4" value="1"/>
+<param name="cfBase.5" value="1"/>
+<param name="cfBase.6" value="1"/>
+<param name="cfBase.7" value="1"/>
+<param name="cfBase.8" value="1"/>
+<param name="cfBase.9" value="1"/>
+<param name="cfBase.10" value="1"/>
+<param name="cfBase.11" value="1"/>
+<param name="cfBase.12" value="1"/>
+<param name="cfBase.13" value="1"/>
+<param name="cfBase.14" value="1"/>
+<param name="cfBase.15" value="1"/>
+<param name="cfBase.16" value="0"/>
+<param name="mnVias" value="20"/>
+<param name="mnSegments" value="9999"/>
+<param name="mnExtdSteps" value="9999"/>
+<param name="mnRipupLevel" value="10"/>
+<param name="mnRipupSteps" value="100"/>
+<param name="mnRipupTotal" value="100"/>
+</pass>
+<pass name="Follow-me" refer="Default" active="yes">
+</pass>
+<pass name="Busses" refer="Default" active="yes">
+<param name="cfNonPref" value="4"/>
+<param name="cfBusImpact" value="4"/>
+<param name="cfHugging" value="0"/>
+<param name="mnVias" value="0"/>
+</pass>
+<pass name="Route" refer="Default" active="yes">
+</pass>
+<pass name="Optimize1" refer="Default" active="yes">
+<param name="cfVia" value="99"/>
+<param name="cfExtdStep" value="10"/>
+<param name="cfHugging" value="1"/>
+<param name="mnExtdSteps" value="1"/>
+<param name="mnRipupLevel" value="0"/>
+</pass>
+<pass name="Optimize2" refer="Optimize1" active="yes">
+<param name="cfNonPref" value="0"/>
+<param name="cfChangeDir" value="6"/>
+<param name="cfExtdStep" value="0"/>
+<param name="cfBonusStep" value="2"/>
+<param name="cfMalusStep" value="2"/>
+<param name="cfPadImpact" value="2"/>
+<param name="cfSmdImpact" value="2"/>
+<param name="cfHugging" value="0"/>
+</pass>
+<pass name="Optimize3" refer="Optimize2" active="yes">
+<param name="cfChangeDir" value="8"/>
+<param name="cfPadImpact" value="0"/>
+<param name="cfSmdImpact" value="0"/>
+</pass>
+<pass name="Optimize4" refer="Optimize3" active="yes">
+<param name="cfChangeDir" value="25"/>
+</pass>
+</autorouter>
+<elements>
+<element name="C1" library="SonicAthame" library_urn="urn:adsk.eagle:library:22327399" package="TT2D5" package3d_urn="urn:adsk.eagle:package:26183889/3" value="10u" x="5.715" y="101.6" smashed="yes">
+<attribute name="NAME" x="2.921" y="103.505" size="1.27" layer="25" ratio="10" rot="R180" align="center-left"/>
+</element>
+<element name="C2" library="SonicAthame" library_urn="urn:adsk.eagle:library:22327399" package="TT2D5" package3d_urn="urn:adsk.eagle:package:26183889/3" value="10u" x="13.335" y="101.6" smashed="yes">
+<attribute name="NAME" x="16.129" y="103.505" size="1.27" layer="25" ratio="10" align="center-left"/>
+</element>
+<element name="J1" library="SonicAthame" library_urn="urn:adsk.eagle:library:22327399" package="EURO_POWER" package3d_urn="urn:adsk.eagle:package:26183621/4" value="EURO_POWER" x="9.525" y="107.315" smashed="yes" rot="MR0">
+<attribute name="NAME" x="2.421" y="107.315" size="1.27" layer="28" rot="MR270" align="bottom-center"/>
+</element>
+</elements>
+<signals>
+<signal name="+12V">
+<contactref element="C1" pad="+"/>
+<contactref element="J1" pad="5"/>
+<contactref element="J1" pad="6"/>
+<wire x1="4.445" y1="108.585" x2="4.445" y2="106.045" width="0.8128" layer="1"/>
+<wire x1="4.445" y1="106.045" x2="4.445" y2="101.6" width="0.8128" layer="1"/>
+<via x="1.905" y="97.79" extent="1-16" drill="1.016"/>
+<via x="4.445" y="97.79" extent="1-16" drill="1.016"/>
+<wire x1="4.445" y1="97.79" x2="4.445" y2="101.6" width="0.8128" layer="1"/>
+<wire x1="1.905" y1="97.79" x2="4.445" y2="97.79" width="0.8128" layer="1"/>
+</signal>
+<signal name="-12V">
+<contactref element="C2" pad="-"/>
+<contactref element="J1" pad="1"/>
+<contactref element="J1" pad="10"/>
+<wire x1="14.605" y1="108.585" x2="14.605" y2="106.045" width="0.8128" layer="1"/>
+<wire x1="14.605" y1="106.045" x2="14.605" y2="101.6" width="0.8128" layer="1"/>
+<via x="17.145" y="97.79" extent="1-16" drill="1.016"/>
+<via x="14.605" y="97.79" extent="1-16" drill="1.016"/>
+<wire x1="14.605" y1="101.6" x2="14.605" y2="97.79" width="0.8128" layer="1"/>
+<wire x1="14.605" y1="97.79" x2="17.145" y2="97.79" width="0.8128" layer="1"/>
+</signal>
+<signal name="GND">
+<contactref element="C1" pad="-"/>
+<contactref element="C2" pad="+"/>
+<contactref element="J1" pad="4" route="any" routetag="G$1.GND"/>
+<contactref element="J1" pad="9" route="any" routetag="G$1.GND"/>
+<contactref element="J1" pad="3" route="any" routetag="G$1.GND"/>
+<contactref element="J1" pad="8" route="any" routetag="G$1.GND"/>
+<contactref element="J1" pad="2" route="any" routetag="G$1.GND"/>
+<contactref element="J1" pad="7" route="any" routetag="G$1.GND"/>
+<wire x1="6.985" y1="108.585" x2="6.985" y2="106.045" width="0.8128" layer="1"/>
+<wire x1="9.525" y1="108.585" x2="9.525" y2="106.045" width="0.8128" layer="1"/>
+<wire x1="12.065" y1="108.585" x2="12.065" y2="106.045" width="0.8128" layer="1"/>
+<wire x1="6.985" y1="106.045" x2="9.525" y2="106.045" width="0.8128" layer="1"/>
+<wire x1="9.525" y1="106.045" x2="12.065" y2="106.045" width="0.8128" layer="1"/>
+<wire x1="6.985" y1="106.045" x2="6.985" y2="101.6" width="0.8128" layer="1"/>
+<wire x1="12.065" y1="106.045" x2="12.065" y2="101.6" width="0.8128" layer="1"/>
+<via x="9.525" y="97.79" extent="1-16" drill="1.016"/>
+<via x="6.985" y="97.79" extent="1-16" drill="1.016"/>
+<via x="12.065" y="97.79" extent="1-16" drill="1.016"/>
+<wire x1="9.525" y1="106.045" x2="9.525" y2="97.79" width="0.8128" layer="1"/>
+<wire x1="6.985" y1="97.79" x2="9.525" y2="97.79" width="0.8128" layer="1"/>
+<wire x1="12.065" y1="97.79" x2="9.525" y2="97.79" width="0.8128" layer="1"/>
+</signal>
+<signal name="N$1">
+<wire x1="1.905" y1="93.345" x2="1.905" y2="1.905" width="0.8128" layer="16"/>
+</signal>
+<signal name="N$2">
+<wire x1="4.445" y1="93.345" x2="4.445" y2="1.905" width="0.8128" layer="16"/>
+</signal>
+<signal name="N$3">
+<wire x1="6.985" y1="93.345" x2="6.985" y2="1.905" width="0.8128" layer="16"/>
+</signal>
+<signal name="N$4">
+<wire x1="9.525" y1="93.345" x2="9.525" y2="1.905" width="0.8128" layer="16"/>
+</signal>
+<signal name="N$5">
+<wire x1="12.065" y1="93.345" x2="12.065" y2="1.905" width="0.8128" layer="16"/>
+</signal>
+<signal name="N$6">
+<wire x1="14.605" y1="93.345" x2="14.605" y2="1.905" width="0.8128" layer="16"/>
+</signal>
+<signal name="N$7">
+<wire x1="17.145" y1="93.345" x2="17.145" y2="1.905" width="0.8128" layer="16"/>
+</signal>
+</signals>
+<mfgpreviewcolors>
+<mfgpreviewcolor name="soldermaskcolor" color="0xC8008000"/>
+<mfgpreviewcolor name="silkscreencolor" color="0xFFFEFEFE"/>
+<mfgpreviewcolor name="backgroundcolor" color="0xFF282828"/>
+<mfgpreviewcolor name="coppercolor" color="0xFFFFBF00"/>
+<mfgpreviewcolor name="substratecolor" color="0xFF786E46"/>
+</mfgpreviewcolors>
+<errors>
+<approved hash="4,16,61786075fd0bfc06"/>
+<approved hash="4,16,448fbb30e84e17f1"/>
+<approved hash="4,16,949aabedc093ffe4"/>
+<approved hash="4,16,199e19d32ead2ee0"/>
+<approved hash="4,16,5889a7333a4dc5f7"/>
+<approved hash="4,16,60985fedc293fde6"/>
+<approved hash="4,16,588f5b2dc653c5f1"/>
+<approved hash="4,16,6f9e6f67f219f2e0"/>
+<approved hash="4,16,188ee733d04d2ff0"/>
+<approved hash="4,16,60a95fe1589f67d7"/>
+<approved hash="4,16,608362fb658567fd"/>
+<approved hash="4,16,948babe3869db9f5"/>
+<approved hash="4,16,61927e57e329fcec"/>
+<approved hash="4,16,9d9a9eedf593f6e4"/>
+<approved hash="4,16,44917be2289c17ef"/>
+<approved hash="4,16,9f8b9f1bb265b2f5"/>
+<approved hash="4,16,589767e1fa9fc5e9"/>
+<approved hash="4,16,4489472e145017f7"/>
+<approved hash="4,16,5791576bca15caef"/>
+<approved hash="4,16,189027e1109f2fee"/>
+<approved hash="4,16,6b986b15f66bf6e6"/>
+<approved hash="4,16,2388232d145314f6"/>
+<approved hash="4,16,68826f67f219f5fc"/>
+<approved hash="4,16,95909adff1a1feee"/>
+<approved hash="4,16,68b36f6b68156fcd"/>
+<approved hash="4,16,95818a59a727b8ff"/>
+<approved hash="4,16,69a96ae16d9f6ed7"/>
+<approved hash="4,16,9c809b67f019f7fe"/>
+<approved hash="4,16,9c919b69b617b1ef"/>
+<approved hash="4,16,af93af2f825182ed"/>
+<approved hash="4,16,4c8b4b6818161ff5"/>
+<approved hash="4,16,599d465bdb25c4e3"/>
+<approved hash="4,16,599d56d3cbadc4e3"/>
+<approved hash="4,16,508d576bca15cdf3"/>
+<approved hash="4,16,19881a2d2d532ef6"/>
+<approved hash="4,16,459b4ad019ae16e5"/>
+<approved hash="4,16,108a176b201527f4"/>
+<approved hash="4,16,119012e1259f26ee"/>
+<approved hash="4,16,9cb29c71f70ff7cc"/>
+<approved hash="4,16,519752e1cf9fcce9"/>
+<approved hash="4,16,68b06871f50ff5ce"/>
+<approved hash="4,16,9f9a9f15f46bf4e4"/>
+<approved hash="4,16,6881687d6f036fff"/>
+<approved hash="4,16,78807ee1e39fe5fe"/>
+<approved hash="4,16,9ca39c7fb101b1dd"/>
+<approved hash="4,16,94b096f7fd89ffce"/>
+<approved hash="4,16,94a196f9bb87b9df"/>
+<approved hash="4,16,4cb94c7e1f001fc7"/>
+<approved hash="4,16,459f45d016ae16e1"/>
+<approved hash="4,16,50bf507dcd03cdc1"/>
+<approved hash="4,16,60be6067fd19fdc0"/>
+<approved hash="4,16,10b8107d270327c6"/>
+<approved hash="4,16,5db95c7e0f000ec7"/>
+<approved hash="4,16,94846b3f0041fffa"/>
+<approved hash="4,16,278a2733104d10f4"/>
+<approved hash="4,16,60869f3f0241fdf8"/>
+<approved hash="4,16,3a6d197ac825d51a"/>
+<approved hash="4,16,61a761d366ad66d9"/>
+<approved hash="4,16,94956b31464fb9eb"/>
+<approved hash="4,16,8da38c7fa101a0dd"/>
+<approved hash="4,16,8dba8d85e6fbe6c4"/>
+<approved hash="4,16,79b87985e4fbe4c6"/>
+<approved hash="4,16,798979897ef77ef7"/>
+<approved hash="4,16,8dab8d8ba0f5a0d5"/>
+<approved hash="4,16,5db15d8a0ef40ecf"/>
+<approved hash="4,16,41b74189dcf7dcc9"/>
+<approved hash="4,16,01b0018936f736ce"/>
+<approved hash="4,16,9480961ffd61fffe"/>
+<approved hash="4,16,6082621fff61fdfc"/>
+<approved hash="4,16,5ffe5f37c249c280"/>
+<approved hash="4,16,60b36213656d67cd"/>
+<approved hash="4,16,94919611bb6fb9ef"/>
+<approved hash="4,16,448b4610156e17f5"/>
+<approved hash="4,16,188a1a132d6d2ff4"/>
+<approved hash="4,16,60b79f33984d67c9"/>
+<approved hash="4,16,5091525bcf25cdef"/>
+<approved hash="4,16,68906b51f62ff5ee"/>
+<approved hash="4,16,68a16b5d6c236fdf"/>
+<approved hash="4,16,9c839f5fb221b1fd"/>
+<approved hash="4,16,6378632dfe53fe06"/>
+<approved hash="4,16,4c994f5e1c201fe7"/>
+<approved hash="4,16,1890168921f72fee"/>
+<approved hash="4,16,509f535dce23cde1"/>
+<approved hash="4,16,408f46eddb93ddf1"/>
+<approved hash="4,16,95829621fd5ffefc"/>
+<approved hash="4,16,1098135d242327e6"/>
+<approved hash="4,16,977a972dfc53fc04"/>
+<approved hash="4,16,94bc9467ff19ffc2"/>
+<approved hash="4,16,608f606b671567f1"/>
+<approved hash="4,16,60b1632d645367cf"/>
+<approved hash="4,16,118e1613216d26f0"/>
+<approved hash="4,16,5fcf5f3b584558b1"/>
+<approved hash="4,16,44b74468171617c9"/>
+<approved hash="4,16,58b1586bc515c5cf"/>
+<approved hash="4,16,8d918c69a117a0ef"/>
+<approved hash="4,16,598f5a2dc753c4f1"/>
+<approved hash="4,16,27f6273b10451088"/>
+<approved hash="4,16,63906351fe2ffeee"/>
+<approved hash="4,16,ef7aef2d84538404"/>
+<approved hash="4,16,79827867e519e4fc"/>
+<approved hash="4,16,1b781b2d86538606"/>
+<approved hash="4,16,4c974e581d261fe9"/>
+<approved hash="4,16,9493972fba51b9ed"/>
+<approved hash="4,16,1b491b211c5f1c37"/>
+<approved hash="4,16,97929751fc2ffcec"/>
+<approved hash="4,16,ef6bef23c25dc215"/>
+<approved hash="4,16,3f713f226c5c6c0f"/>
+<approved hash="4,16,9c8d9e59b327b1f3"/>
+<approved hash="4,16,7a69317b08214518"/>
+<approved hash="4,16,23772321be5fbe09"/>
+<approved hash="4,16,60b262f7ff89fdcc"/>
+<approved hash="4,16,63706321545f540e"/>
+<approved hash="4,16,959495dffea1feea"/>
+<approved hash="4,16,95908a57e129feee"/>
+<approved hash="4,16,95819ad1b7afb8ff"/>
+<approved hash="4,16,61a37e5b792566dd"/>
+<approved hash="4,16,78b17eed79937fcf"/>
+<approved hash="4,16,459b5a58092616e5"/>
+<approved hash="4,16,599959d3c4adc4e7"/>
+<approved hash="4,16,199a065b31252ee4"/>
+<approved hash="4,16,68806e21f35ff5fe"/>
+<approved hash="4,16,4f914f1a1c641cef"/>
+<approved hash="4,16,9c829a21f15ff7fc"/>
+<approved hash="4,16,af82af21c45fc4fc"/>
+<approved hash="4,16,68b16e2d69536fcf"/>
+<approved hash="4,16,9c939a2fb751b1ed"/>
+<approved hash="4,16,4c894a2e19501ff7"/>
+<approved hash="4,16,53975319ce67cee9"/>
+<approved hash="4,16,508f562dcb53cdf1"/>
+<approved hash="4,16,13901319246724ee"/>
+<approved hash="4,16,1088162d215327f6"/>
+<approved hash="4,16,9b749b3ff041f00a"/>
+<approved hash="4,16,9f739f3e0240020d"/>
+<approved hash="4,16,6f766f3ff241f208"/>
+<approved hash="4,16,61a36ed369ad66dd"/>
+<approved hash="4,16,6f476f33684d6839"/>
+<approved hash="4,16,9b659b31b64fb61b"/>
+<approved hash="4,16,4b7f4b30184e1801"/>
+<approved hash="4,16,57795733ca4dca07"/>
+<approved hash="4,16,177e1733204d2000"/>
+<approved hash="4,16,8c828ae1e19fe7fc"/>
+<approved hash="4,16,957a9475ff0bfe04"/>
+<approved hash="4,16,6149607967076637"/>
+<approved hash="4,16,8c938aefa791a1ed"/>
+<approved hash="4,16,956b947bb905b815"/>
+<approved hash="4,16,6ba96b196c676cd7"/>
+<approved hash="4,16,4571447a1704160f"/>
+<approved hash="4,16,59775879c507c409"/>
+<approved hash="4,16,197018792f072e0e"/>
+<approved hash="4,16,6b716b3e0040000f"/>
+<approved hash="4,16,9f429f32984c983c"/>
+<approved hash="4,16,6b606b30464e461e"/>
+<approved hash="4,16,bb7abb31e84fe804"/>
+<approved hash="4,16,a77ca7323a4c3a02"/>
+<approved hash="4,16,e77be732d04cd005"/>
+<approved hash="4,16,61806221ff5ffcfe"/>
+<approved hash="4,16,61b1622d655366cf"/>
+<approved hash="4,16,45914522165c16ef"/>
+<approved hash="4,16,9593962fbb51b8ed"/>
+<approved hash="4,16,4589462e155016f7"/>
+<approved hash="4,16,9c9c9e57f529f7e2"/>
+<approved hash="4,16,689e6a57f729f5e0"/>
+<approved hash="4,16,07e525a9b8dea4ba"/>
+<approved hash="4,16,60a96e8969f767d7"/>
+<approved hash="4,16,1096125b252527e8"/>
+<approved hash="4,16,63496321645f6437"/>
+<approved hash="4,16,976b9723ba5dba15"/>
+<approved hash="4,16,47714722145c140f"/>
+<approved hash="4,16,199a16d321ad2ee4"/>
+<approved hash="4,16,18b6186b2f152fc8"/>
+<approved hash="4,16,8d808c67e719e6fe"/>
+<approved hash="4,16,5d8b5c680f160ef5"/>
+<approved hash="4,16,5f825f3fc241c2fc"/>
+<approved hash="4,16,418d406bdd15dcf3"/>
+<approved hash="4,16,5fb35f33584d58cd"/>
+<approved hash="4,16,018a006b371536f4"/>
+<approved hash="4,16,63a1635d642364df"/>
+<approved hash="4,16,6198612dfc53fce6"/>
+<approved hash="4,16,9783975fba21bafd"/>
+<approved hash="4,16,4799475e142014e7"/>
+<approved hash="4,16,69b76e13696d6ec9"/>
+<approved hash="4,16,e9e51da510d75eb2"/>
+<approved hash="4,16,9d959a11b76fb0eb"/>
+<approved hash="4,16,4d8f4a10196e1ef1"/>
+<approved hash="4,16,959a952dfe53fee4"/>
+<approved hash="4,16,51895613cb6dccf7"/>
+<approved hash="4,16,29ecedadf0d37eb2"/>
+<approved hash="4,16,61a96121665f66d7"/>
+<approved hash="4,16,949a9a85f1fbffe4"/>
+<approved hash="4,16,60986e85f3fbfde6"/>
+<approved hash="4,16,7bf77b3828462889"/>
+<approved hash="4,16,948b9a8bb7f5b9f5"/>
+<approved hash="4,16,44914a8a19f417ef"/>
+<approved hash="4,16,5c895aee09900ff7"/>
+<approved hash="4,16,58975689cbf7c5e9"/>
+<approved hash="4,16,ab91ab31864f86ef"/>
+<approved hash="4,16,7b8b7b30284e28f5"/>
+<approved hash="4,16,94ad9469b917b9d3"/>
+<approved hash="4,16,678d6733fa4dfaf3"/>
+<approved hash="4,16,79b07871e50fe4ce"/>
+<approved hash="4,16,7981787d7f037eff"/>
+<approved hash="4,16,41bf407ddd03dcc1"/>
+<approved hash="4,16,01b8007d370336c6"/>
+<approved hash="4,16,9b9c9b67f019f0e2"/>
+<approved hash="4,16,6faf6f6b681568d1"/>
+<approved hash="4,16,9b8d9b69b617b6f3"/>
+<approved hash="4,16,4b974b68181618e9"/>
+<approved hash="4,16,1796176b201520e8"/>
+<approved hash="4,16,69986aedf793f4e6"/>
+<approved hash="4,16,9d8b9ee3b39db0f5"/>
+<approved hash="4,16,4d914ee21d9c1eef"/>
+<approved hash="4,16,44bb46f8158617c5"/>
+<approved hash="4,16,18ba1afb2d852fc4"/>
+<approved hash="4,16,5b805b21c65fc6fe"/>
+<approved hash="4,16,7f897f2e2c502cf7"/>
+<approved hash="4,16,638f632dfe53fef1"/>
+<approved hash="4,16,619661dffca1fce8"/>
+<approved hash="4,16,5db75df80e860ec9"/>
+<approved hash="4,16,958595d1b8afb8fb"/>
+<approved hash="4,16,61926edff3a1fcec"/>
+<approved hash="4,16,008806ed319337f6"/>
+<approved hash="4,16,79be79f7e489e4c0"/>
+<approved hash="4,16,1b981b5d2c232ce6"/>
+<approved hash="4,16,abfcab37c049c082"/>
+<approved hash="4,16,abedab3986478693"/>
+<approved hash="4,16,67f1673bfa45fa8f"/>
+<approved hash="4,16,958b9523b85db8f5"/>
+<approved hash="4,16,59975921c45fc4e9"/>
+<approved hash="4,16,199019212e5f2eee"/>
+<approved hash="4,16,e7e4dda570dbe8be"/>
+<approved hash="4,16,c269f97f84291d1b"/>
+<approved hash="4,16,35e62db418c426a0"/>
+<approved hash="4,16,7fe43daae0dcd0bd"/>
+<approved hash="4,16,2fe765ad28df64be"/>
+<approved hash="4,16,f265377712219d13"/>
+<approved hash="4,16,8db28c71e70fe6cc"/>
+<approved hash="4,16,9c929f51f42ff7ec"/>
+<approved hash="4,16,32772b604a387519"/>
+<approved hash="4,16,588d5a13c76dc5f3"/>
+<approved hash="4,16,1b701b212c5f2c0e"/>
+<approved hash="4,16,226a6178bc268d1b"/>
+<approved hash="4,16,5b9f5b5dc623c6e1"/>
+<approved hash="4,16,0265f77332297d1a"/>
+<approved hash="4,16,5bb15b2d5c535ccf"/>
+<approved hash="4,16,9d849a1ff161f6fa"/>
+<approved hash="4,16,94829721fc5ffffc"/>
+<approved hash="4,16,60806321fe5ffdfe"/>
+<approved hash="4,16,18881b2d2c532ff6"/>
+<approved hash="4,16,8dbc8df7e689e6c2"/>
+<approved hash="4,16,798f79fb7e857ef1"/>
+<approved hash="4,16,8dad8df9a087a0d3"/>
+<approved hash="4,16,79b3786b7f157ecd"/>
+<approved hash="4,16,5b775b21c65fc609"/>
+<approved hash="4,16,ab80ab3fc041c0fe"/>
+<approved hash="4,16,41b141fbdc85dccf"/>
+<approved hash="4,16,68af6a5b6d256fd1"/>
+<approved hash="4,16,01b601fb368536c8"/>
+<approved hash="4,16,69866e1ff361f4f8"/>
+<approved hash="4,16,58bd5afbc785c5c3"/>
+<approved hash="19,16,9739a05c0fd6370b"/>
+<approved hash="19,16,d34ae2334dad7450"/>
+<approved hash="19,16,8b847639087896af"/>
+<approved hash="19,16,aaa86da91d82b0cb"/>
+<approved hash="19,16,5910986dfffc5e0b"/>
+<approved hash="19,16,da909926196661b5"/>
+<approved hash="19,16,186e69d8e21ab063"/>
+<approved hash="19,16,eb8cb3572526cc19"/>
+<approved hash="19,16,b595d0167665f080"/>
+<approved hash="19,16,20f217f7afd39a90"/>
+<approved hash="19,16,b4a2fb1d574f9b97"/>
+<approved hash="19,16,59e8040bab081f0d"/>
+<approved hash="19,16,dde7ed3aa34e6275"/>
+<approved hash="19,16,37b5520a3c411298"/>
+<approved hash="19,16,1699499a29bb34fc"/>
+<approved hash="19,16,8cb1bf480c042b93"/>
+<approved hash="19,16,66c61578fd39fde3"/>
+<approved hash="19,16,67f9a224d5157922"/>
+<approved hash="19,16,01de0c67ba29bcf4"/>
+<approved hash="19,16,a1c5d07f3a823c18"/>
+<approved hash="19,16,57e22fd0a8cce07f"/>
+<approved hash="19,16,b753744e09cda120"/>
+<approved hash="19,16,e6479b5118d3563a"/>
+<approved hash="19,16,0cb9704ff54fbbdc"/>
+<approved hash="19,16,eda3d87a67445379"/>
+<approved hash="19,16,39d04debe6e51a5d"/>
+<approved hash="19,16,8942d26177d0c70f"/>
+<approved hash="19,16,72961511b1de317b"/>
+<approved hash="19,16,8875f96a56faac18"/>
+<approved hash="19,16,a497ff2897d18e82"/>
+<approved hash="19,16,0b62507d3df42517"/>
+<approved hash="19,16,2780563ffcdf078d"/>
+<approved hash="19,16,5a11170ffc8cca6c"/>
+<approved hash="19,16,b0effc111110278a"/>
+<approved hash="19,16,3d090e10bb9c8b7b"/>
+<approved hash="19,16,e19cbb63d068c8f1"/>
+<approved hash="19,16,a37e62c7106ab65d"/>
+<approved hash="19,16,ff5ec2c37b8741fc"/>
+<approved hash="19,16,f26a8dd801744147"/>
+<approved hash="19,16,fbbc82b60c9c47d1"/>
+<approved hash="19,16,1d63da02bd871d50"/>
+<approved hash="19,16,9d6fc4e86e77d072"/>
+<approved hash="19,16,776b20e88d192156"/>
+<approved hash="19,16,9c58efe34f5dbb65"/>
+<approved hash="19,16,4a2235b996e1669f"/>
+<approved hash="19,16,1f4f46f42453326a"/>
+<approved hash="19,16,1d935c21dedda04e"/>
+<approved hash="19,16,badae1258a6c85ff"/>
+<approved hash="19,16,4e3c0186e52bdd11"/>
+<approved hash="19,16,a152fe3189be9967"/>
+<approved hash="19,16,c320fc9941556d22"/>
+<approved hash="19,16,57bd9764111f482e"/>
+<approved hash="19,16,e306acbf62315d4c"/>
+<approved hash="19,16,06a9787b0001bf34"/>
+<approved hash="19,16,85dadff56682d8a7"/>
+<approved hash="19,16,689b1a404e284516"/>
+<approved hash="19,16,2dfd78e610b701e8"/>
+<approved hash="19,16,9846dbdc3c9700eb"/>
+<approved hash="19,16,bafff425e45e2362"/>
+<approved hash="19,16,08047772eee2a911"/>
+<approved hash="19,16,67013e4281e13824"/>
+<approved hash="19,16,b930e05f42d6e45d"/>
+<approved hash="19,16,66361549a0cb5333"/>
+<approved hash="19,16,e521bc5ecbc5da3c"/>
+<approved hash="19,16,b452fb2c0abd3547"/>
+<approved hash="19,16,1ceb5d1ddf0f9206"/>
+<approved hash="19,16,d8b39a903d219e3e"/>
+<approved hash="19,16,73ee142db00c0333"/>
+<approved hash="19,16,72d93f2691266824"/>
+<approved hash="19,16,f1ce9631fa28e12b"/>
+<approved hash="19,16,a0bdd1433b500e50"/>
+<approved hash="19,16,c7a5c85c7c404f47"/>
+<approved hash="19,16,7e7abaebc82e6fd9"/>
+<approved hash="19,16,2f6e55f4d93098c3"/>
+<approved hash="19,16,c584a7473df483b1"/>
+<approved hash="19,16,afddfafa5a93e3f0"/>
+<approved hash="19,16,415c37cf971962e1"/>
+<approved hash="19,16,5d1426ce9ef4d9c9"/>
+<approved hash="19,16,f54ba2f4c73dc34e"/>
+<approved hash="19,16,c24b9ed8fc17ebee"/>
+<approved hash="19,16,91cc5cd5248e85df"/>
+<approved hash="19,16,9338d9aa3d6f0495"/>
+<approved hash="19,16,c0d8b3ca359072c5"/>
+<approved hash="19,16,f420c0b57a7f4582"/>
+<approved hash="19,16,865ab38f3dbb0488"/>
+<approved hash="19,16,1b96268b96dfaf84"/>
+<approved hash="19,16,7c99b078d9137d9a"/>
+<approved hash="19,16,e142aa907aab459f"/>
+<approved hash="19,16,87a1485c332d98fa"/>
+<approved hash="19,16,42881657a70e1bb5"/>
+<approved hash="19,16,d984b19b1c0bf529"/>
+<approved hash="19,16,43bf3d5c862470a2"/>
+<approved hash="19,16,08745737f8044621"/>
+<approved hash="19,16,ac9ef619580694a3"/>
+<approved hash="19,16,7d812d924d835694"/>
+<approved hash="19,16,f6c3ca266b4257c1"/>
+<approved hash="19,16,695cd6e1d0607717"/>
+<approved hash="19,16,384839fec17e800d"/>
+<approved hash="19,16,bc3f8b4634480a55"/>
+<approved hash="19,16,574d70ceae7d1138"/>
+<approved hash="19,16,aa81ee7752f71284"/>
+<approved hash="19,16,567a5bc58f577a2f"/>
+<approved hash="19,16,2ebe7405122276bb"/>
+<approved hash="19,16,d56df2d2e459f320"/>
+<approved hash="19,16,841eb5a025211c5b"/>
+<approved hash="19,16,06ebc516be5501c8"/>
+<approved hash="19,16,92fca14511b920ee"/>
+<approved hash="19,16,57ff2a09af4bf6d2"/>
+<approved hash="19,16,b8af887234360cad"/>
+<approved hash="19,16,73a13e1a90f45a6c"/>
+<approved hash="19,16,38fa6339c04867e7"/>
+<approved hash="19,16,39cd4832e1620cf0"/>
+<approved hash="19,16,36ed4d3bc40b8e38"/>
+<approved hash="19,16,eba9a6574b146a84"/>
+<approved hash="19,16,18a6db1ba3e80ab5"/>
+<approved hash="19,16,06f6c0cfb9d21765"/>
+<approved hash="19,16,c6ddc9607d927d0f"/>
+<approved hash="19,16,38e766e0c7cf714a"/>
+<approved hash="19,16,bac7e4fc8deb9352"/>
+<approved hash="19,16,e4552311ad2b5371"/>
+<approved hash="19,16,ebb4a38e4c937c29"/>
+<approved hash="19,16,26b77d34ddf56c9a"/>
+<approved hash="19,16,8cacba910b833d3e"/>
+<approved hash="19,16,32f5f22c866726f6"/>
+<approved hash="19,16,63e11d339779d1ec"/>
+<approved hash="19,16,0ce45403f87a40d9"/>
+<approved hash="19,16,0dd37f08d9502bce"/>
+<approved hash="19,16,8ec4d61fb25ea2c1"/>
+<approved hash="19,16,dfb7916d73264dba"/>
+<approved hash="19,16,dbc88617e12cfd15"/>
+<approved hash="19,16,1f54541e7f264b46"/>
+<approved hash="19,16,22455726e2b01068"/>
+<approved hash="19,16,3f68fd359e643b73"/>
+<approved hash="19,16,6e7c122a8f7acc69"/>
+<approved hash="19,16,01795b1ae0795d5c"/>
+<approved hash="19,16,49b23404b2f6fdaf"/>
+<approved hash="19,16,4c87b33ecfc35754"/>
+<approved hash="19,16,004e7011c153364b"/>
+<approved hash="19,16,8abbc1652054126e"/>
+<approved hash="19,16,8359d906aa5dbf44"/>
+<approved hash="19,16,d22a9e746b25503f"/>
+<approved hash="19,16,b532876b2c351128"/>
+<approved hash="19,16,9d02542350668c71"/>
+<approved hash="19,16,2f57edea93b8cc84"/>
+<approved hash="19,16,7e4302f582a63b9e"/>
+<approved hash="19,16,11464bc5eda5aaab"/>
+<approved hash="19,16,107160cecc8fc1bc"/>
+<approved hash="19,16,9366c9d9a78148b3"/>
+<approved hash="19,16,58df2f008a22741a"/>
+<approved hash="19,16,c2158eab66f9a7c8"/>
+<approved hash="19,16,a50d97b421e9e6df"/>
+<approved hash="19,16,c61308d27c17cce0"/>
+<approved hash="19,16,9707e7cd6d093bfa"/>
+<approved hash="19,16,f802aefd020aaacf"/>
+<approved hash="19,16,f93585f62320c1d8"/>
+<approved hash="19,16,7a222ce1482e48d7"/>
+<approved hash="19,16,c1b009a179bad2a3"/>
+<approved hash="19,16,90a4e6be68a425b9"/>
+<approved hash="19,16,ffa1af8e07a7b48c"/>
+<approved hash="19,16,4bea73ffcbebf8f8"/>
+<approved hash="19,16,fb95016843e9e59e"/>
+<approved hash="19,16,c4b38c4c1cdee8a6"/>
+<approved hash="19,16,47a4255b77d061a9"/>
+<approved hash="19,16,16d76229b6a88ed2"/>
+<approved hash="19,16,71cf7b36f1b8cfc5"/>
+<approved hash="19,16,e6a23cbf433cf811"/>
+<approved hash="19,16,b7b6d3a052220f0b"/>
+<approved hash="19,16,0be05ffeb67d935d"/>
+<approved hash="19,16,6cf846e1f16dd24a"/>
+<approved hash="19,16,3665f1188619200e"/>
+<approved hash="19,16,2cf26ae08cfbb9ef"/>
+<approved hash="19,16,928f5036261bf28c"/>
+<approved hash="19,16,c39bbf2937050596"/>
+<approved hash="19,16,ada9dd12792cffb4"/>
+<approved hash="19,16,7fcd3377d35a99c0"/>
+<approved hash="19,16,18d52a68944ad8d7"/>
+<approved hash="19,16,b30e4c333140a94d"/>
+<approved hash="19,16,872146703ccb8272"/>
+<approved hash="19,16,aeead1f17bb988e7"/>
+<approved hash="19,16,8d1fea1c4f5dcf62"/>
+<approved hash="19,16,7c8e3f94d1cfee93"/>
+<approved hash="19,16,332644f5d0dd23eb"/>
+<approved hash="19,16,4dffb202ce11651c"/>
+<approved hash="19,16,67711e079707d714"/>
+<approved hash="19,16,d6b5a74322336fe0"/>
+<approved hash="19,16,b9b0ee734d30fed5"/>
+<approved hash="19,16,3b906c6f07141ccd"/>
+<approved hash="19,16,09437c3cd92e2d36"/>
+<approved hash="19,16,db27925973584b42"/>
+<approved hash="19,16,6ae32b1dc66cf3b6"/>
+<approved hash="19,16,8a54d52bb220a439"/>
+<approved hash="19,16,0dfb3202817cb2a1"/>
+<approved hash="19,16,0f3f680005792d7a"/>
+<approved hash="19,16,5e4c2f72c401c201"/>
+<approved hash="19,16,3954366d83118316"/>
+<approved hash="19,16,bbcb79da189fbe88"/>
+<approved hash="19,16,eadf96c509814992"/>
+<approved hash="19,16,84edf4fe47a8b3b0"/>
+<approved hash="19,16,07fa5de92ca63abf"/>
+<approved hash="19,16,56891a9bedded5c4"/>
+<approved hash="19,16,b887c5786c1a95c2"/>
+<approved hash="19,16,31910384aace94d3"/>
+<approved hash="19,16,94b9cb86639fd6e4"/>
+<approved hash="19,16,958ee08d42b5bdf3"/>
+<approved hash="19,16,47ea0ee8e8c3db87"/>
+<approved hash="19,16,c0a8944bed2af9ad"/>
+<approved hash="19,16,5dad9f50e4514cc6"/>
+<approved hash="19,16,63bc397f9a4c2ae9"/>
+<approved hash="19,16,628b1274bb6641fe"/>
+<approved hash="19,16,d7f7e50e5600669d"/>
+<approved hash="19,16,497a86c7f3044779"/>
+<approved hash="19,16,765c0be3ac334a41"/>
+<approved hash="19,16,e21aa32c205e5e57"/>
+<approved hash="19,16,a438e58606452c35"/>
+<approved hash="19,16,f0b6970dfbfad363"/>
+<approved hash="19,16,7504b89dc9d66ba7"/>
+<approved hash="19,16,24105782d8c89cbd"/>
+<approved hash="19,16,4b151eb2b7cb0d88"/>
+<approved hash="19,16,c9359caefdefef90"/>
+<approved hash="19,16,f5e4b85a56a961f9"/>
+<approved hash="19,16,4c77351dac99ea4a"/>
+<approved hash="19,16,23727c2dc39a7b7f"/>
+<approved hash="19,16,f021b94348c6761c"/>
+<approved hash="19,16,0c00c9d18fea2ed3"/>
+<approved hash="19,16,32116ffef1f748fc"/>
+<approved hash="19,16,b031ede2bbd3aae4"/>
+<approved hash="19,16,14a7fff34f89be3d"/>
+<approved hash="19,16,0bb19ef7878eea2e"/>
+<approved hash="19,16,c58c50fe4f9a1a05"/>
+<approved hash="19,16,709bb3feff815e0c"/>
+<approved hash="19,16,c7e7b2f3b78bb271"/>
+<approved hash="19,16,02f7c5f8ef870e64"/>
+<approved hash="19,16,3641911e2d28df5b"/>
+<approved hash="19,16,a313f20c2e7bea5e"/>
+<approved hash="19,16,1d647e13fb362760"/>
+<approved hash="19,16,d30f881ecf259316"/>
+<approved hash="19,16,0d7b3c2e8e9aa829"/>
+<approved hash="19,16,1a737514ed29bf6a"/>
+<approved hash="19,16,406b1cc4b63309f6"/>
+<approved hash="19,16,a81ff710dd2fdb00"/>
+<approved hash="19,16,29241899a23b9c06"/>
+<approved hash="19,16,cc16bb3c41787b6b"/>
+<approved hash="19,16,a224d9070f518149"/>
+<approved hash="19,16,21337010645f0846"/>
+<approved hash="19,16,2b516b938956a7ac"/>
+<approved hash="19,16,70403762a527e73d"/>
+<approved hash="19,16,4c49728cce46e6bb"/>
+<approved hash="19,16,17582e7de237a62a"/>
+<approved hash="19,16,2d8d5f67c80d8a80"/>
+<approved hash="19,16,d635a96f2dd57568"/>
+<approved hash="19,16,0681b1ff3fbdde11"/>
+<approved hash="19,16,fe968485268ddf9b"/>
+<approved hash="19,16,b807cb5463fc8f4a"/>
+<approved hash="19,16,91dbd3392c5216d6"/>
+<approved hash="19,16,5a93188c77057c26"/>
+<approved hash="19,16,3b10624308f20645"/>
+<approved hash="19,16,6a632531c98ae93e"/>
+<approved hash="19,16,8c28c1176e77a475"/>
+<approved hash="19,16,69ac314b6f022e01"/>
+</errors>
+</board>
+</drawing>
+<compatibility>
+<note version="6.3" minversion="6.2.2" severity="warning">
+Since Version 6.2.2 text objects can contain more than one line,
+which will not be processed correctly with this version.
+</note>
+<note version="8.2" severity="warning">
+Since Version 8.2, EAGLE supports online libraries. The ids
+of those online libraries will not be understood (or retained)
+with this version.
+</note>
+<note version="8.3" severity="warning">
+Since Version 8.3, EAGLE supports Fusion synchronisation.
+This feature will not be available in this version and saving
+the document will break the link to the Fusion PCB feature.
+</note>
+<note version="8.3" severity="warning">
+Since Version 8.3, EAGLE supports URNs for individual library
+assets (packages, symbols, and devices). The URNs of those assets
+will not be understood (or retained) with this version.
+</note>
+<note version="8.3" severity="warning">
+Since Version 8.3, EAGLE supports the association of 3D packages
+with devices in libraries, schematics, and board files. Those 3D
+packages will not be understood (or retained) with this version.
+</note>
+</compatibility>
+</eagle>
