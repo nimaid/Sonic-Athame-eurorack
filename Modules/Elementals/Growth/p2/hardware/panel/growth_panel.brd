@@ -156,18 +156,12 @@
 <layer number="255" name="routoute" color="7" fill="1" visible="yes" active="yes"/>
 </layers>
 <board>
-<fusionsync huburn="a.cGVyc29uYWw6dWUyZGY0M2Ex" projecturn="a.cGVyc29uYWw6dWUyZGY0M2ExIzIwMjAwODA5MzIyMjM2MzA2" f3durn="urn:adsk.wipprod:dm.lineage:YbMO2u0XRLqBhb2bUnu0HA" pcbguid="2a1b8c86-2fc1-4c7e-a4a6-f594d6aae771" lastpulledtime="" lastsyncedchangeguid="52ca49c6-1b85-65ce-afc4-29855cab59a0"/>
+<fusionsync huburn="a.cGVyc29uYWw6dWUyZGY0M2Ex" projecturn="a.cGVyc29uYWw6dWUyZGY0M2ExIzIwMjAwODA5MzIyMjM2MzA2" f3durn="urn:adsk.wipprod:dm.lineage:HKurPCoHT-6uQ3M1nE7qNw" pcbguid="1525c07d-22f4-49ff-9dd1-695bbb3f1316" lastpulledtime="" lastsyncedchangeguid="efb5e469-ab0f-66e1-d9e4-b34b7dd1f068"/>
 <plain>
 <text x="10.16" y="119.38" size="1.6764" layer="25" align="bottom-center">Sonic Athame™</text>
 <text x="10.16" y="113.665" size="1.27" layer="25" align="center">Elemental Growth</text>
 <text x="10.16" y="118.745" size="1.016" layer="25" align="top-center">The Point of Modular</text>
 <text x="10.16" y="112.395" size="0.6096" layer="25" align="center">Prototype 2</text>
-<hole x="5.08" y="93.98" drill="6.3"/>
-<hole x="15.24" y="93.98" drill="6.3"/>
-<hole x="5.08" y="43.18" drill="6.3"/>
-<hole x="15.24" y="43.18" drill="6.3"/>
-<hole x="10.16" y="22.86" drill="7.5"/>
-<hole x="10.16" y="73.66" drill="7.5"/>
 <text x="5.08" y="47.117" size="1.778" layer="25" align="bottom-center">In</text>
 <text x="15.24" y="47.117" size="1.778" layer="25" align="bottom-center">Out</text>
 <text x="5.08" y="15.367" size="1.778" layer="25" align="top-center">1x</text>
@@ -301,21 +295,39 @@
 <libraries>
 <library name="SonicAthame" urn="urn:adsk.eagle:library:22327399">
 <packages>
-<package name="PANEL_4U" urn="urn:adsk.eagle:footprint:26352446/2" library_version="38">
+<package name="PANEL_4U" urn="urn:adsk.eagle:footprint:26352446/4" library_version="42">
 <wire x1="0" y1="0" x2="20" y2="0" width="0" layer="20"/>
 <wire x1="20" y1="0" x2="20" y2="128.5" width="0" layer="20"/>
 <wire x1="20" y1="128.5" x2="0" y2="128.5" width="0" layer="20"/>
 <wire x1="0" y1="128.5" x2="0" y2="0" width="0" layer="20"/>
-<wire x1="10" y1="-2.54" x2="10" y2="131.04" width="0" layer="48" style="shortdash"/>
-<wire x1="22.54" y1="64.25" x2="-2.54" y2="64.25" width="0" layer="48" style="shortdash"/>
+<wire x1="10" y1="-2.54" x2="10" y2="131.04" width="0" layer="51" style="shortdash"/>
+<wire x1="22.54" y1="64.25" x2="-2.54" y2="64.25" width="0" layer="51" style="shortdash"/>
+<wire x1="22.54" y1="118.34" x2="-2.54" y2="118.34" width="0" layer="51" style="longdash"/>
+<wire x1="22.54" y1="10.16" x2="-2.54" y2="10.16" width="0" layer="51" style="longdash"/>
 <hole x="7.5" y="3" drill="3.2"/>
 <hole x="7.5" y="125.5" drill="3.2"/>
 </package>
+<package name="WQP-PJ398SM_PANEL" urn="urn:adsk.eagle:footprint:26352772/1" library_version="43">
+<hole x="0" y="0" drill="6.3"/>
+</package>
+<package name="ALPHA_POT_VERTICAL_PANEL" urn="urn:adsk.eagle:footprint:26352771/1" library_version="43">
+<hole x="0" y="0" drill="7.5"/>
+</package>
 </packages>
 <packages3d>
-<package3d name="PANEL_4U" urn="urn:adsk.eagle:package:26352447/2" type="empty" library_version="38">
+<package3d name="PANEL_4U" urn="urn:adsk.eagle:package:26352447/4" type="empty" library_version="42">
 <packageinstances>
 <packageinstance name="PANEL_4U"/>
+</packageinstances>
+</package3d>
+<package3d name="WQP-PJ398SM_PANEL" urn="urn:adsk.eagle:package:26352774/1" type="empty" library_version="43">
+<packageinstances>
+<packageinstance name="WQP-PJ398SM_PANEL"/>
+</packageinstances>
+</package3d>
+<package3d name="ALPHA_POT_VERTICAL_PANEL" urn="urn:adsk.eagle:package:26352773/1" type="empty" library_version="43">
+<packageinstances>
+<packageinstance name="ALPHA_POT_VERTICAL_PANEL"/>
 </packageinstances>
 </package3d>
 </packages3d>
@@ -513,7 +525,13 @@ design rules under a new name.</description>
 </pass>
 </autorouter>
 <elements>
-<element name="U$1" library="SonicAthame" library_urn="urn:adsk.eagle:library:22327399" package="PANEL_4U" package3d_urn="urn:adsk.eagle:package:26352447/2" value="" x="0" y="0" smashed="yes"/>
+<element name="U$1" library="SonicAthame" library_urn="urn:adsk.eagle:library:22327399" package="PANEL_4U" package3d_urn="urn:adsk.eagle:package:26352447/4" value="" x="0" y="0" smashed="yes"/>
+<element name="U$2" library="SonicAthame" library_urn="urn:adsk.eagle:library:22327399" package="WQP-PJ398SM_PANEL" package3d_urn="urn:adsk.eagle:package:26352774/1" value="" x="5.08" y="93.98" smashed="yes"/>
+<element name="U$3" library="SonicAthame" library_urn="urn:adsk.eagle:library:22327399" package="WQP-PJ398SM_PANEL" package3d_urn="urn:adsk.eagle:package:26352774/1" value="" x="15.24" y="93.98" smashed="yes"/>
+<element name="U$4" library="SonicAthame" library_urn="urn:adsk.eagle:library:22327399" package="WQP-PJ398SM_PANEL" package3d_urn="urn:adsk.eagle:package:26352774/1" value="" x="5.08" y="43.18" smashed="yes"/>
+<element name="U$5" library="SonicAthame" library_urn="urn:adsk.eagle:library:22327399" package="WQP-PJ398SM_PANEL" package3d_urn="urn:adsk.eagle:package:26352774/1" value="" x="15.24" y="43.18" smashed="yes"/>
+<element name="U$6" library="SonicAthame" library_urn="urn:adsk.eagle:library:22327399" package="ALPHA_POT_VERTICAL_PANEL" package3d_urn="urn:adsk.eagle:package:26352773/1" value="" x="10.16" y="73.66" smashed="yes"/>
+<element name="U$7" library="SonicAthame" library_urn="urn:adsk.eagle:library:22327399" package="ALPHA_POT_VERTICAL_PANEL" package3d_urn="urn:adsk.eagle:package:26352773/1" value="" x="10.16" y="22.86" smashed="yes"/>
 </elements>
 <signals>
 </signals>
