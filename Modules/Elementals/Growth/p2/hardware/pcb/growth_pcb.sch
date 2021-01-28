@@ -1182,7 +1182,7 @@ type 0207, grid 2.5 mm</description>
 </class>
 </classes>
 <parts>
-<part name="U1" library="SonicAthame" library_urn="urn:adsk.eagle:library:22327399" deviceset="TL072" device="P" package3d_urn="urn:adsk.eagle:package:16409/2"/>
+<part name="U1" library="SonicAthame" library_urn="urn:adsk.eagle:library:22327399" deviceset="TL072" device="P" package3d_urn="urn:adsk.eagle:package:16409/2" value="LM4562NA"/>
 <part name="SUPPLY4" library="SonicAthame" library_urn="urn:adsk.eagle:library:22327399" deviceset="+12V" device=""/>
 <part name="SUPPLY5" library="SonicAthame" library_urn="urn:adsk.eagle:library:22327399" deviceset="-12V" device=""/>
 <part name="R1" library="SonicAthame" library_urn="urn:adsk.eagle:library:22327399" deviceset="ALPHA_POT_VERTICAL" device="VERTICAL" package3d_urn="urn:adsk.eagle:package:22328184/2" value="100k"/>

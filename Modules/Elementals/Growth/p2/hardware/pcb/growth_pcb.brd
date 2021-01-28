@@ -156,7 +156,7 @@
 <layer number="255" name="routoute" color="7" fill="1" visible="yes" active="yes"/>
 </layers>
 <board>
-<fusionsync huburn="a.cGVyc29uYWw6dWUyZGY0M2Ex" projecturn="a.cGVyc29uYWw6dWUyZGY0M2ExIzIwMjAwODA5MzIyMjM2MzA2" f3durn="urn:adsk.wipprod:dm.lineage:43Y-leHDTHinlHHPKq_Q3A" pcbguid="f53b1eb7-f480-46a5-9735-94fbd804d7ef" lastpulledtime="" lastsyncedchangeguid="98395930-98b6-93c1-0850-5e7e071cf0c9" latestrevisionid="" lastsyncedrevisionid="" lastboardhashguid="64b547dd-6a4c-b4b2-7d88-0f9c14c84f44" lastpushedtime="2021-01-28T04:19:03Z" linktopcb3d="false"/>
+<fusionsync huburn="a.cGVyc29uYWw6dWUyZGY0M2Ex" projecturn="a.cGVyc29uYWw6dWUyZGY0M2ExIzIwMjAwODA5MzIyMjM2MzA2" f3durn="urn:adsk.wipprod:dm.lineage:43Y-leHDTHinlHHPKq_Q3A" pcbguid="f53b1eb7-f480-46a5-9735-94fbd804d7ef" lastpulledtime="" lastsyncedchangeguid="98395930-98b6-93c1-0850-5e7e071cf0c9" latestrevisionid="" lastsyncedrevisionid="" lastboardhashguid="358cd26d-b0ab-f703-a2be-fe463827a6a1" lastpushedtime="2021-01-28T17:59:34Z" linktopcb3d="false"/>
 <plain>
 <wire x1="0.635" y1="10.795" x2="19.665" y2="10.795" width="0" layer="20"/>
 <wire x1="19.665" y1="10.795" x2="19.665" y2="112.7" width="0" layer="20"/>
@@ -169,10 +169,10 @@
 <text x="17.78" y="33.655" size="1.27" layer="25" align="top-right">10x Out</text>
 <text x="10.16" y="27.305" size="1.27" layer="25" align="bottom-center">10x Setting</text>
 <text x="10.16" y="24.765" size="1.27" layer="26" rot="MR0" align="center">Elemental Growth</text>
-<text x="10.16" y="88.265" size="0.8128" layer="26" rot="MR270" align="center">Sonic Athame is fully open-hardware
-and open-software! Find schematics
-and code on the official GitHub:
-github.com/nimaid/Sonic-Athame-eurorack</text>
+<text x="10.16" y="88.265" size="1.016" layer="26" rot="MR270" align="center">Sonic Athame is fully open-hardware
+and open-software! Find schematics,
+code, ans assembly instructions at
+sonic-athame.com</text>
 <text x="10.16" y="17.145" size="1.778" layer="26" rot="MR0" align="center">Prototype v2</text>
 <text x="18.669" y="109.22" size="0.6096" layer="26" rot="MR90" align="bottom-center">STRIPE</text>
 <wire x1="16.891" y1="109.22" x2="18.415" y2="109.22" width="0.1524" layer="26"/>
@@ -3529,7 +3529,7 @@ design rules under a new name.</description>
 </pass>
 </autorouter>
 <elements>
-<element name="U1" library="SonicAthame" library_urn="urn:adsk.eagle:library:22327399" package="DIL08" package3d_urn="urn:adsk.eagle:package:16409/2" value="TL072P" x="10.16" y="55.245" smashed="yes" rot="R180">
+<element name="U1" library="SonicAthame" library_urn="urn:adsk.eagle:library:22327399" package="DIL08" package3d_urn="urn:adsk.eagle:package:16409/2" value="LM4562NA" x="10.16" y="55.245" smashed="yes" rot="R180">
 <attribute name="NAME" x="16.002" y="56.642" size="1.27" layer="25" ratio="10" rot="R270"/>
 <attribute name="POPULARITY" value="13" x="10.16" y="55.245" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="VALUE" x="13.716" y="55.88" size="1.27" layer="27" ratio="10" rot="R180"/>
