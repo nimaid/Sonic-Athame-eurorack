@@ -156,7 +156,7 @@
 <layer number="255" name="routoute" color="7" fill="1" visible="yes" active="yes"/>
 </layers>
 <board>
-<fusionsync huburn="a.cGVyc29uYWw6dWUyZGY0M2Ex" projecturn="a.cGVyc29uYWw6dWUyZGY0M2ExIzIwMjAwODA5MzIyMjM2MzA2" f3durn="urn:adsk.wipprod:dm.lineage:Q2m1L6VbTlGJL3gwAvu5pw" pcbguid="ba5cba06-7faf-45c1-a827-196ae48076d6" lastpulledtime="" lastsyncedchangeguid="300cfe87-f56f-426c-4596-74598e57c954" latestrevisionid="" lastsyncedrevisionid="" lastboardhashguid="ebede0a1-f797-765d-a94d-a46264e5c2f4" lastpushedtime="2021-01-28T02:42:22Z" linktopcb3d="false"/>
+<fusionsync huburn="a.cGVyc29uYWw6dWUyZGY0M2Ex" projecturn="a.cGVyc29uYWw6dWUyZGY0M2ExIzIwMjAwODA5MzIyMjM2MzA2" f3durn="urn:adsk.wipprod:dm.lineage:Q2m1L6VbTlGJL3gwAvu5pw" pcbguid="ba5cba06-7faf-45c1-a827-196ae48076d6" lastpulledtime="" lastsyncedchangeguid="300cfe87-f56f-426c-4596-74598e57c954" latestrevisionid="" lastsyncedrevisionid="" lastboardhashguid="a88a82ce-a91a-3b76-782d-88e5e92bf132" lastpushedtime="2021-01-28T04:07:53Z" linktopcb3d="false"/>
 <plain>
 <wire x1="19.05" y1="118.11" x2="0" y2="118.11" width="0" layer="20"/>
 <wire x1="0" y1="118.11" x2="0" y2="12.7" width="0" layer="20"/>
@@ -187,7 +187,6 @@ Experimental Substrate</text>
 <hole x="14.351" y="103.251" drill="0.762"/>
 <hole x="16.256" y="103.251" drill="0.762"/>
 <hole x="18.161" y="103.251" drill="0.762"/>
-<text x="18.923" y="116.459" size="0.6096" layer="26" rot="MR270">STRIPE</text>
 <wire x1="9.525" y1="100.965" x2="9.525" y2="9.525" width="1.27" layer="25"/>
 <wire x1="0" y1="88.265" x2="19.05" y2="88.265" width="1.27" layer="25"/>
 <wire x1="0" y1="75.565" x2="19.05" y2="75.565" width="1.27" layer="25"/>
@@ -485,55 +484,12 @@ Experimental Substrate</text>
 <circle x="0.635" y="15.875" radius="0.254" width="0.508" layer="26"/>
 <circle x="18.415" y="15.875" radius="0.254" width="0.508" layer="26"/>
 <text x="2.794" y="107.95" size="0.6096" layer="26" font="vector" rot="MR0" align="center-right">sonic-athame.com</text>
+<text x="18.034" y="114.808" size="0.6096" layer="26" rot="MR90" align="bottom-center">STRIPE</text>
+<wire x1="16.256" y1="114.808" x2="17.78" y2="114.808" width="0.1524" layer="26"/>
 </plain>
 <libraries>
 <library name="SonicAthame" urn="urn:adsk.eagle:library:22327399">
 <packages>
-<package name="TT2D5" urn="urn:adsk.eagle:footprint:26183887/2" library_version="30">
-<description>&lt;b&gt;ELECTROLYTIC CAPACITOR&lt;/b&gt;&lt;p&gt;
-diameter 5 mm, grid 2.54 mm</description>
-<wire x1="-1.016" y1="0" x2="-0.508" y2="0" width="0.1524" layer="51"/>
-<wire x1="-0.508" y1="0" x2="-0.508" y2="-0.889" width="0.1524" layer="51"/>
-<wire x1="-0.508" y1="-0.889" x2="-0.1778" y2="-0.889" width="0.1524" layer="51"/>
-<wire x1="-0.1778" y1="-0.889" x2="-0.1778" y2="0.889" width="0.1524" layer="51"/>
-<wire x1="-0.1778" y1="0.889" x2="-0.508" y2="0.889" width="0.1524" layer="51"/>
-<wire x1="-0.508" y1="0.889" x2="-0.508" y2="0" width="0.1524" layer="51"/>
-<wire x1="0.508" y1="0" x2="1.016" y2="0" width="0.1524" layer="51"/>
-<wire x1="-1.27" y1="1.016" x2="-1.27" y2="1.778" width="0.1524" layer="21"/>
-<wire x1="-0.889" y1="1.397" x2="-1.651" y2="1.397" width="0.1524" layer="21"/>
-<circle x="0" y="0" radius="2.54" width="0.1524" layer="21"/>
-<pad name="-" x="1.27" y="0" drill="0.8128" shape="octagon"/>
-<pad name="+" x="-1.27" y="0" drill="0.8128"/>
-<text x="2.794" y="0" size="1.27" layer="25" ratio="10" align="center-left">&gt;NAME</text>
-<rectangle x1="0.127" y1="-0.9398" x2="0.5588" y2="0.9398" layer="51"/>
-</package>
-<package name="EURO_POWER" urn="urn:adsk.eagle:footprint:26183620/3" library_version="31">
-<description>Double-row, 10-pin Pin Header (Male) Straight, 2.54 mm (0.10 in) row pitch, 2.54 mm (0.10 in) col pitch, 5.80 mm mating length, 12.70 X 5.08 X 8.34 mm body
-&lt;p&gt;Double-row (2X5), 10-pin Pin Header (Male) Straight package with 2.54 mm (0.10 in) row pitch, 2.54 mm (0.10 in) col pitch, 0.64 mm lead width, 3.10 mm tail length and 5.80 mm mating length with overall size 12.70 X 5.08 X 8.34 mm, pin pattern - clockwise from top left&lt;/p&gt;</description>
-<circle x="-5.08" y="3.044" radius="0.25" width="0" layer="21"/>
-<wire x1="6.35" y1="-2.54" x2="-6.35" y2="-2.54" width="0.12" layer="21"/>
-<wire x1="-6.35" y1="-2.54" x2="-6.35" y2="2.54" width="0.12" layer="21"/>
-<wire x1="-6.35" y1="2.54" x2="6.35" y2="2.54" width="0.12" layer="21"/>
-<wire x1="6.35" y1="2.54" x2="6.35" y2="-2.54" width="0.12" layer="21"/>
-<wire x1="-6.731" y1="2.54" x2="-6.731" y2="-2.54" width="0.254" layer="25"/>
-<pad name="1" x="-5.08" y="1.27" drill="1.1051" diameter="1.7051" shape="square"/>
-<pad name="2" x="-2.54" y="1.27" drill="1.1051" diameter="1.7051"/>
-<pad name="3" x="0" y="1.27" drill="1.1051" diameter="1.7051"/>
-<pad name="4" x="2.54" y="1.27" drill="1.1051" diameter="1.7051"/>
-<pad name="5" x="5.08" y="1.27" drill="1.1051" diameter="1.7051"/>
-<pad name="6" x="5.08" y="-1.27" drill="1.1051" diameter="1.7051"/>
-<pad name="7" x="2.54" y="-1.27" drill="1.1051" diameter="1.7051"/>
-<pad name="8" x="0" y="-1.27" drill="1.1051" diameter="1.7051"/>
-<pad name="9" x="-2.54" y="-1.27" drill="1.1051" diameter="1.7051"/>
-<pad name="10" x="-5.08" y="-1.27" drill="1.1051" diameter="1.7051"/>
-<text x="0" y="2.659" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
-<text x="-6.985" y="0" size="1.016" layer="25" rot="R90" align="bottom-center">STRIPE</text>
-<text x="-5.08" y="-2.667" size="0.6096" layer="25" align="top-center">-12v</text>
-<text x="0" y="-2.667" size="0.6096" layer="25" align="top-center">GND</text>
-<text x="5.08" y="-2.667" size="0.6096" layer="25" align="top-center">+12v</text>
-<text x="2.54" y="-2.667" size="0.6096" layer="25" align="top-center">GND</text>
-<text x="-2.54" y="-2.667" size="0.6096" layer="25" align="top-center">GND</text>
-</package>
 <package name="PANEL_REF_4U" urn="urn:adsk.eagle:footprint:26352492/3" library_version="43">
 <wire x1="0" y1="0" x2="20" y2="0" width="0" layer="51"/>
 <wire x1="20" y1="0" x2="20" y2="128.5" width="0" layer="51"/>
@@ -582,19 +538,6 @@ diameter 5 mm, grid 2.54 mm</description>
 </polygon>
 <circle x="0" y="0" radius="0.6096" width="0" layer="42"/>
 <circle x="0" y="0" radius="0.6096" width="0" layer="41"/>
-</package>
-<package name="0207/2V-POL" urn="urn:adsk.eagle:footprint:26423853/3" library_version="56">
-<description>&lt;b&gt;RESISTOR&lt;/b&gt;&lt;p&gt;
-type 0207, grid 2.5 mm</description>
-<wire x1="-1.27" y1="0" x2="-0.381" y2="0" width="0.6096" layer="51"/>
-<wire x1="-0.254" y1="0" x2="0.254" y2="0" width="0.6096" layer="21"/>
-<wire x1="0.381" y1="0" x2="1.27" y2="0" width="0.6096" layer="51"/>
-<circle x="-1.27" y="0" radius="1.27" width="0.1524" layer="21"/>
-<circle x="-1.27" y="0" radius="1.016" width="0.1524" layer="51"/>
-<pad name="C" x="-1.27" y="0" drill="0.8128" shape="octagon"/>
-<pad name="A" x="1.27" y="0" drill="0.8128" shape="octagon"/>
-<text x="-0.0508" y="1.016" size="1.27" layer="25" ratio="10">&gt;NAME</text>
-<rectangle x1="-0.381" y1="-1.27" x2="0.127" y2="-1.143" layer="21"/>
 </package>
 <package name="LOGO-65MIL-TBARE" urn="urn:adsk.eagle:footprint:26328207/1" library_version="58">
 <polygon width="0.0254" layer="29">
@@ -3508,6 +3451,63 @@ type 0207, grid 2.5 mm</description>
 <vertex x="4.513584375" y="-3.24745625"/>
 </polygon>
 </package>
+<package name="TT2D5" urn="urn:adsk.eagle:footprint:26183887/2" library_version="30">
+<description>&lt;b&gt;ELECTROLYTIC CAPACITOR&lt;/b&gt;&lt;p&gt;
+diameter 5 mm, grid 2.54 mm</description>
+<wire x1="-1.016" y1="0" x2="-0.508" y2="0" width="0.1524" layer="51"/>
+<wire x1="-0.508" y1="0" x2="-0.508" y2="-0.889" width="0.1524" layer="51"/>
+<wire x1="-0.508" y1="-0.889" x2="-0.1778" y2="-0.889" width="0.1524" layer="51"/>
+<wire x1="-0.1778" y1="-0.889" x2="-0.1778" y2="0.889" width="0.1524" layer="51"/>
+<wire x1="-0.1778" y1="0.889" x2="-0.508" y2="0.889" width="0.1524" layer="51"/>
+<wire x1="-0.508" y1="0.889" x2="-0.508" y2="0" width="0.1524" layer="51"/>
+<wire x1="0.508" y1="0" x2="1.016" y2="0" width="0.1524" layer="51"/>
+<wire x1="-1.27" y1="1.016" x2="-1.27" y2="1.778" width="0.1524" layer="21"/>
+<wire x1="-0.889" y1="1.397" x2="-1.651" y2="1.397" width="0.1524" layer="21"/>
+<circle x="0" y="0" radius="2.54" width="0.1524" layer="21"/>
+<pad name="-" x="1.27" y="0" drill="0.8128" shape="octagon"/>
+<pad name="+" x="-1.27" y="0" drill="0.8128"/>
+<text x="2.794" y="0" size="1.27" layer="25" ratio="10" align="center-left">&gt;NAME</text>
+<rectangle x1="0.127" y1="-0.9398" x2="0.5588" y2="0.9398" layer="51"/>
+</package>
+<package name="EURO_POWER" urn="urn:adsk.eagle:footprint:26183620/4" library_version="59">
+<description>Double-row, 10-pin Pin Header (Male) Straight, 2.54 mm (0.10 in) row pitch, 2.54 mm (0.10 in) col pitch, 5.80 mm mating length, 12.70 X 5.08 X 8.34 mm body
+&lt;p&gt;Double-row (2X5), 10-pin Pin Header (Male) Straight package with 2.54 mm (0.10 in) row pitch, 2.54 mm (0.10 in) col pitch, 0.64 mm lead width, 3.10 mm tail length and 5.80 mm mating length with overall size 12.70 X 5.08 X 8.34 mm, pin pattern - clockwise from top left&lt;/p&gt;</description>
+<circle x="-5.08" y="3.044" radius="0.25" width="0" layer="21"/>
+<wire x1="6.35" y1="-2.54" x2="-6.35" y2="-2.54" width="0.12" layer="21"/>
+<wire x1="-6.35" y1="-2.54" x2="-6.35" y2="2.54" width="0.12" layer="21"/>
+<wire x1="-6.35" y1="2.54" x2="6.35" y2="2.54" width="0.12" layer="21"/>
+<wire x1="6.35" y1="2.54" x2="6.35" y2="-2.54" width="0.12" layer="21"/>
+<wire x1="-6.731" y1="2.54" x2="-6.731" y2="-2.54" width="0.254" layer="25"/>
+<pad name="1" x="-5.08" y="1.27" drill="1.1051" diameter="1.7051" shape="square"/>
+<pad name="2" x="-2.54" y="1.27" drill="1.1051" diameter="1.7051"/>
+<pad name="3" x="0" y="1.27" drill="1.1051" diameter="1.7051"/>
+<pad name="4" x="2.54" y="1.27" drill="1.1051" diameter="1.7051"/>
+<pad name="5" x="5.08" y="1.27" drill="1.1051" diameter="1.7051"/>
+<pad name="6" x="5.08" y="-1.27" drill="1.1051" diameter="1.7051"/>
+<pad name="7" x="2.54" y="-1.27" drill="1.1051" diameter="1.7051"/>
+<pad name="8" x="0" y="-1.27" drill="1.1051" diameter="1.7051"/>
+<pad name="9" x="-2.54" y="-1.27" drill="1.1051" diameter="1.7051"/>
+<pad name="10" x="-5.08" y="-1.27" drill="1.1051" diameter="1.7051"/>
+<text x="0" y="2.659" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="-5.08" y="-2.667" size="0.6096" layer="25" align="top-center">-12v</text>
+<text x="0" y="-2.667" size="0.6096" layer="25" align="top-center">GND</text>
+<text x="5.08" y="-2.667" size="0.6096" layer="25" align="top-center">+12v</text>
+<text x="2.54" y="-2.667" size="0.6096" layer="25" align="top-center">GND</text>
+<text x="-2.54" y="-2.667" size="0.6096" layer="25" align="top-center">GND</text>
+</package>
+<package name="0207/2V-POL" urn="urn:adsk.eagle:footprint:26423853/3" library_version="56">
+<description>&lt;b&gt;RESISTOR&lt;/b&gt;&lt;p&gt;
+type 0207, grid 2.5 mm</description>
+<wire x1="-1.27" y1="0" x2="-0.381" y2="0" width="0.6096" layer="51"/>
+<wire x1="-0.254" y1="0" x2="0.254" y2="0" width="0.6096" layer="21"/>
+<wire x1="0.381" y1="0" x2="1.27" y2="0" width="0.6096" layer="51"/>
+<circle x="-1.27" y="0" radius="1.27" width="0.1524" layer="21"/>
+<circle x="-1.27" y="0" radius="1.016" width="0.1524" layer="51"/>
+<pad name="C" x="-1.27" y="0" drill="0.8128" shape="octagon"/>
+<pad name="A" x="1.27" y="0" drill="0.8128" shape="octagon"/>
+<text x="-0.0508" y="1.016" size="1.27" layer="25" ratio="10">&gt;NAME</text>
+<rectangle x1="-0.381" y1="-1.27" x2="0.127" y2="-1.143" layer="21"/>
+</package>
 <package name="0207/2V" urn="urn:adsk.eagle:footprint:26183817/1" library_version="58">
 <description>&lt;b&gt;RESISTOR&lt;/b&gt;&lt;p&gt;
 type 0207, grid 2.5 mm</description>
@@ -3522,20 +3522,6 @@ type 0207, grid 2.5 mm</description>
 </package>
 </packages>
 <packages3d>
-<package3d name="TT2D5" urn="urn:adsk.eagle:package:26183889/3" type="model" library_version="30">
-<description>&lt;b&gt;ELECTROLYTIC CAPACITOR&lt;/b&gt;&lt;p&gt;
-diameter 5 mm, grid 2.54 mm</description>
-<packageinstances>
-<packageinstance name="TT2D5"/>
-</packageinstances>
-</package3d>
-<package3d name="EURO_POWER" urn="urn:adsk.eagle:package:26183621/4" type="model" library_version="31">
-<description>Double-row, 10-pin Pin Header (Male) Straight, 2.54 mm (0.10 in) row pitch, 2.54 mm (0.10 in) col pitch, 5.80 mm mating length, 12.70 X 5.08 X 8.34 mm body
-&lt;p&gt;Double-row (2X5), 10-pin Pin Header (Male) Straight package with 2.54 mm (0.10 in) row pitch, 2.54 mm (0.10 in) col pitch, 0.64 mm lead width, 3.10 mm tail length and 5.80 mm mating length with overall size 12.70 X 5.08 X 8.34 mm, pin pattern - clockwise from top left&lt;/p&gt;</description>
-<packageinstances>
-<packageinstance name="EURO_POWER"/>
-</packageinstances>
-</package3d>
 <package3d name="PANEL_REF_4U" urn="urn:adsk.eagle:package:26352493/3" type="empty" library_version="43">
 <packageinstances>
 <packageinstance name="PANEL_REF_4U"/>
@@ -3546,16 +3532,30 @@ diameter 5 mm, grid 2.54 mm</description>
 <packageinstance name="PAD_THT_0.1IN_NONPLATED"/>
 </packageinstances>
 </package3d>
+<package3d name="LOGO-65MIL-TBARE" urn="urn:adsk.eagle:package:26328208/1" type="empty" library_version="58">
+<packageinstances>
+<packageinstance name="LOGO-65MIL-TBARE"/>
+</packageinstances>
+</package3d>
+<package3d name="TT2D5" urn="urn:adsk.eagle:package:26183889/3" type="model" library_version="30">
+<description>&lt;b&gt;ELECTROLYTIC CAPACITOR&lt;/b&gt;&lt;p&gt;
+diameter 5 mm, grid 2.54 mm</description>
+<packageinstances>
+<packageinstance name="TT2D5"/>
+</packageinstances>
+</package3d>
+<package3d name="EURO_POWER" urn="urn:adsk.eagle:package:26183621/5" type="model" library_version="59">
+<description>Double-row, 10-pin Pin Header (Male) Straight, 2.54 mm (0.10 in) row pitch, 2.54 mm (0.10 in) col pitch, 5.80 mm mating length, 12.70 X 5.08 X 8.34 mm body
+&lt;p&gt;Double-row (2X5), 10-pin Pin Header (Male) Straight package with 2.54 mm (0.10 in) row pitch, 2.54 mm (0.10 in) col pitch, 0.64 mm lead width, 3.10 mm tail length and 5.80 mm mating length with overall size 12.70 X 5.08 X 8.34 mm, pin pattern - clockwise from top left&lt;/p&gt;</description>
+<packageinstances>
+<packageinstance name="EURO_POWER"/>
+</packageinstances>
+</package3d>
 <package3d name="0207/2V-POL" urn="urn:adsk.eagle:package:26423854/3" type="box" library_version="56">
 <description>&lt;b&gt;RESISTOR&lt;/b&gt;&lt;p&gt;
 type 0207, grid 2.5 mm</description>
 <packageinstances>
 <packageinstance name="0207/2V-POL"/>
-</packageinstances>
-</package3d>
-<package3d name="LOGO-65MIL-TBARE" urn="urn:adsk.eagle:package:26328208/1" type="empty" library_version="58">
-<packageinstances>
-<packageinstance name="LOGO-65MIL-TBARE"/>
 </packageinstances>
 </package3d>
 <package3d name="0207/2V" urn="urn:adsk.eagle:package:26183824/1" type="box" library_version="58">
@@ -3760,15 +3760,6 @@ design rules under a new name.</description>
 </pass>
 </autorouter>
 <elements>
-<element name="C1" library="SonicAthame" library_urn="urn:adsk.eagle:library:22327399" package="TT2D5" package3d_urn="urn:adsk.eagle:package:26183889/3" value="10u" x="6.35" y="109.22" smashed="yes">
-<attribute name="NAME" x="7.874" y="111.76" size="0.8128" layer="25" ratio="10" align="center-left"/>
-</element>
-<element name="C2" library="SonicAthame" library_urn="urn:adsk.eagle:library:22327399" package="TT2D5" package3d_urn="urn:adsk.eagle:package:26183889/3" value="10u" x="12.7" y="109.22" smashed="yes">
-<attribute name="NAME" x="11.176" y="111.76" size="0.8128" layer="25" ratio="10" rot="R180" align="center-left"/>
-</element>
-<element name="J1" library="SonicAthame" library_urn="urn:adsk.eagle:library:22327399" package="EURO_POWER" package3d_urn="urn:adsk.eagle:package:26183621/4" value="EURO_POWER" x="9.525" y="114.935" smashed="yes" rot="MR0">
-<attribute name="NAME" x="2.278" y="114.935" size="0.8128" layer="26" rot="MR90" align="bottom-center"/>
-</element>
 <element name="U$1" library="SonicAthame" library_urn="urn:adsk.eagle:library:22327399" package="PANEL_REF_4U" package3d_urn="urn:adsk.eagle:package:26352493/3" value="" x="0" y="0" smashed="yes"/>
 <element name="U$3" library="SonicAthame" library_urn="urn:adsk.eagle:library:22327399" package="PAD_THT_0.1IN_NONPLATED" package3d_urn="urn:adsk.eagle:package:26422632/2" value="" x="17.145" y="100.965" smashed="yes" rot="MR0"/>
 <element name="U$2" library="SonicAthame" library_urn="urn:adsk.eagle:library:22327399" package="PAD_THT_0.1IN_NONPLATED" package3d_urn="urn:adsk.eagle:package:26422632/2" value="" x="14.605" y="100.965" smashed="yes" rot="MR0"/>
@@ -4015,12 +4006,6 @@ design rules under a new name.</description>
 <element name="U$244" library="SonicAthame" library_urn="urn:adsk.eagle:library:22327399" package="PAD_THT_0.1IN_NONPLATED" package3d_urn="urn:adsk.eagle:package:26422632/2" value="" x="6.985" y="14.605" smashed="yes" rot="MR0"/>
 <element name="U$245" library="SonicAthame" library_urn="urn:adsk.eagle:library:22327399" package="PAD_THT_0.1IN_NONPLATED" package3d_urn="urn:adsk.eagle:package:26422632/2" value="" x="4.445" y="14.605" smashed="yes" rot="MR0"/>
 <element name="U$246" library="SonicAthame" library_urn="urn:adsk.eagle:library:22327399" package="PAD_THT_0.1IN_NONPLATED" package3d_urn="urn:adsk.eagle:package:26422632/2" value="" x="1.905" y="14.605" smashed="yes" rot="MR0"/>
-<element name="D1" library="SonicAthame" library_urn="urn:adsk.eagle:library:22327399" package="0207/2V-POL" package3d_urn="urn:adsk.eagle:package:26423854/3" value="SB230TA" x="1.905" y="109.855" smashed="yes" rot="R90">
-<attribute name="NAME" x="0.127" y="111.3028" size="0.8128" layer="25" ratio="10" rot="R270"/>
-</element>
-<element name="D2" library="SonicAthame" library_urn="urn:adsk.eagle:library:22327399" package="0207/2V-POL" package3d_urn="urn:adsk.eagle:package:26423854/3" value="SB230TA" x="17.145" y="109.855" smashed="yes" rot="R270">
-<attribute name="NAME" x="18.796" y="108.6612" size="0.8128" layer="25" ratio="10" rot="R90"/>
-</element>
 <element name="U$247" library="SonicAthame" library_urn="urn:adsk.eagle:library:22327399" package="LOGO-65MIL-TBARE" package3d_urn="urn:adsk.eagle:package:26328208/1" value="" x="6.985" y="96.52" smashed="yes" rot="R45"/>
 <element name="U$249" library="SonicAthame" library_urn="urn:adsk.eagle:library:22327399" package="LOGO-65MIL-TBARE" package3d_urn="urn:adsk.eagle:package:26328208/1" value="" x="16.51" y="96.52" smashed="yes" rot="R45"/>
 <element name="U$250" library="SonicAthame" library_urn="urn:adsk.eagle:library:22327399" package="LOGO-65MIL-TBARE" package3d_urn="urn:adsk.eagle:package:26328208/1" value="" x="-2.54" y="96.52" smashed="yes" rot="R45"/>
@@ -4047,39 +4032,45 @@ design rules under a new name.</description>
 <element name="U$271" library="SonicAthame" library_urn="urn:adsk.eagle:library:22327399" package="LOGO-65MIL-TBARE" package3d_urn="urn:adsk.eagle:package:26328208/1" value="" x="8.255" y="12.065" smashed="yes" rot="R45"/>
 <element name="U$272" library="SonicAthame" library_urn="urn:adsk.eagle:library:22327399" package="LOGO-65MIL-TBARE" package3d_urn="urn:adsk.eagle:package:26328208/1" value="" x="-1.27" y="12.065" smashed="yes" rot="R45"/>
 <element name="U$273" library="SonicAthame" library_urn="urn:adsk.eagle:library:22327399" package="LOGO-65MIL-TBARE" package3d_urn="urn:adsk.eagle:package:26328208/1" value="" x="17.78" y="12.065" smashed="yes" rot="R45"/>
-<element name="L1" library="SonicAthame" library_urn="urn:adsk.eagle:library:22327399" package="0207/2V" package3d_urn="urn:adsk.eagle:package:26183824/1" value="2743005112" x="-8.89" y="-5.715" smashed="yes">
-<attribute name="NAME" x="-8.9408" y="-4.699" size="1.27" layer="25" ratio="10"/>
+<element name="C1" library="SonicAthame" library_urn="urn:adsk.eagle:library:22327399" package="TT2D5" package3d_urn="urn:adsk.eagle:package:26183889/3" value="10u" x="6.35" y="109.093" smashed="yes">
+<attribute name="NAME" x="7.874" y="111.633" size="0.8128" layer="25" ratio="10" align="center-left"/>
 </element>
-<element name="L2" library="SonicAthame" library_urn="urn:adsk.eagle:library:22327399" package="0207/2V" package3d_urn="urn:adsk.eagle:package:26183824/1" value="2743005112" x="-8.89" y="-10.16" smashed="yes">
-<attribute name="NAME" x="-8.9408" y="-9.144" size="1.27" layer="25" ratio="10"/>
+<element name="C2" library="SonicAthame" library_urn="urn:adsk.eagle:library:22327399" package="TT2D5" package3d_urn="urn:adsk.eagle:package:26183889/3" value="10u" x="12.7" y="109.093" smashed="yes">
+<attribute name="NAME" x="11.176" y="111.633" size="0.8128" layer="25" ratio="10" rot="R180" align="center-left"/>
+</element>
+<element name="J1" library="SonicAthame" library_urn="urn:adsk.eagle:library:22327399" package="EURO_POWER" package3d_urn="urn:adsk.eagle:package:26183621/5" value="EURO_POWER" x="9.525" y="114.808" smashed="yes" rot="MR0">
+<attribute name="NAME" x="2.278" y="114.808" size="0.8128" layer="26" rot="MR90" align="bottom-center"/>
+</element>
+<element name="D1" library="SonicAthame" library_urn="urn:adsk.eagle:library:22327399" package="0207/2V-POL" package3d_urn="urn:adsk.eagle:package:26423854/3" value="SB230TA" x="1.905" y="109.728" smashed="yes" rot="R90">
+<attribute name="NAME" x="2.794" y="111.8108" size="0.8128" layer="25" ratio="10" rot="R270"/>
+</element>
+<element name="D2" library="SonicAthame" library_urn="urn:adsk.eagle:library:22327399" package="0207/2V-POL" package3d_urn="urn:adsk.eagle:package:26423854/3" value="SB230TA" x="17.145" y="109.728" smashed="yes" rot="R270">
+<attribute name="NAME" x="16.256" y="107.7722" size="0.8128" layer="25" ratio="10" rot="R90"/>
+</element>
+<element name="L1" library="SonicAthame" library_urn="urn:adsk.eagle:library:22327399" package="0207/2V" package3d_urn="urn:adsk.eagle:package:26183824/1" value="2743005112" x="1.905" y="114.808" smashed="yes" rot="R270">
+<attribute name="NAME" x="0.889" y="114.2238" size="0.8128" layer="25" ratio="10" rot="R270" align="top-left"/>
+</element>
+<element name="L2" library="SonicAthame" library_urn="urn:adsk.eagle:library:22327399" package="0207/2V" package3d_urn="urn:adsk.eagle:package:26183824/1" value="2743005112" x="17.145" y="114.808" smashed="yes" rot="R270">
+<attribute name="NAME" x="18.161" y="114.2238" size="0.8128" layer="25" ratio="10" rot="R270"/>
 </element>
 </elements>
 <signals>
-<signal name="+12V">
-<contactref element="C1" pad="+"/>
-<via x="1.905" y="105.41" extent="1-16" drill="1.016"/>
-<via x="4.445" y="105.41" extent="1-16" drill="1.016"/>
-<contactref element="D1" pad="C"/>
-<wire x1="1.905" y1="108.585" x2="2.54" y2="109.22" width="1.016" layer="1"/>
-<wire x1="2.54" y1="109.22" x2="5.08" y2="109.22" width="1.016" layer="1"/>
-<wire x1="4.445" y1="105.41" x2="4.445" y2="106.68" width="1.016" layer="1"/>
-<wire x1="4.445" y1="106.68" x2="5.08" y2="107.315" width="1.016" layer="1"/>
-<wire x1="5.08" y1="107.315" x2="5.08" y2="109.22" width="1.016" layer="1"/>
-<wire x1="1.905" y1="105.41" x2="4.445" y2="105.41" width="1.016" layer="1"/>
-</signal>
 <signal name="-12V">
-<contactref element="C2" pad="-"/>
 <via x="17.145" y="105.41" extent="1-16" drill="1.016"/>
 <via x="14.605" y="105.41" extent="1-16" drill="1.016"/>
-<contactref element="D2" pad="A"/>
-<wire x1="17.145" y1="108.585" x2="16.51" y2="109.22" width="1.016" layer="1"/>
-<wire x1="16.51" y1="109.22" x2="13.97" y2="109.22" width="1.016" layer="1"/>
-<wire x1="14.605" y1="105.41" x2="14.605" y2="106.68" width="1.016" layer="1"/>
-<wire x1="14.605" y1="106.68" x2="13.97" y2="107.315" width="1.016" layer="1"/>
-<wire x1="13.97" y1="107.315" x2="13.97" y2="109.22" width="1.016" layer="1"/>
 <wire x1="14.605" y1="105.41" x2="17.145" y2="105.41" width="1.016" layer="1"/>
+<contactref element="C2" pad="-"/>
+<contactref element="D2" pad="A"/>
+<wire x1="17.145" y1="108.458" x2="16.51" y2="109.093" width="1.016" layer="1"/>
+<wire x1="16.51" y1="109.093" x2="13.97" y2="109.093" width="1.016" layer="1"/>
+<wire x1="17.145" y1="105.41" x2="17.145" y2="108.458" width="1.016" layer="1"/>
 </signal>
 <signal name="GND">
+<via x="9.525" y="105.41" extent="1-16" drill="1.016"/>
+<via x="6.985" y="105.41" extent="1-16" drill="1.016"/>
+<via x="12.065" y="105.41" extent="1-16" drill="1.016"/>
+<wire x1="9.525" y1="105.41" x2="12.065" y2="105.41" width="1.016" layer="1"/>
+<wire x1="6.985" y1="105.41" x2="9.525" y2="105.41" width="1.016" layer="1"/>
 <contactref element="C1" pad="-"/>
 <contactref element="C2" pad="+"/>
 <contactref element="J1" pad="4" route="any" routetag="G$1.GND"/>
@@ -4088,46 +4079,15 @@ design rules under a new name.</description>
 <contactref element="J1" pad="8" route="any" routetag="G$1.GND"/>
 <contactref element="J1" pad="2" route="any" routetag="G$1.GND"/>
 <contactref element="J1" pad="7" route="any" routetag="G$1.GND"/>
-<via x="9.525" y="105.41" extent="1-16" drill="1.016"/>
-<via x="6.985" y="105.41" extent="1-16" drill="1.016"/>
-<via x="12.065" y="105.41" extent="1-16" drill="1.016"/>
-<wire x1="6.985" y1="113.665" x2="9.525" y2="113.665" width="1.016" layer="1"/>
-<wire x1="9.525" y1="113.665" x2="12.065" y2="113.665" width="1.016" layer="1"/>
-<wire x1="6.985" y1="116.205" x2="6.985" y2="113.665" width="1.016" layer="1"/>
-<wire x1="9.525" y1="116.205" x2="9.525" y2="113.665" width="1.016" layer="1"/>
-<wire x1="12.065" y1="116.205" x2="12.065" y2="113.665" width="1.016" layer="1"/>
-<wire x1="9.525" y1="113.665" x2="9.525" y2="109.22" width="1.016" layer="1"/>
-<wire x1="9.525" y1="109.22" x2="9.525" y2="105.41" width="1.016" layer="1"/>
-<wire x1="7.62" y1="109.22" x2="9.525" y2="109.22" width="1.016" layer="1"/>
-<wire x1="11.43" y1="109.22" x2="9.525" y2="109.22" width="1.016" layer="1"/>
-<wire x1="9.525" y1="105.41" x2="12.065" y2="105.41" width="1.016" layer="1"/>
-<wire x1="6.985" y1="105.41" x2="9.525" y2="105.41" width="1.016" layer="1"/>
-</signal>
-<signal name="N$8">
-<contactref element="D1" pad="A"/>
-<wire x1="1.651" y1="111.379" x2="1.905" y2="111.125" width="1.016" layer="1"/>
-<contactref element="L1" pad="2"/>
-<wire x1="-7.62" y1="-5.715" x2="1.905" y2="111.125" width="0" layer="19" extent="1-1"/>
-</signal>
-<signal name="N$9">
-<contactref element="D2" pad="C"/>
-<wire x1="17.399" y1="111.379" x2="17.145" y2="111.125" width="1.016" layer="1"/>
-<contactref element="L2" pad="2"/>
-<wire x1="-7.62" y1="-10.16" x2="17.145" y2="111.125" width="0" layer="19" extent="1-1"/>
-</signal>
-<signal name="N$10">
-<contactref element="J1" pad="1"/>
-<contactref element="J1" pad="10"/>
-<wire x1="14.605" y1="116.205" x2="14.605" y2="113.665" width="1.016" layer="1"/>
-<contactref element="L2" pad="1"/>
-<wire x1="-10.16" y1="-10.16" x2="14.605" y2="113.665" width="0" layer="19" extent="1-1"/>
-</signal>
-<signal name="N$11">
-<contactref element="J1" pad="5"/>
-<contactref element="J1" pad="6"/>
-<wire x1="4.445" y1="116.205" x2="4.445" y2="113.665" width="1.016" layer="1"/>
-<contactref element="L1" pad="1"/>
-<wire x1="-10.16" y1="-5.715" x2="4.445" y2="113.665" width="0" layer="19" extent="1-1"/>
+<wire x1="6.985" y1="116.078" x2="6.985" y2="113.538" width="1.016" layer="1"/>
+<wire x1="12.065" y1="116.078" x2="12.065" y2="113.538" width="1.016" layer="1"/>
+<wire x1="9.525" y1="116.078" x2="9.525" y2="113.538" width="1.016" layer="1"/>
+<wire x1="6.985" y1="113.538" x2="9.525" y2="113.538" width="1.016" layer="1"/>
+<wire x1="12.065" y1="113.538" x2="9.525" y2="113.538" width="1.016" layer="1"/>
+<wire x1="9.525" y1="113.538" x2="9.525" y2="109.093" width="1.016" layer="1"/>
+<wire x1="9.525" y1="109.093" x2="11.43" y2="109.093" width="1.016" layer="1"/>
+<wire x1="7.62" y1="109.093" x2="9.525" y2="109.093" width="1.016" layer="1"/>
+<wire x1="9.525" y1="105.41" x2="9.525" y2="109.093" width="1.016" layer="1"/>
 </signal>
 <signal name="N$1">
 <wire x1="1.905" y1="100.965" x2="1.905" y2="14.605" width="1.016" layer="16"/>
@@ -4150,6 +4110,40 @@ design rules under a new name.</description>
 <signal name="N$7">
 <wire x1="17.145" y1="100.965" x2="17.145" y2="14.605" width="1.016" layer="16"/>
 </signal>
+<signal name="+12V">
+<contactref element="C1" pad="+"/>
+<contactref element="D1" pad="C"/>
+<wire x1="1.905" y1="108.458" x2="2.54" y2="109.093" width="1.016" layer="1"/>
+<wire x1="2.54" y1="109.093" x2="5.08" y2="109.093" width="1.016" layer="1"/>
+<via x="1.905" y="105.41" extent="1-16" drill="1.016"/>
+<via x="4.445" y="105.41" extent="1-16" drill="1.016"/>
+<wire x1="4.445" y1="105.41" x2="1.905" y2="105.41" width="1.016" layer="1"/>
+<wire x1="1.905" y1="105.41" x2="1.905" y2="108.458" width="1.016" layer="1"/>
+</signal>
+<signal name="N$12">
+<contactref element="D1" pad="A"/>
+<contactref element="L1" pad="2"/>
+<wire x1="1.905" y1="113.538" x2="1.905" y2="110.998" width="1.016" layer="1"/>
+</signal>
+<signal name="N$13">
+<contactref element="D2" pad="C"/>
+<contactref element="L2" pad="2"/>
+<wire x1="17.145" y1="113.538" x2="17.145" y2="110.998" width="1.016" layer="1"/>
+</signal>
+<signal name="N$14">
+<contactref element="J1" pad="1"/>
+<contactref element="J1" pad="10"/>
+<wire x1="14.605" y1="116.078" x2="14.605" y2="113.538" width="1.016" layer="1"/>
+<contactref element="L2" pad="1"/>
+<wire x1="14.605" y1="116.078" x2="17.145" y2="116.078" width="1.016" layer="1"/>
+</signal>
+<signal name="N$15">
+<contactref element="J1" pad="5"/>
+<contactref element="J1" pad="6"/>
+<wire x1="4.445" y1="116.078" x2="4.445" y2="113.538" width="1.016" layer="1"/>
+<contactref element="L1" pad="1"/>
+<wire x1="4.445" y1="116.078" x2="1.905" y2="116.078" width="1.016" layer="1"/>
+</signal>
 </signals>
 <mfgpreviewcolors>
 <mfgpreviewcolor name="soldermaskcolor" color="0xC8008000"/>
@@ -4160,7 +4154,6 @@ design rules under a new name.</description>
 </mfgpreviewcolors>
 <errors>
 <approved hash="4,16,6b7318fa58ff2b76"/>
-<approved hash="4,16,e1ab24e8cb55b568"/>
 <approved hash="4,16,abd34d280d2aebd1"/>
 <approved hash="4,16,5517b11cf11e1515"/>
 <approved hash="4,16,0eb318a858a84eb3"/>
@@ -4292,7 +4285,6 @@ design rules under a new name.</description>
 <approved hash="4,16,69515eae1eaf2950"/>
 <approved hash="4,16,2ce3455405516ce6"/>
 <approved hash="4,16,50068477c4791008"/>
-<approved hash="4,16,34d4b0b5f0bc74dd"/>
 <approved hash="4,16,c61345ec05e5861a"/>
 <approved hash="4,16,cad6b9d9f9dc8ad3"/>
 <approved hash="4,16,e7286b232b2aa721"/>
@@ -4332,17 +4324,14 @@ design rules under a new name.</description>
 <approved hash="4,16,b705b9bcf9bcf705"/>
 <approved hash="4,16,4019a2a0e2a2001b"/>
 <approved hash="4,16,112b67922797512e"/>
-<approved hash="4,16,71a8e4b62703a961"/>
 <approved hash="4,16,f6477a503a59b64e"/>
 <approved hash="4,16,154a655d2558554f"/>
 <approved hash="4,16,afa5732c332eefa7"/>
 <approved hash="4,16,4478a06fe06d047a"/>
-<approved hash="4,16,adaa7acb3e76e860"/>
 <approved hash="4,16,5905611221131904"/>
 <approved hash="4,16,ab229833d832eb23"/>
 <approved hash="4,16,6837cf268f282839"/>
 <approved hash="4,16,b65f594e194cf65d"/>
-<approved hash="4,16,9b96abf7ebf6db97"/>
 <approved hash="4,16,aa4409bb49b5ea4a"/>
 <approved hash="4,16,e76d9c7cdc79a768"/>
 <approved hash="4,16,04608371c3784469"/>
@@ -4356,51 +4345,28 @@ design rules under a new name.</description>
 <approved hash="4,16,8699bd96fd97c698"/>
 <approved hash="4,16,6cf867f727f72cf8"/>
 <approved hash="4,16,12a81421542152a8"/>
-<approved hash="4,16,5883fce2bcec188d"/>
-<approved hash="4,16,71f77196319631f7"/>
-<approved hash="4,16,86eb6a8a2a88c6e9"/>
-<approved hash="4,16,35a8d2d2746c3a5e"/>
-<approved hash="4,16,d7d9afb8efbd97dc"/>
-<approved hash="4,16,4245c14e8147024c"/>
-<approved hash="4,16,a148de439e46e14d"/>
-<approved hash="4,16,f07a1b715b73b078"/>
-<approved hash="4,16,0766006d406d4766"/>
-<approved hash="4,16,2e128d19cd176e1c"/>
-<approved hash="4,16,ed07da0c9a0dad06"/>
 <approved hash="4,16,55a16a182a1915a0"/>
-<approved hash="4,16,9dab1aa6d01f6e64"/>
 <approved hash="4,16,c06f4fe60fef8066"/>
 <approved hash="4,16,960f90ced0ced60f"/>
-<approved hash="4,16,09adb0c0157dbb79"/>
 <approved hash="4,16,d32c51ed11e49325"/>
 <approved hash="4,16,cd5dc6d486d48d5d"/>
 <approved hash="4,16,48be597f197f08be"/>
 <approved hash="5,16,95d97ffe07c5ede2"/>
-<approved hash="5,16,feba09ea3dabbcf1"/>
 <approved hash="5,16,33fa95a3eda44bfd"/>
-<approved hash="5,16,1ebef079887966b9"/>
-<approved hash="5,16,90d67e110613e8d3"/>
 <approved hash="5,16,c51e4f5d3741bd02"/>
 <approved hash="5,16,2ac5e8ec90e752ce"/>
 <approved hash="5,16,0e8f70cc08d17692"/>
-<approved hash="5,16,edc457032f1895d8"/>
-<approved hash="5,16,f2f1dc36a40a8aca"/>
-<approved hash="5,16,f7feddd9a5dc8ffb"/>
 <approved hash="5,16,c8fd3ad442c8b0e1"/>
 <approved hash="5,16,9597c33ebb30ed99"/>
 <approved hash="5,16,4f7282cdfaca3775"/>
-<approved hash="5,16,0ffc853bfd3777f7"/>
-<approved hash="5,16,8e9004b97cb2f69b"/>
 <approved hash="5,16,54a88e61f6662caf"/>
 <approved hash="5,16,23f9ad50d54c5be5"/>
-<approved hash="5,16,326390fae8f14a68"/>
 <approved hash="5,16,5025c262ba7e2839"/>
 <approved hash="5,16,ad496bd013d5d54c"/>
 <approved hash="5,16,1b0b8472fc6e6317"/>
 <approved hash="5,16,2321e5b89dbf5b26"/>
 <approved hash="5,16,3664e82790204e63"/>
 <approved hash="5,16,5910cabfb2a3210c"/>
-<approved hash="5,16,b80c664f1e4ac009"/>
 <approved hash="5,16,e5ce3f89478e9dc9"/>
 <approved hash="5,16,8d779704ef3ff54c"/>
 <approved hash="5,16,3b879daee5a94380"/>
@@ -4408,136 +4374,85 @@ design rules under a new name.</description>
 <approved hash="5,16,c08032d94ac5b89c"/>
 <approved hash="5,16,27269d65e56e5f2d"/>
 <approved hash="5,16,799653b12bb60191"/>
-<approved hash="5,16,95bc73c50bc0edb9"/>
 <approved hash="5,16,a7df79860181dfd8"/>
-<approved hash="5,16,b5ef13c66bc3cdea"/>
 <approved hash="5,16,7eb35850206b0688"/>
 <approved hash="5,16,d7c8b1e1c9daaff3"/>
 <approved hash="5,16,5e30f78f8f84263b"/>
 <approved hash="5,16,a33dae82d6b9db06"/>
-<approved hash="5,16,0053da3ca2397856"/>
 <approved hash="5,16,bc0825b75dabc414"/>
 <approved hash="5,16,5c85b61cce1b2482"/>
 <approved hash="5,16,6186d365ab79199a"/>
 <approved hash="5,16,d2ed38744071aae8"/>
 <approved hash="5,16,afff1166697ad7e3"/>
-<approved hash="5,16,c11a0ca574a0b91f"/>
 <approved hash="5,16,b0ca9a53e268c8f1"/>
-<approved hash="5,16,4dc7c35ebb5535cc"/>
 <approved hash="5,16,6138bb4bc34c193f"/>
-<approved hash="5,16,83be015d7956fbb5"/>
 <approved hash="5,16,6529da90a29b1d22"/>
 <approved hash="5,16,9824839dfba6e01f"/>
-<approved hash="5,16,fa0321ba59bf8206"/>
 <approved hash="5,16,746bafd2d7d50c6c"/>
 <approved hash="5,16,871108a870b4ff0d"/>
 <approved hash="5,16,8aecf4cb8cd7f2f0"/>
-<approved hash="5,16,ae9f64f61cfdd694"/>
-<approved hash="5,16,68d426f35ef810df"/>
 <approved hash="5,16,8d1940d038d7f51e"/>
-<approved hash="5,16,5625efc297c92e2e"/>
 <approved hash="5,16,306aa1b9d9a54876"/>
-<approved hash="5,16,1014b1bdc9b6681f"/>
-<approved hash="5,16,8f3e4a973292f73b"/>
 <approved hash="5,16,7616ffff87e30e0a"/>
 <approved hash="5,16,0371ceb8b6bd7b74"/>
 <approved hash="5,16,7e63e7aa9fb6067f"/>
-<approved hash="5,16,9c5b35924d99e450"/>
-<approved hash="5,16,1c94fa7782726491"/>
 <approved hash="5,16,92fc741f0c18eafb"/>
-<approved hash="5,16,29b7f7ee8feb51b2"/>
 <approved hash="5,16,54a5defca6e02cb9"/>
 <approved hash="5,16,fdf5d7b6afb085f3"/>
 <approved hash="5,16,4b9055c92df233ab"/>
 <approved hash="5,16,b69d0cc474cfce96"/>
 <approved hash="5,16,c206cd55b56eba3d"/>
 <approved hash="5,16,aa6a6dc515c2d26d"/>
-<approved hash="5,16,2402e3ad9ba85c07"/>
 <approved hash="5,16,4625418a39b13e1e"/>
 <approved hash="5,16,2f5f2a8c52b75764"/>
-<approved hash="5,16,bb281887608cc323"/>
 <approved hash="5,16,1683c81cb01b6e84"/>
 <approved hash="5,16,53923dfb45c02ba9"/>
 <approved hash="5,16,4ca7b6ceced234bb"/>
-<approved hash="5,16,31b59fdce7d949b0"/>
 <approved hash="5,16,47679a80e2873f60"/>
 <approved hash="5,16,bfdd11b469b3c7da"/>
 <approved hash="5,16,c31006c37ec4bb17"/>
-<approved hash="5,16,707ace09b6020871"/>
 <approved hash="5,16,1bd4fdad85aa63d3"/>
 <approved hash="5,16,b21d105a6851ca16"/>
-<approved hash="5,16,4d7888abf0ae357d"/>
 <approved hash="5,16,9ed4006d7871e6c8"/>
 <approved hash="5,16,d0830a2a722da884"/>
-<approved hash="5,16,5eeb8442fc4726ee"/>
 <approved hash="5,16,c1c17f680763b9ca"/>
-<approved hash="5,16,44bacd23b53f3ca6"/>
-<approved hash="5,16,f48c4acb32c08c87"/>
 <approved hash="5,16,16b498f3e0ef6ea8"/>
-<approved hash="5,16,6ba6b1e1c9e413a3"/>
 <approved hash="5,16,e8ae5ad722cb90b2"/>
-<approved hash="5,16,6619ad60d5651e1c"/>
-<approved hash="5,16,07c1bd5ec5557fca"/>
 <approved hash="5,16,f933564a2e418138"/>
-<approved hash="5,16,488fc6acbea73084"/>
-<approved hash="5,16,45eafb2383283de1"/>
 <approved hash="5,16,cf6ec9f7b1ccb755"/>
 <approved hash="5,16,ecb7a2f4dafe94bd"/>
 <approved hash="5,16,f22c63851b998a30"/>
 <approved hash="5,16,e5f96f66177a9de5"/>
 <approved hash="5,16,f79bd1e2a9d98fa0"/>
-<approved hash="5,16,0a9688eff0e4729d"/>
 <approved hash="5,16,2e49e11a991d564e"/>
-<approved hash="5,16,3f0b9458ec534700"/>
 <approved hash="5,16,739d5db4258f0ba6"/>
 <approved hash="5,16,dd3346603e7ca52f"/>
-<approved hash="5,16,a0216f721777d824"/>
-<approved hash="5,16,bd921bcb63cec597"/>
 <approved hash="5,16,7d41f32e8b32055d"/>
-<approved hash="5,16,22b8e0e198ea5ab3"/>
 <approved hash="5,16,b41d3dfa45e6cc01"/>
 <approved hash="5,16,e87123085b0f9076"/>
-<approved hash="5,16,942e2dc755ccec25"/>
 <approved hash="5,16,a7d2291b5107dfce"/>
 <approved hash="5,16,59cdb3eecbe921ca"/>
 <approved hash="5,16,1cd97afa02f464d7"/>
 <approved hash="5,16,aab714946c88d2ab"/>
 <approved hash="5,16,b5829fa1e79acdb9"/>
 <approved hash="5,16,6daea717df1015a9"/>
-<approved hash="5,16,d25273810b8aaa59"/>
 <approved hash="5,16,7cecd255aa5e04e7"/>
 <approved hash="5,16,9f792116591de772"/>
 <approved hash="5,16,6274781b00201a4f"/>
 <approved hash="5,16,8e3b54542c53f63c"/>
 <approved hash="5,16,856c58852082fd6b"/>
-<approved hash="5,16,0b04d6edaee87301"/>
 <approved hash="5,16,8aa14c123415f2a6"/>
 <approved hash="5,16,0156c4ffbcf87951"/>
 <approved hash="5,16,79dbeb68937401c7"/>
-<approved hash="5,16,4b0d95036452fe27"/>
-<approved hash="5,16,9be33950415be3e8"/>
 <approved hash="5,16,61566c9f14a4196d"/>
 <approved hash="5,16,6ca8d681ae9d14b4"/>
 <approved hash="5,16,9fd271fb09fce7d5"/>
 <approved hash="5,16,a35f65181d1fdb58"/>
 <approved hash="5,16,4f104957316c372b"/>
-<approved hash="5,16,b7c06a59125ecfc7"/>
-<approved hash="5,16,a6821f1b6710de89"/>
-<approved hash="5,16,5101830f2a5ef827"/>
-<approved hash="5,16,c90fc7009a51b420"/>
-<approved hash="5,16,ef5035234d269755"/>
-<approved hash="5,16,270fbd0040501626"/>
 <approved hash="5,16,d05b42c23adea847"/>
-<approved hash="5,16,bbfc12e279abbeb3"/>
 <approved hash="5,16,92421c31642dea5e"/>
-<approved hash="5,16,c2e405e64da334ae"/>
-<approved hash="5,16,5d97a8e4a1acf6dd"/>
-<approved hash="5,16,348123f84db378d0"/>
-<approved hash="5,16,77b646daf19076c0"/>
 <approved hash="6,16,856287caa9beab16"/>
-<approved hash="6,16,7379a8f7145156c8"/>
 <approved hash="6,16,9e8a9dc6e3b2e0fe"/>
-<approved hash="6,16,cc4b39fd93591df9"/>
 <approved hash="6,16,44a446cfc8bbcad0"/>
 <approved hash="6,16,ad8eacd2d2a6d3fa"/>
 <approved hash="6,16,be82bdcab3beb0f6"/>
@@ -4587,7 +4502,6 @@ design rules under a new name.</description>
 <approved hash="6,16,6ea76e0cf078f0d3"/>
 <approved hash="6,16,4484440fca7bcaf0"/>
 <approved hash="6,16,86b28602887688c6"/>
-<approved hash="6,16,899e88c686b287ea"/>
 <approved hash="6,16,5cb85ec3d0b7d2cc"/>
 <approved hash="6,16,5cf45d4fd33bd280"/>
 <approved hash="6,16,46884049fe3df8fc"/>
@@ -4600,7 +4514,6 @@ design rules under a new name.</description>
 <approved hash="6,16,8d9e8bc6a5b2a3ea"/>
 <approved hash="6,16,becabf4ec13ac0be"/>
 <approved hash="6,16,769b74c0eab4e8ef"/>
-<approved hash="6,16,4ba84acbc4bfc5dc"/>
 <approved hash="6,16,848abbc295b6aafe"/>
 <approved hash="6,16,a68e99c2e7b6d8fa"/>
 <approved hash="6,16,40ac4035fe41fed8"/>
@@ -4632,7 +4545,6 @@ design rules under a new name.</description>
 <approved hash="6,16,417c40b5fec1ff08"/>
 <approved hash="6,16,a77aa6b6d8c2d90e"/>
 <approved hash="6,16,857e84b6aac2ab0a"/>
-<approved hash="6,16,4de84c53c227c39c"/>
 <approved hash="6,16,84ae8436aa42aada"/>
 <approved hash="6,16,7fbf7e47703371cb"/>
 <approved hash="6,16,8f8a8ed2a0a6a1fe"/>
@@ -4671,10 +4583,8 @@ design rules under a new name.</description>
 <approved hash="6,16,fe46fe3ef04af032"/>
 <approved hash="6,16,3c703c33b247b204"/>
 <approved hash="6,16,1653163088448827"/>
-<approved hash="6,16,618b60c8febcffff"/>
 <approved hash="6,16,6f676fccf1b8f113"/>
 <approved hash="6,16,384838318645863c"/>
-<approved hash="6,16,a996a8cad6bed7e2"/>
 <approved hash="6,16,409c42cdfcb9fee8"/>
 <approved hash="6,16,fc4afc32d246d23e"/>
 <approved hash="6,16,848a9acab4beaafe"/>
@@ -4695,7 +4605,6 @@ design rules under a new name.</description>
 <approved hash="6,16,5fb75e4b203f21c3"/>
 <approved hash="6,16,b9b1b848063c07c5"/>
 <approved hash="6,16,97aa9649083d09de"/>
-<approved hash="6,16,8fde8e5e802a81aa"/>
 <approved hash="6,16,849e86cea8baaaea"/>
 <approved hash="6,16,8d8e8fcea1baa3fa"/>
 <approved hash="6,16,679765ccfbb8f9e3"/>
@@ -4724,7 +4633,6 @@ design rules under a new name.</description>
 <approved hash="6,16,877287c289b68906"/>
 <approved hash="6,16,45b4444fca3bcbc0"/>
 <approved hash="6,16,418c404dfe39fff8"/>
-<approved hash="6,16,afd6ae52d026d1a2"/>
 <approved hash="6,16,659364d0faa4fbe7"/>
 <approved hash="6,16,4fb04ed3c0a7c1c4"/>
 <approved hash="6,16,8d868cde82aa83f2"/>
@@ -4738,18 +4646,9 @@ design rules under a new name.</description>
 <approved hash="6,16,9dba9e06e072e3ce"/>
 <approved hash="6,16,858e8646a832abfa"/>
 <approved hash="6,16,6f976c44f230f1e3"/>
-<approved hash="6,16,8dd28c52a226a3a6"/>
-<approved hash="6,16,49d04851f625f7a4"/>
-<approved hash="6,16,67cb6650f824f9bf"/>
-<approved hash="6,16,4f904ec9f0bdf1e4"/>
-<approved hash="6,16,8b928acaa4bea5e6"/>
 <approved hash="6,16,44b05acbd4bfcac4"/>
-<approved hash="6,16,df0d3cbf981b12bf"/>
 <approved hash="6,16,bd89bc4a323e33fd"/>
-<approved hash="6,16,28186dab070259a4"/>
 <approved hash="6,16,a44ea642d836da3a"/>
-<approved hash="6,16,6567c6d0867484d2"/>
-<approved hash="6,16,fe72f7c2cd7b2bc2"/>
 </errors>
 </board>
 </drawing>
