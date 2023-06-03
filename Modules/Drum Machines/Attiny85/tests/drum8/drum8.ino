@@ -1,6 +1,6 @@
-// Copyright 2016 DSP Synthesizers Sweden. 
+// Copyright 2023 Sonic Athame. 
 // 
-// Author: Jan Ostman 
+// Author: Ella Jameson
 // 
 // This program is free software: you can redistribute it and/or modify 
 // it under the terms of the GNU General Public License as published by 
@@ -138,11 +138,32 @@ const uint8_t drum8[] PROGMEM =
   127,128,128,127,127,127,127,128,127,128,128,128,128,127,128,128,127,128,128,127,127,128,128,127,128,127,128,128,128,128,127,128,128,128,127,127,128,127,128,128,128,128,128,128,128,128,128,128,128,128,128,128,128,128,128,128,128,128,128,128,128,128,128,128,128,128,128,128,128,128,128,128,128,128,128,128
 };
 
+const uint8_t *drum[] =
+{
+  drum1,
+  drum2,
+  drum3,
+  drum4,
+  drum5,
+  drum6,
+  drum7,
+  drum8
+};
+// sizeof can't work with the above pointers, so here is a helper array
+const uint16_t drum_size[] =
+{
+  sizeof(drum1),
+  sizeof(drum2),
+  sizeof(drum3),
+  sizeof(drum4),
+  sizeof(drum5),
+  sizeof(drum6),
+  sizeof(drum7),
+  sizeof(drum8)
+};
 
-uint16_t samplecnt1,samplecnt2,samplecnt3,samplecnt4,samplecnt5,samplecnt6,samplecnt7,samplecnt8;
-//uint16_t samplecnt[8];
-uint16_t samplepnt1,samplepnt2,samplepnt3,samplepnt4,samplepnt5,samplepnt6,samplepnt7,samplepnt8;
-//uint16_t samplepnt[8];
+uint16_t samplecnt[8];
+uint16_t samplepnt[8];
 
 void append_ring_buffer(uint8_t sample) {
   cli();
@@ -154,37 +175,11 @@ void append_ring_buffer(uint8_t sample) {
 
 void update_ring_buffer() {
   int16_t total=0;
-  if (samplecnt1) {
-    total+=(pgm_read_byte_near(drum1 + samplepnt1++)-128);
-    samplecnt1--;
-  }
-  if (samplecnt2) {
-    total+=(pgm_read_byte_near(drum2 + samplepnt2++)-128);
-    samplecnt2--;
-  }
-  if (samplecnt3) {
-    total+=(pgm_read_byte_near(drum3 + samplepnt3++)-128);
-    samplecnt3--;
-  }
-  if (samplecnt4) {
-    total+=(pgm_read_byte_near(drum4 + samplepnt4++)-128);
-    samplecnt4--;
-  }
-  if (samplecnt5) {
-    total+=(pgm_read_byte_near(drum5 + samplepnt5++)-128);
-    samplecnt5--;
-  }
-  if (samplecnt6) {
-    total+=(pgm_read_byte_near(drum6 + samplepnt6++)-128);
-    samplecnt6--;
-  }
-  if (samplecnt7) {
-    total+=(pgm_read_byte_near(drum7 + samplepnt7++)-128);
-    samplecnt7--;
-  }
-  if (samplecnt8) {
-    total+=(pgm_read_byte_near(drum8 + samplepnt8++)-128);
-    samplecnt8--;
+  for(int i=0; i<8; i++) {
+    if (samplecnt[i]) {
+      total+=(pgm_read_byte_near(drum[i] + samplepnt[i]++)-128);
+      samplecnt[i]--;
+    }
   }
   total>>=1;
   total+=128;  
@@ -192,39 +187,10 @@ void update_ring_buffer() {
   append_ring_buffer(total);
 }
 
+// Play a single sample
 void play_sample(int sample_num) {
-  if (sample_num==0) {
-    samplepnt1=0;
-    samplecnt1=sizeof(drum1);
-  }
-  if (sample_num==1) {
-    samplepnt2=0;
-    samplecnt2=sizeof(drum2);
-  }
-  if (sample_num==2) {
-    samplepnt3=0;
-    samplecnt3=sizeof(drum3);
-  }
-  if (sample_num==3) {
-    samplepnt4=0;
-    samplecnt4=sizeof(drum4);
-  }
-  if (sample_num==4) {
-    samplepnt5=0;
-    samplecnt5=sizeof(drum5);
-  }
-  if (sample_num==5) {
-    samplepnt6=0;
-    samplecnt6=sizeof(drum6);
-  }
-  if (sample_num==6) {
-    samplepnt7=0;
-    samplecnt7=sizeof(drum7);
-  }
-  if (sample_num==7) {
-    samplepnt8=0;
-    samplecnt8=sizeof(drum8);
-  }
+  samplepnt[sample_num]=0;
+  samplecnt[sample_num]=drum_size[sample_num];
 }
 
 // 0-1023, 1023 is full
@@ -232,6 +198,10 @@ void set_playback_speed(int playback_speed) {
   OCR0A = 49+((127- (playback_speed>>3) ));
 }
 
+
+void set_adc_mux(uint8_t mux) {
+  ADMUX = mux;
+}
 uint16_t read_adc() {
   return ADCL+(ADCH<<8);
 }
@@ -265,41 +235,41 @@ void setup() {
 void loop() {
   uint8_t trigger;
   uint8_t trigger_old;
-  uint8_t Seldrum;
+  uint8_t sample_select;
   uint8_t MUX=2;
-  sbi(ADCSRA, ADSC); //start next conversation
+  sbi(ADCSRA, ADSC);  // Start next conversation
   while(1) {
-    if (RingCount<32) {  //if space in ringbuffer
+    if (RingCount<32) {  // If space in ringbuffer
       update_ring_buffer();
 
       trigger=digitalRead(trigger_pin);
-      if (trigger != trigger_old) {
-        trigger_old = trigger;
-        if (trigger_old) {
-          play_sample(Seldrum);
+      if (trigger != trigger_old) {  // Detect trigger state change
+        trigger_old = trigger;  // Update trigger state
+        if (trigger_old) {  // If on a rising edge, trigger the sample
+          play_sample(sample_select>>5);  // 8 bits - 5 bits = 3 bits MSB (0-7)
         }
       }
       
+      // Read ADC (cycle between sources on each loop)
       if (!(ADCSRA & 64)) {
         if (MUX==3) set_playback_speed(read_adc());
-        if (MUX==2) Seldrum=(read_adc()>>7);
+        if (MUX==2) sample_select=(read_adc()>>2);  // 10 bits - 2 bits = 8 bits MSB (0-255)
         MUX++;
         if (MUX==4) MUX=2;
-        ADMUX = MUX; //Select MUX
-        sbi(ADCSRA, ADSC); //start next conversation
+        set_adc_mux(MUX);  // Select MUX
+        sbi(ADCSRA, ADSC);  // Start next conversation
       }
-
     }
   }
 }
 
 ISR(TIMER0_COMPA_vect) {
- //-------------------  Ringbuffer handler -------------------------
+  //-------------------  Ringbuffer handler -------------------------
     
-    if (RingCount) {                            //If entry in FIFO..
-      OCR1A = Ringbuffer[(RingRead++)];          //Output 8-bit DAC
+    if (RingCount) {                            // If entry in FIFO..
+      OCR1A = Ringbuffer[(RingRead++)];         // Output 8-bit DAC
       RingCount--;
     }
-    
-    //-----------------------------------------------------------------
+
+  //-----------------------------------------------------------------
 }
