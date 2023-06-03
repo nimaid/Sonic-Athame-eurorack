@@ -18,7 +18,7 @@
 //        ─┤       ├─ Vcc
 //  Pitch ─┤A     D├─ Trigger
 // Sample ─┤A     D├───10KΩ─┬─ Out
-//    Gnd ─┤       ├─ Mode  ╪ 0.1uF
+//    Gnd ─┤      D├─ Mode  ╪ 0.1uF
 //         └───────┘       Gnd
 // 
 // Pin Functions:
@@ -171,7 +171,7 @@ void setup() {
   OCR1A = 128; //OCR1B = 128;               // 50% duty at start
 
   
-  pinMode(1, OUTPUT);            // Enable PWM output pin
+  pinMode(1, OUTPUT);  // Enable PWM output pin
   pinMode(trigger_pin, INPUT_PULLUP);
   pinMode(mode_pin, INPUT_PULLUP);
 
@@ -191,9 +191,12 @@ void loop() {
   uint8_t trigger_old;
   uint8_t sample_select;
   uint8_t MUX=2;
-  sbi(ADCSRA, ADSC);  // Start next conversation
+
+  set_adc_mux(MUX);  // Set ADC source
+  sbi(ADCSRA, ADSC);  // Start ADC conversion
+
   while(1) {
-    if (RingCount<32) {  // If space in ringbuffer
+    if (RingCount<32) {  // If there is space in ringbuffer
       update_ring_buffer();
 
       trigger=digitalRead(trigger_pin);
@@ -209,23 +212,27 @@ void loop() {
         }
       }
       
-      // Read ADC (cycle between sources on each loop)
-      if (!(ADCSRA & 64)) {
+      // Read ADC (cycle between sources on each loop, skip if ADC is not ready yet)
+      if (!(ADCSRA & (1<<ADSC))) {  // If an ADC conversion is not already in progress (ready to read)
         if (MUX==3) set_playback_speed(read_adc());
         if (MUX==2) sample_select=(read_adc()>>2);  // 10 bits - 2 bits = 8 bits MSB (0-255)
+
+        // Update ADC source
         MUX++;
         if (MUX==4) MUX=2;
-        set_adc_mux(MUX);  // Select MUX
-        sbi(ADCSRA, ADSC);  // Start next conversation
+        set_adc_mux(MUX);
+
+        sbi(ADCSRA, ADSC);  // Start next ADC conversion
       }
     }
   }
+
 }
 
 ISR(TIMER0_COMPA_vect) {
   //-------------------  Ringbuffer handler -------------------------
     
-    if (RingCount) {                            // If entry in FIFO..
+    if (RingCount) {                            // If entry in FIFO
       OCR1A = Ringbuffer[(RingRead++)];         // Output 8-bit DAC
       RingCount--;
     }
