@@ -32,12 +32,14 @@
 #endif 
 
 
-//--------- Ringbuf parameters ----------
+//---------- Ringbuf parameters -----------
 uint8_t Ringbuffer[256];
 uint8_t RingWrite=0;
 uint8_t RingRead=0;
 volatile uint8_t RingCount=0;
 //-----------------------------------------
+
+int trigger_pin = 2;
 
 
 const uint8_t drum1[] PROGMEM =
@@ -138,7 +140,17 @@ const uint8_t drum8[] PROGMEM =
 
 
 uint16_t samplecnt1,samplecnt2,samplecnt3,samplecnt4,samplecnt5,samplecnt6,samplecnt7,samplecnt8;
+//uint16_t samplecnt[8];
 uint16_t samplepnt1,samplepnt2,samplepnt3,samplepnt4,samplepnt5,samplepnt6,samplepnt7,samplepnt8;
+//uint16_t samplepnt[8];
+
+void append_ring_buffer(uint8_t sample) {
+  cli();
+  Ringbuffer[RingWrite]=sample;
+  RingWrite++;
+  RingCount++;
+  sei();
+}
 
 void update_ring_buffer() {
   int16_t total=0;
@@ -177,11 +189,7 @@ void update_ring_buffer() {
   total>>=1;
   total+=128;  
   if (total>255) total=255;
-  cli();
-  Ringbuffer[RingWrite]=total;
-  RingWrite++;
-  RingCount++;
-  sei();
+  append_ring_buffer(total);
 }
 
 void play_sample(int sample_num) {
@@ -224,8 +232,9 @@ void set_playback_speed(int playback_speed) {
   OCR0A = 49+((127- (playback_speed>>3) ));
 }
 
-
-int trigger_pin = 2;
+uint16_t read_adc() {
+  return ADCL+(ADCH<<8);
+}
 
 void setup() {
   OSCCAL=255;
@@ -240,7 +249,7 @@ void setup() {
 
   
   pinMode(1, OUTPUT);            // Enable PWM output pin
-  pinMode(trigger_pin, INPUT);
+  pinMode(trigger_pin, INPUT_PULLUP);
 
 
   //Set up Timer/Counter0 for 20kHz interrupt to output samples.
@@ -255,7 +264,7 @@ void setup() {
 
 void loop() {
   uint8_t trigger;
-  uint8_t otrigger;
+  uint8_t trigger_old;
   uint8_t Seldrum;
   uint8_t MUX=2;
   sbi(ADCSRA, ADSC); //start next conversation
@@ -264,16 +273,16 @@ void loop() {
       update_ring_buffer();
 
       trigger=digitalRead(trigger_pin);
-      if (trigger != otrigger) {
-        otrigger = trigger;
-        if (otrigger) {
+      if (trigger != trigger_old) {
+        trigger_old = trigger;
+        if (trigger_old) {
           play_sample(Seldrum);
         }
       }
       
       if (!(ADCSRA & 64)) {
-        if (MUX==3) set_playback_speed(ADCL+(ADCH<<8));
-        if (MUX==2) Seldrum=((ADCL+(ADCH<<8))>>7);
+        if (MUX==3) set_playback_speed(read_adc());
+        if (MUX==2) Seldrum=(read_adc()>>7);
         MUX++;
         if (MUX==4) MUX=2;
         ADMUX = MUX; //Select MUX
