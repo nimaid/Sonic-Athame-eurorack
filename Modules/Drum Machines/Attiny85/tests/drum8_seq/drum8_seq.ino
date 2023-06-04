@@ -70,15 +70,20 @@ void setup() {
 
 void loop() {
   for(uint8_t frame=0; frame<16; frame++) {
-    // Set samples to play
-    shift_out(drum_pattern[frame]);
-    // trigger
-    digitalWrite(PIN_TRIGGER, HIGH);
-    delay(trigger_time);
-    digitalWrite(PIN_TRIGGER, LOW);
-    delay(trigger_time);
+    if(drum_pattern[frame]) {  // Only trigger if not 0
+      // Set samples to play
+      shift_out(drum_pattern[frame]);
+      // Trigger
+      digitalWrite(PIN_TRIGGER, HIGH);
+      delay(trigger_time);
+      digitalWrite(PIN_TRIGGER, LOW);
+      delay(trigger_time);
 
-    // Wait the rest of the period
-    delay(bpm2ms(tempo) - (trigger_time<<1));
+      // Wait the rest of the period
+      delay(bpm2ms(tempo) - (trigger_time<<1));
+    }
+    else {
+      delay(bpm2ms(tempo));
+    }
   }
 }
