@@ -12,8 +12,10 @@
 // GNU General Public License for more details. 
 // 
 // 
-// Schematic:
 // 
+// Clock Setting: Internal 1 MHz
+// 
+// Schematic:
 //         ┌───U───┐
 //        ─┤       ├─ Vcc
 //  Pitch ─┤A     D├─ Trigger
@@ -22,30 +24,29 @@
 //         └───────┘       Gnd
 // 
 // Pin Functions:
-// 
-// Pitch:
-//   An analog input which varies the sample playback speed for the
+// • Pitch:
+//   ◦ An analog input that varies the sample playback speed for the
 //     entire chip.
-//   At 5v, the chip will play back at full speed. Lowe voltages will
+//   ◦ At 5v, the chip will play back at full speed. Lower voltages will
 //     result in slower playback, and therefore a lower overall pitch.
-// Mode:
-//   A digital input which selects the triggering mode.
-//   When the input is high (or NC), the chip will be in "Mono" mode.
-//   When the input is low, the chip will be in "Poly" mode.
-// Trigger:
-//   A digital input that is used to trigger samples.
-//   On each rising edge, the Sample and Mode pins are used to determine
+// • Mode:
+//   ◦ A digital input that selects the triggering mode.
+//   ◦ When the input is high (or NC), the chip will be in "Mono" mode.
+//   ◦ When the input is low, the chip will be in "Poly" mode.
+// • Trigger:
+//   ◦ A digital input that is used to trigger samples.
+//   ◦ On each rising edge, the Sample and Mode pins are used to determine
 //     which sample(s) to play.
-// Sample:
-//   An analog input which selects which drum samples to play.
-//   In "Mono" mode, the 3 most significant bits are sampled and used to
+// • Sample:
+//   ◦ An analog input that selects which drum samples to play.
+//   ◦ In "Mono" mode, the 3 most significant bits are sampled and used to
 //     select one of the 8 samples to play.
-//   In "Poly" mode, the 8 most significant bits are sampled, and for
+//   ◦ In "Poly" mode, the 8 most significant bits are sampled, and for
 //     each bit that is set to 1, that sample is played. This means that
 //     any combination of samples may be triggered at the same instant.
-// Out:
-//   A high-speed PWM "analog" audio output.
-//   True analog output is realized via the RC lowpass filter.
+// • Out:
+//   ◦ A high-speed PWM "analog" audio output.
+//   ◦ True analog output is realized via the RC lowpass filter.
 
 
 #include <avr/interrupt.h>
@@ -59,7 +60,7 @@
 #endif
 #ifndef sbi
 #define sbi(sfr, bit) (_SFR_BYTE(sfr) |= _BV(bit))
-#endif 
+#endif
 
 
 //---------- Ringbuf parameters -----------
@@ -133,8 +134,8 @@ void play_sample(uint8_t sample_num) {
 }
 
 // Play multiple samples
-// Each binary digit of the input byte set to 1 will trigger the drum sample at it's index
-// So "9" would be 00001001, and would play drum 0 and 3
+// Each binary digit of the input byte set to 1 will trigger the drum sample at its index
+// So "9" would be 00001001, and would play drums 0 and 3
 void play_samples(uint8_t samples_byte)
 {
   for(int i=0; i<8; i++) {
@@ -161,7 +162,7 @@ uint16_t read_adc() {
 
 void setup() {
   OSCCAL=255;
-  // Enable 64 MHz PLL and use as source for Timer1
+  // Enable 64 MHz PLL and use as the source for Timer1
   PLLCSR = 1<<PCKE | 1<<PLLE;     
 
   // Set up Timer/Counter1 for PWM output
