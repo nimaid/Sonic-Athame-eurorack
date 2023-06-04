@@ -63,17 +63,18 @@
 #endif
 
 
+
+#define PIN_TRIG 2
+#define PIN_MODE 0
+
+
+
 //---------- Ringbuf parameters -----------
 uint8_t Ringbuffer[256];
 uint8_t RingWrite=0;
 uint8_t RingRead=0;
 volatile uint8_t RingCount=0;
 //-----------------------------------------
-
-int trigger_pin = 2;
-int mode_pin = 0;
-
-
 
 // An indexable array of the sample pointers in drums.h
 const uint8_t *drum[] =
@@ -87,6 +88,7 @@ const uint8_t *drum[] =
   drum6,
   drum7
 };
+
 // sizeof() can't work with the above array of pointers, so here is a helper array
 const uint16_t sizeof_drum[] =
 {
@@ -102,7 +104,6 @@ const uint16_t sizeof_drum[] =
 
 uint16_t samplecnt[8];
 uint16_t samplepnt[8];
-
 
 
 void append_ring_buffer(uint8_t sample) {
@@ -159,7 +160,6 @@ uint16_t read_adc() {
 }
 
 
-
 void setup() {
   OSCCAL=255;
   // Enable 64 MHz PLL and use as the source for Timer1
@@ -173,8 +173,8 @@ void setup() {
 
   
   pinMode(1, OUTPUT);  // Enable PWM output pin
-  pinMode(trigger_pin, INPUT_PULLUP);
-  pinMode(mode_pin, INPUT_PULLUP);
+  pinMode(PIN_TRIG, INPUT_PULLUP);
+  pinMode(PIN_MODE, INPUT_PULLUP);
 
 
   //Set up Timer/Counter0 for 20kHz interrupt to output samples.
@@ -200,11 +200,11 @@ void loop() {
     if (RingCount<32) {  // If there is space in ringbuffer
       update_ring_buffer();
 
-      trigger=digitalRead(trigger_pin);
+      trigger=digitalRead(PIN_TRIG);
       if (trigger != trigger_old) {  // Detect trigger state change
         trigger_old = trigger;  // Update trigger state
         if (trigger_old) {  // If on a rising edge, trigger the sample
-          if(digitalRead(mode_pin)) {  // If the mode select is high, play a single sample
+          if(digitalRead(PIN_MODE)) {  // If the mode select is high, play a single sample
             play_sample(sample_select>>5);  // 8 bits - 5 bits = 3 bits MSB (0-7)
           }
           else {  // If the mode pin is low, play multiple samples at once
@@ -229,6 +229,7 @@ void loop() {
   }
 
 }
+
 
 ISR(TIMER0_COMPA_vect) {
   //-------------------  Ringbuffer handler -------------------------
